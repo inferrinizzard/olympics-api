@@ -15,14 +15,28 @@
 	},
 	"homepage": "https://github.com/inferrinizzard/olympics-api#readme",
 	"scripts": {
-		"start": "ts-node-dev src"
+		"start": "nodemon src/index.ts"
+	},
+	"nodemonConfig": {
+		"restartable": "rs",
+		"ignore": [
+			".git",
+			"node_modules/**/node_modules",
+			"lib/**/*"
+		],
+		"execMap": {
+			"ts": "ts-node --esm"
+		},
+		"ext": "ts,js,json"
 	},
 	"dependencies": {
-		"express": "^4.17.3"
+		"express": "^4.17.3",
+		"got": "^12.0.3"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.13",
-		"ts-node-dev": "^1.1.8",
+		"nodemon": "^2.0.15",
+		"ts-node": "^10.7.0",
 		"typescript": "^4.6.3"
 	}
 }
