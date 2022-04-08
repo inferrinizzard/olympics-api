@@ -3,16 +3,22 @@ import got from 'got';
 
 import { WikipediaParse } from '../models/wikipedia';
 
+export interface YearDetail {
+	countries: Set<string>;
+	host: string;
+	cities: string[];
+}
+
 export class Olympics {
 	private htmlSummerCountriesTable!: string;
 	private summerDom!: JSDOM;
 	summerCountriesTable!: HTMLTableElement;
 
-	countries: string[] = [];
+	countries: Set<string> = new Set();
 	countryDetail: { [country: string]: { [key: string]: string } } = {};
 
-	years: number[] = [];
-	yearDetail: { [year: number]: { [key: string]: string } } = {};
+	summerGames: number[] = [];
+	gamesDetail: { [year: number]: YearDetail } = {};
 
 	async init() {
 		this.htmlSummerCountriesTable = await got
@@ -32,16 +38,23 @@ export class Olympics {
 	}
 
 	private readSummerTable() {
+		const presentMarker = /[•^]/;
+
+		// extract years from header row
 		const headerRow = this.summerCountriesTable.rows[0] as HTMLTableRowElement;
-		for (let [i, century] = [2, '18']; i < headerRow.cells.length - 1; i++) {
+		for (let i = 2, century = '18'; i < headerRow.cells.length - 1; i++) {
 			const year = headerRow.cells[i].textContent;
 			if (year === '00') {
 				century = parseInt(century) + 1 + '';
 			}
 			const fullYear = parseInt(century + headerRow.cells[i].textContent);
 
-			this.years.push(fullYear);
-			this.yearDetail[fullYear] = {};
+			this.summerGames.push(fullYear);
+			this.gamesDetail[fullYear] = { countries: new Set(), host: '', cities: [] };
+
+			if ([1916, 1940, 1944].includes(fullYear)) {
+				this.gamesDetail[fullYear].host = 'SKIPPED';
+			}
 		}
 
 		for (let i = 1; i < this.summerCountriesTable.rows.length - 1; i++) {
@@ -52,22 +65,49 @@ export class Olympics {
 				continue; // skip if letter
 			}
 
+			// get country name and flag
 			const countryName = (nameColumn.textContent
 				?.trim()
 				.match(/[\p{Letter}A-z-\s]+?(?=[\[(])|[\p{Letter}A-z-\s]+/u) ?? [''])[0].trim();
+			const countryFlagUrl = (nameColumn.firstElementChild as HTMLImageElement).src;
 
+			// get NOC code
 			const codeColumn = row.cells[1] as HTMLTableCellElement;
 			const countryCode = codeColumn.textContent!.trim();
-			this.countries.push(countryCode);
+			this.countries.add(countryCode);
 
-			this.countryDetail[countryCode] = { name: countryName };
+			this.countryDetail[countryCode] = { name: countryName, flag: countryFlagUrl };
 
-			for (let j = 0; j < row.cells.length; j++) {
-				const cell = row.cells[j] as HTMLTableCellElement;
+			for (
+				let cellIndex = 0, yearIndex = 0;
+				cellIndex < row.cells.length - 3;
+				cellIndex++, yearIndex++
+			) {
+				let cell = row.cells[cellIndex + 2] as HTMLTableCellElement; // start from 3rd column
 
-				// console.log(cell.textContent);
+				// skip rowspan cells
+				while (
+					[1916, 1940, 1944].includes(this.summerGames[yearIndex]) &&
+					!row.querySelector('td[rowspan]') // checks if this is a row with rowspan
+				) {
+					yearIndex++;
+				}
+
+				// handle wide cells
+				if (cell.hasAttribute('colspan')) {
+					const width = cell.getAttribute('colspan')!;
+					yearIndex += parseInt(width) - 1;
+					continue;
+				}
+
+				const gameYear = this.summerGames[yearIndex];
+				const cellMarker = cell.textContent?.trim()[0] ?? '';
+				if (presentMarker.test(cellMarker)) {
+					this.gamesDetail[gameYear].countries.add(countryCode);
+				} else if (cellMarker === 'H') {
+					this.gamesDetail[gameYear].host = countryCode;
+				}
 			}
-			// console.log(row.innerHTML);
 		}
 	}
 }
