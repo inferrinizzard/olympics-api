@@ -23,57 +23,79 @@ export interface CountryDetail {
 const summer = (year: number | string) => year + '-S';
 const winter = (year: number | string) => year + '-W';
 
+const summerCountriesUrl =
+	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2';
+const winterCountriesUrl =
+	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Winter_Olympic_Games&prop=text&section=9&formatversion=2';
+const medalsUrl =
+	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=All-time_Olympic_Games_medal_table&prop=text&section=1&formatversion=2';
+
 export class Olympics {
 	private htmlSummerCountriesTable!: string;
 	private summerDom!: JSDOM;
 	summerCountriesTable!: HTMLTableElement;
 
+	private htmlWinterCountriesTable!: string;
+	private winterDom!: JSDOM;
+	winterCountriesTable!: HTMLTableElement;
+
 	countries: Set<string> = new Set();
 	countryDetail: { [country: string]: CountryDetail } = {}; //TS4.7 use typeof this.countries
 
 	summerGames: number[] = [];
+	winterGames: number[] = [];
 	gamesDetail: { [year: string]: YearDetail } = {}; // TS4.7, use typeof this.summerGames|this.winterGames
 
 	async init() {
-		this.htmlSummerCountriesTable = await got
-			.get(
-				'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2'
-			)
-			.json()
-			.then(data => (data as WikipediaParse).parse.text);
+		[this.htmlSummerCountriesTable, this.htmlWinterCountriesTable] = await Promise.all([
+			got.get(summerCountriesUrl).json(),
+			got.get(winterCountriesUrl).json(),
+		]).then(([summer, winter]) => [
+			(summer as WikipediaParse).parse.text,
+			(winter as WikipediaParse).parse.text,
+		]);
 
 		this.summerDom = new JSDOM(this.htmlSummerCountriesTable);
 		this.summerCountriesTable = this.summerDom.window.document.body.firstElementChild
 			?.lastElementChild as HTMLTableElement;
 
-		this.readSummerTable();
+		this.winterDom = new JSDOM(this.htmlWinterCountriesTable);
+		this.winterCountriesTable = this.winterDom.window.document.body.firstElementChild
+			?.lastElementChild as HTMLTableElement;
+
+		this.readCountryTable(this.summerCountriesTable, this.summerGames, summer);
+		this.readCountryTable(this.winterCountriesTable, this.winterGames, winter);
 
 		return this;
 	}
 
-	private readSummerTable() {
+	private readCountryTable(
+		sourceTable: HTMLTableElement,
+		outputList: number[],
+		indexer: typeof summer
+	) {
 		const presentMarker = /[•^]/;
 		const hostMarker = 'H';
 
 		// extract years from header row
-		const headerRow = this.summerCountriesTable.rows[0] as HTMLTableRowElement;
-		for (let i = 2, century = '18'; i < headerRow.cells.length - 1; i++) {
+		const headerRow = sourceTable.rows[0] as HTMLTableRowElement;
+		for (let i = headerRow.cells.length - 2, century = '20'; i >= 2; i--) {
 			const year = headerRow.cells[i].textContent;
-			if (year === '00') {
-				century = parseInt(century) + 1 + '';
-			}
 			const fullYear = parseInt(century + headerRow.cells[i].textContent);
+			if (year === '00' || year == '02') {
+				century = parseInt(century) - 1 + '';
+			}
 
-			this.summerGames.push(fullYear);
-			this.gamesDetail[summer(fullYear)] = { countries: new Set(), host: '', cities: [] };
+			outputList.unshift(fullYear);
+			this.gamesDetail[indexer(fullYear)] = { countries: new Set(), host: '', cities: [] };
 
 			if ([1916, 1940, 1944].includes(fullYear)) {
-				this.gamesDetail[summer(fullYear)].host = 'SKIPPED';
+				this.gamesDetail[indexer(fullYear)].host = 'SKIPPED';
 			}
 		}
 
-		for (let i = 1; i < this.summerCountriesTable.rows.length - 1; i++) {
-			const row = this.summerCountriesTable.rows[i] as HTMLTableRowElement;
+		for (let i = 1; i < sourceTable.rows.length - 1; i++) {
+			const row = sourceTable.rows[i] as HTMLTableRowElement;
 
 			const nameColumn = row.cells[0] as HTMLTableCellElement;
 			if (nameColumn.textContent?.trim().match(/^[A-Z]{1}$/)) {
@@ -103,7 +125,7 @@ export class Olympics {
 
 				// skip rowspan cells
 				while (
-					[1916, 1940, 1944].includes(this.summerGames[yearIndex]) &&
+					[1916, 1940, 1944].includes(outputList[yearIndex]) &&
 					!row.querySelector('td[rowspan]') // checks if this is a row with rowspan
 				) {
 					yearIndex++;
@@ -116,7 +138,7 @@ export class Olympics {
 					continue;
 				}
 
-				const gameYear = summer(this.summerGames[yearIndex]);
+				const gameYear = indexer(outputList[yearIndex]);
 				const cellMarker = cell.textContent?.trim()[0] ?? '';
 				if (presentMarker.test(cellMarker)) {
 					this.gamesDetail[gameYear].countries.add(countryCode);

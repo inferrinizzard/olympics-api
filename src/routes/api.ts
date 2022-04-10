@@ -19,12 +19,14 @@ export const register = (app: express.Application) => {
 			flag: country.flag,
 			hosted: Object.entries(olympics.gamesDetail)
 				.filter(([_, detail]) => detail.host === countryCode)
-				.map(([year]) => parseInt(year)),
+				.map(([year]) => year),
 			attended: {
 				summer: Object.entries(olympics.gamesDetail)
-					.filter(([_, detail]) => detail.countries.has(countryCode))
+					.filter(([year, detail]) => year.endsWith('S') && detail.countries.has(countryCode))
 					.map(([year]) => parseInt(year)),
-				winter: [],
+				winter: Object.entries(olympics.gamesDetail)
+					.filter(([year, detail]) => year.endsWith('W') && detail.countries.has(countryCode))
+					.map(([year]) => parseInt(year)),
 			},
 			medals: {},
 		});
@@ -33,12 +35,13 @@ export const register = (app: express.Application) => {
 	app.get('/games', (req, res) => {
 		res.send({
 			summer: olympics.summerGames.map(year => year + '-S'),
+			winter: olympics.winterGames.map(year => year + '-W'),
 		});
 	});
 
 	app.get('/games/:game', (req, res) => {
 		// accept: year(if only 1), year-s/year-w, year-summer/year-winter
-		const game = olympics.gamesDetail[parseInt(req.params.game)];
+		const game = olympics.gamesDetail[req.params.game];
 		res.send({
 			countries: [...game.countries],
 			host: game.host,
