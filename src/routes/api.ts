@@ -10,7 +10,24 @@ export const register = (app: express.Application) => {
 	});
 
 	app.get('/countries/:country', (req, res) => {
-		res.send(olympics.countryDetail[req.params.country]);
+		let countryCode = req.params.country;
+		const country = olympics.countryDetail[countryCode];
+
+		res.send({
+			code: countryCode,
+			name: country.name,
+			flag: country.flag,
+			hosted: Object.entries(olympics.gamesDetail)
+				.filter(([_, detail]) => detail.host === countryCode)
+				.map(([year]) => parseInt(year)),
+			attended: {
+				summer: Object.entries(olympics.gamesDetail)
+					.filter(([_, detail]) => detail.countries.has(countryCode))
+					.map(([year]) => parseInt(year)),
+				winter: [],
+			},
+			medals: {},
+		});
 	});
 
 	app.get('/games', (req, res) => {

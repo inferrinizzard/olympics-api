@@ -9,13 +9,24 @@ export interface YearDetail {
 	cities: string[];
 }
 
+export interface CountryDetail {
+	name: string;
+	flag: string;
+	hosted: string[];
+	attended: {
+		summer: number[];
+		winter: number[];
+	};
+	medals: {};
+}
+
 export class Olympics {
 	private htmlSummerCountriesTable!: string;
 	private summerDom!: JSDOM;
 	summerCountriesTable!: HTMLTableElement;
 
 	countries: Set<string> = new Set();
-	countryDetail: { [country: string]: { [key: string]: string } } = {};
+	countryDetail: { [country: string]: CountryDetail } = {};
 
 	summerGames: number[] = [];
 	gamesDetail: { [year: number]: YearDetail } = {};
@@ -69,15 +80,16 @@ export class Olympics {
 			const countryName = (nameColumn.textContent
 				?.trim()
 				.match(/[\p{Letter}A-z-\s]+?(?=[\[(])|[\p{Letter}A-z-\s]+/u) ?? [''])[0].trim();
-			const countryFlagUrl = (nameColumn.firstElementChild as HTMLImageElement).src;
+			const countryFlagUrl =
+				(nameColumn.firstElementChild as HTMLImageElement).src?.replace(/^[/]{0,2}/, 'https://') ??
+				'';
 
 			// get NOC code
 			const codeColumn = row.cells[1] as HTMLTableCellElement;
 			const countryCode = codeColumn.textContent!.trim();
 			this.countries.add(countryCode);
 
-			this.countryDetail[countryCode] = { name: countryName, flag: countryFlagUrl };
-
+			// iterate through cells and mark years present
 			for (
 				let cellIndex = 0, yearIndex = 0;
 				cellIndex < row.cells.length - 3;
@@ -108,6 +120,14 @@ export class Olympics {
 					this.gamesDetail[gameYear].host = countryCode;
 				}
 			}
+
+			this.countryDetail[countryCode] = {
+				name: countryName,
+				flag: countryFlagUrl,
+				hosted: [],
+				attended: { summer: [], winter: [] },
+				medals: {},
+			};
 		}
 	}
 }
