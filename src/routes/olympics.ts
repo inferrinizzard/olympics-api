@@ -20,16 +20,19 @@ export interface CountryDetail {
 	medals: {};
 }
 
+const summer = (year: number | string) => year + '-S';
+const winter = (year: number | string) => year + '-W';
+
 export class Olympics {
 	private htmlSummerCountriesTable!: string;
 	private summerDom!: JSDOM;
 	summerCountriesTable!: HTMLTableElement;
 
 	countries: Set<string> = new Set();
-	countryDetail: { [country: string]: CountryDetail } = {};
+	countryDetail: { [country: string]: CountryDetail } = {}; //TS4.7 use typeof this.countries
 
 	summerGames: number[] = [];
-	gamesDetail: { [year: number]: YearDetail } = {};
+	gamesDetail: { [year: string]: YearDetail } = {}; // TS4.7, use typeof this.summerGames|this.winterGames
 
 	async init() {
 		this.htmlSummerCountriesTable = await got
@@ -50,6 +53,7 @@ export class Olympics {
 
 	private readSummerTable() {
 		const presentMarker = /[•^]/;
+		const hostMarker = 'H';
 
 		// extract years from header row
 		const headerRow = this.summerCountriesTable.rows[0] as HTMLTableRowElement;
@@ -61,10 +65,10 @@ export class Olympics {
 			const fullYear = parseInt(century + headerRow.cells[i].textContent);
 
 			this.summerGames.push(fullYear);
-			this.gamesDetail[fullYear] = { countries: new Set(), host: '', cities: [] };
+			this.gamesDetail[summer(fullYear)] = { countries: new Set(), host: '', cities: [] };
 
 			if ([1916, 1940, 1944].includes(fullYear)) {
-				this.gamesDetail[fullYear].host = 'SKIPPED';
+				this.gamesDetail[summer(fullYear)].host = 'SKIPPED';
 			}
 		}
 
@@ -112,11 +116,11 @@ export class Olympics {
 					continue;
 				}
 
-				const gameYear = this.summerGames[yearIndex];
+				const gameYear = summer(this.summerGames[yearIndex]);
 				const cellMarker = cell.textContent?.trim()[0] ?? '';
 				if (presentMarker.test(cellMarker)) {
 					this.gamesDetail[gameYear].countries.add(countryCode);
-				} else if (cellMarker === 'H') {
+				} else if (cellMarker === hostMarker) {
 					this.gamesDetail[gameYear].host = countryCode;
 				}
 			}

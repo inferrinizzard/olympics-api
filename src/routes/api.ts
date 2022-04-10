@@ -6,7 +6,7 @@ let olympics = await new Olympics().init();
 
 export const register = (app: express.Application) => {
 	app.get('/countries', (req, res) => {
-		res.send(olympics.countries);
+		res.send([...olympics.countries]);
 	});
 
 	app.get('/countries/:country', (req, res) => {
@@ -32,11 +32,12 @@ export const register = (app: express.Application) => {
 
 	app.get('/games', (req, res) => {
 		res.send({
-			summer: olympics.summerGames,
+			summer: olympics.summerGames.map(year => year + '-S'),
 		});
 	});
 
 	app.get('/games/:game', (req, res) => {
+		// accept: year(if only 1), year-s/year-w, year-summer/year-winter
 		const game = olympics.gamesDetail[parseInt(req.params.game)];
 		res.send({
 			countries: [...game.countries],
