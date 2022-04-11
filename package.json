@@ -2,7 +2,7 @@
 	"name": "olympics-api",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "src/index.ts",
 	"type": "module",
 	"repository": {
 		"type": "git",
@@ -15,7 +15,8 @@
 	},
 	"homepage": "https://github.com/inferrinizzard/olympics-api#readme",
 	"scripts": {
-		"start": "nodemon src/index.ts"
+		"start": "nodemon src/index.ts",
+		"build": "tsc"
 	},
 	"nodemonConfig": {
 		"restartable": "rs",
@@ -30,12 +31,12 @@
 		"ext": "ts,js,json"
 	},
 	"dependencies": {
-		"@types/jsdom": "^16.2.14",
 		"express": "^4.17.3",
 		"got": "^12.0.3",
 		"jsdom": "^19.0.0"
 	},
 	"devDependencies": {
+		"@types/jsdom": "^16.2.14",
 		"@types/express": "^4.17.13",
 		"nodemon": "^2.0.15",
 		"ts-node": "^10.7.0",

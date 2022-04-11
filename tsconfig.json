@@ -3,7 +3,7 @@
 		"module": "esnext",
 		"target": "esnext",
 		"rootDir": "src",
-		"outDir": "lib",
+		"outDir": "dist",
 		"sourceMap": true,
 		"declaration": true,
 		"esModuleInterop": true,
