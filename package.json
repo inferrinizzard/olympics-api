@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "src/index.ts",
+	"exports": "./src/index.ts",
 	"type": "module",
 	"repository": {
 		"type": "git",
@@ -14,6 +15,9 @@
 		"url": "https://github.com/inferrinizzard/olympics-api/issues"
 	},
 	"homepage": "https://github.com/inferrinizzard/olympics-api#readme",
+	"engines": {
+		"node": "^14.13.1 || >=16.0.0"
+	},
 	"scripts": {
 		"start": "nodemon src/index.ts",
 		"build": "tsc"
