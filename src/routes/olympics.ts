@@ -20,6 +20,19 @@ export interface CountryDetail {
 	medals: {};
 }
 
+export interface MedalsGames {
+	summer: MedalsDetail;
+	winter: MedalsDetail;
+	total: MedalsDetail;
+}
+
+export interface MedalsDetail {
+	gold: number;
+	silver: number;
+	bronze: number;
+	total: number;
+}
+
 const summer = (year: number | string) => year + '-S';
 const winter = (year: number | string) => year + '-W';
 
@@ -31,13 +44,18 @@ const medalsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=All-time_Olympic_Games_medal_table&prop=text&section=1&formatversion=2';
 
 export class Olympics {
-	private htmlSummerCountriesTable!: string;
+	private htmlTables: { summer?: string; winter?: string; medals?: string } = {};
+
 	private summerDom!: JSDOM;
 	summerCountriesTable!: HTMLTableElement;
 
-	private htmlWinterCountriesTable!: string;
 	private winterDom!: JSDOM;
 	winterCountriesTable!: HTMLTableElement;
+
+	private medalsDom!: JSDOM;
+	medalsTable!: HTMLTableElement;
+
+	medals: { [country: string]: MedalsGames } = {};
 
 	countries: Set<string> = new Set();
 	countryDetail: { [country: string]: CountryDetail } = {}; //TS4.7 use typeof this.countries
@@ -47,24 +65,42 @@ export class Olympics {
 	gamesDetail: { [year: string]: YearDetail } = {}; // TS4.7, use typeof this.summerGames|this.winterGames
 
 	async init() {
-		[this.htmlSummerCountriesTable, this.htmlWinterCountriesTable] = await Promise.all([
-			got.get(summerCountriesUrl).json(),
-			got.get(winterCountriesUrl).json(),
-		]).then(([summer, winter]) => [
-			(summer as WikipediaParse).parse.text,
-			(winter as WikipediaParse).parse.text,
-		]);
+		this.htmlTables = await Promise.all(
+			Object.entries({
+				summer: summerCountriesUrl,
+				winter: winterCountriesUrl,
+				medals: medalsUrl,
+			}).map(([key, url]) =>
+				got
+					.get(url)
+					.json()
+					.then(data => (data as WikipediaParse).parse.text)
+					.then(val => [key, val])
+			)
+		).then(data =>
+			data.reduce(
+				(acc, [key, data]) => ({ ...acc, [key as string]: data }),
+				{} as typeof this.htmlTables
+			)
+		);
 
-		this.summerDom = new JSDOM(this.htmlSummerCountriesTable);
+		this.summerDom = new JSDOM(this.htmlTables.summer);
 		this.summerCountriesTable = this.summerDom.window.document.body.firstElementChild
 			?.lastElementChild as HTMLTableElement;
 
-		this.winterDom = new JSDOM(this.htmlWinterCountriesTable);
+		this.winterDom = new JSDOM(this.htmlTables.winter);
 		this.winterCountriesTable = this.winterDom.window.document.body.firstElementChild
 			?.lastElementChild as HTMLTableElement;
 
 		this.readCountryTable(this.summerCountriesTable, this.summerGames, summer);
 		this.readCountryTable(this.winterCountriesTable, this.winterGames, winter);
+
+		this.medalsDom = new JSDOM(this.htmlTables.medals);
+		this.medalsTable = [...this.medalsDom.window.document.body.firstElementChild?.children!].find(
+			element => element.tagName.toLowerCase() === 'table'
+		)! as HTMLTableElement;
+
+		this.readMedalsTable();
 
 		return this;
 	}
@@ -153,6 +189,45 @@ export class Olympics {
 				hosted: [],
 				attended: { summer: [], winter: [] },
 				medals: {},
+			};
+		}
+	}
+
+	private readMedalsTable() {
+		for (let i = 2; i < this.medalsTable.rows.length - 1; i++) {
+			const row = this.medalsTable.rows[i] as HTMLTableRowElement;
+			const leadCell = row.cells[0].textContent;
+			const countryCode = (leadCell!.match(/(?<=[(])[A-Z0-9]{3}(?=[)])/) ?? [''])[0].trim();
+
+			const summerGold = parseInt(row.cells[2].textContent!);
+			const summerSilver = parseInt(row.cells[3].textContent!);
+			const summerBronze = parseInt(row.cells[4].textContent!);
+			const winterGold = parseInt(row.cells[6].textContent!);
+			const winterSilver = parseInt(row.cells[7].textContent!);
+			const winterBronze = parseInt(row.cells[8].textContent!);
+			const totalGold = parseInt(row.cells[10].textContent!);
+			const totalSilver = parseInt(row.cells[11].textContent!);
+			const totalBronze = parseInt(row.cells[12].textContent!);
+
+			this.medals[countryCode] = {
+				summer: {
+					gold: summerGold,
+					silver: summerSilver,
+					bronze: summerBronze,
+					total: summerGold + summerSilver + summerBronze,
+				},
+				winter: {
+					gold: winterGold,
+					silver: winterSilver,
+					bronze: winterBronze,
+					total: winterGold + winterSilver + winterBronze,
+				},
+				total: {
+					gold: totalGold,
+					silver: totalSilver,
+					bronze: totalBronze,
+					total: totalGold + totalSilver + totalBronze,
+				},
 			};
 		}
 	}

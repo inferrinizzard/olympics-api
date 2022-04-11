@@ -28,7 +28,7 @@ export const register = (app: express.Application) => {
 					.filter(([year, detail]) => year.endsWith('W') && detail.countries.has(countryCode))
 					.map(([year]) => parseInt(year)),
 			},
-			medals: {},
+			medals: olympics.medals[countryCode],
 		});
 	});
 
@@ -48,4 +48,25 @@ export const register = (app: express.Application) => {
 			cities: game.cities,
 		});
 	});
+
+	app.get('/medals', (req, res) => {
+		// console.log(req.query);
+		res.send(olympics.medals);
+	});
+
+	// app.get('/medals/:country', (req, res) => {
+	// 	res.send(olympics.medals[req.params.country]);
+	// });
+
+	// app.get('/medals/season=:season', (req, res) => {
+	// 	const season = req.params.season;
+	// 	if (season === 'summer' || season === 'winter') {
+	// 		res.send(
+	// 			Object.entries(olympics.medals).reduce(
+	// 				(acc, [country, medals]) => ({ ...acc, [country]: medals[season] }),
+	// 				{}
+	// 			)
+	// 		);
+	// 	}
+	// });
 };
