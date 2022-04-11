@@ -1,10 +1,7 @@
 import express from 'express';
+import { Olympics } from '../olympics';
 
-import { Olympics } from './olympics.js';
-
-let olympics = await new Olympics().init();
-
-export const register = (app: express.Application) => {
+export const register = (app: express.Application, olympics: Olympics) => {
 	app.get('/countries', (req, res) => {
 		if (!Object.keys(req.query).length) {
 			// base /countries
