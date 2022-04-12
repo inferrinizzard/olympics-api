@@ -1,13 +1,13 @@
 import express from 'express';
 
-import * as routes from './routes/api.js';
+import routes from './routes/index.js';
 
 const port = process.env.PORT || 3000;
 
-let app = express();
+const app = express();
 
-routes.register(app);
+app.use('/', routes);
 
 app.listen(port, () => {
-	console.log(`server started at http://localhost:${port}`);
+	console.log(`Listening on port: ${port}`);
 });
