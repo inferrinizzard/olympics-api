@@ -6,7 +6,8 @@ const port = process.env.PORT || 3000;
 
 const app = express();
 
-app.use('/', routes);
+app.get('/', (req, res) => res.redirect('/api'));
+app.use('/api', routes);
 
 app.listen(port, () => {
 	console.log(`Listening on port: ${port}`);
