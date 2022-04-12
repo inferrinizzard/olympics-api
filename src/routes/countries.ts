@@ -11,6 +11,10 @@ router.get('/', (req, res) => {
 	} else if (req.query.country) {
 		// /countries?country=:country
 		const countryCode = req.query.country.toString();
+		if (!(countryCode in olympics.countries)) {
+			res.status(404).send(`Country ${countryCode} not found`);
+		}
+
 		const country = olympics.countryDetail[countryCode];
 
 		res.json({

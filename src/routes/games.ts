@@ -16,11 +16,26 @@ router.get('/', (req, res) => {
 		// or /games?year=:year&season=summer|winter
 
 		let gameCode = req.query.year.toString();
-		if (
-			/^[0-9]{4}$/.test(gameCode) &&
-			['summer', 'winter'].includes(req.query.season?.toString() ?? '')
-		) {
-			gameCode += req.query.season === 'winter' ? '-W' : '-S';
+		if (/^[0-9]{4}$/.test(gameCode)) {
+			// add suffix to gameCode if season is specified
+			if (['summer', 'winter'].includes(req.query.season?.toString() ?? '')) {
+				gameCode += req.query.season === 'winter' ? '-W' : '-S';
+			} else {
+				if (gameCode + '-S' in olympics.gamesDetail) {
+					gameCode += '-S';
+				} else if (gameCode + '-W' in olympics.gamesDetail) {
+					gameCode += '-W';
+				}
+			}
+		}
+
+		if (!(gameCode in olympics.gamesDetail)) {
+			res
+				.status(404)
+				.send(
+					`Olympics for year ${gameCode} not found or is ambiguous, did you forget to specify season?`
+				);
+			return;
 		}
 
 		const game = olympics.gamesDetail[gameCode];

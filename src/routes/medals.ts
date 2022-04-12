@@ -21,7 +21,12 @@ router.get('/', (req, res) => {
 		}
 	} else if (req.query.country) {
 		// /medals?country=:country
-		let out: any = olympics.medals[req.query.country.toString()];
+
+		const countryCode = req.query.country.toString();
+		if (!(countryCode in olympics.medals)) {
+			res.status(404).send(`Country ${countryCode} not found`);
+		}
+		let out: any = olympics.medals[countryCode];
 
 		if (req.query.season) {
 			// /medals?country=:country&season=summer|winter

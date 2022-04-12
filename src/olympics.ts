@@ -194,20 +194,22 @@ export class Olympics {
 	}
 
 	private readMedalsTable() {
+		const readCell = (cell: HTMLTableCellElement) => parseInt(cell.textContent!.replace(',', ''));
+
 		for (let i = 2; i < this.medalsTable.rows.length - 1; i++) {
 			const row = this.medalsTable.rows[i] as HTMLTableRowElement;
 			const leadCell = row.cells[0].textContent;
 			const countryCode = (leadCell!.match(/(?<=[(])[A-Z0-9]{3}(?=[)])/) ?? [''])[0].trim();
 
-			const summerGold = parseInt(row.cells[2].textContent!);
-			const summerSilver = parseInt(row.cells[3].textContent!);
-			const summerBronze = parseInt(row.cells[4].textContent!);
-			const winterGold = parseInt(row.cells[6].textContent!);
-			const winterSilver = parseInt(row.cells[7].textContent!);
-			const winterBronze = parseInt(row.cells[8].textContent!);
-			const totalGold = parseInt(row.cells[10].textContent!);
-			const totalSilver = parseInt(row.cells[11].textContent!);
-			const totalBronze = parseInt(row.cells[12].textContent!);
+			const summerGold = readCell(row.cells[2]);
+			const summerSilver = readCell(row.cells[3]);
+			const summerBronze = readCell(row.cells[4]);
+			const winterGold = readCell(row.cells[6]);
+			const winterSilver = readCell(row.cells[7]);
+			const winterBronze = readCell(row.cells[8]);
+			const totalGold = readCell(row.cells[10]);
+			const totalSilver = readCell(row.cells[11]);
+			const totalBronze = readCell(row.cells[12]);
 
 			this.medals[countryCode] = {
 				summer: {
