@@ -7,13 +7,13 @@ const router = express.Router();
 router.get('/', (req, res) => {
 	if (!Object.keys(req.query).length) {
 		// base /countries
-		res.send([...olympics.countries]);
+		res.json([...olympics.countries]);
 	} else if (req.query.country) {
 		// /countries?country=:country
 		const countryCode = req.query.country.toString();
 		const country = olympics.countryDetail[countryCode];
 
-		res.send({
+		res.json({
 			code: countryCode,
 			name: country.name,
 			flag: country.flag,

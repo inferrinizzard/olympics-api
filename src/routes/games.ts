@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
 	if (!Object.keys(req.query).length) {
 		// base /games
-		res.send({
+		res.json({
 			summer: olympics.summerGames.map(year => year + '-S'),
 			winter: olympics.winterGames.map(year => year + '-W'),
 		});
@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
 		}
 
 		const game = olympics.gamesDetail[gameCode];
-		res.send({
+		res.json({
 			countries: [...game.countries],
 			host: game.host,
 			cities: game.cities,

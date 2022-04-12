@@ -7,12 +7,12 @@ const router = express.Router();
 router.get('/', (req, res) => {
 	if (!Object.keys(req.query).length) {
 		// base /medals
-		res.send(olympics.medals);
+		res.json(olympics.medals);
 	} else if (req.query.season) {
 		// /medals?season=summer|winter
 		const season = req.query.season.toString();
 		if (season === 'summer' || season === 'winter') {
-			res.send(
+			res.json(
 				Object.entries(olympics.medals).reduce(
 					(acc, [country, medals]) => ({ ...acc, [country]: medals[season] }),
 					{}
@@ -30,7 +30,7 @@ router.get('/', (req, res) => {
 				out = out[season];
 			}
 		}
-		res.send(out);
+		res.json(out);
 	}
 });
 
