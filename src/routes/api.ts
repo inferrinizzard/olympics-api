@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { Olympics } from './olympics.js';
+import { Olympics } from '../olympics.js';
 
 let olympics = await new Olympics().init();
 

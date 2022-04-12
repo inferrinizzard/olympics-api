@@ -1,7 +1,7 @@
 import { JSDOM } from 'jsdom';
 import got from 'got';
 
-import { WikipediaParse } from '../models/wikipedia';
+import { WikipediaParse } from './models/wikipedia';
 
 export interface YearDetail {
 	countries: Set<string>;
