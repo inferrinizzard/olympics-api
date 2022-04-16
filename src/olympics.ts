@@ -1,5 +1,5 @@
-import { JSDOM } from 'jsdom';
 import got from 'got';
+import { JSDOM } from 'jsdom';
 
 import { WikipediaParse } from './models/wikipedia';
 
@@ -7,6 +7,7 @@ export interface YearDetail {
 	countries: Set<string>;
 	host: string;
 	cities: string[];
+	sports: Record<string, number | 'Demonstration'>;
 }
 
 export interface CountryDetail {
@@ -33,6 +34,12 @@ export interface MedalsDetail {
 	total: number;
 }
 
+export interface SportDetail {
+	name: string;
+	code: string;
+	icon: string;
+	years: number[];
+}
 const summer = (year: number | string) => year + '-S';
 const winter = (year: number | string) => year + '-W';
 
@@ -42,9 +49,19 @@ const winterCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Winter_Olympic_Games&prop=text&section=9&formatversion=2';
 const medalsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=All-time_Olympic_Games_medal_table&prop=text&section=1&formatversion=2';
+const summerSportsUrl =
+	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Olympic_sports&prop=text&section=6&formatversion=2';
+const winterSportsUrl =
+	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Olympic_sports&prop=text&section=10&formatversion=2';
 
 export class Olympics {
-	private htmlTables: { summer?: string; winter?: string; medals?: string } = {};
+	private htmlTables: {
+		summer?: string;
+		winter?: string;
+		medals?: string;
+		summerSports?: string;
+		winterSports?: string;
+	} = {};
 
 	private summerDom!: JSDOM;
 	summerCountriesTable!: HTMLTableElement;
@@ -55,14 +72,22 @@ export class Olympics {
 	private medalsDom!: JSDOM;
 	medalsTable!: HTMLTableElement;
 
-	medals: { [country: string]: MedalsGames } = {};
+	private summerSportsDom!: JSDOM;
+	summerSportsTable!: HTMLTableElement;
+
+	private winterSportsDom!: JSDOM;
+	winterSportsTable!: HTMLTableElement;
+
+	medals: Record<string, MedalsGames> = {};
 
 	countries: Set<string> = new Set();
-	countryDetail: { [country: string]: CountryDetail } = {}; //TS4.7 use typeof this.countries
+	countryDetail: Record<string, CountryDetail> = {}; // TS4.7 use typeof this.countries
 
 	summerGames: number[] = [];
 	winterGames: number[] = [];
-	gamesDetail: { [year: string]: YearDetail } = {}; // TS4.7, use typeof this.summerGames|this.winterGames
+	gamesDetail: Record<string, YearDetail> = {}; // TS4.7, use typeof this.summerGames|this.winterGames
+
+	sports: Record<string, SportDetail> = {};
 
 	async init() {
 		this.htmlTables = await Promise.all(
@@ -70,6 +95,8 @@ export class Olympics {
 				summer: summerCountriesUrl,
 				winter: winterCountriesUrl,
 				medals: medalsUrl,
+				summerSports: summerSportsUrl,
+				winterSports: winterSportsUrl,
 			}).map(([key, url]) =>
 				got
 					.get(url)
@@ -84,23 +111,32 @@ export class Olympics {
 			)
 		);
 
+		const extractTable = (element: JSDOM) =>
+			[...element.window.document.body.firstElementChild?.children!]
+				.reverse()
+				.find(element => element.tagName.toLowerCase() === 'table')! as HTMLTableElement;
+
 		this.summerDom = new JSDOM(this.htmlTables.summer);
-		this.summerCountriesTable = this.summerDom.window.document.body.firstElementChild
-			?.lastElementChild as HTMLTableElement;
+		this.summerCountriesTable = extractTable(this.summerDom);
 
 		this.winterDom = new JSDOM(this.htmlTables.winter);
-		this.winterCountriesTable = this.winterDom.window.document.body.firstElementChild
-			?.lastElementChild as HTMLTableElement;
+		this.winterCountriesTable = extractTable(this.winterDom);
 
 		this.readCountryTable(this.summerCountriesTable, this.summerGames, summer);
 		this.readCountryTable(this.winterCountriesTable, this.winterGames, winter);
 
 		this.medalsDom = new JSDOM(this.htmlTables.medals);
-		this.medalsTable = [...this.medalsDom.window.document.body.firstElementChild?.children!].find(
-			element => element.tagName.toLowerCase() === 'table'
-		)! as HTMLTableElement;
+		this.medalsTable = extractTable(this.medalsDom);
 
 		this.readMedalsTable();
+
+		this.summerSportsDom = new JSDOM(this.htmlTables.summerSports);
+		this.summerSportsTable = extractTable(this.summerSportsDom);
+		this.winterSportsDom = new JSDOM(this.htmlTables.winterSports);
+		this.winterSportsTable = extractTable(this.winterSportsDom);
+
+		this.readSportsTable('summer', this.summerSportsTable);
+		this.readSportsTable('winter', this.winterSportsTable);
 
 		return this;
 	}
@@ -123,7 +159,13 @@ export class Olympics {
 			}
 
 			outputList.unshift(fullYear);
-			this.gamesDetail[indexer(fullYear)] = { countries: new Set(), host: '', cities: [] };
+
+			this.gamesDetail[indexer(fullYear)] = {
+				countries: new Set(),
+				host: '',
+				cities: [],
+				sports: {},
+			};
 
 			if ([1916, 1940, 1944].includes(fullYear)) {
 				this.gamesDetail[indexer(fullYear)].host = 'SKIPPED';
@@ -230,6 +272,82 @@ export class Olympics {
 					bronze: totalBronze,
 					total: totalGold + totalSilver + totalBronze,
 				},
+			};
+		}
+	}
+
+	private readSportsTable(season: string, sourceTable: HTMLTableElement) {
+		let years: number[] = [];
+		const startYear = season === 'summer' ? '96' : '24';
+
+		// extract years from header row
+		const headerRow = sourceTable.rows[0] as HTMLTableRowElement;
+		for (
+			let i = headerRow.cells.length - 1, century = '20';
+			i >= (season === 'summer' ? 2 : 4);
+			i--
+		) {
+			const year = headerRow.cells[i].textContent!.trim();
+			const fullYear = parseInt(century + headerRow.cells[i].textContent);
+			if (year === '00' || year == '02') {
+				century = parseInt(century) - 1 + '';
+			}
+
+			years.push(fullYear);
+		}
+
+		years = years.reverse();
+
+		const footerRows = season === 'summer' ? 3 : 2;
+		// for (let i = 4; i < 8; i++) {
+		for (let i = 1; i < sourceTable.rows.length - footerRows; i++) {
+			const row = sourceTable.rows[i] as HTMLTableRowElement;
+			if (row.cells.length < 3) continue;
+
+			const sportName = row.cells[0].textContent!.trim();
+			const sportCode = row.cells[1].textContent!.trim().replace('*', '');
+			const sportIcon = (row.cells[2].firstElementChild!.firstElementChild as HTMLImageElement).src;
+			let sportYears: number[] = [];
+
+			// find start index of years (first col where header col matches year)
+			const distanceFromStart = [...row.cells].findIndex(
+				cell => headerRow.cells[cell.cellIndex - 2]?.textContent?.trim() === startYear
+			);
+			const startIndex =
+				row.cells.length > years.length ? row.cells.length - years.length : distanceFromStart;
+
+			for (let j = startIndex; j < row.cells.length; j++) {
+				const cell = row.cells[j] as HTMLTableCellElement;
+
+				if (cell?.hasAttribute('çolspan')) {
+					continue;
+				}
+
+				const year = years[j - startIndex];
+				const presentMarker = cell.textContent?.trim();
+
+				if (presentMarker && (presentMarker === '•' || !isNaN(parseInt(presentMarker)))) {
+					sportYears.push(year);
+
+					const gameCode = year + '-' + (season === 'summer' ? 'S' : 'W');
+					if (!(gameCode in this.gamesDetail)) {
+						this.gamesDetail[gameCode] = {
+							countries: new Set(),
+							host: '',
+							cities: [],
+							sports: {},
+						};
+					}
+					this.gamesDetail[gameCode].sports[sportCode] =
+						presentMarker === '•' ? 'Demonstration' : parseInt(presentMarker);
+				}
+			}
+
+			this.sports[sportCode] = {
+				name: sportName,
+				code: sportCode,
+				icon: sportIcon,
+				years: sportYears,
 			};
 		}
 	}
