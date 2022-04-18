@@ -4,10 +4,16 @@ import { olympics } from './index.js';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-	if (!Object.keys(req.query).length) {
-		// base /sports
-		res.json(Object.keys(olympics.sportsDetail));
+// /sports
+router.get('/', (req, res) => res.json(Object.keys(olympics.sportsDetail)));
+
+// /sports/:sport
+router.get('/:sport([A-Z0-9]{3})', (req, res) => {
+	const sportCode = req.params.sport;
+	if (!olympics.sportsDetail[sportCode]) {
+		res.status(404).send(`Sport ${sportCode} not found`);
+	} else {
+		res.json(olympics.sportsDetail[sportCode]);
 	}
 });
 

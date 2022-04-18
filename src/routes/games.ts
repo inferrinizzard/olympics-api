@@ -5,53 +5,34 @@ import { OlympicsSeason } from '../models/olympics.js';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-	if (!Object.keys(req.query).length) {
-		// base /games
-		res.json({
-			summer: olympics.countryAttendance
-				.where({ season: OlympicsSeason.SUMMER })
-				.distinct(['year'])
-				.year.sort(),
-			winter: olympics.countryAttendance
-				.where({ season: OlympicsSeason.WINTER })
-				.distinct(['year'])
-				.year.sort(),
-		});
-	} else if (req.query.year) {
-		// /games?year=:year where year is [0-9]{4}-S|W
-		// or /games?year=:year&season=summer|winter
+// /games
+router.get('/', (req, res) =>
+	res.json({
+		summer: olympics.countryAttendance
+			.where({ season: OlympicsSeason.SUMMER })
+			.distinct(['year'])
+			.year.sort(),
+		winter: olympics.countryAttendance
+			.where({ season: OlympicsSeason.WINTER })
+			.distinct(['year'])
+			.year.sort(),
+	})
+);
 
-		let gameCode = req.query.year.toString();
-		if (/^[0-9]{4}$/.test(gameCode)) {
-			// add suffix to gameCode if season is specified
-			if (['summer', 'winter'].includes(req.query.season?.toString() ?? '')) {
-				gameCode += req.query.season === 'winter' ? '-W' : '-S';
-			} else {
-				if (gameCode + '-S' in olympics.gamesDetail) {
-					gameCode += '-S';
-				} else if (gameCode + '-W' in olympics.gamesDetail) {
-					gameCode += '-W';
-				}
-			}
-		}
+// /games/:year/season/:season
+router.get('/:year([0-9]{4})/season/:season(winter|summer)', (req, res) => {
+	const attendance = olympics.countryAttendance.where({
+		year: parseInt(req.params.year),
+		season: req.params.season as OlympicsSeason,
+	});
 
-		if (!(gameCode in olympics.gamesDetail)) {
-			res
-				.status(404)
-				.send(
-					`Olympics for year ${gameCode} not found or is ambiguous, did you forget to specify season?`
-				);
-			return;
-		}
-
-		const game = olympics.gamesDetail[gameCode];
-		res.json({
-			countries: [...game.countries],
-			host: game.host,
-			cities: game.cities,
-		});
-	}
+	// add 404 when year DNE
+	res.json({
+		year: req.params.year,
+		season: req.params.season,
+		host: attendance.table.find(({ host }) => host)?.code,
+		countries: attendance.distinct(['code']).code.sort(),
+	});
 });
 
 export default router;
