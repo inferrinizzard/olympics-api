@@ -1,45 +1,10 @@
 import got from 'got';
 import { JSDOM } from 'jsdom';
 
+import { CountryDetail, MedalsGames, SportDetail, YearDetail } from './models/olympics';
 import { WikipediaParse } from './models/wikipedia';
+import { extractTable } from './parseWikipedia.js';
 
-export interface YearDetail {
-	countries: Set<string>;
-	host: string;
-	cities: string[];
-	sports: Record<string, number | 'Demonstration'>;
-}
-
-export interface CountryDetail {
-	name: string;
-	flag: string;
-	hosted: string[];
-	attended: {
-		summer: number[];
-		winter: number[];
-	};
-	medals: {};
-}
-
-export interface MedalsGames {
-	summer: MedalsDetail;
-	winter: MedalsDetail;
-	total: MedalsDetail;
-}
-
-export interface MedalsDetail {
-	gold: number;
-	silver: number;
-	bronze: number;
-	total: number;
-}
-
-export interface SportDetail {
-	name: string;
-	code: string;
-	icon: string;
-	years: number[];
-}
 const summer = (year: number | string) => year + '-S';
 const winter = (year: number | string) => year + '-W';
 
@@ -55,28 +20,19 @@ const winterSportsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Olympic_sports&prop=text&section=10&formatversion=2';
 
 export class Olympics {
-	private htmlTables: {
-		summer?: string;
-		winter?: string;
-		medals?: string;
-		summerSports?: string;
-		winterSports?: string;
-	} = {};
+	private htmlTables: Partial<{
+		summer: string;
+		winter: string;
+		medals: string;
+		summerSports: string;
+		winterSports: string;
+	}> = {};
 
-	private summerDom!: JSDOM;
-	summerCountriesTable!: HTMLTableElement;
-
-	private winterDom!: JSDOM;
-	winterCountriesTable!: HTMLTableElement;
-
-	private medalsDom!: JSDOM;
-	medalsTable!: HTMLTableElement;
-
-	private summerSportsDom!: JSDOM;
-	summerSportsTable!: HTMLTableElement;
-
-	private winterSportsDom!: JSDOM;
-	winterSportsTable!: HTMLTableElement;
+	private summerCountriesTable!: HTMLTableElement;
+	private winterCountriesTable!: HTMLTableElement;
+	private medalsTable!: HTMLTableElement;
+	private summerSportsTable!: HTMLTableElement;
+	private winterSportsTable!: HTMLTableElement;
 
 	medals: Record<string, MedalsGames> = {};
 
@@ -111,30 +67,16 @@ export class Olympics {
 			)
 		);
 
-		const extractTable = (element: JSDOM) =>
-			[...element.window.document.body.firstElementChild?.children!]
-				.reverse()
-				.find(element => element.tagName.toLowerCase() === 'table')! as HTMLTableElement;
-
-		this.summerDom = new JSDOM(this.htmlTables.summer);
-		this.summerCountriesTable = extractTable(this.summerDom);
-
-		this.winterDom = new JSDOM(this.htmlTables.winter);
-		this.winterCountriesTable = extractTable(this.winterDom);
-
+		this.summerCountriesTable = extractTable(new JSDOM(this.htmlTables.summer));
+		this.winterCountriesTable = extractTable(new JSDOM(this.htmlTables.winter));
 		this.readCountryTable(this.summerCountriesTable, this.summerGames, summer);
 		this.readCountryTable(this.winterCountriesTable, this.winterGames, winter);
 
-		this.medalsDom = new JSDOM(this.htmlTables.medals);
-		this.medalsTable = extractTable(this.medalsDom);
-
+		this.medalsTable = extractTable(new JSDOM(this.htmlTables.medals));
 		this.readMedalsTable();
 
-		this.summerSportsDom = new JSDOM(this.htmlTables.summerSports);
-		this.summerSportsTable = extractTable(this.summerSportsDom);
-		this.winterSportsDom = new JSDOM(this.htmlTables.winterSports);
-		this.winterSportsTable = extractTable(this.winterSportsDom);
-
+		this.summerSportsTable = extractTable(new JSDOM(this.htmlTables.summerSports));
+		this.winterSportsTable = extractTable(new JSDOM(this.htmlTables.winterSports));
 		this.readSportsTable('summer', this.summerSportsTable);
 		this.readSportsTable('winter', this.winterSportsTable);
 
@@ -164,7 +106,7 @@ export class Olympics {
 				countries: new Set(),
 				host: '',
 				cities: [],
-				sports: {},
+				sports: [],
 			};
 
 			if ([1916, 1940, 1944].includes(fullYear)) {
@@ -335,11 +277,11 @@ export class Olympics {
 							countries: new Set(),
 							host: '',
 							cities: [],
-							sports: {},
+							sports: [],
 						};
 					}
-					this.gamesDetail[gameCode].sports[sportCode] =
-						presentMarker === '•' ? 'Demonstration' : parseInt(presentMarker);
+					// this.gamesDetail[gameCode].sports[sportCode] =
+					// 	presentMarker === '•' ? 'Demonstration' : parseInt(presentMarker);
 				}
 			}
 
