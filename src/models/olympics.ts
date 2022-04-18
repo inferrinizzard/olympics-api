@@ -7,22 +7,28 @@ export interface YearDetail {
 
 export interface CountryDetail {
 	name: string;
+	code: string;
 	flag: string;
-	hosted: string[];
-	attended: {
-		summer: number[];
-		winter: number[];
-	};
-	medals: {};
 }
 
-export interface MedalsGames {
-	summer: MedalsDetail;
-	winter: MedalsDetail;
-	total: MedalsDetail;
+export interface CountryAttendanceRow extends Record<string, any> {
+	name: string;
+	code: string;
+	year: number;
+	season: OlympicsSeason;
+	host: boolean;
 }
 
 export interface MedalsDetail {
+	gold: number;
+	silver: number;
+	bronze: number;
+	total: number;
+}
+
+export interface MedalsTotalRow extends Record<string, any> {
+	country: string;
+	season: OlympicsSeason | 'total';
 	gold: number;
 	silver: number;
 	bronze: number;
@@ -33,7 +39,16 @@ export interface SportDetail {
 	name: string;
 	code: string;
 	icon: string;
-	years: number[];
+}
+
+export interface SportEventsRow {
+	sport: string;
+	// event: string; // event|demonstration
+	year: number;
+	season: OlympicsSeason;
+	// gold: string;
+	// silver: string;
+	// bronze: string;
 }
 
 export enum OlympicsSeason {

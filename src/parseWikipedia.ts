@@ -1,17 +1,21 @@
 import { JSDOM } from 'jsdom';
 
+import { CountryDetail } from './models/olympics';
+
 // gets the last table element within DOM
 export const extractTable = (element: JSDOM) =>
 	[...element.window.document.body.firstElementChild?.children!]
 		.reverse()
 		.find(element => element.tagName.toLowerCase() === 'table')! as HTMLTableElement;
 
+type CountryTableOutput = CountryDetail & { attended: number[]; hosted: number[] };
+
 export const readCountryTable = (sourceTable: HTMLTableElement) => {
 	const presentMarker = /[•^]/;
 	const hostMarker = 'H';
 
 	let years = [];
-	let countryData: Record<string, Record<string, string | number[]>> = {};
+	let countryData: Record<string, CountryTableOutput> = {};
 
 	// extract years from header row
 	const headerRow = sourceTable.rows[0] as HTMLTableRowElement;
@@ -92,20 +96,13 @@ export const readCountryTable = (sourceTable: HTMLTableElement) => {
 	return countryData;
 };
 
-interface MedalTableData {
-	summerGold: number;
-	summerSilver: number;
-	summerBronze: number;
-	summerTotal: number;
-	winterGold: number;
-	winterSilver: number;
-	winterBronze: number;
-	winterTotal: number;
-	totalGold: number;
-	totalSilver: number;
-	totalBronze: number;
-	totalTotal: number;
+interface MedalData {
+	gold: number;
+	silver: number;
+	bronze: number;
+	total: number;
 }
+type MedalTableData = Record<'summer' | 'winter' | 'total', MedalData>;
 
 export const readMedalsTable = (sourceTable: HTMLTableElement) => {
 	const readCell = (cell: HTMLTableCellElement) => parseInt(cell.textContent!.replace(',', ''));
@@ -128,18 +125,24 @@ export const readMedalsTable = (sourceTable: HTMLTableElement) => {
 		const totalBronze = readCell(row.cells[12]);
 
 		medalsData[countryCode] = {
-			summerGold,
-			summerSilver,
-			summerBronze,
-			summerTotal: summerGold + summerSilver + summerBronze,
-			winterGold,
-			winterSilver,
-			winterBronze,
-			winterTotal: winterGold + winterSilver + winterBronze,
-			totalGold,
-			totalSilver,
-			totalBronze,
-			totalTotal: totalGold + totalSilver + totalBronze,
+			summer: {
+				gold: summerGold,
+				silver: summerSilver,
+				bronze: summerBronze,
+				total: summerGold + summerSilver + summerBronze,
+			},
+			winter: {
+				gold: winterGold,
+				silver: winterSilver,
+				bronze: winterBronze,
+				total: winterGold + winterSilver + winterBronze,
+			},
+			total: {
+				gold: totalGold,
+				silver: totalSilver,
+				bronze: totalBronze,
+				total: totalGold + totalSilver + totalBronze,
+			},
 		};
 	}
 
@@ -211,9 +214,6 @@ export const readSportsTable = (season: string, sourceTable: HTMLTableElement) =
 			} else if (!isNaN(parseInt(presentMarker!))) {
 				sportYears[year] = parseInt(presentMarker!);
 			}
-
-			// this.gamesDetail[gameCode].sports[sportCode] =
-			// 	presentMarker === '•' ? 'Demonstration' : parseInt(presentMarker);
 		}
 		sportsData[sportCode] = {
 			name: sportName,
@@ -227,7 +227,4 @@ export const readSportsTable = (season: string, sourceTable: HTMLTableElement) =
 	return sportsData;
 };
 
-// countryAttendance table: countryName, countryCode, year, season, host
 // gamesData table: year, season, host, countries
-// sportsEvents table: event, sport, year, season, gold, silver, bronze
-// medals table: countryCode, (summer|winter|total), gold, silver, bronze

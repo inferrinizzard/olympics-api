@@ -7,11 +7,13 @@ const router = express.Router();
 router.get('/', (req, res) => {
 	if (!Object.keys(req.query).length) {
 		// base /countries
-		res.json([...olympics.countries]);
+		res.json([]);
+		// res.json([...olympics.countries]);
 	} else if (req.query.country) {
 		// /countries?country=:country
 		const countryCode = req.query.country.toString();
-		if (!(countryCode in olympics.countries)) {
+		// if (!(countryCode in olympics.countries)) {
+		if (true) {
 			res.status(404).send(`Country ${countryCode} not found`);
 		}
 
@@ -32,7 +34,7 @@ router.get('/', (req, res) => {
 					.filter(([year, detail]) => year.endsWith('W') && detail.countries.has(countryCode))
 					.map(([year]) => parseInt(year)),
 			},
-			medals: olympics.medals[countryCode],
+			// medals: olympics.medals[countryCode],
 		});
 	}
 });
