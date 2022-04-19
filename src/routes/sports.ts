@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
 	if (!Object.keys(req.query).length) {
 		// base /sports
-		res.json(Object.keys(olympics.sports));
+		res.json(Object.keys(olympics.sportsDetail));
 	}
 });
 

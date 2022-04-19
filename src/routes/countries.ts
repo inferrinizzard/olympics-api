@@ -1,14 +1,14 @@
 import express from 'express';
 
 import { olympics } from './index.js';
+import { OlympicsSeason } from '../models/olympics.js';
 
 const router = express.Router();
 
 router.get('/', (req, res) => {
 	if (!Object.keys(req.query).length) {
 		// base /countries
-		res.json([]);
-		// res.json([...olympics.countries]);
+		res.json(Object.keys(olympics.countryDetail).sort());
 	} else if (req.query.country) {
 		// /countries?country=:country
 		const countryCode = req.query.country.toString();
@@ -23,16 +23,19 @@ router.get('/', (req, res) => {
 			code: countryCode,
 			name: country.name,
 			flag: country.flag,
-			hosted: Object.entries(olympics.gamesDetail)
-				.filter(([_, detail]) => detail.host === countryCode)
-				.map(([year]) => year),
+			hosted: olympics.countryAttendance
+				.where({ code: countryCode, host: true })
+				.distinct(['year'])
+				.year.sort(),
 			attended: {
-				summer: Object.entries(olympics.gamesDetail)
-					.filter(([year, detail]) => year.endsWith('S') && detail.countries.has(countryCode))
-					.map(([year]) => parseInt(year)),
-				winter: Object.entries(olympics.gamesDetail)
-					.filter(([year, detail]) => year.endsWith('W') && detail.countries.has(countryCode))
-					.map(([year]) => parseInt(year)),
+				summer: olympics.countryAttendance
+					.where({ code: countryCode, season: OlympicsSeason.SUMMER })
+					.distinct(['year'])
+					.year.sort(),
+				winter: olympics.countryAttendance
+					.where({ code: countryCode, season: OlympicsSeason.WINTER })
+					.distinct(['year'])
+					.year.sort(),
 			},
 			// medals: olympics.medals[countryCode],
 		});

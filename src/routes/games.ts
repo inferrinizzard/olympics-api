@@ -1,6 +1,7 @@
 import express from 'express';
 
 import { olympics } from './index.js';
+import { OlympicsSeason } from '../models/olympics.js';
 
 const router = express.Router();
 
@@ -8,8 +9,14 @@ router.get('/', (req, res) => {
 	if (!Object.keys(req.query).length) {
 		// base /games
 		res.json({
-			summer: olympics.summerGames.map(year => year + '-S'),
-			winter: olympics.winterGames.map(year => year + '-W'),
+			summer: olympics.countryAttendance
+				.where({ season: OlympicsSeason.SUMMER })
+				.distinct(['year'])
+				.year.sort(),
+			winter: olympics.countryAttendance
+				.where({ season: OlympicsSeason.WINTER })
+				.distinct(['year'])
+				.year.sort(),
 		});
 	} else if (req.query.year) {
 		// /games?year=:year where year is [0-9]{4}-S|W
