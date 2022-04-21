@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import { CountryDetail } from './models/olympics';
+import { CountryDetail } from '../models/olympics';
 
 // gets the last table element within DOM
 export const extractTable = (element: JSDOM) =>
@@ -226,5 +226,3 @@ export const readSportsTable = (season: string, sourceTable: HTMLTableElement) =
 
 	return sportsData;
 };
-
-// gamesData table: year, season, host, countries

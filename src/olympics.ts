@@ -1,8 +1,5 @@
-import got from 'got';
 import { JSDOM } from 'jsdom';
 
-import Wikipedia from './wikipedia/index.js';
-import { DataTable } from './dataTable.js';
 import {
 	CountryAttendanceRow,
 	CountryDetail,
@@ -12,13 +9,14 @@ import {
 	SportEventsRow,
 	YearDetail,
 } from './models/olympics.js';
-import { WikipediaParse } from './models/wikipedia';
-import {
+import { DataTable } from './dataTable.js';
+
+import Wikipedia, {
 	extractTable,
 	readCountryTable,
 	readMedalsTable,
 	readSportsTable,
-} from './parseWikipedia.js';
+} from './wikipedia/index.js';
 
 const summerCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2';
@@ -64,13 +62,7 @@ export class Olympics {
 				medals: medalsUrl,
 				summerSports: summerSportsUrl,
 				winterSports: winterSportsUrl,
-			}).map(([key, url]) =>
-				got
-					.get(url)
-					.json()
-					.then(data => (data as WikipediaParse).parse.text)
-					.then(val => [key, val])
-			)
+			}).map(([key, url]) => Wikipedia.getPageHtml(url).then(val => [key, val]))
 		).then(data =>
 			data.reduce(
 				(acc, [key, data]) => ({ ...acc, [key as string]: data }),

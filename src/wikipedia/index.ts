@@ -53,4 +53,5 @@ abstract class Wikipedia {
 	};
 }
 
+export * from './tableReader.js';
 export default Wikipedia;
