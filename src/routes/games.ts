@@ -20,19 +20,14 @@ router.get('/', (req, res) =>
 );
 
 // /games/:year/season/:season
-router.get('/:year([0-9]{4})/season/:season(winter|summer)', (req, res) => {
-	const attendance = olympics.countryAttendance.where({
-		year: parseInt(req.params.year),
-		season: req.params.season as OlympicsSeason,
-	});
+router.get('/:year([0-9]{4})/season/:season(winter|summer)', async (req, res) => {
+	const gamesDetailsPromise = olympics.getGamesDetail(
+		parseInt(req.params.year),
+		req.params.season as OlympicsSeason
+	);
 
 	// add 404 when year DNE
-	res.json({
-		year: req.params.year,
-		season: req.params.season,
-		host: attendance.table.find(({ host }) => host)?.code,
-		countries: attendance.distinct(['code']).code.sort(),
-	});
+	gamesDetailsPromise.then(gamesDetails => res.json(gamesDetails));
 });
 
 export default router;

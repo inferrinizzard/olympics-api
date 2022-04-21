@@ -1,6 +1,7 @@
 import got from 'got';
 import { JSDOM } from 'jsdom';
 
+import Wikipedia from './wikipedia/index.js';
 import { DataTable } from './dataTable.js';
 import {
 	CountryAttendanceRow,
@@ -167,5 +168,25 @@ export class Olympics {
 				)
 			)
 		);
+	}
+
+	async getGamesDetail(year: number, season: OlympicsSeason) {
+		const attendance = this.countryAttendance.where({ year, season });
+		const countries = attendance.distinct(['code']).code.sort();
+
+		const gamesPageUrl = Wikipedia.getPageUrl(
+			`${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics`
+		);
+
+		const gamesDetailsPromise = Wikipedia.getPageHtml(gamesPageUrl)
+			.then(Wikipedia.getInfobox)
+			.then(Wikipedia.readGamesInfobox);
+
+		return gamesDetailsPromise.then(gamesDetails => ({
+			year,
+			season,
+			...gamesDetails,
+			countries,
+		}));
 	}
 }
