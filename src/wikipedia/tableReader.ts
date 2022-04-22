@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import { CountryDetail } from '../models/olympics';
+import { CountryDetail, OlympicsSeason } from '../models/olympics';
 
 // gets the last table element within DOM
 export const extractTable = (element: JSDOM) =>
@@ -225,4 +225,130 @@ export const readSportsTable = (season: string, sourceTable: HTMLTableElement) =
 	}
 
 	return sportsData;
+};
+
+export interface EventTableData {
+	sport: string;
+	discipline: string;
+	event: string;
+	sex: string;
+	medal: 'GOLD' | 'SILVER' | 'BRONZE';
+	winner: string | string[];
+}
+
+export const readEventWinners = (document: Document): EventTableData[] => {
+	const baseElement = document.querySelector('div.mw-parser-output')!;
+
+	let outputTable: EventTableData[] = [];
+
+	let currentSport = '';
+	let currentDiscipline = '';
+	let currentSex = '';
+	// iterate through all html children
+	for (let el = 0; el < baseElement.children.length; el++) {
+		const element = baseElement.children[el];
+
+		// for each new sport header
+		if (element.tagName === 'H2') {
+			// console.log(currentSport, currentDiscipline);
+			currentSport = element.querySelector('span.mw-headline')!.textContent!.trim();
+			currentDiscipline = '';
+			currentSex = '';
+		}
+		// either sport discipline or sex
+		if (element.tagName === 'H3' || element.tagName === 'H4') {
+			if (element.textContent!.match(/men's|mixed/i)) {
+				currentSex = element.textContent!.match(/[A-z]+(?!=')/)![0].toUpperCase();
+			} else {
+				currentDiscipline = element.querySelector('span.mw-headline')!.textContent!;
+			}
+		}
+
+		// process each table with previous header
+		if (element.tagName === 'TABLE' && element.className.includes('wikitable')) {
+			const table = element as HTMLTableElement;
+			const header = table.rows[0] as HTMLTableRowElement;
+
+			// handling for wider columns
+			const colWidth: Record<string, number> = {
+				gold: +(header.cells[1].getAttribute('colspan') ?? 1),
+				silver: +(header.cells[2].getAttribute('colspan') ?? 1),
+				bronze: +(header.cells[3].getAttribute('colspan') ?? 1),
+			};
+			const medalLookup: string[] = [
+				'EVENT',
+				...new Array(colWidth.gold).fill('GOLD'),
+				...new Array(colWidth.silver).fill('SILVER'),
+				...new Array(colWidth.bronze).fill('BRONZE'),
+			];
+
+			for (let rowIndex = 1, rowHeight = 1; rowIndex < table.rows.length; rowIndex += rowHeight) {
+				const row = table.rows[rowIndex] as HTMLTableRowElement;
+				// for multiple medal winners per medal type
+				rowHeight = +(row.cells[0].getAttribute('rowspan') ?? 1);
+
+				let event = row.cells[0].textContent!.trim().replace(/details$/, '');
+				// if sex is encoded in event name
+				if (event.match(/men's|mixed/i)) {
+					// extract men|women|mixed
+					currentSex = event.match(/[A-z]+(?!=')/)![0].toUpperCase();
+					event = event.replace(/women's|men's|mixed/i, '').trim();
+					if (event.length === 0) {
+						event = currentSport;
+					}
+					event = event[0].toUpperCase() + event.slice(1).toLowerCase();
+				}
+
+				let winners: Record<string, string[]> = {
+					GOLD: [],
+					SILVER: [],
+					BRONZE: [],
+				};
+
+				for (
+					let cellIndex = 1, nextRowIndex = 0;
+					cellIndex < row.cells.length;
+					cellIndex += colWidth[medalLookup[cellIndex].toLowerCase()]
+				) {
+					const cellHeight = +(row.cells[cellIndex].getAttribute('rowspan') ?? 1);
+
+					let countries: string[] = [];
+					const flags = row.cells[cellIndex].querySelectorAll('img');
+					if (flags) {
+						countries = [...flags].map(flag => flag.nextElementSibling!.textContent!.trim());
+					}
+
+					// iterate through any multiple medal winners, reading successive rows
+					if (cellHeight < rowHeight) {
+						for (let winnerCount = 0; winnerCount < rowHeight - cellHeight; winnerCount++) {
+							const nextCell = table.rows[rowIndex + winnerCount + 1].cells[nextRowIndex];
+							const flag = nextCell.querySelector('img');
+							countries.push(flag!.nextElementSibling!.textContent!.trim());
+						}
+						nextRowIndex++; // index for next row
+					}
+
+					// add winners to list if found
+					if (flags) {
+						winners[medalLookup[cellIndex]] = countries;
+					}
+				}
+
+				Object.entries(winners).forEach(
+					([medal, countries]) =>
+						countries.length &&
+						outputTable.push({
+							sport: currentSport,
+							discipline: currentDiscipline,
+							event,
+							sex: currentSex,
+							medal: medal as EventTableData['medal'],
+							winner: countries.length > 1 ? countries : countries[0],
+						})
+				);
+			}
+		}
+	}
+
+	return outputTable;
 };

@@ -14,6 +14,7 @@ import { DataTable } from './dataTable.js';
 import Wikipedia, {
 	extractTable,
 	readCountryTable,
+	readEventWinners,
 	readMedalsTable,
 	readSportsTable,
 } from './wikipedia/index.js';
@@ -73,6 +74,7 @@ export class Olympics {
 		this.loadCountryData();
 		this.loadMedalsData();
 		this.loadSportsData();
+		this.loadEventWinnersData();
 
 		return this;
 	}
@@ -162,10 +164,20 @@ export class Olympics {
 		);
 	}
 
+	async loadEventWinnersData() {
+		const gamesPageUrl = Wikipedia.getPageUrl(`List_of_${2020}_${'Summer'}_Olympics_medal_winners`);
+		const promise = await Wikipedia.getPageHtml(gamesPageUrl);
+
+		const dom = new JSDOM(promise);
+
+		return readEventWinners(dom.window.document);
+	}
+
 	async getGamesDetail(year: number, season: OlympicsSeason) {
 		const attendance = this.countryAttendance.where({ year, season });
 		const countries = attendance.distinct(['code']).code.sort();
 
+		// YYYY_Season_Olympics
 		const gamesPageUrl = Wikipedia.getPageUrl(
 			`${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics`
 		);
