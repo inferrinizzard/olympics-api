@@ -20,10 +20,16 @@ export interface CountryAttendanceRow extends Record<string, any> {
 }
 
 export interface MedalsDetail {
-	gold: number;
-	silver: number;
-	bronze: number;
+	[MedalType.GOLD]: number;
+	[MedalType.SILVER]: number;
+	[MedalType.BRONZE]: number;
 	total: number;
+}
+
+export enum MedalType {
+	GOLD = 'gold',
+	SILVER = 'silver',
+	BRONZE = 'bronze',
 }
 
 export interface MedalsTotalRow extends Record<string, any> {
@@ -41,14 +47,21 @@ export interface SportDetail {
 	icon: string;
 }
 
-export interface SportEventsRow {
+export interface SportEventsRow extends Record<string, any> {
 	sport: string;
-	// event: string; // event|demonstration
+	event: string; // event|demonstration
 	year: number;
+	sex: EventSex;
 	season: OlympicsSeason;
-	// gold: string;
-	// silver: string;
-	// bronze: string;
+	gold: string | string[];
+	silver: string | string[];
+	bronze: string | string[];
+}
+
+export enum EventSex {
+	MEN = 'men',
+	WOMEN = 'women',
+	MIXED = 'mixed',
 }
 
 export enum OlympicsSeason {

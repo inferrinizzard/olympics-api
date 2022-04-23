@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import { CountryDetail, OlympicsSeason } from '../models/olympics';
+import { CountryDetail, EventSex, MedalType } from '../models/olympics';
 
 // gets the last table element within DOM
 export const extractTable = (element: JSDOM) =>
@@ -227,13 +227,14 @@ export const readSportsTable = (season: string, sourceTable: HTMLTableElement) =
 	return sportsData;
 };
 
-export interface EventTableData {
+interface EventTableData {
 	sport: string;
 	discipline: string;
 	event: string;
-	sex: string;
-	medal: 'GOLD' | 'SILVER' | 'BRONZE';
-	winner: string | string[];
+	sex: EventSex;
+	gold: string[];
+	silver: string[];
+	bronze: string[];
 }
 
 export const readEventWinners = (document: Document): EventTableData[] => {
@@ -277,9 +278,9 @@ export const readEventWinners = (document: Document): EventTableData[] => {
 			};
 			const medalLookup: string[] = [
 				'EVENT',
-				...new Array(colWidth.gold).fill('GOLD'),
-				...new Array(colWidth.silver).fill('SILVER'),
-				...new Array(colWidth.bronze).fill('BRONZE'),
+				...new Array(colWidth.gold).fill('gold'),
+				...new Array(colWidth.silver).fill('silver'),
+				...new Array(colWidth.bronze).fill('bronze'),
 			];
 
 			for (let rowIndex = 1, rowHeight = 1; rowIndex < table.rows.length; rowIndex += rowHeight) {
@@ -299,10 +300,10 @@ export const readEventWinners = (document: Document): EventTableData[] => {
 					event = event[0].toUpperCase() + event.slice(1).toLowerCase();
 				}
 
-				let winners: Record<string, string[]> = {
-					GOLD: [],
-					SILVER: [],
-					BRONZE: [],
+				let winners: Pick<EventTableData, 'gold' | 'silver' | 'bronze'> = {
+					gold: [],
+					silver: [],
+					bronze: [],
 				};
 
 				for (
@@ -330,22 +331,17 @@ export const readEventWinners = (document: Document): EventTableData[] => {
 
 					// add winners to list if found
 					if (flags) {
-						winners[medalLookup[cellIndex]] = countries;
+						winners[medalLookup[cellIndex] as keyof typeof winners] = countries;
 					}
 				}
 
-				Object.entries(winners).forEach(
-					([medal, countries]) =>
-						countries.length &&
-						outputTable.push({
-							sport: currentSport,
-							discipline: currentDiscipline,
-							event,
-							sex: currentSex,
-							medal: medal as EventTableData['medal'],
-							winner: countries.length > 1 ? countries : countries[0],
-						})
-				);
+				outputTable.push({
+					sport: currentSport,
+					discipline: currentDiscipline,
+					event,
+					sex: currentSex as EventSex,
+					...winners,
+				});
 			}
 		}
 	}
