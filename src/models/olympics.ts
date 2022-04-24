@@ -1,8 +1,13 @@
-export interface YearDetail {
-	countries: Set<string>;
+export interface GameDetail {
+	year: number;
+	season: OlympicsSeason;
+	title: string;
+	image: string;
 	host: string;
-	cities: string[];
-	sports: string[];
+	numAthletes: number;
+	start: string;
+	end: string;
+	countries: string[];
 }
 
 export interface CountryDetail {

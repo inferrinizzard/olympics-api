@@ -6,6 +6,15 @@ import { WikipediaParse } from '../models/wikipedia';
 const pageUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=WIKIPEDIA_PAGE&prop=text&disabletoc=1&formatversion=2';
 
+export interface GamesInfoboxData {
+	title: string;
+	image: string;
+	host: string;
+	numAthletes: number;
+	start: string;
+	end: string;
+}
+
 abstract class Wikipedia {
 	public static getPageUrl = (page: string): string => pageUrl.replace('WIKIPEDIA_PAGE', page);
 
@@ -21,8 +30,8 @@ abstract class Wikipedia {
 		return infobox as HTMLTableElement;
 	};
 
-	public static readGamesInfobox = (infobox: HTMLTableElement) => {
-		const title = infobox.querySelector('caption')?.textContent;
+	public static readGamesInfobox = (infobox: HTMLTableElement): GamesInfoboxData => {
+		const title = infobox.querySelector('caption')?.textContent ?? '';
 		const image = infobox
 			.querySelector('img')
 			?.getAttribute('src')
@@ -49,7 +58,7 @@ abstract class Wikipedia {
 			});
 		}
 
-		return gamesData;
+		return gamesData as any as GamesInfoboxData;
 	};
 }
 

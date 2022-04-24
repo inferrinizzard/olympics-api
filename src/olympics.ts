@@ -7,7 +7,7 @@ import {
 	OlympicsSeason,
 	SportDetail,
 	SportEventsRow,
-	YearDetail,
+	GameDetail,
 } from './models/olympics.js';
 import { DataTable } from './dataTable.js';
 
@@ -50,7 +50,7 @@ export class Olympics {
 
 	medalsTotals: DataTable<MedalsTotalRow> = new DataTable<MedalsTotalRow>();
 
-	gamesDetail: Record<string, YearDetail> = {};
+	gamesDetail: Record<string, GameDetail> = {};
 
 	sportsDetail: Record<string, SportDetail> = {};
 	sportsEvents: DataTable<SportEventsRow> = new DataTable<SportEventsRow>();
@@ -72,9 +72,10 @@ export class Olympics {
 		);
 
 		this.loadCountryData();
+		await this.loadGamesData();
 		this.loadMedalsData();
 		this.loadSportsData();
-		this.loadEventWinnersData();
+		await this.loadEventWinnersData();
 
 		return this;
 	}
@@ -109,6 +110,44 @@ export class Olympics {
 					})
 				)
 			)
+		);
+	}
+
+	async getGamesDetail(year: number, season: OlympicsSeason): Promise<GameDetail> {
+		const attendance = this.countryAttendance.where({ year, season });
+		const countries = attendance.distinct(['code']).code.sort();
+
+		// YYYY_Season_Olympics
+		const gamesPageUrl = Wikipedia.getPageUrl(
+			`${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics`
+		);
+
+		const gamesDetailsPromise = Wikipedia.getPageHtml(gamesPageUrl)
+			.then(Wikipedia.getInfobox)
+			.then(Wikipedia.readGamesInfobox);
+
+		return gamesDetailsPromise.then(gamesDetails => ({
+			year,
+			season,
+			...gamesDetails,
+			countries,
+		}));
+	}
+
+	private async loadGamesData() {
+		const rawYearSeason = this.countryAttendance.select(['year', 'season']);
+		const gamesList = [
+			...new Set(rawYearSeason.year.map((year, i) => [year, rawYearSeason.season[i]].toString())),
+		];
+
+		const gamesDetail = await Promise.all(
+			gamesList
+				.map(game => game.split(','))
+				.map(([year, season]) => this.getGamesDetail(parseInt(year), season as OlympicsSeason))
+		);
+		this.gamesDetail = gamesDetail.reduce(
+			(acc, cur) => ({ ...acc, [[cur.year, cur.season].toString()]: cur }),
+			{}
 		);
 	}
 
@@ -223,26 +262,5 @@ export class Olympics {
 		});
 
 		this.sportsEvents.insertRows(eventData);
-	}
-
-	async getGamesDetail(year: number, season: OlympicsSeason) {
-		const attendance = this.countryAttendance.where({ year, season });
-		const countries = attendance.distinct(['code']).code.sort();
-
-		// YYYY_Season_Olympics
-		const gamesPageUrl = Wikipedia.getPageUrl(
-			`${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics`
-		);
-
-		const gamesDetailsPromise = Wikipedia.getPageHtml(gamesPageUrl)
-			.then(Wikipedia.getInfobox)
-			.then(Wikipedia.readGamesInfobox);
-
-		return gamesDetailsPromise.then(gamesDetails => ({
-			year,
-			season,
-			...gamesDetails,
-			countries,
-		}));
 	}
 }
