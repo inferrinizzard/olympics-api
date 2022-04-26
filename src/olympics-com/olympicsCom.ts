@@ -6,6 +6,14 @@ import { DataTable } from '../dataTable.js';
 const baseUrl = 'https://olympics.com/en/olympic-games/';
 const startUrl = baseUrl + 'olympic-results';
 
+const get = (url: string) => got.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+const sleep = (ms: number) => new Promise(res => setTimeout(res, ms));
+
+const chunk = (arr: any[], size: number) =>
+	new Array(Math.ceil(arr.length / size))
+		.fill(0)
+		.map((_, i) => arr.slice(i * size, (i + 1) * size));
+
 interface EventWinnersRow {
 	game: string;
 	sport: string;
@@ -24,15 +32,26 @@ class OlympicsCom {
 	async init() {
 		await this.getGamesList();
 		await this.getEvents();
-		// Object.entries(this.gamesSports).forEach(([game, sports]) =>
-		// 	Promise.all(sports.map(sport => this.getEventsResults(game, sport))).then(allResults =>
-		// 		allResults.forEach(results => this.gamesEventWinners.insertRows(results))
-		// 	)
-		// );
+
+		console.log(this.games.length);
+
+		console.time('get events');
+		for (let [game, sports] of Object.entries(this.gamesSports)) {
+			for (let sportChunk of chunk(sports, 10)) {
+				await sleep(500);
+				await Promise.all(sportChunk.map(sport => this.getEventsResults(game, sport))).then(
+					chunkResults =>
+						chunkResults.forEach(results => this.gamesEventWinners.insertRows(results))
+				);
+			}
+		}
+		console.timeEnd('get events');
+
+		console.log(this.gamesEventWinners.table.length);
 	}
 
 	private async getGamesList() {
-		const startBody = await got.get(startUrl).then(page => page.body);
+		const startBody = await get(startUrl).then(page => page.body);
 		const startDom = new JSDOM(startBody);
 		const games = new Set(
 			[...startDom.window.document.querySelectorAll('button[data-cy]')].map(
@@ -48,7 +67,7 @@ class OlympicsCom {
 
 		// collect all http requests for all games
 		const resultsPages = await Promise.all(
-			this.games.map(game => got.get(eventsBaseUrl + game).then(page => [game, page.body]))
+			this.games.map(game => get(eventsBaseUrl + game).then(page => [game, page.body]))
 		);
 
 		resultsPages.forEach(([game, body]) => {
@@ -71,7 +90,7 @@ class OlympicsCom {
 	private async getEventsResults(game: string, sport: string) {
 		const url = `${baseUrl}${game}/results/${sport}`;
 
-		const body = await got.get(url).then(page => page.body);
+		const body = await get(url).then(page => page.body);
 		const document = new JSDOM(body).window.document;
 
 		const resultRows = document.querySelectorAll('section.event-row[data-row-id^=award-row]');
