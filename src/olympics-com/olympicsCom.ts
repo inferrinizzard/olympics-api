@@ -1,5 +1,6 @@
 import got from 'got';
 import { JSDOM } from 'jsdom';
+import { readFileSync } from 'fs';
 
 import { DataTable } from '../dataTable.js';
 
@@ -28,6 +29,10 @@ class OlympicsCom {
 	gamesSports: Record<string, string[]> = {};
 
 	gamesEventWinners: DataTable<EventWinnersRow> = new DataTable();
+
+	private sportsCodeJson: { code: string; name: string }[] = JSON.parse(
+		readFileSync('src/olympics-com/sportsCode.json', 'utf8')
+	);
 
 	async init() {
 		await this.getGamesList();
@@ -120,6 +125,9 @@ class OlympicsCom {
 			return {
 				game,
 				sport,
+				code: this.sportsCodeJson.find(s =>
+					new RegExp(`^${sport}$|${sport}\sSport`, 'i').test(s.name)
+				)!.code,
 				event: eventName,
 				...medalTypes.reduce(
 					(acc, medal, i) => ({ ...acc, [medal]: (acc[medal] ?? []).concat([winners[i]]) }),
