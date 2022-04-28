@@ -1,3 +1,5 @@
+export type GamesKey = GamesKeyLookup['key'];
+
 export interface GamesKeyLookup {
 	key: string;
 	year: number;
@@ -25,8 +27,7 @@ export interface CountryDetail {
 export interface CountryAttendanceRow extends Record<string, any> {
 	name: string;
 	code: string;
-	year: number;
-	season: OlympicsSeason;
+	game: GamesKey;
 	host: boolean;
 }
 
@@ -59,11 +60,10 @@ export interface SportDetail {
 }
 
 export interface SportEventsRow extends Record<string, any> {
+	game: GamesKey;
 	sport: string;
 	event: string; // event|demonstration
-	year: number;
 	sex: EventSex;
-	season: OlympicsSeason;
 	gold: string | string[];
 	silver: string | string[];
 	bronze: string | string[];

@@ -18,6 +18,7 @@ const chunk = (arr: any[], size: number) =>
 interface EventWinnersRow {
 	game: string;
 	sport: string;
+	code: string;
 	event: string;
 	gold?: string[];
 	silver?: string[];

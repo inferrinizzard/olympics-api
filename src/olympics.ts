@@ -9,6 +9,7 @@ import {
 	SportEventsRow,
 	GameDetail,
 	GamesKeyLookup,
+	GamesKey,
 } from './models/olympics.js';
 import { DataTable } from './dataTable.js';
 
@@ -74,15 +75,14 @@ export class Olympics {
 			)
 		);
 
-		// this.loadCountryData();
-		// await this.loadGamesData();
-		// this.loadMedalsData();
-		// this.loadSportsData();
+		await this.fetchGamesLookup();
+		this.loadCountryData();
+		await this.loadGamesData();
+		this.loadMedalsData();
+		this.loadSportsData();
 		// await this.loadEventWinnersData();
 
-		// new OlympicsCom().init();
-
-		await this.fetchGamesLookup();
+		// await new OlympicsCom().init();
 
 		return this;
 	}
@@ -107,20 +107,19 @@ export class Olympics {
 			[OlympicsSeason.WINTER]: winterTableData,
 		}).forEach(([season, tableData]) =>
 			tableData.forEach(([code, { name, attended, hosted }]) =>
-				attended.forEach(year =>
-					this.countryAttendance.insert({
+				this.countryAttendance.insertRows(
+					attended.map(year => ({
 						name,
 						code,
-						year,
-						season: season as OlympicsSeason,
+						game: this.getGamesKey(year, season as OlympicsSeason),
 						host: hosted.includes(year),
-					})
+					}))
 				)
 			)
 		);
 	}
 
-	async getGamesDetail(year: number, season: OlympicsSeason): Promise<GameDetail> {
+	private async getGamesDetail(year: number, season: OlympicsSeason): Promise<GameDetail> {
 		const attendance = this.countryAttendance.where({ year, season });
 		const countries = attendance.distinct(['code']).code.sort();
 
@@ -142,18 +141,12 @@ export class Olympics {
 	}
 
 	private async loadGamesData() {
-		const rawYearSeason = this.countryAttendance.select(['year', 'season']);
-		const gamesList = [
-			...new Set(rawYearSeason.year.map((year, i) => [year, rawYearSeason.season[i]].toString())),
-		];
-
 		const gamesDetail = await Promise.all(
-			gamesList
-				.map(game => game.split(','))
-				.map(([year, season]) => this.getGamesDetail(parseInt(year), season as OlympicsSeason))
+			Object.values(this.gamesLookup).map(({ year, season }) => this.getGamesDetail(year, season))
 		);
+
 		this.gamesDetail = gamesDetail.reduce(
-			(acc, cur) => ({ ...acc, [[cur.year, cur.season].toString()]: cur }),
+			(acc, cur) => ({ ...acc, [this.getGamesKey(cur.year, cur.season)]: cur }),
 			{}
 		);
 	}
@@ -226,6 +219,7 @@ export class Olympics {
 			};
 		});
 
+		// [YYYY, season]: {year: YYYY, season: string, key: host-YYYY}
 		this.gamesLookup = games.reduce(
 			(acc, cur) => ({ ...acc, [[cur.year, cur.season].toString()]: cur }),
 			{}
@@ -301,8 +295,7 @@ export class Olympics {
 			return {
 				sport,
 				event: event.event,
-				year,
-				season,
+				game: this.getGamesKey(year, season as OlympicsSeason),
 				sex: event.sex,
 				gold: winners.gold.length === 1 ? winners.gold[0] : winners.gold,
 				silver: winners.silver.length === 1 ? winners.silver[0] : winners.silver,
