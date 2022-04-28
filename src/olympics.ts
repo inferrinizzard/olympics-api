@@ -8,6 +8,7 @@ import {
 	SportDetail,
 	SportEventsRow,
 	GameDetail,
+	GamesKeyLookup,
 } from './models/olympics.js';
 import { DataTable } from './dataTable.js';
 
@@ -18,6 +19,7 @@ import Wikipedia, {
 	readMedalsTable,
 	readSportsTable,
 } from './wikipedia/index.js';
+import OlympicsCom from './olympics-com/index.js';
 
 const summerCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2';
@@ -51,6 +53,7 @@ export class Olympics {
 	medalsTotals: DataTable<MedalsTotalRow> = new DataTable<MedalsTotalRow>();
 
 	gamesDetail: Record<string, GameDetail> = {};
+	gamesLookup: Record<string, GamesKeyLookup> = {};
 
 	sportsDetail: Record<string, SportDetail> = {};
 	sportsEvents: DataTable<SportEventsRow> = new DataTable<SportEventsRow>();
@@ -71,11 +74,15 @@ export class Olympics {
 			)
 		);
 
-		this.loadCountryData();
-		await this.loadGamesData();
-		this.loadMedalsData();
-		this.loadSportsData();
-		await this.loadEventWinnersData();
+		// this.loadCountryData();
+		// await this.loadGamesData();
+		// this.loadMedalsData();
+		// this.loadSportsData();
+		// await this.loadEventWinnersData();
+
+		// new OlympicsCom().init();
+
+		await this.fetchGamesLookup();
 
 		return this;
 	}
@@ -185,6 +192,48 @@ export class Olympics {
 			.concat(winterSportsData)
 			.map(([code, { name, icon }]) => ({ code, name, icon }))
 			.reduce((acc, cur) => ({ ...acc, [cur.code]: cur }), {});
+	}
+
+	private async fetchGamesLookup() {
+		const url =
+			'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Template%3AOlympic_Games&prop=text&disabletoc=1&formatversion=2';
+		const response = await Wikipedia.getPageHtml(url);
+
+		const document = new JSDOM(response).window.document;
+
+		const gamesElements = [
+			...document.querySelectorAll('ul > li > a[href^="/wiki/"][href$="Olympics"]'),
+		].filter(el => el.textContent?.match(/^[0-9]{4}/));
+		const games = gamesElements.map(el => {
+			const text = el.textContent!;
+			const year = parseInt(text.slice(0, 4));
+			const host = text.slice(4).trim();
+
+			const title = el.getAttribute('title')!;
+			const season = title.split(' ')[1].trim().toLowerCase();
+
+			return {
+				// text,
+				// title,
+				year,
+				season,
+				key:
+					text.length > 5
+						? host.match(/rio/i) // rio is the only exception to this pattern
+							? 'rio-2016'
+							: host.replace(/[\s']/g, '-').replace(/\./g, '').toLowerCase() + '-' + year
+						: '',
+			};
+		});
+
+		this.gamesLookup = games.reduce(
+			(acc, cur) => ({ ...acc, [[cur.year, cur.season].toString()]: cur }),
+			{}
+		);
+	}
+
+	getGamesKey(year: number, season: OlympicsSeason): string {
+		return this.gamesLookup[[year, season].toString()].key;
 	}
 
 	async loadEventWinnersData() {

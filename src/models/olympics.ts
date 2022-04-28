@@ -1,3 +1,9 @@
+export interface GamesKeyLookup {
+	key: string;
+	year: number;
+	season: OlympicsSeason;
+}
+
 export interface GameDetail {
 	year: number;
 	season: OlympicsSeason;
