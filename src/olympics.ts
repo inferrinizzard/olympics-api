@@ -1,7 +1,7 @@
-import got from 'got';
 import { JSDOM } from 'jsdom';
 
-import { DataTable } from './dataTable.js';
+import { readFileSync } from 'fs';
+
 import {
 	CountryAttendanceRow,
 	CountryDetail,
@@ -9,15 +9,20 @@ import {
 	OlympicsSeason,
 	SportDetail,
 	SportEventsRow,
-	YearDetail,
+	GameDetail,
+	GamesKeyLookup,
+	GamesKey,
 } from './models/olympics.js';
-import { WikipediaParse } from './models/wikipedia';
-import {
+import { DataTable } from './dataTable.js';
+
+import Wikipedia, {
 	extractTable,
 	readCountryTable,
+	readEventWinners,
 	readMedalsTable,
 	readSportsTable,
-} from './parseWikipedia.js';
+} from './wikipedia/index.js';
+import OlympicsCom from './olympics-com/index.js';
 
 const summerCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2';
@@ -45,12 +50,15 @@ export class Olympics {
 	private summerSportsTable!: HTMLTableElement;
 	private winterSportsTable!: HTMLTableElement;
 
+	private olympicsCom!: OlympicsCom;
+
 	countryDetail: Record<string, CountryDetail> = {};
 	countryAttendance: DataTable<CountryAttendanceRow> = new DataTable<CountryAttendanceRow>();
 
 	medalsTotals: DataTable<MedalsTotalRow> = new DataTable<MedalsTotalRow>();
 
-	gamesDetail: Record<string, YearDetail> = {};
+	gamesDetail: Record<string, GameDetail> = {};
+	gamesLookup: Record<string, GamesKeyLookup> = {};
 
 	sportsDetail: Record<string, SportDetail> = {};
 	sportsEvents: DataTable<SportEventsRow> = new DataTable<SportEventsRow>();
@@ -63,13 +71,7 @@ export class Olympics {
 				medals: medalsUrl,
 				summerSports: summerSportsUrl,
 				winterSports: winterSportsUrl,
-			}).map(([key, url]) =>
-				got
-					.get(url)
-					.json()
-					.then(data => (data as WikipediaParse).parse.text)
-					.then(val => [key, val])
-			)
+			}).map(([key, url]) => Wikipedia.getPageHtml(url).then(val => [key, val]))
 		).then(data =>
 			data.reduce(
 				(acc, [key, data]) => ({ ...acc, [key as string]: data }),
@@ -77,9 +79,23 @@ export class Olympics {
 			)
 		);
 
+		this.olympicsCom = new OlympicsCom();
+		// const fetchSportEventsPromise = this.olympicsCom.init();
+
+		await this.fetchGamesLookup();
 		this.loadCountryData();
+		await this.loadGamesData();
 		this.loadMedalsData();
-		this.loadSportsData();
+		this.loadSportsData(); // load this after events
+
+		// await fetchSportEventsPromise;
+		// this.loadEventWinnersData();
+
+		const eventTableJson = JSON.parse(
+			readFileSync('src/olympics-com/gamesEventWinners.json', 'utf8')
+		);
+
+		this.sportsEvents.insertRows(eventTableJson);
 
 		return this;
 	}
@@ -104,16 +120,47 @@ export class Olympics {
 			[OlympicsSeason.WINTER]: winterTableData,
 		}).forEach(([season, tableData]) =>
 			tableData.forEach(([code, { name, attended, hosted }]) =>
-				attended.forEach(year =>
-					this.countryAttendance.insert({
+				this.countryAttendance.insertRows(
+					attended.map(year => ({
 						name,
 						code,
-						year,
-						season: season as OlympicsSeason,
+						game: this.getGamesKey(year, season as OlympicsSeason),
 						host: hosted.includes(year),
-					})
+					}))
 				)
 			)
+		);
+	}
+
+	private async getGamesDetail(year: number, season: OlympicsSeason): Promise<GameDetail> {
+		const attendance = this.countryAttendance.where({ year, season });
+		const countries = attendance.distinct(['code']).code.sort();
+
+		// YYYY_Season_Olympics
+		const gamesPageUrl = Wikipedia.getPageUrl(
+			`${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics`
+		);
+
+		const gamesDetailsPromise = Wikipedia.getPageHtml(gamesPageUrl)
+			.then(Wikipedia.getInfobox)
+			.then(Wikipedia.readGamesInfobox);
+
+		return gamesDetailsPromise.then(gamesDetails => ({
+			year,
+			season,
+			...gamesDetails,
+			countries,
+		}));
+	}
+
+	private async loadGamesData() {
+		const gamesDetail = await Promise.all(
+			Object.values(this.gamesLookup).map(({ year, season }) => this.getGamesDetail(year, season))
+		);
+
+		this.gamesDetail = gamesDetail.reduce(
+			(acc, cur) => ({ ...acc, [this.getGamesKey(cur.year, cur.season)]: cur }),
+			{}
 		);
 	}
 
@@ -151,21 +198,52 @@ export class Olympics {
 			.concat(winterSportsData)
 			.map(([code, { name, icon }]) => ({ code, name, icon }))
 			.reduce((acc, cur) => ({ ...acc, [cur.code]: cur }), {});
+	}
 
-		// insert row for each sport x year x season
-		Object.entries({
-			[OlympicsSeason.SUMMER]: summerSportsData,
-			[OlympicsSeason.WINTER]: winterSportsData,
-		}).forEach(([season, tableData]) =>
-			tableData.forEach(([code, { years }]) =>
-				Object.keys(years).forEach(year =>
-					this.sportsEvents.insert({
-						sport: code,
-						year: parseInt(year),
-						season: season as OlympicsSeason,
-					})
-				)
-			)
+	private async fetchGamesLookup() {
+		const url =
+			'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Template%3AOlympic_Games&prop=text&disabletoc=1&formatversion=2';
+		const response = await Wikipedia.getPageHtml(url);
+
+		const document = new JSDOM(response).window.document;
+
+		const gamesElements = [
+			...document.querySelectorAll('ul > li > a[href^="/wiki/"][href$="Olympics"]'),
+		].filter(el => el.textContent?.match(/^[0-9]{4}/));
+		const games = gamesElements.map(el => {
+			const text = el.textContent!;
+			const year = parseInt(text.slice(0, 4));
+			const host = text.slice(4).trim();
+
+			const title = el.getAttribute('title')!;
+			const season = title.split(' ')[1].trim().toLowerCase();
+
+			return {
+				// text,
+				// title,
+				year,
+				season,
+				key:
+					text.length > 5
+						? host.match(/rio/i) // rio is the only exception to this pattern
+							? 'rio-2016'
+							: host.replace(/[\s']/g, '-').replace(/\./g, '').toLowerCase() + '-' + year
+						: '',
+			};
+		});
+
+		// [YYYY, season]: {year: YYYY, season: string, key: host-YYYY}
+		this.gamesLookup = games.reduce(
+			(acc, cur) => ({ ...acc, [[cur.year, cur.season].toString()]: cur }),
+			{}
 		);
+	}
+
+	getGamesKey(year: number, season: OlympicsSeason): string {
+		return this.gamesLookup[[year, season].toString()].key;
+	}
+
+	private loadEventWinnersData() {
+		const eventWinners = this.olympicsCom.gamesEventWinners;
 	}
 }
