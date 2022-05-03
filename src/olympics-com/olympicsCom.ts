@@ -32,16 +32,14 @@ class OlympicsCom {
 	gamesEventWinners: DataTable<EventWinnersRow> = new DataTable();
 
 	private sportsCodeJson: { code: string; name: string }[] = JSON.parse(
-		readFileSync('src/olympics-com/sportsCode.json', 'utf8')
+		readFileSync('src/olympics-com/sportCodes.json', 'utf8')
 	);
 
 	async init() {
 		await this.getGamesList();
 		await this.getEvents();
 
-		console.log(this.games.length);
-
-		console.time('get events');
+		// console.time('get events');
 		for (let [game, sports] of Object.entries(this.gamesSports)) {
 			for (let sportChunk of chunk(sports, 10)) {
 				await sleep(500);
@@ -51,9 +49,7 @@ class OlympicsCom {
 				);
 			}
 		}
-		console.timeEnd('get events');
-
-		console.log(this.gamesEventWinners.table.length);
+		// console.timeEnd('get events');
 	}
 
 	private async getGamesList() {
@@ -127,8 +123,10 @@ class OlympicsCom {
 				game,
 				sport,
 				code: this.sportsCodeJson.find(s =>
-					new RegExp(`^${sport}$|${sport}\sSport`, 'i').test(s.name)
-				)!.code,
+					new RegExp(`^${sport}$|${sport}\sSport|${sport.replace('-', 's')}`, 'i').test(
+						s.name.replace('-', 's')
+					)
+				)?.code,
 				event: eventName,
 				...medalTypes.reduce(
 					(acc, medal, i) => ({ ...acc, [medal]: (acc[medal] ?? []).concat([winners[i]]) }),

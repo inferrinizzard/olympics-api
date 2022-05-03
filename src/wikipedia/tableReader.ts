@@ -211,9 +211,10 @@ export const readSportsTable = (season: string, sourceTable: HTMLTableElement) =
 
 			if (presentMarker === '•') {
 				demonstration.push(year);
-			} else if (!isNaN(parseInt(presentMarker!))) {
-				sportYears[year] = parseInt(presentMarker!);
 			}
+			//  else if (!isNaN(parseInt(presentMarker!))) {
+			// 	sportYears[year] = parseInt(presentMarker!);
+			// }
 		}
 		sportsData[sportCode] = {
 			name: sportName,

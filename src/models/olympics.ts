@@ -63,7 +63,6 @@ export interface SportEventsRow extends Record<string, any> {
 	game: GamesKey;
 	sport: string;
 	event: string; // event|demonstration
-	sex: EventSex;
 	gold: string | string[];
 	silver: string | string[];
 	bronze: string | string[];

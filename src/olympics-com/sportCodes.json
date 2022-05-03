@@ -8,7 +8,7 @@
 	{ "name": "Basketball Sport", "code": "BSK" },
 	{ "name": "Cycling BMX Freestyle", "code": "BMF" },
 	{ "name": "Cycling BMX Racing", "code": "BMX" },
-	{ "name": "Boxing Basketball", "code": "BOX" },
+	{ "name": "Boxing", "code": "BOX" },
 	{ "name": "Baseball/Softball", "code": "BSB" },
 	{ "name": "Canoe Sport", "code": "CAS" },
 	{ "name": "Sport Climbing", "code": "CLB" },
@@ -54,6 +54,7 @@
 	{ "name": "Weightlifting", "code": "WLF" },
 	{ "name": "Water Polo", "code": "WPO" },
 	{ "name": "Wrestling", "code": "WRE" },
+
 	{ "name": "Alpine Skiing", "code": "ALP" },
 	{ "name": "Bobsleigh", "code": "BOB" },
 	{ "name": "IBSF events", "code": "BSN" },
@@ -71,6 +72,8 @@
 	{ "name": "Skiing", "code": "SKI" },
 	{ "name": "Skeleton", "code": "SKN" },
 	{ "name": "Skating", "code": "SKT" },
+	{ "name": "Speed Skating", "code": "SSK" },
+	{ "name": "Short Track Speed Skating", "code": "STK" },
 
 	{ "name": "Football 5-a-side", "code": "FB5" },
 	{ "name": "Football 7-a-side", "code": "FB7" },

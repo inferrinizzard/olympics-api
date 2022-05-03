@@ -48,6 +48,8 @@ export class Olympics {
 	private summerSportsTable!: HTMLTableElement;
 	private winterSportsTable!: HTMLTableElement;
 
+	private olympicsCom!: OlympicsCom;
+
 	countryDetail: Record<string, CountryDetail> = {};
 	countryAttendance: DataTable<CountryAttendanceRow> = new DataTable<CountryAttendanceRow>();
 
@@ -75,14 +77,17 @@ export class Olympics {
 			)
 		);
 
+		this.olympicsCom = new OlympicsCom();
+		// const fetchSportEventsPromise = this.olympicsCom.init();
+
 		await this.fetchGamesLookup();
 		this.loadCountryData();
 		await this.loadGamesData();
 		this.loadMedalsData();
-		this.loadSportsData();
-		// await this.loadEventWinnersData();
+		this.loadSportsData(); // load this after events
 
-		// await new OlympicsCom().init();
+		// await fetchSportEventsPromise;
+		// this.loadEventWinnersData();
 
 		return this;
 	}
@@ -230,79 +235,7 @@ export class Olympics {
 		return this.gamesLookup[[year, season].toString()].key;
 	}
 
-	async loadEventWinnersData() {
-		const year = 2020;
-		const season: OlympicsSeason = OlympicsSeason.SUMMER;
-
-		let promise;
-		try {
-			const gamesPageUrl = Wikipedia.getPageUrl(
-				`List_of_${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics_medal_winners`
-			);
-			promise = await Wikipedia.getPageHtml(gamesPageUrl);
-		} catch {
-			return;
-		}
-
-		const dom = new JSDOM(promise);
-
-		let sportsLookup: Record<string, string> = {};
-		let countryLookup: Record<string, string> = {};
-		const eventTableData = readEventWinners(dom.window.document);
-		const eventData = eventTableData.map(event => {
-			// find sportCode from sportsDetail
-			let lookupKey = event.sport + event.discipline;
-			let sport = '';
-			if (lookupKey in sportsLookup) {
-				sport = sportsLookup[lookupKey];
-			} else {
-				try {
-					sport = Object.values(this.sportsDetail).find(
-						sport =>
-							new RegExp(event.discipline, 'i').test(sport.name) ||
-							new RegExp(event.discipline.split(' ')[0], 'i').test(sport.name) ||
-							new RegExp(event.sport, 'i').test(sport.name)
-					)!.code;
-				} catch {
-					console.log(event.discipline, event.sport);
-				}
-				sportsLookup[lookupKey] = sport;
-			}
-
-			// find countryCode from countryDetail
-			const winners = Object.entries({
-				gold: event.gold,
-				silver: event.silver,
-				bronze: event.bronze,
-			}).reduce(
-				(acc, [medal, countries]) => ({
-					...acc,
-					[medal]: countries.map(country => {
-						if (country in countryLookup) {
-							return countryLookup[country];
-						} else {
-							const countryCode = Object.values(this.countryDetail).find(detail =>
-								new RegExp(country, 'i').test(detail.name)
-							)!.code;
-							countryLookup[country] = countryCode;
-							return countryCode;
-						}
-					}),
-				}),
-				{} as Pick<SportEventsRow, 'gold' | 'silver' | 'bronze'>
-			);
-
-			return {
-				sport,
-				event: event.event,
-				game: this.getGamesKey(year, season as OlympicsSeason),
-				sex: event.sex,
-				gold: winners.gold.length === 1 ? winners.gold[0] : winners.gold,
-				silver: winners.silver.length === 1 ? winners.silver[0] : winners.silver,
-				bronze: winners.bronze.length === 1 ? winners.bronze[0] : winners.bronze,
-			};
-		});
-
-		this.sportsEvents.insertRows(eventData);
+	private loadEventWinnersData() {
+		const eventWinners = this.olympicsCom.gamesEventWinners;
 	}
 }
