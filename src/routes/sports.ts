@@ -17,4 +17,11 @@ router.get('/:sport([A-Z0-9]{3})', (req, res) => {
 	}
 });
 
+// /sports/:sport/events/:gamesKey
+router.get('/:sport([A-Z0-9]{3})/events/:game', (req, res) => {
+	const events = olympics.sportsEvents.where({ code: req.params.sport, game: req.params.game });
+
+	res.json(events.table);
+});
+
 export default router;

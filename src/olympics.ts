@@ -1,5 +1,7 @@
 import { JSDOM } from 'jsdom';
 
+import { readFileSync } from 'fs';
+
 import {
 	CountryAttendanceRow,
 	CountryDetail,
@@ -88,6 +90,12 @@ export class Olympics {
 
 		// await fetchSportEventsPromise;
 		// this.loadEventWinnersData();
+
+		const eventTableJson = JSON.parse(
+			readFileSync('src/olympics-com/gamesEventWinners.json', 'utf8')
+		);
+
+		this.sportsEvents.insertRows(eventTableJson);
 
 		return this;
 	}
