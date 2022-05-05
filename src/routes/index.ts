@@ -5,6 +5,7 @@ import countriesRouter from './countries.js';
 import gamesRouter from './games.js';
 import medalsRouter from './medals.js';
 import sportsRouter from './sports.js';
+import imagesRouter from './images.js';
 
 export const olympics = await new Olympics().init();
 
@@ -16,5 +17,6 @@ router.use('/countries', countriesRouter);
 router.use('/games', gamesRouter);
 router.use('/medals', medalsRouter);
 router.use('/sports', sportsRouter);
+router.use('/images', imagesRouter);
 
 export default router;
