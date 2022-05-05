@@ -133,7 +133,7 @@ export class Olympics {
 	}
 
 	private async getGamesDetail(year: number, season: OlympicsSeason): Promise<GameDetail> {
-		const attendance = this.countryAttendance.where({ year, season });
+		const attendance = this.countryAttendance.where({ game: this.getGamesKey(year, season) });
 		const countries = attendance.distinct(['code']).code.sort();
 
 		// YYYY_Season_Olympics
