@@ -1,7 +1,5 @@
 import dotenv from 'dotenv';
-import pg from 'pg';
-
-const { Pool } = pg;
+import pgPromise from 'pg-promise';
 
 dotenv.config();
 
@@ -10,7 +8,8 @@ const isProduction = env.NODE_ENV === 'production';
 
 const connectionString = `postgresql://${env.DB_USER}:${env.DB_PASSWORD}@${env.DB_HOST}:${env.DB_PORT}/${env.DB_DATABASE}`;
 
-export const db = new Pool({
+export const pgp = pgPromise({ capSQL: true });
+export const db = pgp({
 	connectionString: isProduction ? env.DATABASE_URL : connectionString,
 	ssl: isProduction,
 });
