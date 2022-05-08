@@ -3,10 +3,20 @@ import express, { json } from 'express';
 import { olympics } from './index.js';
 import { OlympicsSeason } from '../models/olympics.js';
 
+import { db } from '../db.js';
+
 const router = express.Router();
 
+const gamesDetailTable = 'games_detail';
+
 // /games
-router.get('/', (req, res) => res.json(Object.keys(olympics.gamesDetail)));
+router.get('/', (req, res) =>
+	db
+		.any(`SELECT DISTINCT game FROM ${gamesDetailTable} ORDER BY game;`)
+		.then(rows => res.json(rows.map(row => row.game)))
+		.catch(err => res.status(500).json(err))
+);
+// res.json(Object.keys(olympics.gamesDetail)));
 
 // /games/:gamesKey
 router.get('/:gamesKey', async (req, res) => {

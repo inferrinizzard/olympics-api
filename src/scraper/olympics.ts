@@ -1,6 +1,8 @@
 import { JSDOM } from 'jsdom';
 
-import { readFileSync } from 'fs';
+import { pgp, db } from '../db.js';
+
+import { readFileSync, writeFileSync } from 'fs';
 
 import {
 	CountryAttendanceRow,
@@ -92,7 +94,7 @@ export class Olympics {
 		// this.loadEventWinnersData();
 
 		const eventTableJson = JSON.parse(
-			readFileSync('src/olympics-com/gamesEventWinners.json', 'utf8')
+			readFileSync('src/scraper/olympics-com/gamesEventWinners.json', 'utf8')
 		);
 
 		this.sportsEvents.insertRows(eventTableJson);
@@ -162,6 +164,46 @@ export class Olympics {
 			(acc, cur) => ({ ...acc, [this.getGamesKey(cur.year, cur.season)]: cur }),
 			{}
 		);
+
+		// const gamesDetailTable = gamesDetail
+		// 	.map(gameRow => {
+		// 		const {
+		// 			year,
+		// 			season,
+		// 			title,
+		// 			image: emblem,
+		// 			host,
+		// 			numAthletes: num_athletes,
+		// 			start: start_date,
+		// 			end: end_date,
+		// 			...gameDetails
+		// 		} = gameRow;
+
+		// 		return {
+		// 			game: this.getGamesKey(gameRow.year, gameRow.season),
+		// 			year,
+		// 			season,
+		// 			title,
+		// 			emblem,
+		// 			host,
+		// 			num_athletes: parseInt((num_athletes ?? 0).toString().replace(',', '')),
+		// 			start_date: start_date ?? '',
+		// 			end_date: end_date ?? '',
+		// 		};
+		// 	})
+		// 	.filter(gameRow => gameRow.game);
+
+		// const columnSet = new pgp.helpers.ColumnSet(Object.keys(gamesDetailTable[0]), {
+		// 	table: new pgp.helpers.TableName({ schema: 'public', table: 'games_detail' }),
+		// });
+
+		// const query = pgp.helpers.insert(gamesDetailTable, columnSet);
+
+		// // console.log(columnSet);
+
+		// db.none(query)
+		// 	.then(() => console.log('games_detail loaded'))
+		// 	.catch(console.error);
 	}
 
 	private loadMedalsData() {

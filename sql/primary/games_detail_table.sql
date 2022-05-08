@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS games_detail (
-    game            VARCHAR(20) PRIMARY KEY,
+    game            VARCHAR(30) PRIMARY KEY,
     year            INT NOT NULL,
     season          VARCHAR(6) NOT NULL,
-    title           VARCHAR(20) NOT NULL,
+    title           VARCHAR(30) NOT NULL,
     emblem          TEXT NOT NULL,
     host            VARCHAR(100) NOT NULL,
     num_athletes    INT NOT NULL,
