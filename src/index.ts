@@ -2,7 +2,11 @@ import express from 'express';
 
 import routes from './routes/index.js';
 
+import { initDatabase } from './database/index.js';
+
 const port = process.env.PORT || 3000;
+
+await initDatabase();
 
 const app = express();
 
