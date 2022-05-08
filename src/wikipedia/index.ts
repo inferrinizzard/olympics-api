@@ -37,7 +37,7 @@ abstract class Wikipedia {
 			?.getAttribute('src')
 			?.replace(/^[/]{2}/, 'https://');
 
-		let gamesData = { title, emblem: image };
+		let gamesData = { title, image };
 		const infoKeys = {
 			host: { key: 'host', pattern: '.*' },
 			athletes: { key: 'numAthletes', pattern: '^([0-9]|(?:,))+' },
@@ -58,7 +58,7 @@ abstract class Wikipedia {
 			});
 		}
 
-		return gamesData as any as GamesInfoboxData;
+		return gamesData as GamesInfoboxData;
 	};
 }
 
