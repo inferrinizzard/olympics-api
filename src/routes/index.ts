@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { Olympics } from '../olympics.js';
+import { Olympics } from '../scraper/olympics.js';
 import countriesRouter from './countries.js';
 import gamesRouter from './games.js';
 import medalsRouter from './medals.js';

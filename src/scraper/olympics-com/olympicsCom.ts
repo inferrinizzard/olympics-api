@@ -2,7 +2,7 @@ import got from 'got';
 import { JSDOM } from 'jsdom';
 import { readFileSync } from 'fs';
 
-import { DataTable } from '../dataTable.js';
+import { DataTable } from '../../dataTable.js';
 
 const baseUrl = 'https://olympics.com/en/olympic-games/';
 const startUrl = baseUrl + 'olympic-results';

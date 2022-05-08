@@ -12,8 +12,8 @@ import {
 	GameDetail,
 	GamesKeyLookup,
 	GamesKey,
-} from './models/olympics.js';
-import { DataTable } from './dataTable.js';
+} from '../models/olympics.js';
+import { DataTable } from '../dataTable.js';
 
 import Wikipedia, {
 	extractTable,

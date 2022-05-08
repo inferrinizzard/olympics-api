@@ -1,7 +1,7 @@
 import got from 'got';
 import { JSDOM } from 'jsdom';
 
-import { WikipediaParse } from '../models/wikipedia';
+import { WikipediaParse } from '../../models/wikipedia';
 
 const pageUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=WIKIPEDIA_PAGE&prop=text&disabletoc=1&formatversion=2';
