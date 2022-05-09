@@ -1,31 +1,43 @@
 import express from 'express';
 
-import { olympics } from './index.js';
+import { db } from '../db.js';
 
 const router = express.Router();
 
+const medalTotalsTable = 'medal_totals';
+
 // /medals
 router.get('/', (req, res) =>
-	res.json(
-		olympics.medalsTotals.where({ season: 'total' }).table.map(({ season, ...rest }) => rest)
-	)
+	db
+		.any(
+			`
+			SELECT
+				country,
+				SUM(gold) AS gold,
+				SUM(silver) AS silver,
+				SUM(bronze) AS bronze,
+				SUM(total) AS total
+			FROM ${medalTotalsTable}
+			GROUP BY country
+			ORDER BY country;
+			`
+		)
+		.then(rows =>
+			res.json(rows.reduce((acc, { country, ...row }) => ({ ...acc, [country]: row }), {}))
+		)
+		.catch(err => res.status(500).json(err))
 );
 
 // /medals/countries/:country
-router.get('/countries/:country([A-Z]{3})', (req, res) => {
-	const countryCode = req.params.country;
-	const countryMedals = olympics.medalsTotals.where({ country: countryCode });
-
-	if (countryMedals.table.length === 0) {
-		res.status(404).send(`Country ${countryCode} not found`);
-	} else {
-		res.json(
-			countryMedals.table.reduce(
-				(acc, { season, country, ...rest }) => ({ ...acc, [season!]: rest }),
-				{}
-			)
-		);
-	}
-});
+router.get('/countries/:country([A-Z]{3})', (req, res) =>
+	db
+		.any(`SELECT * FROM ${medalTotalsTable} WHERE country = ${req.params.country};`)
+		.then(rows =>
+			rows.length
+				? res.json(rows.reduce((acc, { season, ...row }) => ({ ...acc, [season]: row }), {}))
+				: res.status(404).json(`Country ${req.params.country} not found`)
+		)
+		.catch(err => res.status(500).json(err))
+);
 
 export default router;

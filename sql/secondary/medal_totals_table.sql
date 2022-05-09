@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS medal_totals (
 
 COMMENT ON TABLE medal_totals IS 'Table containing the number of medals per country and season';
 COMMENT ON COLUMN medal_totals.country IS 'Country Code';
-COMMENT ON COLUMN medal_totals.season IS 'Type of games (summer|winter|total)';
+COMMENT ON COLUMN medal_totals.season IS 'Type of games (summer|winter)';
 COMMENT ON COLUMN medal_totals.gold IS 'Number of gold medals';
 COMMENT ON COLUMN medal_totals.silver IS 'Number of silver medals';
 COMMENT ON COLUMN medal_totals.bronze IS 'Number of bronze medals';
