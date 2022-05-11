@@ -32,7 +32,7 @@ class OlympicsCom {
 	gamesEventWinners: DataTable<EventWinnersRow> = new DataTable();
 
 	private sportsCodeJson: { code: string; name: string }[] = JSON.parse(
-		readFileSync('src/olympics-com/sportCodes.json', 'utf8')
+		readFileSync('src/scraper/olympics-com/sportCodes.json', 'utf8')
 	);
 
 	async init() {

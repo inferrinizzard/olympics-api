@@ -3,6 +3,12 @@ import { JSDOM } from 'jsdom';
 
 import { WikipediaParse } from '../../models/wikipedia';
 
+// gets the last table element within DOM
+export const extractTable = (element: JSDOM) =>
+	[...element.window.document.body.firstElementChild?.children!]
+		.reverse()
+		.find(element => element.tagName.toLowerCase() === 'table')! as HTMLTableElement;
+
 const pageUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=WIKIPEDIA_PAGE&prop=text&disabletoc=1&formatversion=2';
 
@@ -15,7 +21,7 @@ export interface GamesInfoboxData {
 	end: string;
 }
 
-abstract class Wikipedia {
+export abstract class Wikipedia {
 	public static getPageUrl = (page: string): string => pageUrl.replace('WIKIPEDIA_PAGE', page);
 
 	public static getPageHtml = (url: string) =>
