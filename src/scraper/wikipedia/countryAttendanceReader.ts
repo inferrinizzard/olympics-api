@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import Wikipedia, { extractTable } from './index.js';
+import Wikipedia from './index.js';
 
 const summerCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2';
@@ -75,10 +75,10 @@ const readCountryTable = (sourceTable: HTMLTableElement) => {
 
 export const readCountryAttendance = async () => {
 	// read DOM from parsed HTML request
-	const summerCountriesTable = extractTable(
+	const summerCountriesTable = Wikipedia.extractTable(
 		new JSDOM(await Wikipedia.getPageHtml(summerCountriesUrl))
 	);
-	const winterCountriesTable = extractTable(
+	const winterCountriesTable = Wikipedia.extractTable(
 		new JSDOM(await Wikipedia.getPageHtml(winterCountriesUrl))
 	);
 
@@ -88,8 +88,7 @@ export const readCountryAttendance = async () => {
 	const winterTableData = Object.entries(readCountryTable(winterCountriesTable));
 
 	summerTableData.forEach(
-		([country, attended]) =>
-			(countryAttendance[country] = attended.map(year => year)) // lookup gamesKey
+		([country, attended]) => (countryAttendance[country] = attended.map(year => year)) // lookup gamesKey
 	);
 	winterTableData.forEach(([country, attended]) =>
 		(countryAttendance[country] = countryAttendance[country] ?? []).concat(

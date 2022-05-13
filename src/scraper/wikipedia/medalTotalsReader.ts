@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import Wikipedia, { extractTable } from './index.js';
+import Wikipedia from './index.js';
 
 import type { MedalTotalsRow } from '../types/olympics.js';
 
@@ -8,7 +8,9 @@ const medalTotalsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=All-time_Olympic_Games_medal_table&prop=text&section=1&formatversion=2';
 
 export const readMedalTotals = async () => {
-	const medalTotalsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(medalTotalsUrl)));
+	const medalTotalsTable = Wikipedia.extractTable(
+		new JSDOM(await Wikipedia.getPageHtml(medalTotalsUrl))
+	);
 
 	const readCell = (cell: HTMLTableCellElement) => parseInt(cell.textContent!.replace(',', ''));
 

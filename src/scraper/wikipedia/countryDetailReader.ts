@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import { extractTable, Wikipedia } from './index.js';
+import Wikipedia from './index.js';
 
 import type { CountryDetailRow } from '../types/olympics.js';
 
@@ -12,11 +12,11 @@ const historicCountriesUrl =
 export const readCountryDetail = async () => {
 	// get html section from wikipedia api, extract table element
 	const currentCountries = new JSDOM(await Wikipedia.getPageHtml(currentCountriesUrl));
-	const currentCountriesTable = extractTable(currentCountries);
+	const currentCountriesTable = Wikipedia.extractTable(currentCountries);
 
 	// get html section from wikipedia api, extract table element
 	const historicCountries = new JSDOM(await Wikipedia.getPageHtml(historicCountriesUrl));
-	const historicCountriesTable = extractTable(historicCountries);
+	const historicCountriesTable = Wikipedia.extractTable(historicCountries);
 
 	let countryDetail: CountryDetailRow[] = [];
 	// iterate through all valid rows (has flag) and extract country code, name, and flag

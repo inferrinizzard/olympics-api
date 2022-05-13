@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import Wikipedia, { extractTable } from './index.js';
+import Wikipedia from './index.js';
 
 import type { SportDetailRow } from '../types/olympics.js';
 
@@ -32,8 +32,12 @@ const readSportsTable = (sourceTable: HTMLTableElement) => {
 
 export const readSportsDetail = async () => {
 	// read DOM from parsed HTML request
-	const summerSportsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(summerSportsUrl)));
-	const winterSportsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(winterSportsUrl)));
+	const summerSportsTable = Wikipedia.extractTable(
+		new JSDOM(await Wikipedia.getPageHtml(summerSportsUrl))
+	);
+	const winterSportsTable = Wikipedia.extractTable(
+		new JSDOM(await Wikipedia.getPageHtml(winterSportsUrl))
+	);
 	// extract table data
 	const summerSportsData = readSportsTable(summerSportsTable);
 	const winterSportsData = readSportsTable(winterSportsTable);
