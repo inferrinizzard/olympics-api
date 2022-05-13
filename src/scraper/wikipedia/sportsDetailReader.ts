@@ -30,7 +30,7 @@ const readSportsTable = (sourceTable: HTMLTableElement) => {
 	return sportsData;
 };
 
-export const readSports = async () => {
+export const readSportsDetail = async () => {
 	// read DOM from parsed HTML request
 	const summerSportsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(summerSportsUrl)));
 	const winterSportsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(winterSportsUrl)));

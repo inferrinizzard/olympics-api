@@ -9,7 +9,7 @@ const currentCountriesUrl =
 const historicCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_IOC_country_codes&prop=text&section=5&disabletoc=1&formatversion=2';
 
-export const readCountries = async () => {
+export const readCountryDetail = async () => {
 	// get html section from wikipedia api, extract table element
 	const currentCountries = new JSDOM(await Wikipedia.getPageHtml(currentCountriesUrl));
 	const currentCountriesTable = extractTable(currentCountries);
