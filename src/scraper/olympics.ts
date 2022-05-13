@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import OlympicsCom from './olympics-com/index.js';
 import Wikipedia from './wikipedia/index.js';
 
-import { GamesKeyLookup } from '../models/olympics.js';
+import { GamesKey, GamesKeyLookup } from './types';
 import {
 	CountryDetailRow,
 	CountryMedalRow,
@@ -37,18 +37,18 @@ export class Olympics {
 	sportsEvents = [];
 
 	async init() {
-		await this.fetchGamesLookup();
-		this.countryDetail = await readCountryDetail();
-		this.gamesDetail = await readGamesDetail(this.gamesLookup);
-		this.sportsDetail = await readSportsDetail();
+		// await this.fetchGamesLookup();
+		// this.countryDetail = await readCountryDetail();
+		// this.gamesDetail = await readGamesDetail(this.gamesLookup);
+		// this.sportsDetail = await readSportsDetail();
 
-		let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
-			this.getCountryCode,
-			this.getGamesKey
-		);
-		const countryAttendance = await readCountryAttendance(this.getGamesKey); // swap this to key on gamesKey
+		// let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
+		// 	this.getCountryCode,
+		// 	this.getGamesKey
+		// );
+		// const countryAttendance = await readCountryAttendance(this.getGamesKey); // swap this to key on gamesKey
 
-		this.medalsTotals = await readMedalTotals();
+		// this.medalsTotals = await readMedalTotals();
 
 		return this;
 	}

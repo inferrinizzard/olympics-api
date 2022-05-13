@@ -2,7 +2,7 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia from './index.js';
 
-import { CountryMedalRow } from '../types/database.js';
+import { CountryMedalRow } from '../types';
 
 const medalsPagesTemplateUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Template%3AOlympic_Games_medal_table&prop=text&disabletoc=1&formatversion=2';

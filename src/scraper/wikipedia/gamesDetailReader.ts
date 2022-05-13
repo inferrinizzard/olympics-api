@@ -2,8 +2,7 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia from './index.js';
 
-import { GamesKeyLookup } from '../../models/olympics.js';
-import type { GamesDetailRow } from '../types/database.js';
+import type { GamesKeyLookup, GamesDetailRow } from '../types';
 
 const getInfobox = (html: string) => {
 	const dom = new JSDOM(html);
@@ -47,26 +46,26 @@ const readGamesInfobox = (infobox: HTMLTableElement): GamesInfoboxData => {
 export const readGamesDetail = async (gamesLookup: Record<string, GamesKeyLookup>) => {
 	return await Promise.all(
 		Object.entries(gamesLookup)
-			.map(([key, { key: val }]) => [JSON.parse(key), val])
-			.map(([[year, season], gamesKey]) => {
+			.map(
+				([key, { key: val }]) =>
+					[key.replaceAll(/[\[\]]/, '').split(','), val] as [[string, string], string]
+			)
+			.map(async ([[year, season], gamesKey]) => {
 				// YYYY_Season_Olympics
 				const gamesPageUrl = Wikipedia.getPageUrl(
 					`${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics`
 				);
 
-				const gamesDetailsPromise = Wikipedia.getPageHtml(gamesPageUrl)
+				const gamesDetails = await Wikipedia.getPageHtml(gamesPageUrl)
 					.then(getInfobox)
 					.then(readGamesInfobox);
 
-				return gamesDetailsPromise.then(
-					gamesDetails =>
-						({
-							game: gamesKey,
-							year,
-							season,
-							...gamesDetails,
-						} as GamesDetailRow)
-				);
+				return {
+					game: gamesKey,
+					year: parseInt(year),
+					season,
+					...gamesDetails,
+				} as GamesDetailRow;
 			})
 	);
 };

@@ -2,7 +2,7 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia from './index.js';
 
-import type { CountryDetailRow } from '../types/database.js';
+import type { CountryDetailRow } from '../types';
 
 const currentCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_IOC_country_codes&prop=text&section=2&disabletoc=1&formatversion=2';
