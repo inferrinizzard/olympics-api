@@ -2,19 +2,15 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia, { extractTable } from './index.js';
 
+import type { SportDetailRow } from '../types/olympics.js';
+
 const summerSportsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Olympic_sports&prop=text&section=6&formatversion=2';
 const winterSportsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Olympic_sports&prop=text&section=10&formatversion=2';
 
-interface SportsTableData {
-	code: string;
-	name: string;
-	icon: string;
-}
-
-const readSportsTable = (season: string, sourceTable: HTMLTableElement) => {
-	let sportsData: SportsTableData[] = [];
+const readSportsTable = (sourceTable: HTMLTableElement) => {
+	let sportsData: SportDetailRow[] = [];
 
 	for (let i = 0; i < sourceTable.rows.length; i++) {
 		const row = sourceTable.rows[i] as HTMLTableRowElement;
@@ -26,7 +22,7 @@ const readSportsTable = (season: string, sourceTable: HTMLTableElement) => {
 
 		sportsData.push({
 			name: sportName,
-			code: sportCode,
+			sport: sportCode,
 			icon: sportIcon,
 		});
 	}
@@ -34,13 +30,13 @@ const readSportsTable = (season: string, sourceTable: HTMLTableElement) => {
 	return sportsData;
 };
 
-export const loadSportsData = async () => {
+export const readSports = async () => {
 	// read DOM from parsed HTML request
 	const summerSportsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(summerSportsUrl)));
 	const winterSportsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(winterSportsUrl)));
 	// extract table data
-	const summerSportsData = readSportsTable('summer', summerSportsTable);
-	const winterSportsData = readSportsTable('winter', winterSportsTable);
+	const summerSportsData = readSportsTable(summerSportsTable);
+	const winterSportsData = readSportsTable(winterSportsTable);
 
 	return [...summerSportsData, ...winterSportsData].filter(
 		({ code }, i, self) => self.findIndex(({ code: c }) => c === code) === i // dedupe by finding first instance of sportCode

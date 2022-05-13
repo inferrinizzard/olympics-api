@@ -18,7 +18,7 @@ export const readCountries = async () => {
 	const historicCountries = new JSDOM(await Wikipedia.getPageHtml(historicCountriesUrl));
 	const historicCountriesTable = extractTable(historicCountries);
 
-	let countryDetail = {} as Record<string, CountryDetailRow>;
+	let countryDetail: CountryDetailRow[] = [];
 	// iterate through all valid rows (has flag) and extract country code, name, and flag
 	for (const row of [...currentCountriesTable.rows, ...historicCountriesTable.rows]) {
 		if (!row.cells[1].getElementsByTagName('img').length) continue;
@@ -30,11 +30,11 @@ export const readCountries = async () => {
 			.getAttribute('src')!
 			.replace(/^[/]{2}/, 'https://');
 
-		countryDetail[countryCode] = {
+		countryDetail.push({
 			country: countryCode,
 			name: countryName,
 			flag,
-		};
+		});
 	}
 
 	return countryDetail;

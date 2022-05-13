@@ -2,23 +2,17 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia, { extractTable } from './index.js';
 
+import type { MedalTotalsRow } from '../types/olympics.js';
+
 const medalTotalsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=All-time_Olympic_Games_medal_table&prop=text&section=1&formatversion=2';
-
-interface MedalData {
-	gold: number;
-	silver: number;
-	bronze: number;
-	total: number;
-}
-type MedalTableData = Record<'summer' | 'winter' | 'total', MedalData>;
 
 export const readMedalTotals = async () => {
 	const medalTotalsTable = extractTable(new JSDOM(await Wikipedia.getPageHtml(medalTotalsUrl)));
 
 	const readCell = (cell: HTMLTableCellElement) => parseInt(cell.textContent!.replace(',', ''));
 
-	let medalsData: Record<string, MedalTableData> = {};
+	let medalsData: MedalTotalsRow[] = [];
 
 	for (let i = 2; i < medalTotalsTable.rows.length - 1; i++) {
 		const row = medalTotalsTable.rows[i] as HTMLTableRowElement;
@@ -35,26 +29,32 @@ export const readMedalTotals = async () => {
 		const totalSilver = readCell(row.cells[11]);
 		const totalBronze = readCell(row.cells[12]);
 
-		medalsData[countryCode] = {
-			summer: {
+		medalsData.concat([
+			{
+				country: countryCode,
+				season: 'summer',
 				gold: summerGold,
 				silver: summerSilver,
 				bronze: summerBronze,
 				total: summerGold + summerSilver + summerBronze,
 			},
-			winter: {
+			{
+				country: countryCode,
+				season: 'winter',
 				gold: winterGold,
 				silver: winterSilver,
 				bronze: winterBronze,
 				total: winterGold + winterSilver + winterBronze,
 			},
-			total: {
+			{
+				country: countryCode,
+				season: 'total',
 				gold: totalGold,
 				silver: totalSilver,
 				bronze: totalBronze,
 				total: totalGold + totalSilver + totalBronze,
 			},
-		};
+		]);
 	}
 
 	return medalsData;
