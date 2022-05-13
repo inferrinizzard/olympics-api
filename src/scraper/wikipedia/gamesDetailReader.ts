@@ -2,6 +2,7 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia from './index.js';
 
+import { GamesKeyLookup } from '../../models/olympics.js';
 import type { GamesDetailRow } from '../types/olympics.js';
 
 const getInfobox = (html: string) => {
@@ -43,10 +44,10 @@ const readGamesInfobox = (infobox: HTMLTableElement): GamesInfoboxData => {
 	return gamesData as GamesInfoboxData;
 };
 
-export const readGamesDetail = async (gamesLookup: Record<string, string>) => {
+export const readGamesDetail = async (gamesLookup: Record<string, GamesKeyLookup>) => {
 	return await Promise.all(
 		Object.entries(gamesLookup)
-			.map(([key, val]) => [JSON.parse(key), val])
+			.map(([key, { key: val }]) => [JSON.parse(key), val])
 			.map(([[year, season], gamesKey]) => {
 				// YYYY_Season_Olympics
 				const gamesPageUrl = Wikipedia.getPageUrl(
@@ -57,12 +58,15 @@ export const readGamesDetail = async (gamesLookup: Record<string, string>) => {
 					.then(getInfobox)
 					.then(readGamesInfobox);
 
-				return gamesDetailsPromise.then(gamesDetails => ({
-					game: gamesKey,
-					year,
-					season,
-					...gamesDetails,
-				}));
+				return gamesDetailsPromise.then(
+					gamesDetails =>
+						({
+							game: gamesKey,
+							year,
+							season,
+							...gamesDetails,
+						} as GamesDetailRow)
+				);
 			})
 	);
 };

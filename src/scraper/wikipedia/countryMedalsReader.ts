@@ -1,6 +1,7 @@
 import { JSDOM } from 'jsdom';
 
 import Wikipedia from './index.js';
+
 import { CountryMedalRow } from '../types/olympics.js';
 
 const medalsPagesTemplateUrl =
@@ -22,7 +23,10 @@ const getMedalsPages = async () => {
 	return medalsPages;
 };
 
-export const readCountryMedals = async () => {
+export const readCountryMedals = async (
+	countryCodeLookup: (name: string) => string,
+	gamesKeyLookup: (year: number, season: string) => string
+) => {
 	const medalsPages = await getMedalsPages();
 
 	let gameCountryMedals = {} as Record<string, Omit<CountryMedalRow, 'game'>[]>;
@@ -37,14 +41,17 @@ export const readCountryMedals = async () => {
 
 		const year = parseInt(title.split(' ')[0]);
 		const season = title.split(' ')[1].trim().toLowerCase();
+		const gamesKey = gamesKeyLookup(year, season);
 
 		let countryMedals: Omit<CountryMedalRow, 'game'>[] = [];
 
 		for (const row of medalTable.rows) {
 			if (!row.cells[1].querySelector('img')) continue;
-			const country = row.cells[1].textContent!.match(/[A-z\s]+(?=[[*(])|^[A-z\s]+$/)![0].trim();
-			// pass country into countryCode lookup
-			// const countryCode = get(code);
+
+			const countryName = row.cells[1]
+				.textContent!.match(/[A-z\s]+(?=[[*(])|^[A-z\s]+$/)![0]
+				.trim();
+			const country = countryCodeLookup(countryName);
 
 			const gold = parseInt(row.cells[2].textContent!);
 			const silver = parseInt(row.cells[3].textContent!);
@@ -54,7 +61,7 @@ export const readCountryMedals = async () => {
 			countryMedals.push({ country, gold, silver, bronze, total });
 		}
 
-		gameCountryMedals[[year, season].toString()] = countryMedals; // lookup gamesKey
+		gameCountryMedals[gamesKey] = countryMedals;
 	}
 
 	return gameCountryMedals;

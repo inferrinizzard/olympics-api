@@ -73,7 +73,9 @@ const readCountryTable = (sourceTable: HTMLTableElement) => {
 	return countryData;
 };
 
-export const readCountryAttendance = async () => {
+export const readCountryAttendance = async (
+	gamesKeyLookup: (year: number, season: string) => string
+) => {
 	// read DOM from parsed HTML request
 	const summerCountriesTable = Wikipedia.extractTable(
 		new JSDOM(await Wikipedia.getPageHtml(summerCountriesUrl))
@@ -88,11 +90,12 @@ export const readCountryAttendance = async () => {
 	const winterTableData = Object.entries(readCountryTable(winterCountriesTable));
 
 	summerTableData.forEach(
-		([country, attended]) => (countryAttendance[country] = attended.map(year => year)) // lookup gamesKey
+		([country, attended]) =>
+			(countryAttendance[country] = attended.map(year => gamesKeyLookup(parseInt(year), 'summer')))
 	);
 	winterTableData.forEach(([country, attended]) =>
 		(countryAttendance[country] = countryAttendance[country] ?? []).concat(
-			attended.map(year => year) // lookup gamesKey
+			attended.map(year => gamesKeyLookup(parseInt(year), 'winter'))
 		)
 	);
 

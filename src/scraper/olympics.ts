@@ -4,40 +4,54 @@ import { pgp, db } from '../db.js';
 
 import { readFileSync, writeFileSync } from 'fs';
 
-import {
-	CountryAttendanceRow,
-	CountryDetail,
-	MedalsTotalRow,
-	OlympicsSeason,
-	SportDetail,
-	SportEventsRow,
-	GameDetail,
-	GamesKeyLookup,
-} from '../models/olympics.js';
+import OlympicsCom from './olympics-com/index.js';
 import Wikipedia from './wikipedia/index.js';
 
-import { DataTable } from '../dataTable.js';
-
-import OlympicsCom from './olympics-com/index.js';
+import { GamesKeyLookup } from '../models/olympics.js';
+import {
+	CountryDetailRow,
+	CountryMedalRow,
+	GamesDetailRow,
+	MedalTotalsRow,
+	SportDetailRow,
+} from './types/olympics.js';
 
 import { readCountryDetail } from './wikipedia/countryDetailReader.js';
+import { readGamesDetail } from './wikipedia/gamesDetailReader.js';
+import { readSportsDetail } from './wikipedia/sportsDetailReader.js';
+import { readCountryAttendance } from './wikipedia/countryAttendanceReader.js';
 import { readCountryMedals } from './wikipedia/countryMedalsReader.js';
+import { readMedalTotals } from './wikipedia/medalTotalsReader.js';
 
 export class Olympics {
 	private olympicsCom!: OlympicsCom;
 
 	gamesLookup: Record<string, GamesKeyLookup> = {};
 
-	countryDetail: Record<string, CountryDetail> = {};
-	gamesDetail: Record<string, GameDetail> = {};
-	sportsDetail: Record<string, SportDetail> = {};
+	countryDetail: CountryDetailRow[] = [];
+	gamesDetail: GamesDetailRow[] = [];
+	sportsDetail: SportDetailRow[] = [];
 
-	countryAttendance: DataTable<CountryAttendanceRow> = new DataTable<CountryAttendanceRow>();
-	medalsTotals: DataTable<MedalsTotalRow> = new DataTable<MedalsTotalRow>();
-	sportsEvents: DataTable<SportEventsRow> = new DataTable<SportEventsRow>();
+	countryAttendance: CountryMedalRow[] = [];
+	medalsTotals: MedalTotalsRow[] = [];
+	sportsEvents = [];
 
 	async init() {
 		await this.fetchGamesLookup();
+		this.countryDetail = await readCountryDetail();
+		this.gamesDetail = await readGamesDetail(this.gamesLookup);
+		this.sportsDetail = await readSportsDetail();
+
+		let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
+			countryName =>
+				this.countryDetail.find(country => country.name.match(new RegExp(countryName, 'i')))!
+					.country,
+			this.getGamesKey
+		);
+		const countryAttendance = await readCountryAttendance(this.getGamesKey); // swap this to key on gamesKey
+
+		this.medalsTotals = await readMedalTotals();
+
 		return this;
 	}
 
@@ -80,7 +94,7 @@ export class Olympics {
 		);
 	}
 
-	getGamesKey(year: number, season: OlympicsSeason): string {
+	getGamesKey(year: number, season: string): string {
 		return this.gamesLookup[[year, season].toString()].key;
 	}
 }
