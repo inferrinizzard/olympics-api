@@ -14,7 +14,7 @@ import {
 	GamesDetailRow,
 	MedalTotalsRow,
 	SportDetailRow,
-} from './types/olympics.js';
+} from './types/database.js';
 
 import { readCountryDetail } from './wikipedia/countryDetailReader.js';
 import { readGamesDetail } from './wikipedia/gamesDetailReader.js';
@@ -43,9 +43,7 @@ export class Olympics {
 		this.sportsDetail = await readSportsDetail();
 
 		let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
-			countryName =>
-				this.countryDetail.find(country => country.name.match(new RegExp(countryName, 'i')))!
-					.country,
+			this.getCountryCode,
 			this.getGamesKey
 		);
 		const countryAttendance = await readCountryAttendance(this.getGamesKey); // swap this to key on gamesKey
@@ -96,5 +94,10 @@ export class Olympics {
 
 	getGamesKey(year: number, season: string): string {
 		return this.gamesLookup[[year, season].toString()].key;
+	}
+
+	getCountryCode(countryName: string): string {
+		return this.countryDetail.find(country => country.name.match(new RegExp(countryName, 'i')))!
+			.country;
 	}
 }

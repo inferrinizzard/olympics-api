@@ -2,7 +2,7 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia from './index.js';
 
-import type { MedalTotalsRow } from '../types/olympics.js';
+import type { MedalTotalsRow } from '../types/database.js';
 
 const medalTotalsUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=All-time_Olympic_Games_medal_table&prop=text&section=1&formatversion=2';

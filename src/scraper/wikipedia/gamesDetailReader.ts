@@ -3,7 +3,7 @@ import { JSDOM } from 'jsdom';
 import Wikipedia from './index.js';
 
 import { GamesKeyLookup } from '../../models/olympics.js';
-import type { GamesDetailRow } from '../types/olympics.js';
+import type { GamesDetailRow } from '../types/database.js';
 
 const getInfobox = (html: string) => {
 	const dom = new JSDOM(html);
