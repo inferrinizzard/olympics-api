@@ -31,12 +31,12 @@ const readCountryTable = (sourceTable: HTMLTableElement) => {
 		const row = sourceTable.rows[i] as HTMLTableRowElement;
 
 		const nameColumn = row.cells[0] as HTMLTableCellElement;
-		if (nameColumn.textContent?.trim().match(/^[A-Z]{1}$/)) {
-			continue; // skip if letter
-		}
-
 		// get NOC code
 		const countryCode = row.cells[1].textContent!.trim();
+
+		if (nameColumn.textContent?.trim().match(/^[A-Z]{1}$/) || !countryCode.match(/^[A-Z0-9]{3}$/)) {
+			continue; // skip if letter
+		}
 
 		let attended = [];
 		// iterate through cells and mark years present

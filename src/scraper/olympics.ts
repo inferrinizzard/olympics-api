@@ -40,8 +40,8 @@ export class Olympics {
 		await this.fetchGamesLookup();
 		this.countryDetail = await readCountryDetail();
 
-		// this.gamesDetail = await readGamesDetail(this.gamesLookup);
-		// this.sportsDetail = await readSportsDetail();
+		this.gamesDetail = await readGamesDetail(this.gamesLookup);
+		this.sportsDetail = await readSportsDetail();
 
 		let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
 			this.getCountryCode.bind(this),
@@ -49,7 +49,14 @@ export class Olympics {
 		);
 		const countryAttendance = await readCountryAttendance(this.getGamesKey.bind(this));
 
-		// this.medalsTotals = await readMedalTotals();
+		this.medalsTotals = await readMedalTotals();
+
+		// writeFileSync('./json/countryDetail.json', JSON.stringify(this.countryDetail, null, 2));
+		// writeFileSync('./json/gamesDetail.json', JSON.stringify(this.gamesDetail, null, 2));
+		// writeFileSync('./json/sportsDetail.json', JSON.stringify(this.sportsDetail, null, 2));
+		// writeFileSync('./json/countryMedals.json', JSON.stringify(countryMedals, null, 2));
+		// writeFileSync('./json/countryAttendance.json', JSON.stringify(countryAttendance, null, 2));
+		// writeFileSync('./json/medalsTotals.json', JSON.stringify(this.medalsTotals, null, 2));
 
 		return this;
 	}

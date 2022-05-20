@@ -31,7 +31,7 @@ export const readMedalTotals = async () => {
 		const totalSilver = readCell(row.cells[11]);
 		const totalBronze = readCell(row.cells[12]);
 
-		medalsData.concat([
+		medalsData = medalsData.concat([
 			{
 				country: countryCode,
 				season: 'summer',

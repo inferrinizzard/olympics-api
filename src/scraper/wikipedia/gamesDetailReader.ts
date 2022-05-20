@@ -48,7 +48,7 @@ export const readGamesDetail = async (gamesLookup: Record<string, GamesKeyLookup
 		Object.entries(gamesLookup)
 			.map(
 				([key, { key: val }]) =>
-					[key.replaceAll(/[\[\]]/, '').split(','), val] as [[string, string], string]
+					[key.replace(/[\[\]]/g, '').split(','), val] as [[string, string], string]
 			)
 			.map(async ([[year, season], gamesKey]) => {
 				// YYYY_Season_Olympics

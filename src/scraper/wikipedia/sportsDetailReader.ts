@@ -14,11 +14,15 @@ const readSportsTable = (sourceTable: HTMLTableElement) => {
 
 	for (let i = 0; i < sourceTable.rows.length; i++) {
 		const row = sourceTable.rows[i] as HTMLTableRowElement;
-		if (!row.cells[2].querySelector('img')) continue;
+		if (row.cells.length < 3 || !row.cells[2].querySelector('img')) {
+			continue;
+		}
 
 		const sportName = row.cells[0].textContent!.trim();
 		const sportCode = row.cells[1].textContent!.trim().replace('*', '');
-		const sportIcon = (row.cells[2].firstElementChild!.firstElementChild as HTMLImageElement).src;
+		const sportIcon = (
+			row.cells[2].firstElementChild!.firstElementChild as HTMLImageElement
+		).src.replace(/^[\/]{2}/, 'https://');
 
 		sportsData.push({
 			name: sportName,
@@ -42,7 +46,8 @@ export const readSportsDetail = async () => {
 	const summerSportsData = readSportsTable(summerSportsTable);
 	const winterSportsData = readSportsTable(winterSportsTable);
 
-	return [...summerSportsData, ...winterSportsData].filter(
-		({ code }, i, self) => self.findIndex(({ code: c }) => c === code) === i // dedupe by finding first instance of sportCode
+	return [...summerSportsData, ...winterSportsData].reduce(
+		(sports, cur) => (sports.find(sport => sport.sport === cur.sport) ? sports : [...sports, cur]),
+		[] as SportDetailRow[]
 	);
 };

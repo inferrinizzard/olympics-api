@@ -33,8 +33,10 @@ export const readCountryDetail = async () => {
 	]) {
 		if (!row.cells[1].getElementsByTagName('img').length) continue;
 
-		const countryCode = row.cells[0].textContent!.trim();
-		const countryName = row.cells[1].textContent!.trim();
+		const countryCode = row.cells[0].querySelector('span.monospaced')!.textContent!.trim();
+		const countryName =
+			row.cells[1].querySelector('a[href^="/wiki/"]')!.textContent!.trim() ||
+			row.cells[1]!.textContent!.trim();
 		const flag = row.cells[1]
 			.getElementsByTagName('img')[0]
 			.getAttribute('src')!
