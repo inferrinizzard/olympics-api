@@ -8,6 +8,8 @@ const currentCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_IOC_country_codes&prop=text&section=2&disabletoc=1&formatversion=2';
 const historicCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_IOC_country_codes&prop=text&section=5&disabletoc=1&formatversion=2';
+const olympicCountriesUrl =
+	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_IOC_country_codes&prop=text&section=7&disabletoc=1&formatversion=2';
 
 export const readCountryDetail = async () => {
 	// get html section from wikipedia api, extract table element
@@ -18,9 +20,17 @@ export const readCountryDetail = async () => {
 	const historicCountries = new JSDOM(await Wikipedia.getPageHtml(historicCountriesUrl));
 	const historicCountriesTable = Wikipedia.extractTable(historicCountries);
 
+	// get html section from wikipedia api, extract table element
+	const olympicCountries = new JSDOM(await Wikipedia.getPageHtml(olympicCountriesUrl));
+	const olympicCountriesTable = Wikipedia.extractTable(olympicCountries);
+
 	let countryDetail: CountryDetailRow[] = [];
 	// iterate through all valid rows (has flag) and extract country code, name, and flag
-	for (const row of [...currentCountriesTable.rows, ...historicCountriesTable.rows]) {
+	for (const row of [
+		...currentCountriesTable.rows,
+		...historicCountriesTable.rows,
+		...olympicCountriesTable.rows,
+	]) {
 		if (!row.cells[1].getElementsByTagName('img').length) continue;
 
 		const countryCode = row.cells[0].textContent!.trim();

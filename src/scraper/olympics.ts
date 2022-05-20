@@ -7,14 +7,14 @@ import { readFileSync, writeFileSync } from 'fs';
 import OlympicsCom from './olympics-com/index.js';
 import Wikipedia from './wikipedia/index.js';
 
-import { GamesKey, GamesKeyLookup } from './types';
-import {
+import type {
+	GamesKeyLookup,
 	CountryDetailRow,
-	CountryMedalRow,
 	GamesDetailRow,
-	MedalTotalsRow,
 	SportDetailRow,
-} from './types/database.js';
+	CountryMedalRow,
+	MedalTotalsRow,
+} from './types';
 
 import { readCountryDetail } from './wikipedia/countryDetailReader.js';
 import { readGamesDetail } from './wikipedia/gamesDetailReader.js';
@@ -37,16 +37,17 @@ export class Olympics {
 	sportsEvents = [];
 
 	async init() {
-		// await this.fetchGamesLookup();
-		// this.countryDetail = await readCountryDetail();
+		await this.fetchGamesLookup();
+		this.countryDetail = await readCountryDetail();
+
 		// this.gamesDetail = await readGamesDetail(this.gamesLookup);
 		// this.sportsDetail = await readSportsDetail();
 
-		// let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
-		// 	this.getCountryCode,
-		// 	this.getGamesKey
-		// );
-		// const countryAttendance = await readCountryAttendance(this.getGamesKey); // swap this to key on gamesKey
+		let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
+			this.getCountryCode.bind(this),
+			this.getGamesKey.bind(this)
+		);
+		const countryAttendance = await readCountryAttendance(this.getGamesKey.bind(this));
 
 		// this.medalsTotals = await readMedalTotals();
 
@@ -97,7 +98,14 @@ export class Olympics {
 	}
 
 	getCountryCode(countryName: string): string {
-		return this.countryDetail.find(country => country.name.match(new RegExp(countryName, 'i')))!
-			.country;
+		const res = this.countryDetail.find(country =>
+			country.name.match(new RegExp(countryName, 'i'))
+		);
+
+		// edge cases, TODO: resolve this
+		if (!res && countryName.match(/ceylon/i)) return 'SRI';
+		if (!res && countryName.match(/fr yugoslavia/i)) return 'YUG';
+
+		return res!.country;
 	}
 }

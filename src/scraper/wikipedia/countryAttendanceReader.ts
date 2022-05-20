@@ -2,6 +2,8 @@ import { JSDOM } from 'jsdom';
 
 import Wikipedia from './index.js';
 
+import type { GamesKey } from '../types';
+
 const summerCountriesUrl =
 	'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2';
 const winterCountriesUrl =
@@ -11,7 +13,7 @@ const readCountryTable = (sourceTable: HTMLTableElement) => {
 	const presentMarker = /[•^]/;
 
 	let years = [];
-	let countryData: Record<string, string[]> = {};
+	let countryData: Record<string, number[]> = {};
 
 	// extract years from header row
 	const headerRow = sourceTable.rows[0] as HTMLTableRowElement;
@@ -60,14 +62,14 @@ const readCountryTable = (sourceTable: HTMLTableElement) => {
 				continue;
 			}
 
-			const year = years[yearIndex];
 			const cellMarker = cell.textContent?.trim()[0] ?? '';
 			if (presentMarker.test(cellMarker)) {
+				const year = years[yearIndex];
 				attended.push(year);
 			}
 		}
 
-		countryData[countryCode] = attended.map(toString);
+		countryData[countryCode] = attended;
 	}
 
 	return countryData;
@@ -84,18 +86,18 @@ export const readCountryAttendance = async (
 		new JSDOM(await Wikipedia.getPageHtml(winterCountriesUrl))
 	);
 
-	let countryAttendance = {} as Record<string, string[]>;
+	let countryAttendance = {} as Record<GamesKey, string[]>;
 	// extract table data
 	const summerTableData = Object.entries(readCountryTable(summerCountriesTable));
 	const winterTableData = Object.entries(readCountryTable(winterCountriesTable));
 
 	summerTableData.forEach(
 		([country, attended]) =>
-			(countryAttendance[country] = attended.map(year => gamesKeyLookup(parseInt(year), 'summer')))
+			(countryAttendance[country] = attended.map(year => gamesKeyLookup(year, 'summer')))
 	);
 	winterTableData.forEach(([country, attended]) =>
 		(countryAttendance[country] = countryAttendance[country] ?? []).concat(
-			attended.map(year => gamesKeyLookup(parseInt(year), 'winter'))
+			attended.map(year => gamesKeyLookup(year, 'winter'))
 		)
 	);
 
