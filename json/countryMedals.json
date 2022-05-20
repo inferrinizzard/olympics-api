@@ -1,0 +1,9831 @@
+{
+  "athens-1896": [
+    {
+      "country": "USA",
+      "gold": 11,
+      "silver": 7,
+      "bronze": 2,
+      "total": 20
+    },
+    {
+      "country": "GRE",
+      "gold": 10,
+      "silver": 18,
+      "bronze": 19,
+      "total": 47
+    },
+    {
+      "country": "GER",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 2,
+      "total": 13
+    },
+    {
+      "country": "FRA",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "GBR",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "HUN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "AUS",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "ZZX",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    }
+  ],
+  "paris-1900": [
+    {
+      "country": "FRA",
+      "gold": 27,
+      "silver": 38,
+      "bronze": 37,
+      "total": 102
+    },
+    {
+      "country": "USA",
+      "gold": 19,
+      "silver": 14,
+      "bronze": 15,
+      "total": 48
+    },
+    {
+      "country": "GBR",
+      "gold": 15,
+      "silver": 8,
+      "bronze": 9,
+      "total": 32
+    },
+    {
+      "country": "ZZX",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 6,
+      "total": 19
+    },
+    {
+      "country": "BEL",
+      "gold": 6,
+      "silver": 7,
+      "bronze": 4,
+      "total": 17
+    },
+    {
+      "country": "SUI",
+      "gold": 6,
+      "silver": 2,
+      "bronze": 1,
+      "total": 9
+    },
+    {
+      "country": "GER",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "ITA",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 0,
+      "total": 5
+    },
+    {
+      "country": "AUS",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "HUN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "CUB",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "ESP",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "NOR",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "IND",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "BOH",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "SWE",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "st-louis-1904": [
+    {
+      "country": "USA",
+      "gold": 76,
+      "silver": 78,
+      "bronze": 77,
+      "total": 231
+    },
+    {
+      "country": "GER",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 6,
+      "total": 15
+    },
+    {
+      "country": "CAN",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "CUB",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "HUN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "GRE",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    }
+  ],
+  "london-1908": [
+    {
+      "country": "GBR",
+      "gold": 56,
+      "silver": 51,
+      "bronze": 39,
+      "total": 146
+    },
+    {
+      "country": "USA",
+      "gold": 23,
+      "silver": 12,
+      "bronze": 12,
+      "total": 47
+    },
+    {
+      "country": "SWE",
+      "gold": 8,
+      "silver": 6,
+      "bronze": 11,
+      "total": 25
+    },
+    {
+      "country": "FRA",
+      "gold": 5,
+      "silver": 5,
+      "bronze": 9,
+      "total": 19
+    },
+    {
+      "country": "GER",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 5,
+      "total": 13
+    },
+    {
+      "country": "HUN",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 10,
+      "total": 16
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "ITA",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "BEL",
+      "gold": 1,
+      "silver": 5,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "ANZ",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "RU1",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "RSA",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "GRE",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "DEN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "BOH",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "stockholm-1912": [
+    {
+      "country": "USA",
+      "gold": 25,
+      "silver": 19,
+      "bronze": 19,
+      "total": 63
+    },
+    {
+      "country": "SWE",
+      "gold": 24,
+      "silver": 24,
+      "bronze": 17,
+      "total": 65
+    },
+    {
+      "country": "GBR",
+      "gold": 10,
+      "silver": 15,
+      "bronze": 16,
+      "total": 41
+    },
+    {
+      "country": "FIN",
+      "gold": 9,
+      "silver": 8,
+      "bronze": 9,
+      "total": 26
+    },
+    {
+      "country": "FRA",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 3,
+      "total": 14
+    },
+    {
+      "country": "GER",
+      "gold": 5,
+      "silver": 13,
+      "bronze": 7,
+      "total": 25
+    },
+    {
+      "country": "RSA",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 0,
+      "total": 6
+    },
+    {
+      "country": "NOR",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 5,
+      "total": 10
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "ITA",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "ANZ",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "BEL",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 6,
+      "bronze": 5,
+      "total": 12
+    },
+    {
+      "country": "GRE",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "RU1",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    }
+  ],
+  "antwerp-1920": [
+    {
+      "country": "USA",
+      "gold": 41,
+      "silver": 27,
+      "bronze": 27,
+      "total": 95
+    },
+    {
+      "country": "SWE",
+      "gold": 19,
+      "silver": 20,
+      "bronze": 25,
+      "total": 64
+    },
+    {
+      "country": "FIN",
+      "gold": 15,
+      "silver": 10,
+      "bronze": 9,
+      "total": 34
+    },
+    {
+      "country": "GBR",
+      "gold": 14,
+      "silver": 15,
+      "bronze": 13,
+      "total": 42
+    },
+    {
+      "country": "BEL",
+      "gold": 14,
+      "silver": 11,
+      "bronze": 11,
+      "total": 36
+    },
+    {
+      "country": "NOR",
+      "gold": 13,
+      "silver": 9,
+      "bronze": 9,
+      "total": 31
+    },
+    {
+      "country": "ITA",
+      "gold": 13,
+      "silver": 5,
+      "bronze": 5,
+      "total": 23
+    },
+    {
+      "country": "FRA",
+      "gold": 9,
+      "silver": 19,
+      "bronze": 13,
+      "total": 41
+    },
+    {
+      "country": "NED",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 5,
+      "total": 11
+    },
+    {
+      "country": "DEN",
+      "gold": 3,
+      "silver": 9,
+      "bronze": 1,
+      "total": 13
+    },
+    {
+      "country": "RSA",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 7,
+      "total": 11
+    },
+    {
+      "country": "EST",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "BRA",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "JPN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "GRE",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "NZL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "paris-1924": [
+    {
+      "country": "USA",
+      "gold": 45,
+      "silver": 27,
+      "bronze": 27,
+      "total": 99
+    },
+    {
+      "country": "FIN",
+      "gold": 14,
+      "silver": 13,
+      "bronze": 10,
+      "total": 37
+    },
+    {
+      "country": "FRA",
+      "gold": 13,
+      "silver": 15,
+      "bronze": 10,
+      "total": 38
+    },
+    {
+      "country": "GBR",
+      "gold": 9,
+      "silver": 13,
+      "bronze": 12,
+      "total": 34
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 3,
+      "bronze": 5,
+      "total": 16
+    },
+    {
+      "country": "SUI",
+      "gold": 7,
+      "silver": 8,
+      "bronze": 10,
+      "total": 25
+    },
+    {
+      "country": "NOR",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "SWE",
+      "gold": 4,
+      "silver": 13,
+      "bronze": 12,
+      "total": 29
+    },
+    {
+      "country": "NED",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 5,
+      "total": 10
+    },
+    {
+      "country": "BEL",
+      "gold": 3,
+      "silver": 7,
+      "bronze": 3,
+      "total": 13
+    },
+    {
+      "country": "AUS",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "HUN",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "YUG",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "TCH",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 5,
+      "total": 10
+    },
+    {
+      "country": "ARG",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "EST",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "RSA",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "URU",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "POL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "HAI",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "amsterdam-1928": [
+    {
+      "country": "USA",
+      "gold": 22,
+      "silver": 18,
+      "bronze": 16,
+      "total": 56
+    },
+    {
+      "country": "GER",
+      "gold": 10,
+      "silver": 7,
+      "bronze": 14,
+      "total": 31
+    },
+    {
+      "country": "FIN",
+      "gold": 8,
+      "silver": 8,
+      "bronze": 9,
+      "total": 25
+    },
+    {
+      "country": "SWE",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 12,
+      "total": 25
+    },
+    {
+      "country": "ITA",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 7,
+      "total": 19
+    },
+    {
+      "country": "SUI",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 4,
+      "total": 15
+    },
+    {
+      "country": "FRA",
+      "gold": 6,
+      "silver": 10,
+      "bronze": 5,
+      "total": 21
+    },
+    {
+      "country": "NED",
+      "gold": 6,
+      "silver": 9,
+      "bronze": 4,
+      "total": 19
+    },
+    {
+      "country": "HUN",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 0,
+      "total": 9
+    },
+    {
+      "country": "CAN",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 7,
+      "total": 15
+    },
+    {
+      "country": "GBR",
+      "gold": 3,
+      "silver": 10,
+      "bronze": 7,
+      "total": 20
+    },
+    {
+      "country": "ARG",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "DEN",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "TCH",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "JPN",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "EST",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "EGY",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "AUS",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "POL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "RSA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "IND",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "CHI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "PHI",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "los-angeles-1932": [
+    {
+      "country": "USA",
+      "gold": 41,
+      "silver": 32,
+      "bronze": 30,
+      "total": 103
+    },
+    {
+      "country": "ITA",
+      "gold": 12,
+      "silver": 12,
+      "bronze": 12,
+      "total": 36
+    },
+    {
+      "country": "FRA",
+      "gold": 10,
+      "silver": 5,
+      "bronze": 4,
+      "total": 19
+    },
+    {
+      "country": "SWE",
+      "gold": 9,
+      "silver": 5,
+      "bronze": 9,
+      "total": 23
+    },
+    {
+      "country": "JPN",
+      "gold": 7,
+      "silver": 7,
+      "bronze": 4,
+      "total": 18
+    },
+    {
+      "country": "HUN",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 5,
+      "total": 15
+    },
+    {
+      "country": "FIN",
+      "gold": 5,
+      "silver": 8,
+      "bronze": 12,
+      "total": 25
+    },
+    {
+      "country": "GBR",
+      "gold": 4,
+      "silver": 7,
+      "bronze": 5,
+      "total": 16
+    },
+    {
+      "country": "GER",
+      "gold": 3,
+      "silver": 12,
+      "bronze": 5,
+      "total": 20
+    },
+    {
+      "country": "AUS",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "ARG",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "CAN",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 8,
+      "total": 15
+    },
+    {
+      "country": "NED",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 0,
+      "total": 7
+    },
+    {
+      "country": "POL",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "RSA",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "IRL",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "TCH",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "IND",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "DEN",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "MEX",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "LAT",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "PHI",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "ESP",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "berlin-1936": [
+    {
+      "country": "GER",
+      "gold": 38,
+      "silver": 31,
+      "bronze": 32,
+      "total": 101
+    },
+    {
+      "country": "USA",
+      "gold": 24,
+      "silver": 21,
+      "bronze": 12,
+      "total": 57
+    },
+    {
+      "country": "HUN",
+      "gold": 10,
+      "silver": 1,
+      "bronze": 5,
+      "total": 16
+    },
+    {
+      "country": "ITA",
+      "gold": 9,
+      "silver": 13,
+      "bronze": 5,
+      "total": 27
+    },
+    {
+      "country": "FIN",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 6,
+      "total": 19
+    },
+    {
+      "country": "FRA",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 6,
+      "total": 19
+    },
+    {
+      "country": "SWE",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 10,
+      "total": 21
+    },
+    {
+      "country": "JPN",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 10,
+      "total": 20
+    },
+    {
+      "country": "NED",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 7,
+      "total": 17
+    },
+    {
+      "country": "AUT",
+      "gold": 5,
+      "silver": 7,
+      "bronze": 5,
+      "total": 17
+    },
+    {
+      "country": "SUI",
+      "gold": 4,
+      "silver": 9,
+      "bronze": 5,
+      "total": 18
+    },
+    {
+      "country": "GBR",
+      "gold": 4,
+      "silver": 7,
+      "bronze": 3,
+      "total": 14
+    },
+    {
+      "country": "TCH",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 1,
+      "total": 9
+    },
+    {
+      "country": "ARG",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "EGY",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "NOR",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "TUR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "IND",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "POL",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "DEN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "LAT",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "ROU",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "london-1948": [
+    {
+      "country": "USA",
+      "gold": 38,
+      "silver": 27,
+      "bronze": 19,
+      "total": 84
+    },
+    {
+      "country": "SWE",
+      "gold": 16,
+      "silver": 11,
+      "bronze": 17,
+      "total": 44
+    },
+    {
+      "country": "FRA",
+      "gold": 10,
+      "silver": 6,
+      "bronze": 13,
+      "total": 29
+    },
+    {
+      "country": "HUN",
+      "gold": 10,
+      "silver": 5,
+      "bronze": 12,
+      "total": 27
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 11,
+      "bronze": 8,
+      "total": 27
+    },
+    {
+      "country": "FIN",
+      "gold": 8,
+      "silver": 7,
+      "bronze": 5,
+      "total": 20
+    },
+    {
+      "country": "TUR",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 2,
+      "total": 12
+    },
+    {
+      "country": "TCH",
+      "gold": 6,
+      "silver": 2,
+      "bronze": 3,
+      "total": 11
+    },
+    {
+      "country": "SUI",
+      "gold": 5,
+      "silver": 10,
+      "bronze": 5,
+      "total": 20
+    },
+    {
+      "country": "DEN",
+      "gold": 5,
+      "silver": 7,
+      "bronze": 8,
+      "total": 20
+    },
+    {
+      "country": "NED",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 9,
+      "total": 16
+    },
+    {
+      "country": "GBR",
+      "gold": 3,
+      "silver": 14,
+      "bronze": 6,
+      "total": 23
+    },
+    {
+      "country": "ARG",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "AUS",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 5,
+      "total": 13
+    },
+    {
+      "country": "BEL",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "EGY",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "MEX",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "RSA",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "NOR",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "JAM",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "IND",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "YUG",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "POR",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "SRI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "PAN",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "BRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "helsinki-1952": [
+    {
+      "country": "USA",
+      "gold": 40,
+      "silver": 19,
+      "bronze": 17,
+      "total": 76
+    },
+    {
+      "country": "URS",
+      "gold": 22,
+      "silver": 30,
+      "bronze": 19,
+      "total": 71
+    },
+    {
+      "country": "HUN",
+      "gold": 16,
+      "silver": 10,
+      "bronze": 16,
+      "total": 42
+    },
+    {
+      "country": "SWE",
+      "gold": 12,
+      "silver": 13,
+      "bronze": 10,
+      "total": 35
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 9,
+      "bronze": 4,
+      "total": 21
+    },
+    {
+      "country": "TCH",
+      "gold": 7,
+      "silver": 3,
+      "bronze": 3,
+      "total": 13
+    },
+    {
+      "country": "FRA",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 6,
+      "total": 18
+    },
+    {
+      "country": "FIN",
+      "gold": 6,
+      "silver": 3,
+      "bronze": 13,
+      "total": 22
+    },
+    {
+      "country": "AUS",
+      "gold": 6,
+      "silver": 2,
+      "bronze": 3,
+      "total": 11
+    },
+    {
+      "country": "NOR",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 0,
+      "total": 5
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 6,
+      "total": 14
+    },
+    {
+      "country": "RSA",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 4,
+      "total": 10
+    },
+    {
+      "country": "JAM",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 0,
+      "total": 5
+    },
+    {
+      "country": "BEL",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "TUR",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "JPN",
+      "gold": 1,
+      "silver": 6,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 8,
+      "total": 11
+    },
+    {
+      "country": "ARG",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "POL",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "ROU",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "BRA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "IND",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "LUX",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "GER",
+      "gold": 0,
+      "silver": 7,
+      "bronze": 17,
+      "total": 24
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 5,
+      "bronze": 0,
+      "total": 5
+    },
+    {
+      "country": "IRI",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "CHI",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "IRL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "KOR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "BUL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "melbourne-1956": [
+    {
+      "country": "URS",
+      "gold": 37,
+      "silver": 29,
+      "bronze": 32,
+      "total": 98
+    },
+    {
+      "country": "USA",
+      "gold": 32,
+      "silver": 25,
+      "bronze": 17,
+      "total": 74
+    },
+    {
+      "country": "AUS",
+      "gold": 13,
+      "silver": 8,
+      "bronze": 14,
+      "total": 35
+    },
+    {
+      "country": "HUN",
+      "gold": 9,
+      "silver": 10,
+      "bronze": 7,
+      "total": 26
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 8,
+      "bronze": 9,
+      "total": 25
+    },
+    {
+      "country": "SWE",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 6,
+      "total": 19
+    },
+    {
+      "country": "EUA",
+      "gold": 6,
+      "silver": 13,
+      "bronze": 7,
+      "total": 26
+    },
+    {
+      "country": "GBR",
+      "gold": 6,
+      "silver": 7,
+      "bronze": 11,
+      "total": 24
+    },
+    {
+      "country": "ROU",
+      "gold": 5,
+      "silver": 3,
+      "bronze": 5,
+      "total": 13
+    },
+    {
+      "country": "JPN",
+      "gold": 4,
+      "silver": 10,
+      "bronze": 5,
+      "total": 19
+    },
+    {
+      "country": "FRA",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 6,
+      "total": 14
+    },
+    {
+      "country": "TUR",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "FIN",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 11,
+      "total": 15
+    },
+    {
+      "country": "IRI",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "CAN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "NZL",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "POL",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "TCH",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "BUL",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "IRL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "NOR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "MEX",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BRA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "YUG",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "CHI",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "ISL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "RSA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 4,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "BAH",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "rome-1960": [
+    {
+      "country": "URS",
+      "gold": 43,
+      "silver": 29,
+      "bronze": 31,
+      "total": 103
+    },
+    {
+      "country": "USA",
+      "gold": 34,
+      "silver": 21,
+      "bronze": 16,
+      "total": 71
+    },
+    {
+      "country": "ITA",
+      "gold": 13,
+      "silver": 10,
+      "bronze": 13,
+      "total": 36
+    },
+    {
+      "country": "EUA",
+      "gold": 12,
+      "silver": 19,
+      "bronze": 11,
+      "total": 42
+    },
+    {
+      "country": "AUS",
+      "gold": 8,
+      "silver": 8,
+      "bronze": 6,
+      "total": 22
+    },
+    {
+      "country": "TUR",
+      "gold": 7,
+      "silver": 2,
+      "bronze": 0,
+      "total": 9
+    },
+    {
+      "country": "HUN",
+      "gold": 6,
+      "silver": 8,
+      "bronze": 7,
+      "total": 21
+    },
+    {
+      "country": "JPN",
+      "gold": 4,
+      "silver": 7,
+      "bronze": 7,
+      "total": 18
+    },
+    {
+      "country": "POL",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 11,
+      "total": 21
+    },
+    {
+      "country": "TCH",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "ROU",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 6,
+      "total": 10
+    },
+    {
+      "country": "GBR",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 12,
+      "total": 20
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "NZL",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "BUL",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "SWE",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "PAK",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "ETH",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "IRI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "IRQ",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "tokyo-1964": [
+    {
+      "country": "USA",
+      "gold": 36,
+      "silver": 26,
+      "bronze": 28,
+      "total": 90
+    },
+    {
+      "country": "URS",
+      "gold": 30,
+      "silver": 31,
+      "bronze": 35,
+      "total": 96
+    },
+    {
+      "country": "JPN",
+      "gold": 16,
+      "silver": 5,
+      "bronze": 8,
+      "total": 29
+    },
+    {
+      "country": "EUA",
+      "gold": 10,
+      "silver": 22,
+      "bronze": 18,
+      "total": 50
+    },
+    {
+      "country": "ITA",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 7,
+      "total": 27
+    },
+    {
+      "country": "HUN",
+      "gold": 10,
+      "silver": 7,
+      "bronze": 5,
+      "total": 22
+    },
+    {
+      "country": "POL",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 10,
+      "total": 23
+    },
+    {
+      "country": "AUS",
+      "gold": 6,
+      "silver": 2,
+      "bronze": 10,
+      "total": 18
+    },
+    {
+      "country": "TCH",
+      "gold": 5,
+      "silver": 6,
+      "bronze": 3,
+      "total": 14
+    },
+    {
+      "country": "GBR",
+      "gold": 4,
+      "silver": 12,
+      "bronze": 2,
+      "total": 18
+    },
+    {
+      "country": "BUL",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 2,
+      "total": 10
+    },
+    {
+      "country": "FIN",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "ROU",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 6,
+      "total": 12
+    },
+    {
+      "country": "NED",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 4,
+      "total": 10
+    },
+    {
+      "country": "TUR",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "YUG",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "BEL",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "FRA",
+      "gold": 1,
+      "silver": 8,
+      "bronze": 6,
+      "total": 15
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "BAH",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "KOR",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "TTO",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "TUN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "IRI",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "BRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "mexico-city-1968": [
+    {
+      "country": "USA",
+      "gold": 45,
+      "silver": 28,
+      "bronze": 34,
+      "total": 107
+    },
+    {
+      "country": "URS",
+      "gold": 29,
+      "silver": 32,
+      "bronze": 30,
+      "total": 91
+    },
+    {
+      "country": "JPN",
+      "gold": 11,
+      "silver": 7,
+      "bronze": 7,
+      "total": 25
+    },
+    {
+      "country": "HUN",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 12,
+      "total": 32
+    },
+    {
+      "country": "GDR",
+      "gold": 9,
+      "silver": 9,
+      "bronze": 7,
+      "total": 25
+    },
+    {
+      "country": "FRA",
+      "gold": 7,
+      "silver": 3,
+      "bronze": 5,
+      "total": 15
+    },
+    {
+      "country": "TCH",
+      "gold": 7,
+      "silver": 2,
+      "bronze": 4,
+      "total": 13
+    },
+    {
+      "country": "FRG",
+      "gold": 5,
+      "silver": 11,
+      "bronze": 10,
+      "total": 26
+    },
+    {
+      "country": "AUS",
+      "gold": 5,
+      "silver": 7,
+      "bronze": 5,
+      "total": 17
+    },
+    {
+      "country": "GBR",
+      "gold": 5,
+      "silver": 5,
+      "bronze": 3,
+      "total": 13
+    },
+    {
+      "country": "POL",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 11,
+      "total": 18
+    },
+    {
+      "country": "ROU",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 5,
+      "total": 15
+    },
+    {
+      "country": "ITA",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 9,
+      "total": 16
+    },
+    {
+      "country": "KEN",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "MEX",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "YUG",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "NED",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "BUL",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "IRI",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "TUR",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "ETH",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "NZL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "TUN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "PAK",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "CUB",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "MGL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "BRA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CMR",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "GRE",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "munich-1972": [
+    {
+      "country": "URS",
+      "gold": 50,
+      "silver": 27,
+      "bronze": 22,
+      "total": 99
+    },
+    {
+      "country": "USA",
+      "gold": 33,
+      "silver": 31,
+      "bronze": 30,
+      "total": 94
+    },
+    {
+      "country": "GDR",
+      "gold": 20,
+      "silver": 23,
+      "bronze": 23,
+      "total": 66
+    },
+    {
+      "country": "FRG",
+      "gold": 13,
+      "silver": 11,
+      "bronze": 16,
+      "total": 40
+    },
+    {
+      "country": "JPN",
+      "gold": 13,
+      "silver": 8,
+      "bronze": 8,
+      "total": 29
+    },
+    {
+      "country": "AUS",
+      "gold": 8,
+      "silver": 7,
+      "bronze": 2,
+      "total": 17
+    },
+    {
+      "country": "POL",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 9,
+      "total": 21
+    },
+    {
+      "country": "HUN",
+      "gold": 6,
+      "silver": 13,
+      "bronze": 16,
+      "total": 35
+    },
+    {
+      "country": "BUL",
+      "gold": 6,
+      "silver": 10,
+      "bronze": 5,
+      "total": 21
+    },
+    {
+      "country": "ITA",
+      "gold": 5,
+      "silver": 3,
+      "bronze": 10,
+      "total": 18
+    },
+    {
+      "country": "SWE",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 6,
+      "total": 16
+    },
+    {
+      "country": "GBR",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 9,
+      "total": 18
+    },
+    {
+      "country": "ROU",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 7,
+      "total": 16
+    },
+    {
+      "country": "CUB",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "NED",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "FRA",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 7,
+      "total": 13
+    },
+    {
+      "country": "TCH",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "KEN",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "YUG",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "PRK",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "NZL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "UGA",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "IRI",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "GHA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "montreal-1976": [
+    {
+      "country": "URS",
+      "gold": 49,
+      "silver": 41,
+      "bronze": 35,
+      "total": 125
+    },
+    {
+      "country": "GDR",
+      "gold": 40,
+      "silver": 25,
+      "bronze": 25,
+      "total": 90
+    },
+    {
+      "country": "USA",
+      "gold": 34,
+      "silver": 35,
+      "bronze": 25,
+      "total": 94
+    },
+    {
+      "country": "FRG",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 17,
+      "total": 39
+    },
+    {
+      "country": "JPN",
+      "gold": 9,
+      "silver": 6,
+      "bronze": 10,
+      "total": 25
+    },
+    {
+      "country": "POL",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 13,
+      "total": 26
+    },
+    {
+      "country": "BUL",
+      "gold": 6,
+      "silver": 9,
+      "bronze": 7,
+      "total": 22
+    },
+    {
+      "country": "CUB",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 3,
+      "total": 13
+    },
+    {
+      "country": "ROU",
+      "gold": 4,
+      "silver": 9,
+      "bronze": 14,
+      "total": 27
+    },
+    {
+      "country": "HUN",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 13,
+      "total": 22
+    },
+    {
+      "country": "FIN",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 0,
+      "total": 6
+    },
+    {
+      "country": "SWE",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 0,
+      "total": 5
+    },
+    {
+      "country": "GBR",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 5,
+      "total": 13
+    },
+    {
+      "country": "ITA",
+      "gold": 2,
+      "silver": 7,
+      "bronze": 4,
+      "total": 13
+    },
+    {
+      "country": "FRA",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "YUG",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "TCH",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "NZL",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "KOR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "JAM",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "MEX",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "TTO",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 5,
+      "bronze": 6,
+      "total": 11
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "POR",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "IRI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "MGL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "moscow-1980": [
+    {
+      "country": "URS",
+      "gold": 80,
+      "silver": 69,
+      "bronze": 46,
+      "total": 195
+    },
+    {
+      "country": "GDR",
+      "gold": 47,
+      "silver": 37,
+      "bronze": 42,
+      "total": 126
+    },
+    {
+      "country": "BUL",
+      "gold": 8,
+      "silver": 16,
+      "bronze": 17,
+      "total": 41
+    },
+    {
+      "country": "CUB",
+      "gold": 8,
+      "silver": 7,
+      "bronze": 5,
+      "total": 20
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 3,
+      "bronze": 4,
+      "total": 15
+    },
+    {
+      "country": "HUN",
+      "gold": 7,
+      "silver": 10,
+      "bronze": 15,
+      "total": 32
+    },
+    {
+      "country": "ROU",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 13,
+      "total": 25
+    },
+    {
+      "country": "FRA",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 3,
+      "total": 14
+    },
+    {
+      "country": "GBR",
+      "gold": 5,
+      "silver": 7,
+      "bronze": 9,
+      "total": 21
+    },
+    {
+      "country": "POL",
+      "gold": 3,
+      "silver": 14,
+      "bronze": 15,
+      "total": 32
+    },
+    {
+      "country": "SWE",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 6,
+      "total": 12
+    },
+    {
+      "country": "FIN",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "TCH",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 9,
+      "total": 14
+    },
+    {
+      "country": "YUG",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "AUS",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "BRA",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "ESP",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "GRE",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "BEL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "PRK",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "MGL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "TAN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "MEX",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "IRL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "UGA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "JAM",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "GUY",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "los-angeles-1984": [
+    {
+      "country": "USA",
+      "gold": 83,
+      "silver": 61,
+      "bronze": 30,
+      "total": 174
+    },
+    {
+      "country": "ROU",
+      "gold": 20,
+      "silver": 16,
+      "bronze": 17,
+      "total": 53
+    },
+    {
+      "country": "FRG",
+      "gold": 17,
+      "silver": 19,
+      "bronze": 23,
+      "total": 59
+    },
+    {
+      "country": "CHN",
+      "gold": 15,
+      "silver": 8,
+      "bronze": 9,
+      "total": 32
+    },
+    {
+      "country": "ITA",
+      "gold": 14,
+      "silver": 6,
+      "bronze": 12,
+      "total": 32
+    },
+    {
+      "country": "CAN",
+      "gold": 10,
+      "silver": 18,
+      "bronze": 16,
+      "total": 44
+    },
+    {
+      "country": "JPN",
+      "gold": 10,
+      "silver": 8,
+      "bronze": 14,
+      "total": 32
+    },
+    {
+      "country": "NZL",
+      "gold": 8,
+      "silver": 1,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "YUG",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 7,
+      "total": 18
+    },
+    {
+      "country": "KOR",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 7,
+      "total": 19
+    },
+    {
+      "country": "GBR",
+      "gold": 5,
+      "silver": 11,
+      "bronze": 21,
+      "total": 37
+    },
+    {
+      "country": "FRA",
+      "gold": 5,
+      "silver": 7,
+      "bronze": 16,
+      "total": 28
+    },
+    {
+      "country": "NED",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 6,
+      "total": 13
+    },
+    {
+      "country": "AUS",
+      "gold": 4,
+      "silver": 8,
+      "bronze": 12,
+      "total": 24
+    },
+    {
+      "country": "FIN",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 6,
+      "total": 12
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 11,
+      "bronze": 6,
+      "total": 19
+    },
+    {
+      "country": "MEX",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "MAR",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "BRA",
+      "gold": 1,
+      "silver": 5,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "ESP",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "BEL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "KEN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "PAK",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "DEN",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "JAM",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "GRE",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "COL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "TUR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "ALG",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "CMR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "seoul-1988": [
+    {
+      "country": "URS",
+      "gold": 55,
+      "silver": 31,
+      "bronze": 46,
+      "total": 132
+    },
+    {
+      "country": "GDR",
+      "gold": 37,
+      "silver": 35,
+      "bronze": 30,
+      "total": 102
+    },
+    {
+      "country": "USA",
+      "gold": 36,
+      "silver": 31,
+      "bronze": 27,
+      "total": 94
+    },
+    {
+      "country": "KOR",
+      "gold": 12,
+      "silver": 10,
+      "bronze": 11,
+      "total": 33
+    },
+    {
+      "country": "FRG",
+      "gold": 11,
+      "silver": 14,
+      "bronze": 15,
+      "total": 40
+    },
+    {
+      "country": "HUN",
+      "gold": 11,
+      "silver": 6,
+      "bronze": 6,
+      "total": 23
+    },
+    {
+      "country": "BUL",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 13,
+      "total": 35
+    },
+    {
+      "country": "ROU",
+      "gold": 7,
+      "silver": 11,
+      "bronze": 6,
+      "total": 24
+    },
+    {
+      "country": "FRA",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 6,
+      "total": 16
+    },
+    {
+      "country": "ITA",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 4,
+      "total": 14
+    },
+    {
+      "country": "CHN",
+      "gold": 5,
+      "silver": 11,
+      "bronze": 12,
+      "total": 28
+    },
+    {
+      "country": "GBR",
+      "gold": 5,
+      "silver": 10,
+      "bronze": 9,
+      "total": 24
+    },
+    {
+      "country": "KEN",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "JPN",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 7,
+      "total": 14
+    },
+    {
+      "country": "AUS",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 5,
+      "total": 14
+    },
+    {
+      "country": "YUG",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 5,
+      "total": 12
+    },
+    {
+      "country": "TCH",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "NZL",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 8,
+      "total": 13
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 5,
+      "total": 10
+    },
+    {
+      "country": "POL",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 9,
+      "total": 16
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 0,
+      "total": 5
+    },
+    {
+      "country": "NED",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "BRA",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "TUR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "MAR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "SWE",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 7,
+      "total": 11
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "JAM",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CHI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "COL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "barcelona-1992": [
+    {
+      "country": "EUN",
+      "gold": 45,
+      "silver": 38,
+      "bronze": 29,
+      "total": 112
+    },
+    {
+      "country": "USA",
+      "gold": 37,
+      "silver": 34,
+      "bronze": 37,
+      "total": 108
+    },
+    {
+      "country": "GER",
+      "gold": 33,
+      "silver": 21,
+      "bronze": 28,
+      "total": 82
+    },
+    {
+      "country": "CHN",
+      "gold": 16,
+      "silver": 22,
+      "bronze": 16,
+      "total": 54
+    },
+    {
+      "country": "CUB",
+      "gold": 14,
+      "silver": 6,
+      "bronze": 11,
+      "total": 31
+    },
+    {
+      "country": "ESP",
+      "gold": 13,
+      "silver": 7,
+      "bronze": 2,
+      "total": 22
+    },
+    {
+      "country": "KOR",
+      "gold": 12,
+      "silver": 5,
+      "bronze": 12,
+      "total": 29
+    },
+    {
+      "country": "HUN",
+      "gold": 11,
+      "silver": 12,
+      "bronze": 7,
+      "total": 30
+    },
+    {
+      "country": "FRA",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 16,
+      "total": 29
+    },
+    {
+      "country": "AUS",
+      "gold": 7,
+      "silver": 9,
+      "bronze": 11,
+      "total": 27
+    },
+    {
+      "country": "CAN",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 7,
+      "total": 18
+    },
+    {
+      "country": "ITA",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 8,
+      "total": 19
+    },
+    {
+      "country": "GBR",
+      "gold": 5,
+      "silver": 3,
+      "bronze": 12,
+      "total": 20
+    },
+    {
+      "country": "ROU",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 8,
+      "total": 18
+    },
+    {
+      "country": "TCH",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "PRK",
+      "gold": 4,
+      "silver": 0,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "JPN",
+      "gold": 3,
+      "silver": 8,
+      "bronze": 11,
+      "total": 22
+    },
+    {
+      "country": "BUL",
+      "gold": 3,
+      "silver": 7,
+      "bronze": 6,
+      "total": 16
+    },
+    {
+      "country": "POL",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 10,
+      "total": 19
+    },
+    {
+      "country": "NED",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 7,
+      "total": 15
+    },
+    {
+      "country": "KEN",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "TUR",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "INA",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "BRA",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "GRE",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "SWE",
+      "gold": 1,
+      "silver": 7,
+      "bronze": 4,
+      "total": 12
+    },
+    {
+      "country": "NZL",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 5,
+      "total": 10
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "DEN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "MAR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "IRL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "ETH",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "ALG",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "JAM",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "LAT",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "ISR",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "TPE",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "MGL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "atlanta-1996": [
+    {
+      "country": "USA",
+      "gold": 44,
+      "silver": 32,
+      "bronze": 25,
+      "total": 101
+    },
+    {
+      "country": "RUS",
+      "gold": 26,
+      "silver": 21,
+      "bronze": 16,
+      "total": 63
+    },
+    {
+      "country": "GER",
+      "gold": 20,
+      "silver": 18,
+      "bronze": 27,
+      "total": 65
+    },
+    {
+      "country": "CHN",
+      "gold": 16,
+      "silver": 22,
+      "bronze": 12,
+      "total": 50
+    },
+    {
+      "country": "FRA",
+      "gold": 15,
+      "silver": 7,
+      "bronze": 15,
+      "total": 37
+    },
+    {
+      "country": "ITA",
+      "gold": 13,
+      "silver": 10,
+      "bronze": 12,
+      "total": 35
+    },
+    {
+      "country": "AUS",
+      "gold": 9,
+      "silver": 9,
+      "bronze": 23,
+      "total": 41
+    },
+    {
+      "country": "CUB",
+      "gold": 9,
+      "silver": 8,
+      "bronze": 8,
+      "total": 25
+    },
+    {
+      "country": "UKR",
+      "gold": 9,
+      "silver": 2,
+      "bronze": 12,
+      "total": 23
+    },
+    {
+      "country": "KOR",
+      "gold": 7,
+      "silver": 15,
+      "bronze": 5,
+      "total": 27
+    },
+    {
+      "country": "POL",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 5,
+      "total": 17
+    },
+    {
+      "country": "HUN",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 10,
+      "total": 21
+    },
+    {
+      "country": "ESP",
+      "gold": 5,
+      "silver": 6,
+      "bronze": 6,
+      "total": 17
+    },
+    {
+      "country": "ROU",
+      "gold": 4,
+      "silver": 7,
+      "bronze": 9,
+      "total": 20
+    },
+    {
+      "country": "NED",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 10,
+      "total": 19
+    },
+    {
+      "country": "GRE",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 0,
+      "total": 8
+    },
+    {
+      "country": "CZE",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "SUI",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 0,
+      "total": 7
+    },
+    {
+      "country": "DEN",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 11,
+      "bronze": 8,
+      "total": 22
+    },
+    {
+      "country": "BUL",
+      "gold": 3,
+      "silver": 7,
+      "bronze": 5,
+      "total": 15
+    },
+    {
+      "country": "JPN",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 5,
+      "total": 14
+    },
+    {
+      "country": "KAZ",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "BRA",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 9,
+      "total": 15
+    },
+    {
+      "country": "NZL",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "RSA",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "IRL",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "BEL",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "NGR",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "PRK",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "ALG",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 8,
+      "bronze": 6,
+      "total": 15
+    },
+    {
+      "country": "BLR",
+      "gold": 1,
+      "silver": 6,
+      "bronze": 8,
+      "total": 15
+    },
+    {
+      "country": "KEN",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "JAM",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "YUG",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "IRI",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "ARM",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "POR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BDI",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "NAM",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "MAS",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "AZE",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "GEO",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "IND",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "sydney-2000": [
+    {
+      "country": "USA",
+      "gold": 37,
+      "silver": 24,
+      "bronze": 32,
+      "total": 93
+    },
+    {
+      "country": "RUS",
+      "gold": 32,
+      "silver": 28,
+      "bronze": 29,
+      "total": 89
+    },
+    {
+      "country": "CHN",
+      "gold": 28,
+      "silver": 16,
+      "bronze": 14,
+      "total": 58
+    },
+    {
+      "country": "AUS",
+      "gold": 16,
+      "silver": 25,
+      "bronze": 17,
+      "total": 58
+    },
+    {
+      "country": "GER",
+      "gold": 13,
+      "silver": 17,
+      "bronze": 26,
+      "total": 56
+    },
+    {
+      "country": "FRA",
+      "gold": 13,
+      "silver": 14,
+      "bronze": 11,
+      "total": 38
+    },
+    {
+      "country": "ITA",
+      "gold": 13,
+      "silver": 8,
+      "bronze": 13,
+      "total": 34
+    },
+    {
+      "country": "NED",
+      "gold": 12,
+      "silver": 9,
+      "bronze": 4,
+      "total": 25
+    },
+    {
+      "country": "CUB",
+      "gold": 11,
+      "silver": 11,
+      "bronze": 7,
+      "total": 29
+    },
+    {
+      "country": "GBR",
+      "gold": 11,
+      "silver": 10,
+      "bronze": 7,
+      "total": 28
+    },
+    {
+      "country": "ROU",
+      "gold": 11,
+      "silver": 6,
+      "bronze": 9,
+      "total": 26
+    },
+    {
+      "country": "KOR",
+      "gold": 8,
+      "silver": 10,
+      "bronze": 10,
+      "total": 28
+    },
+    {
+      "country": "HUN",
+      "gold": 8,
+      "silver": 6,
+      "bronze": 3,
+      "total": 17
+    },
+    {
+      "country": "POL",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 3,
+      "total": 14
+    },
+    {
+      "country": "JPN",
+      "gold": 5,
+      "silver": 8,
+      "bronze": 5,
+      "total": 18
+    },
+    {
+      "country": "BUL",
+      "gold": 5,
+      "silver": 6,
+      "bronze": 2,
+      "total": 13
+    },
+    {
+      "country": "GRE",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 3,
+      "total": 13
+    },
+    {
+      "country": "SWE",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 3,
+      "total": 12
+    },
+    {
+      "country": "NOR",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "ETH",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "UKR",
+      "gold": 3,
+      "silver": 10,
+      "bronze": 10,
+      "total": 23
+    },
+    {
+      "country": "KAZ",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 0,
+      "total": 7
+    },
+    {
+      "country": "BLR",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 11,
+      "total": 17
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 8,
+      "total": 14
+    },
+    {
+      "country": "ESP",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 5,
+      "total": 11
+    },
+    {
+      "country": "TUR",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "IRI",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "CZE",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "KEN",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "FIN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "LTU",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "AZE",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "SLO",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 6,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "INA",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "SVK",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "MEX",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "NGR",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "ALG",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "UZB",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "YUG",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "NZL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "EST",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "CRO",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CMR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BRA",
+      "gold": 0,
+      "silver": 6,
+      "bronze": 6,
+      "total": 12
+    },
+    {
+      "country": "JAM",
+      "gold": 0,
+      "silver": 6,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "TPE",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "PRK",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "MDA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "IRL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "GEO",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 6,
+      "total": 6
+    },
+    {
+      "country": "CRC",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "ARM",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "athens-2004": [
+    {
+      "country": "USA",
+      "gold": 36,
+      "silver": 39,
+      "bronze": 26,
+      "total": 101
+    },
+    {
+      "country": "CHN",
+      "gold": 32,
+      "silver": 17,
+      "bronze": 14,
+      "total": 63
+    },
+    {
+      "country": "RUS",
+      "gold": 28,
+      "silver": 26,
+      "bronze": 36,
+      "total": 90
+    },
+    {
+      "country": "AUS",
+      "gold": 17,
+      "silver": 16,
+      "bronze": 17,
+      "total": 50
+    },
+    {
+      "country": "JPN",
+      "gold": 16,
+      "silver": 9,
+      "bronze": 12,
+      "total": 37
+    },
+    {
+      "country": "GER",
+      "gold": 13,
+      "silver": 16,
+      "bronze": 20,
+      "total": 49
+    },
+    {
+      "country": "FRA",
+      "gold": 11,
+      "silver": 9,
+      "bronze": 13,
+      "total": 33
+    },
+    {
+      "country": "ITA",
+      "gold": 10,
+      "silver": 11,
+      "bronze": 11,
+      "total": 32
+    },
+    {
+      "country": "KOR",
+      "gold": 9,
+      "silver": 12,
+      "bronze": 9,
+      "total": 30
+    },
+    {
+      "country": "GBR",
+      "gold": 9,
+      "silver": 9,
+      "bronze": 12,
+      "total": 30
+    },
+    {
+      "country": "CUB",
+      "gold": 9,
+      "silver": 7,
+      "bronze": 11,
+      "total": 27
+    },
+    {
+      "country": "HUN",
+      "gold": 8,
+      "silver": 6,
+      "bronze": 3,
+      "total": 17
+    },
+    {
+      "country": "UKR",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 9,
+      "total": 22
+    },
+    {
+      "country": "ROU",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 6,
+      "total": 19
+    },
+    {
+      "country": "GRE",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 4,
+      "total": 16
+    },
+    {
+      "country": "BRA",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "NOR",
+      "gold": 5,
+      "silver": 0,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "NED",
+      "gold": 4,
+      "silver": 9,
+      "bronze": 9,
+      "total": 22
+    },
+    {
+      "country": "SWE",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "ESP",
+      "gold": 3,
+      "silver": 11,
+      "bronze": 6,
+      "total": 20
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 3,
+      "total": 12
+    },
+    {
+      "country": "TUR",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 5,
+      "total": 11
+    },
+    {
+      "country": "POL",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 5,
+      "total": 10
+    },
+    {
+      "country": "NZL",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 0,
+      "total": 5
+    },
+    {
+      "country": "THA",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "BLR",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 6,
+      "total": 13
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "ETH",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "IRI",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "TPE",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "GEO",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "BUL",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 9,
+      "total": 12
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 5,
+      "total": 8
+    },
+    {
+      "country": "JAM",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "MAR",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "ARG",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "CHI",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "KAZ",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "KEN",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "CZE",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "RSA",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "CRO",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "LTU",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "EGY",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "INA",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "ZIM",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "AZE",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "BEL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "BAH",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CMR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "PRK",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "LAT",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "MEX",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "POR",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "FIN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "SLO",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "EST",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "HKG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "COL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "ERI",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "beijing-2008": [
+    {
+      "country": "CHN",
+      "gold": 48,
+      "silver": 22,
+      "bronze": 30,
+      "total": 100
+    },
+    {
+      "country": "USA",
+      "gold": 36,
+      "silver": 39,
+      "bronze": 37,
+      "total": 112
+    },
+    {
+      "country": "RUS",
+      "gold": 24,
+      "silver": 13,
+      "bronze": 23,
+      "total": 60
+    },
+    {
+      "country": "GBR",
+      "gold": 19,
+      "silver": 13,
+      "bronze": 19,
+      "total": 51
+    },
+    {
+      "country": "GER",
+      "gold": 16,
+      "silver": 11,
+      "bronze": 14,
+      "total": 41
+    },
+    {
+      "country": "AUS",
+      "gold": 14,
+      "silver": 15,
+      "bronze": 17,
+      "total": 46
+    },
+    {
+      "country": "KOR",
+      "gold": 13,
+      "silver": 11,
+      "bronze": 8,
+      "total": 32
+    },
+    {
+      "country": "JPN",
+      "gold": 9,
+      "silver": 8,
+      "bronze": 8,
+      "total": 25
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 9,
+      "bronze": 10,
+      "total": 27
+    },
+    {
+      "country": "FRA",
+      "gold": 7,
+      "silver": 16,
+      "bronze": 20,
+      "total": 43
+    },
+    {
+      "country": "NED",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 4,
+      "total": 16
+    },
+    {
+      "country": "UKR",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 11,
+      "total": 22
+    },
+    {
+      "country": "KEN",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 6,
+      "total": 16
+    },
+    {
+      "country": "ESP",
+      "gold": 5,
+      "silver": 11,
+      "bronze": 3,
+      "total": 19
+    },
+    {
+      "country": "JAM",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "POL",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "ETH",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "ROU",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "CUB",
+      "gold": 3,
+      "silver": 10,
+      "bronze": 17,
+      "total": 30
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 9,
+      "bronze": 8,
+      "total": 20
+    },
+    {
+      "country": "HUN",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 2,
+      "total": 10
+    },
+    {
+      "country": "NOR",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 1,
+      "total": 9
+    },
+    {
+      "country": "BRA",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 10,
+      "total": 17
+    },
+    {
+      "country": "BLR",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 7,
+      "total": 14
+    },
+    {
+      "country": "CZE",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "SVK",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 0,
+      "total": 6
+    },
+    {
+      "country": "NZL",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "GEO",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "KAZ",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "PRK",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "MGL",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "ARG",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "MEX",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "BEL",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "ZIM",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "SLO",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "AZE",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "BUL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "TPE",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "LAT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "DOM",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "IND",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "IRI",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CMR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "SWE",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "LTU",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "CRO",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "COL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "ARM",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "UZB",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "ALG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CHI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "EGY",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AFG",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "london-2012": [
+    {
+      "country": "USA",
+      "gold": 47,
+      "silver": 27,
+      "bronze": 30,
+      "total": 104
+    },
+    {
+      "country": "CHN",
+      "gold": 38,
+      "silver": 31,
+      "bronze": 22,
+      "total": 91
+    },
+    {
+      "country": "GBR",
+      "gold": 29,
+      "silver": 18,
+      "bronze": 18,
+      "total": 65
+    },
+    {
+      "country": "RUS",
+      "gold": 19,
+      "silver": 21,
+      "bronze": 27,
+      "total": 67
+    },
+    {
+      "country": "KOR",
+      "gold": 13,
+      "silver": 9,
+      "bronze": 8,
+      "total": 30
+    },
+    {
+      "country": "GER",
+      "gold": 11,
+      "silver": 20,
+      "bronze": 13,
+      "total": 44
+    },
+    {
+      "country": "FRA",
+      "gold": 11,
+      "silver": 11,
+      "bronze": 13,
+      "total": 35
+    },
+    {
+      "country": "AUS",
+      "gold": 8,
+      "silver": 15,
+      "bronze": 12,
+      "total": 35
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 9,
+      "bronze": 11,
+      "total": 28
+    },
+    {
+      "country": "HUN",
+      "gold": 8,
+      "silver": 4,
+      "bronze": 6,
+      "total": 18
+    },
+    {
+      "country": "JPN",
+      "gold": 7,
+      "silver": 14,
+      "bronze": 17,
+      "total": 38
+    },
+    {
+      "country": "IRI",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 1,
+      "total": 13
+    },
+    {
+      "country": "NED",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 8,
+      "total": 20
+    },
+    {
+      "country": "NZL",
+      "gold": 6,
+      "silver": 2,
+      "bronze": 5,
+      "total": 13
+    },
+    {
+      "country": "UKR",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 10,
+      "total": 19
+    },
+    {
+      "country": "CUB",
+      "gold": 5,
+      "silver": 3,
+      "bronze": 7,
+      "total": 15
+    },
+    {
+      "country": "ESP",
+      "gold": 4,
+      "silver": 10,
+      "bronze": 6,
+      "total": 20
+    },
+    {
+      "country": "JAM",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 3,
+      "total": 12
+    },
+    {
+      "country": "CZE",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "RSA",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "PRK",
+      "gold": 4,
+      "silver": 0,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "BRA",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 9,
+      "total": 17
+    },
+    {
+      "country": "KAZ",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 6,
+      "total": 11
+    },
+    {
+      "country": "ETH",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "CRO",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "CAN",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 10,
+      "total": 18
+    },
+    {
+      "country": "BLR",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "KEN",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 7,
+      "total": 13
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "ROU",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "AZE",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "LTU",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "TUN",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "SWE",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "COL",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "MEX",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "GEO",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "IRL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "ARG",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "TUR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "DOM",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "TPE",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "ALG",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "EGY",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "IND",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "MGL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "THA",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "BUL",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "SVK",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "ARM",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BOT",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "UZB",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "GRE",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AFG",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "rio-2016": [
+    {
+      "country": "USA",
+      "gold": 46,
+      "silver": 37,
+      "bronze": 38,
+      "total": 121
+    },
+    {
+      "country": "GBR",
+      "gold": 27,
+      "silver": 23,
+      "bronze": 17,
+      "total": 67
+    },
+    {
+      "country": "CHN",
+      "gold": 26,
+      "silver": 18,
+      "bronze": 26,
+      "total": 70
+    },
+    {
+      "country": "RUS",
+      "gold": 19,
+      "silver": 17,
+      "bronze": 20,
+      "total": 56
+    },
+    {
+      "country": "GER",
+      "gold": 17,
+      "silver": 10,
+      "bronze": 15,
+      "total": 42
+    },
+    {
+      "country": "JPN",
+      "gold": 12,
+      "silver": 8,
+      "bronze": 21,
+      "total": 41
+    },
+    {
+      "country": "FRA",
+      "gold": 10,
+      "silver": 18,
+      "bronze": 14,
+      "total": 42
+    },
+    {
+      "country": "KOR",
+      "gold": 9,
+      "silver": 3,
+      "bronze": 9,
+      "total": 21
+    },
+    {
+      "country": "ITA",
+      "gold": 8,
+      "silver": 12,
+      "bronze": 8,
+      "total": 28
+    },
+    {
+      "country": "AUS",
+      "gold": 8,
+      "silver": 11,
+      "bronze": 10,
+      "total": 29
+    },
+    {
+      "country": "NED",
+      "gold": 8,
+      "silver": 7,
+      "bronze": 4,
+      "total": 19
+    },
+    {
+      "country": "HUN",
+      "gold": 8,
+      "silver": 3,
+      "bronze": 4,
+      "total": 15
+    },
+    {
+      "country": "BRA",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 6,
+      "total": 19
+    },
+    {
+      "country": "ESP",
+      "gold": 7,
+      "silver": 4,
+      "bronze": 6,
+      "total": 17
+    },
+    {
+      "country": "KEN",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 1,
+      "total": 13
+    },
+    {
+      "country": "JAM",
+      "gold": 6,
+      "silver": 3,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "CRO",
+      "gold": 5,
+      "silver": 3,
+      "bronze": 2,
+      "total": 10
+    },
+    {
+      "country": "CUB",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "NZL",
+      "gold": 4,
+      "silver": 9,
+      "bronze": 5,
+      "total": 18
+    },
+    {
+      "country": "CAN",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 15,
+      "total": 22
+    },
+    {
+      "country": "UZB",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 7,
+      "total": 13
+    },
+    {
+      "country": "COL",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "SUI",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "IRI",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "GRE",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "ARG",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "DEN",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 7,
+      "total": 15
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 3,
+      "total": 11
+    },
+    {
+      "country": "RSA",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 2,
+      "total": 10
+    },
+    {
+      "country": "KAZ",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 10,
+      "total": 17
+    },
+    {
+      "country": "UKR",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "SRB",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "POL",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 6,
+      "total": 11
+    },
+    {
+      "country": "PRK",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "BEL",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "SVK",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "GEO",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "AZE",
+      "gold": 1,
+      "silver": 7,
+      "bronze": 10,
+      "total": 18
+    },
+    {
+      "country": "BLR",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "TUR",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "ARM",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "CZE",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 7,
+      "total": 10
+    },
+    {
+      "country": "ETH",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 5,
+      "total": 8
+    },
+    {
+      "country": "SLO",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "INA",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "ROU",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "BRN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "TPE",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "BAH",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "FIJ",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "MAS",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "MEX",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "VEN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "ALG",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "LTU",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "BUL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "IND",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BDI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "NOR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 4,
+      "total": 4
+    },
+    {
+      "country": "EGY",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "ISR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "tokyo-2020": [
+    {
+      "country": "USA",
+      "gold": 39,
+      "silver": 41,
+      "bronze": 33,
+      "total": 113
+    },
+    {
+      "country": "CHN",
+      "gold": 38,
+      "silver": 32,
+      "bronze": 20,
+      "total": 90
+    },
+    {
+      "country": "JPN",
+      "gold": 27,
+      "silver": 14,
+      "bronze": 17,
+      "total": 58
+    },
+    {
+      "country": "GBR",
+      "gold": 22,
+      "silver": 19,
+      "bronze": 22,
+      "total": 63
+    },
+    {
+      "country": "MAR",
+      "gold": 20,
+      "silver": 28,
+      "bronze": 23,
+      "total": 71
+    },
+    {
+      "country": "AUS",
+      "gold": 17,
+      "silver": 7,
+      "bronze": 22,
+      "total": 46
+    },
+    {
+      "country": "NED",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 14,
+      "total": 36
+    },
+    {
+      "country": "FRA",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 11,
+      "total": 33
+    },
+    {
+      "country": "GER",
+      "gold": 10,
+      "silver": 11,
+      "bronze": 16,
+      "total": 37
+    },
+    {
+      "country": "ITA",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 20,
+      "total": 40
+    },
+    {
+      "country": "CAN",
+      "gold": 7,
+      "silver": 7,
+      "bronze": 10,
+      "total": 24
+    },
+    {
+      "country": "BRA",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 8,
+      "total": 21
+    },
+    {
+      "country": "NZL",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 7,
+      "total": 20
+    },
+    {
+      "country": "CUB",
+      "gold": 7,
+      "silver": 3,
+      "bronze": 5,
+      "total": 15
+    },
+    {
+      "country": "HUN",
+      "gold": 6,
+      "silver": 7,
+      "bronze": 7,
+      "total": 20
+    },
+    {
+      "country": "KOR",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 10,
+      "total": 20
+    },
+    {
+      "country": "POL",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 5,
+      "total": 14
+    },
+    {
+      "country": "CZE",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 3,
+      "total": 11
+    },
+    {
+      "country": "KEN",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 2,
+      "total": 10
+    },
+    {
+      "country": "NOR",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "JAM",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "ESP",
+      "gold": 3,
+      "silver": 8,
+      "bronze": 6,
+      "total": 17
+    },
+    {
+      "country": "SWE",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 0,
+      "total": 9
+    },
+    {
+      "country": "SUI",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 6,
+      "total": 13
+    },
+    {
+      "country": "DEN",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "CRO",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "IRI",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "SRB",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 5,
+      "total": 9
+    },
+    {
+      "country": "BEL",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "BUL",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "SLO",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "UZB",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "GEO",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 1,
+      "total": 8
+    },
+    {
+      "country": "TPE",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 6,
+      "total": 12
+    },
+    {
+      "country": "TUR",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 9,
+      "total": 13
+    },
+    {
+      "country": "GRE",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "ECU",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "IRL",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "QAT",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "BAH",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "UKR",
+      "gold": 1,
+      "silver": 6,
+      "bronze": 12,
+      "total": 19
+    },
+    {
+      "country": "BLR",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "ROU",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "IND",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "HKG",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "PHI",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "RSA",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 5,
+      "total": 7
+    },
+    {
+      "country": "EGY",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "INA",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "ETH",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "TUN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "EST",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BER",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "COL",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "AZE",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "DOM",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "ARM",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "KGZ",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "MGL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "ARG",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "JOR",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BRN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "KAZ",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 8,
+      "total": 8
+    },
+    {
+      "country": "MEX",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 4,
+      "total": 4
+    },
+    {
+      "country": "FIN",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "BOT",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "chamonix-1924": [
+    {
+      "country": "NOR",
+      "gold": 4,
+      "silver": 7,
+      "bronze": 6,
+      "total": 17
+    },
+    {
+      "country": "FIN",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 3,
+      "total": 11
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "USA",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "SWE",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "st-moritz-1928": [
+    {
+      "country": "NOR",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 5,
+      "total": 15
+    },
+    {
+      "country": "USA",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "FIN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "lake-placid-1932": [
+    {
+      "country": "USA",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 2,
+      "total": 12
+    },
+    {
+      "country": "NOR",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "SWE",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 5,
+      "total": 7
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "FRA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "GER",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "HUN",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "garmisch-partenkirchen-1936": [
+    {
+      "country": "NOR",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 3,
+      "total": 15
+    },
+    {
+      "country": "GER",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 0,
+      "total": 6
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "USA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "st-moritz-1948": [
+    {
+      "country": "NOR",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "SUI",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "USA",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "FRA",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "CAN",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "BEL",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "ITA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "GBR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    }
+  ],
+  "oslo-1952": [
+    {
+      "country": "NOR",
+      "gold": 7,
+      "silver": 3,
+      "bronze": 6,
+      "total": 16
+    },
+    {
+      "country": "USA",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 1,
+      "total": 11
+    },
+    {
+      "country": "FIN",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "GER",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "SWE",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 4,
+      "total": 4
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "cortina-d-ampezzo-1956": [
+    {
+      "country": "URS",
+      "gold": 7,
+      "silver": 3,
+      "bronze": 6,
+      "total": 16
+    },
+    {
+      "country": "AUT",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "FIN",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "SUI",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 4,
+      "total": 10
+    },
+    {
+      "country": "USA",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "ITA",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "EUA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "JPN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "HUN",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "squaw-valley-1960": [
+    {
+      "country": "URS",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 9,
+      "total": 21
+    },
+    {
+      "country": "EUA",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 1,
+      "total": 8
+    },
+    {
+      "country": "USA",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "NOR",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 0,
+      "total": 6
+    },
+    {
+      "country": "SWE",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "FIN",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "CAN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "FRA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "ITA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "innsbruck-1964": [
+    {
+      "country": "URS",
+      "gold": 11,
+      "silver": 8,
+      "bronze": 6,
+      "total": 25
+    },
+    {
+      "country": "AUT",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 3,
+      "total": 12
+    },
+    {
+      "country": "NOR",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 6,
+      "total": 15
+    },
+    {
+      "country": "FIN",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "FRA",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 0,
+      "total": 7
+    },
+    {
+      "country": "EUA",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "SWE",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "USA",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "NED",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "ITA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "PRK",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "grenoble-1968": [
+    {
+      "country": "NOR",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 2,
+      "total": 14
+    },
+    {
+      "country": "URS",
+      "gold": 5,
+      "silver": 5,
+      "bronze": 3,
+      "total": 13
+    },
+    {
+      "country": "FRA",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "ITA",
+      "gold": 4,
+      "silver": 0,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "AUT",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "NED",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "SWE",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "FRG",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "USA",
+      "gold": 1,
+      "silver": 5,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "GDR",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "TCH",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "SUI",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "ROU",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "sapporo-1972": [
+    {
+      "country": "URS",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 3,
+      "total": 16
+    },
+    {
+      "country": "GDR",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 7,
+      "total": 14
+    },
+    {
+      "country": "SUI",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "NED",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "USA",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "FRG",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 5,
+      "total": 12
+    },
+    {
+      "country": "ITA",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "AUT",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "SWE",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "JPN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "TCH",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "POL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "FIN",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    }
+  ],
+  "innsbruck-1976": [
+    {
+      "country": "URS",
+      "gold": 13,
+      "silver": 6,
+      "bronze": 8,
+      "total": 27
+    },
+    {
+      "country": "GDR",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 7,
+      "total": 19
+    },
+    {
+      "country": "USA",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 4,
+      "total": 10
+    },
+    {
+      "country": "NOR",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "FRG",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 3,
+      "total": 10
+    },
+    {
+      "country": "FIN",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "NED",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "ITA",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "CAN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "LIE",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "lake-placid-1980": [
+    {
+      "country": "URS",
+      "gold": 10,
+      "silver": 6,
+      "bronze": 6,
+      "total": 22
+    },
+    {
+      "country": "GDR",
+      "gold": 9,
+      "silver": 7,
+      "bronze": 7,
+      "total": 23
+    },
+    {
+      "country": "USA",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 2,
+      "total": 12
+    },
+    {
+      "country": "AUT",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "SWE",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "LIE",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 5,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "NOR",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 6,
+      "total": 10
+    },
+    {
+      "country": "NED",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "FRG",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "ITA",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "HUN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BUL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "sarajevo-1984": [
+    {
+      "country": "GDR",
+      "gold": 9,
+      "silver": 9,
+      "bronze": 6,
+      "total": 24
+    },
+    {
+      "country": "URS",
+      "gold": 6,
+      "silver": 10,
+      "bronze": 9,
+      "total": 25
+    },
+    {
+      "country": "USA",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 0,
+      "total": 8
+    },
+    {
+      "country": "FIN",
+      "gold": 4,
+      "silver": 3,
+      "bronze": 6,
+      "total": 13
+    },
+    {
+      "country": "SWE",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "NOR",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "CAN",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "ITA",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "JPN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "LIE",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AUT",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "calgary-1988": [
+    {
+      "country": "URS",
+      "gold": 11,
+      "silver": 9,
+      "bronze": 9,
+      "total": 29
+    },
+    {
+      "country": "GDR",
+      "gold": 9,
+      "silver": 10,
+      "bronze": 6,
+      "total": 25
+    },
+    {
+      "country": "SUI",
+      "gold": 5,
+      "silver": 5,
+      "bronze": 5,
+      "total": 15
+    },
+    {
+      "country": "FIN",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "SWE",
+      "gold": 4,
+      "silver": 0,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "AUT",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 2,
+      "total": 10
+    },
+    {
+      "country": "NED",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "FRG",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "USA",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 3,
+      "total": 6
+    },
+    {
+      "country": "ITA",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "FRA",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "NOR",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "CAN",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "YUG",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "JPN",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "albertville-1992": [
+    {
+      "country": "GER",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 6,
+      "total": 26
+    },
+    {
+      "country": "EUN",
+      "gold": 9,
+      "silver": 6,
+      "bronze": 8,
+      "total": 23
+    },
+    {
+      "country": "NOR",
+      "gold": 9,
+      "silver": 6,
+      "bronze": 5,
+      "total": 20
+    },
+    {
+      "country": "AUT",
+      "gold": 6,
+      "silver": 7,
+      "bronze": 8,
+      "total": 21
+    },
+    {
+      "country": "USA",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "ITA",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 4,
+      "total": 14
+    },
+    {
+      "country": "FRA",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 1,
+      "total": 9
+    },
+    {
+      "country": "FIN",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "CAN",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "KOR",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "JPN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 4,
+      "total": 7
+    },
+    {
+      "country": "NED",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "total": 4
+    },
+    {
+      "country": "SWE",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "SUI",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "CHN",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "LUX",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "NZL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "TCH",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "PRK",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "lillehammer-1994": [
+    {
+      "country": "RUS",
+      "gold": 11,
+      "silver": 8,
+      "bronze": 4,
+      "total": 23
+    },
+    {
+      "country": "NOR",
+      "gold": 10,
+      "silver": 11,
+      "bronze": 5,
+      "total": 26
+    },
+    {
+      "country": "GER",
+      "gold": 9,
+      "silver": 7,
+      "bronze": 8,
+      "total": 24
+    },
+    {
+      "country": "ITA",
+      "gold": 7,
+      "silver": 5,
+      "bronze": 8,
+      "total": 20
+    },
+    {
+      "country": "USA",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 2,
+      "total": 13
+    },
+    {
+      "country": "KOR",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "CAN",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 4,
+      "total": 13
+    },
+    {
+      "country": "SUI",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "AUT",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "JPN",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "KAZ",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "UKR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "UZB",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BLR",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "FIN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 5,
+      "total": 6
+    },
+    {
+      "country": "FRA",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "NED",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 3,
+      "total": 4
+    },
+    {
+      "country": "CHN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "SLO",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3
+    },
+    {
+      "country": "GBR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "nagano-1998": [
+    {
+      "country": "GER",
+      "gold": 12,
+      "silver": 9,
+      "bronze": 8,
+      "total": 29
+    },
+    {
+      "country": "NOR",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 5,
+      "total": 25
+    },
+    {
+      "country": "RUS",
+      "gold": 9,
+      "silver": 6,
+      "bronze": 3,
+      "total": 18
+    },
+    {
+      "country": "CAN",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 4,
+      "total": 15
+    },
+    {
+      "country": "USA",
+      "gold": 6,
+      "silver": 3,
+      "bronze": 4,
+      "total": 13
+    },
+    {
+      "country": "NED",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "JPN",
+      "gold": 5,
+      "silver": 1,
+      "bronze": 4,
+      "total": 10
+    },
+    {
+      "country": "AUT",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 9,
+      "total": 17
+    },
+    {
+      "country": "KOR",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "ITA",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 2,
+      "total": 10
+    },
+    {
+      "country": "FIN",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 6,
+      "total": 12
+    },
+    {
+      "country": "SUI",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "FRA",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 5,
+      "total": 8
+    },
+    {
+      "country": "CZE",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "BUL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "CHN",
+      "gold": 0,
+      "silver": 6,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "SWE",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "DEN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "BLR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "salt-lake-city-2002": [
+    {
+      "country": "NOR",
+      "gold": 13,
+      "silver": 5,
+      "bronze": 7,
+      "total": 25
+    },
+    {
+      "country": "GER",
+      "gold": 12,
+      "silver": 16,
+      "bronze": 8,
+      "total": 36
+    },
+    {
+      "country": "USA",
+      "gold": 10,
+      "silver": 13,
+      "bronze": 11,
+      "total": 34
+    },
+    {
+      "country": "CAN",
+      "gold": 7,
+      "silver": 3,
+      "bronze": 7,
+      "total": 17
+    },
+    {
+      "country": "RUS",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 4,
+      "total": 13
+    },
+    {
+      "country": "FRA",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "ITA",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 5,
+      "total": 13
+    },
+    {
+      "country": "FIN",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 1,
+      "total": 7
+    },
+    {
+      "country": "NED",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 0,
+      "total": 8
+    },
+    {
+      "country": "AUT",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 10,
+      "total": 17
+    },
+    {
+      "country": "SUI",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 6,
+      "total": 11
+    },
+    {
+      "country": "CRO",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "CHN",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "KOR",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 0,
+      "total": 4
+    },
+    {
+      "country": "AUS",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "CZE",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "EST",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "SWE",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 5,
+      "total": 7
+    },
+    {
+      "country": "BUL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "JPN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BLR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "turin-2006": [
+    {
+      "country": "GER",
+      "gold": 11,
+      "silver": 12,
+      "bronze": 6,
+      "total": 29
+    },
+    {
+      "country": "USA",
+      "gold": 9,
+      "silver": 9,
+      "bronze": 7,
+      "total": 25
+    },
+    {
+      "country": "AUT",
+      "gold": 9,
+      "silver": 7,
+      "bronze": 7,
+      "total": 23
+    },
+    {
+      "country": "RUS",
+      "gold": 8,
+      "silver": 6,
+      "bronze": 8,
+      "total": 22
+    },
+    {
+      "country": "CAN",
+      "gold": 7,
+      "silver": 10,
+      "bronze": 7,
+      "total": 24
+    },
+    {
+      "country": "SWE",
+      "gold": 7,
+      "silver": 2,
+      "bronze": 5,
+      "total": 14
+    },
+    {
+      "country": "KOR",
+      "gold": 6,
+      "silver": 3,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "SUI",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 5,
+      "total": 14
+    },
+    {
+      "country": "ITA",
+      "gold": 5,
+      "silver": 0,
+      "bronze": 6,
+      "total": 11
+    },
+    {
+      "country": "FRA",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 4,
+      "total": 9
+    },
+    {
+      "country": "EST",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "NOR",
+      "gold": 2,
+      "silver": 8,
+      "bronze": 9,
+      "total": 19
+    },
+    {
+      "country": "CHN",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 5,
+      "total": 11
+    },
+    {
+      "country": "CZE",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "CRO",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "AUS",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "JPN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "FIN",
+      "gold": 0,
+      "silver": 6,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "POL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BLR",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "UKR",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "LAT",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "vancouver-2010": [
+    {
+      "country": "CAN",
+      "gold": 14,
+      "silver": 7,
+      "bronze": 5,
+      "total": 26
+    },
+    {
+      "country": "GER",
+      "gold": 10,
+      "silver": 13,
+      "bronze": 7,
+      "total": 30
+    },
+    {
+      "country": "USA",
+      "gold": 9,
+      "silver": 15,
+      "bronze": 13,
+      "total": 37
+    },
+    {
+      "country": "NOR",
+      "gold": 9,
+      "silver": 8,
+      "bronze": 6,
+      "total": 23
+    },
+    {
+      "country": "KOR",
+      "gold": 6,
+      "silver": 6,
+      "bronze": 2,
+      "total": 14
+    },
+    {
+      "country": "SUI",
+      "gold": 6,
+      "silver": 0,
+      "bronze": 3,
+      "total": 9
+    },
+    {
+      "country": "CHN",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 4,
+      "total": 11
+    },
+    {
+      "country": "AUT",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 6,
+      "total": 16
+    },
+    {
+      "country": "NED",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "RUS",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 7,
+      "total": 15
+    },
+    {
+      "country": "FRA",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 6,
+      "total": 11
+    },
+    {
+      "country": "AUS",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "CZE",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "POL",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 2,
+      "total": 6
+    },
+    {
+      "country": "ITA",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "BLR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "JPN",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 2,
+      "total": 5
+    },
+    {
+      "country": "CRO",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "LAT",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "FIN",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "EST",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    }
+  ],
+  "sochi-2014": [
+    {
+      "country": "RUS",
+      "gold": 11,
+      "silver": 10,
+      "bronze": 9,
+      "total": 30
+    },
+    {
+      "country": "NOR",
+      "gold": 11,
+      "silver": 5,
+      "bronze": 10,
+      "total": 26
+    },
+    {
+      "country": "CAN",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 5,
+      "total": 25
+    },
+    {
+      "country": "USA",
+      "gold": 9,
+      "silver": 9,
+      "bronze": 10,
+      "total": 28
+    },
+    {
+      "country": "NED",
+      "gold": 8,
+      "silver": 7,
+      "bronze": 9,
+      "total": 24
+    },
+    {
+      "country": "GER",
+      "gold": 8,
+      "silver": 6,
+      "bronze": 5,
+      "total": 19
+    },
+    {
+      "country": "SUI",
+      "gold": 7,
+      "silver": 2,
+      "bronze": 2,
+      "total": 11
+    },
+    {
+      "country": "BLR",
+      "gold": 5,
+      "silver": 0,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "AUT",
+      "gold": 4,
+      "silver": 8,
+      "bronze": 5,
+      "total": 17
+    },
+    {
+      "country": "FRA",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 7,
+      "total": 15
+    },
+    {
+      "country": "POL",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 1,
+      "total": 6
+    },
+    {
+      "country": "CHN",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "KOR",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "SWE",
+      "gold": 2,
+      "silver": 7,
+      "bronze": 6,
+      "total": 15
+    },
+    {
+      "country": "CZE",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 2,
+      "total": 8
+    },
+    {
+      "country": "SLO",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "JPN",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 3,
+      "total": 8
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 1,
+      "total": 5
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 3,
+      "total": 5
+    },
+    {
+      "country": "UKR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "SVK",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "ITA",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 6,
+      "total": 8
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "CRO",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "KAZ",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "pyeongchang-2018": [
+    {
+      "country": "NOR",
+      "gold": 14,
+      "silver": 14,
+      "bronze": 11,
+      "total": 39
+    },
+    {
+      "country": "GER",
+      "gold": 14,
+      "silver": 10,
+      "bronze": 7,
+      "total": 31
+    },
+    {
+      "country": "CAN",
+      "gold": 11,
+      "silver": 8,
+      "bronze": 10,
+      "total": 29
+    },
+    {
+      "country": "USA",
+      "gold": 9,
+      "silver": 8,
+      "bronze": 6,
+      "total": 23
+    },
+    {
+      "country": "NED",
+      "gold": 8,
+      "silver": 6,
+      "bronze": 6,
+      "total": 20
+    },
+    {
+      "country": "SWE",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 1,
+      "total": 14
+    },
+    {
+      "country": "KOR",
+      "gold": 5,
+      "silver": 8,
+      "bronze": 4,
+      "total": 17
+    },
+    {
+      "country": "SUI",
+      "gold": 5,
+      "silver": 6,
+      "bronze": 4,
+      "total": 15
+    },
+    {
+      "country": "FRA",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 6,
+      "total": 15
+    },
+    {
+      "country": "AUT",
+      "gold": 5,
+      "silver": 3,
+      "bronze": 6,
+      "total": 14
+    },
+    {
+      "country": "JPN",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 4,
+      "total": 13
+    },
+    {
+      "country": "ITA",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 5,
+      "total": 10
+    },
+    {
+      "country": "OAR",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 9,
+      "total": 17
+    },
+    {
+      "country": "CZE",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7
+    },
+    {
+      "country": "BLR",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "CHN",
+      "gold": 1,
+      "silver": 6,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "SVK",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "FIN",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 4,
+      "total": 6
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 4,
+      "total": 5
+    },
+    {
+      "country": "POL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "HUN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "AUS",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 1,
+      "total": 3
+    },
+    {
+      "country": "SLO",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BEL",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "NZL",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2
+    },
+    {
+      "country": "KAZ",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ],
+  "beijing-2022": [
+    {
+      "country": "NOR",
+      "gold": 16,
+      "silver": 8,
+      "bronze": 13,
+      "total": 37
+    },
+    {
+      "country": "GER",
+      "gold": 12,
+      "silver": 10,
+      "bronze": 5,
+      "total": 27
+    },
+    {
+      "country": "CHN",
+      "gold": 9,
+      "silver": 4,
+      "bronze": 2,
+      "total": 15
+    },
+    {
+      "country": "USA",
+      "gold": 8,
+      "silver": 10,
+      "bronze": 7,
+      "total": 25
+    },
+    {
+      "country": "SWE",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 5,
+      "total": 18
+    },
+    {
+      "country": "NED",
+      "gold": 8,
+      "silver": 5,
+      "bronze": 4,
+      "total": 17
+    },
+    {
+      "country": "AUT",
+      "gold": 7,
+      "silver": 7,
+      "bronze": 4,
+      "total": 18
+    },
+    {
+      "country": "SUI",
+      "gold": 7,
+      "silver": 2,
+      "bronze": 5,
+      "total": 14
+    },
+    {
+      "country": "MAR",
+      "gold": 6,
+      "silver": 12,
+      "bronze": 14,
+      "total": 32
+    },
+    {
+      "country": "FRA",
+      "gold": 5,
+      "silver": 7,
+      "bronze": 2,
+      "total": 14
+    },
+    {
+      "country": "CAN",
+      "gold": 4,
+      "silver": 8,
+      "bronze": 14,
+      "total": 26
+    },
+    {
+      "country": "JPN",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 9,
+      "total": 18
+    },
+    {
+      "country": "ITA",
+      "gold": 2,
+      "silver": 7,
+      "bronze": 8,
+      "total": 17
+    },
+    {
+      "country": "KOR",
+      "gold": 2,
+      "silver": 5,
+      "bronze": 2,
+      "total": 9
+    },
+    {
+      "country": "SLO",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 2,
+      "total": 7
+    },
+    {
+      "country": "FIN",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 4,
+      "total": 8
+    },
+    {
+      "country": "NZL",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 0,
+      "total": 3
+    },
+    {
+      "country": "AUS",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 1,
+      "total": 4
+    },
+    {
+      "country": "GBR",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "HUN",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 2,
+      "total": 3
+    },
+    {
+      "country": "BEL",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "total": 2
+    },
+    {
+      "country": "BLR",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2
+    },
+    {
+      "country": "ESP",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1
+    },
+    {
+      "country": "EST",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "total": 1
+    }
+  ]
+}
