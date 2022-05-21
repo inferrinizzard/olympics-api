@@ -19,9 +19,9 @@
     "country": "AFG",
     "season": "total",
     "gold": 0,
-    "silver": 15,
-    "bronze": 0,
-    "total": 15
+    "silver": 0,
+    "bronze": 2,
+    "total": 2
   },
   {
     "country": "ALG",
@@ -34,18 +34,18 @@
   {
     "country": "ALG",
     "season": "winter",
-    "gold": 3,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 3
+    "total": 0
   },
   {
     "country": "ALG",
     "season": "total",
-    "gold": 0,
-    "silver": 17,
-    "bronze": 5,
-    "total": 22
+    "gold": 5,
+    "silver": 4,
+    "bronze": 8,
+    "total": 17
   },
   {
     "country": "ARG",
@@ -58,18 +58,18 @@
   {
     "country": "ARG",
     "season": "winter",
-    "gold": 20,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 20
+    "total": 0
   },
   {
     "country": "ARG",
     "season": "total",
-    "gold": 0,
-    "silver": 45,
-    "bronze": 21,
-    "total": 66
+    "gold": 21,
+    "silver": 26,
+    "bronze": 30,
+    "total": 77
   },
   {
     "country": "ARM",
@@ -82,18 +82,18 @@
   {
     "country": "ARM",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "ARM",
     "season": "total",
-    "gold": 0,
-    "silver": 15,
-    "bronze": 2,
-    "total": 17
+    "gold": 2,
+    "silver": 8,
+    "bronze": 8,
+    "total": 18
   },
   {
     "country": "ANZ",
@@ -114,10 +114,10 @@
   {
     "country": "ANZ",
     "season": "total",
-    "gold": 0,
-    "silver": 2,
-    "bronze": 3,
-    "total": 5
+    "gold": 3,
+    "silver": 4,
+    "bronze": 5,
+    "total": 12
   },
   {
     "country": "AUS",
@@ -130,18 +130,18 @@
   {
     "country": "AUS",
     "season": "winter",
-    "gold": 20,
-    "silver": 6,
-    "bronze": 7,
-    "total": 33
+    "gold": 6,
+    "silver": 7,
+    "bronze": 6,
+    "total": 19
   },
   {
     "country": "AUS",
     "season": "total",
-    "gold": 19,
-    "silver": 47,
-    "bronze": 170,
-    "total": 236
+    "gold": 170,
+    "silver": 180,
+    "bronze": 216,
+    "total": 566
   },
   {
     "country": "AUT",
@@ -154,18 +154,18 @@
   {
     "country": "AUT",
     "season": "winter",
-    "gold": 24,
-    "silver": 71,
-    "bronze": 88,
-    "total": 183
+    "gold": 71,
+    "silver": 88,
+    "bronze": 91,
+    "total": 250
   },
   {
     "country": "AUT",
     "season": "total",
-    "gold": 250,
-    "silver": 52,
-    "bronze": 91,
-    "total": 393
+    "gold": 91,
+    "silver": 123,
+    "bronze": 132,
+    "total": 346
   },
   {
     "country": "AZE",
@@ -178,18 +178,18 @@
   {
     "country": "AZE",
     "season": "winter",
-    "gold": 7,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 7
+    "total": 0
   },
   {
     "country": "AZE",
     "season": "total",
-    "gold": 0,
+    "gold": 7,
     "silver": 14,
-    "bronze": 7,
-    "total": 21
+    "bronze": 28,
+    "total": 49
   },
   {
     "country": "BAH",
@@ -210,10 +210,10 @@
   {
     "country": "BAH",
     "season": "total",
-    "gold": 0,
-    "silver": 17,
-    "bronze": 8,
-    "total": 25
+    "gold": 8,
+    "silver": 2,
+    "bronze": 6,
+    "total": 16
   },
   {
     "country": "BRN",
@@ -234,10 +234,10 @@
   {
     "country": "BRN",
     "season": "total",
-    "gold": 0,
-    "silver": 10,
-    "bronze": 2,
-    "total": 12
+    "gold": 2,
+    "silver": 2,
+    "bronze": 0,
+    "total": 4
   },
   {
     "country": "BAR",
@@ -259,9 +259,9 @@
     "country": "BAR",
     "season": "total",
     "gold": 0,
-    "silver": 13,
-    "bronze": 0,
-    "total": 13
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "BLR",
@@ -275,17 +275,17 @@
     "country": "BLR",
     "season": "winter",
     "gold": 8,
-    "silver": 8,
-    "bronze": 7,
-    "total": 23
+    "silver": 7,
+    "bronze": 5,
+    "total": 20
   },
   {
     "country": "BLR",
     "season": "total",
-    "gold": 20,
-    "silver": 15,
-    "bronze": 21,
-    "total": 56
+    "gold": 21,
+    "silver": 37,
+    "bronze": 47,
+    "total": 105
   },
   {
     "country": "BEL",
@@ -298,18 +298,18 @@
   {
     "country": "BEL",
     "season": "winter",
-    "gold": 22,
+    "gold": 2,
     "silver": 2,
-    "bronze": 2,
-    "total": 26
+    "bronze": 4,
+    "total": 8
   },
   {
     "country": "BEL",
     "season": "total",
-    "gold": 8,
-    "silver": 49,
-    "bronze": 46,
-    "total": 103
+    "gold": 46,
+    "silver": 58,
+    "bronze": 61,
+    "total": 165
   },
   {
     "country": "BER",
@@ -322,18 +322,18 @@
   {
     "country": "BER",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "BER",
     "season": "total",
-    "gold": 0,
-    "silver": 27,
+    "gold": 1,
+    "silver": 0,
     "bronze": 1,
-    "total": 28
+    "total": 2
   },
   {
     "country": "BOH",
@@ -355,9 +355,9 @@
     "country": "BOH",
     "season": "total",
     "gold": 0,
-    "silver": 3,
-    "bronze": 0,
-    "total": 3
+    "silver": 1,
+    "bronze": 3,
+    "total": 4
   },
   {
     "country": "BOT",
@@ -379,9 +379,9 @@
     "country": "BOT",
     "season": "total",
     "gold": 0,
-    "silver": 11,
-    "bronze": 0,
-    "total": 11
+    "silver": 1,
+    "bronze": 1,
+    "total": 2
   },
   {
     "country": "BRA",
@@ -394,18 +394,18 @@
   {
     "country": "BRA",
     "season": "winter",
-    "gold": 9,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 9
+    "total": 0
   },
   {
     "country": "BRA",
     "season": "total",
-    "gold": 0,
-    "silver": 32,
-    "bronze": 37,
-    "total": 69
+    "gold": 37,
+    "silver": 42,
+    "bronze": 71,
+    "total": 150
   },
   {
     "country": "BWI",
@@ -427,9 +427,9 @@
     "country": "BWI",
     "season": "total",
     "gold": 0,
-    "silver": 1,
-    "bronze": 0,
-    "total": 1
+    "silver": 0,
+    "bronze": 2,
+    "total": 2
   },
   {
     "country": "BUL",
@@ -442,18 +442,18 @@
   {
     "country": "BUL",
     "season": "winter",
-    "gold": 21,
-    "silver": 1,
-    "bronze": 2,
-    "total": 24
+    "gold": 1,
+    "silver": 2,
+    "bronze": 3,
+    "total": 6
   },
   {
     "country": "BUL",
     "season": "total",
-    "gold": 6,
-    "silver": 42,
-    "bronze": 55,
-    "total": 103
+    "gold": 55,
+    "silver": 90,
+    "bronze": 85,
+    "total": 230
   },
   {
     "country": "BUR",
@@ -475,9 +475,9 @@
     "country": "BUR",
     "season": "total",
     "gold": 0,
-    "silver": 10,
-    "bronze": 0,
-    "total": 10
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "BDI",
@@ -498,10 +498,10 @@
   {
     "country": "BDI",
     "season": "total",
-    "gold": 0,
-    "silver": 7,
-    "bronze": 1,
-    "total": 8
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total": 2
   },
   {
     "country": "CMR",
@@ -514,18 +514,18 @@
   {
     "country": "CMR",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "CMR",
     "season": "total",
-    "gold": 0,
-    "silver": 16,
-    "bronze": 3,
-    "total": 19
+    "gold": 3,
+    "silver": 1,
+    "bronze": 2,
+    "total": 6
   },
   {
     "country": "CAN",
@@ -538,18 +538,18 @@
   {
     "country": "CAN",
     "season": "winter",
-    "gold": 24,
-    "silver": 77,
-    "bronze": 72,
-    "total": 173
+    "gold": 77,
+    "silver": 72,
+    "bronze": 76,
+    "total": 225
   },
   {
     "country": "CAN",
     "season": "total",
-    "gold": 225,
-    "silver": 51,
-    "bronze": 148,
-    "total": 424
+    "gold": 148,
+    "silver": 181,
+    "bronze": 222,
+    "total": 551
   },
   {
     "country": "CHI",
@@ -562,18 +562,18 @@
   {
     "country": "CHI",
     "season": "winter",
-    "gold": 18,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 18
+    "total": 0
   },
   {
     "country": "CHI",
     "season": "total",
-    "gold": 0,
-    "silver": 42,
-    "bronze": 2,
-    "total": 44
+    "gold": 2,
+    "silver": 7,
+    "bronze": 4,
+    "total": 13
   },
   {
     "country": "CHN",
@@ -586,18 +586,18 @@
   {
     "country": "CHN",
     "season": "winter",
-    "gold": 12,
-    "silver": 22,
-    "bronze": 32,
-    "total": 66
+    "gold": 22,
+    "silver": 32,
+    "bronze": 23,
+    "total": 77
   },
   {
     "country": "CHN",
     "season": "total",
-    "gold": 77,
-    "silver": 23,
-    "bronze": 284,
-    "total": 384
+    "gold": 284,
+    "silver": 231,
+    "bronze": 196,
+    "total": 711
   },
   {
     "country": "COL",
@@ -610,18 +610,18 @@
   {
     "country": "COL",
     "season": "winter",
-    "gold": 3,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 3
+    "total": 0
   },
   {
     "country": "COL",
     "season": "total",
-    "gold": 0,
-    "silver": 23,
-    "bronze": 5,
-    "total": 28
+    "gold": 5,
+    "silver": 13,
+    "bronze": 16,
+    "total": 34
   },
   {
     "country": "CRC",
@@ -634,18 +634,18 @@
   {
     "country": "CRC",
     "season": "winter",
-    "gold": 6,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 6
+    "total": 0
   },
   {
     "country": "CRC",
     "season": "total",
-    "gold": 0,
-    "silver": 22,
-    "bronze": 1,
-    "total": 23
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
   },
   {
     "country": "CIV",
@@ -666,10 +666,10 @@
   {
     "country": "CIV",
     "season": "total",
-    "gold": 0,
-    "silver": 14,
-    "bronze": 1,
-    "total": 15
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
   },
   {
     "country": "CRO",
@@ -682,18 +682,18 @@
   {
     "country": "CRO",
     "season": "winter",
-    "gold": 9,
-    "silver": 4,
-    "bronze": 6,
-    "total": 19
+    "gold": 4,
+    "silver": 6,
+    "bronze": 1,
+    "total": 11
   },
   {
     "country": "CRO",
     "season": "total",
-    "gold": 11,
-    "silver": 17,
-    "bronze": 18,
-    "total": 46
+    "gold": 18,
+    "silver": 19,
+    "bronze": 15,
+    "total": 52
   },
   {
     "country": "CUB",
@@ -714,10 +714,10 @@
   {
     "country": "CUB",
     "season": "total",
-    "gold": 0,
-    "silver": 21,
-    "bronze": 84,
-    "total": 105
+    "gold": 84,
+    "silver": 69,
+    "bronze": 82,
+    "total": 235
   },
   {
     "country": "CYP",
@@ -730,18 +730,18 @@
   {
     "country": "CYP",
     "season": "winter",
-    "gold": 12,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 12
+    "total": 0
   },
   {
     "country": "CYP",
     "season": "total",
     "gold": 0,
-    "silver": 23,
+    "silver": 1,
     "bronze": 0,
-    "total": 23
+    "total": 1
   },
   {
     "country": "CZE",
@@ -754,18 +754,18 @@
   {
     "country": "CZE",
     "season": "winter",
-    "gold": 8,
-    "silver": 10,
-    "bronze": 11,
-    "total": 29
+    "gold": 10,
+    "silver": 11,
+    "bronze": 12,
+    "total": 33
   },
   {
     "country": "CZE",
     "season": "total",
-    "gold": 33,
-    "silver": 15,
-    "bronze": 29,
-    "total": 77
+    "gold": 29,
+    "silver": 32,
+    "bronze": 39,
+    "total": 100
   },
   {
     "country": "TCH",
@@ -778,18 +778,18 @@
   {
     "country": "TCH",
     "season": "winter",
-    "gold": 16,
-    "silver": 2,
-    "bronze": 8,
-    "total": 26
+    "gold": 2,
+    "silver": 8,
+    "bronze": 15,
+    "total": 25
   },
   {
     "country": "TCH",
     "season": "total",
-    "gold": 25,
-    "silver": 32,
-    "bronze": 51,
-    "total": 108
+    "gold": 51,
+    "silver": 57,
+    "bronze": 60,
+    "total": 168
   },
   {
     "country": "DEN",
@@ -802,18 +802,18 @@
   {
     "country": "DEN",
     "season": "winter",
-    "gold": 15,
-    "silver": 0,
-    "bronze": 1,
-    "total": 16
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total": 1
   },
   {
     "country": "DEN",
     "season": "total",
-    "gold": 1,
-    "silver": 43,
-    "bronze": 48,
-    "total": 92
+    "gold": 48,
+    "silver": 79,
+    "bronze": 79,
+    "total": 206
   },
   {
     "country": "DJI",
@@ -835,9 +835,9 @@
     "country": "DJI",
     "season": "total",
     "gold": 0,
-    "silver": 9,
-    "bronze": 0,
-    "total": 9
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "DOM",
@@ -858,10 +858,10 @@
   {
     "country": "DOM",
     "season": "total",
-    "gold": 0,
-    "silver": 15,
-    "bronze": 3,
-    "total": 18
+    "gold": 3,
+    "silver": 5,
+    "bronze": 4,
+    "total": 12
   },
   {
     "country": "ECU",
@@ -874,18 +874,18 @@
   {
     "country": "ECU",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "ECU",
     "season": "total",
-    "gold": 0,
-    "silver": 17,
-    "bronze": 3,
-    "total": 20
+    "gold": 3,
+    "silver": 2,
+    "bronze": 0,
+    "total": 5
   },
   {
     "country": "EGY",
@@ -898,18 +898,18 @@
   {
     "country": "EGY",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "EGY",
     "season": "total",
-    "gold": 0,
-    "silver": 24,
-    "bronze": 8,
-    "total": 32
+    "gold": 8,
+    "silver": 11,
+    "bronze": 19,
+    "total": 38
   },
   {
     "country": "ERI",
@@ -922,18 +922,18 @@
   {
     "country": "ERI",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "ERI",
     "season": "total",
     "gold": 0,
-    "silver": 8,
-    "bronze": 0,
-    "total": 8
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "EST",
@@ -946,18 +946,18 @@
   {
     "country": "EST",
     "season": "winter",
-    "gold": 11,
-    "silver": 4,
+    "gold": 4,
+    "silver": 2,
     "bronze": 2,
-    "total": 17
+    "total": 8
   },
   {
     "country": "EST",
     "season": "total",
-    "gold": 8,
-    "silver": 24,
-    "bronze": 14,
-    "total": 46
+    "gold": 14,
+    "silver": 11,
+    "bronze": 19,
+    "total": 44
   },
   {
     "country": "ETH",
@@ -970,18 +970,18 @@
   {
     "country": "ETH",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "ETH",
     "season": "total",
-    "gold": 0,
-    "silver": 16,
+    "gold": 23,
+    "silver": 12,
     "bronze": 23,
-    "total": 39
+    "total": 58
   },
   {
     "country": "FIJ",
@@ -994,18 +994,18 @@
   {
     "country": "FIJ",
     "season": "winter",
-    "gold": 3,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 3
+    "total": 0
   },
   {
     "country": "FIJ",
     "season": "total",
-    "gold": 0,
-    "silver": 18,
-    "bronze": 2,
-    "total": 20
+    "gold": 2,
+    "silver": 0,
+    "bronze": 1,
+    "total": 3
   },
   {
     "country": "FIN",
@@ -1018,18 +1018,18 @@
   {
     "country": "FIN",
     "season": "winter",
-    "gold": 24,
-    "silver": 45,
+    "gold": 45,
+    "silver": 65,
     "bronze": 65,
-    "total": 134
+    "total": 175
   },
   {
     "country": "FIN",
     "season": "total",
-    "gold": 175,
-    "silver": 50,
-    "bronze": 146,
-    "total": 371
+    "gold": 146,
+    "silver": 150,
+    "bronze": 184,
+    "total": 480
   },
   {
     "country": "FRA",
@@ -1042,18 +1042,18 @@
   {
     "country": "FRA",
     "season": "winter",
-    "gold": 24,
-    "silver": 41,
-    "bronze": 42,
-    "total": 107
+    "gold": 41,
+    "silver": 42,
+    "bronze": 55,
+    "total": 138
   },
   {
     "country": "FRA",
     "season": "total",
-    "gold": 138,
-    "silver": 53,
-    "bronze": 264,
-    "total": 455
+    "gold": 264,
+    "silver": 293,
+    "bronze": 332,
+    "total": 889
   },
   {
     "country": "GAB",
@@ -1075,9 +1075,9 @@
     "country": "GAB",
     "season": "total",
     "gold": 0,
-    "silver": 11,
+    "silver": 1,
     "bronze": 0,
-    "total": 11
+    "total": 1
   },
   {
     "country": "GEO",
@@ -1090,18 +1090,18 @@
   {
     "country": "GEO",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "GEO",
     "season": "total",
-    "gold": 0,
-    "silver": 15,
-    "bronze": 10,
-    "total": 25
+    "gold": 10,
+    "silver": 12,
+    "bronze": 18,
+    "total": 40
   },
   {
     "country": "GER",
@@ -1114,18 +1114,18 @@
   {
     "country": "GER",
     "season": "winter",
-    "gold": 13,
-    "silver": 104,
-    "bronze": 98,
-    "total": 215
+    "gold": 104,
+    "silver": 98,
+    "bronze": 65,
+    "total": 267
   },
   {
     "country": "GER",
     "season": "total",
-    "gold": 267,
-    "silver": 30,
-    "bronze": 305,
-    "total": 602
+    "gold": 305,
+    "silver": 305,
+    "bronze": 312,
+    "total": 922
   },
   {
     "country": "EUA",
@@ -1138,18 +1138,18 @@
   {
     "country": "EUA",
     "season": "winter",
-    "gold": 3,
-    "silver": 8,
-    "bronze": 6,
-    "total": 17
+    "gold": 8,
+    "silver": 6,
+    "bronze": 5,
+    "total": 19
   },
   {
     "country": "EUA",
     "season": "total",
-    "gold": 19,
-    "silver": 6,
-    "bronze": 36,
-    "total": 61
+    "gold": 36,
+    "silver": 60,
+    "bronze": 41,
+    "total": 137
   },
   {
     "country": "GDR",
@@ -1162,18 +1162,18 @@
   {
     "country": "GDR",
     "season": "winter",
-    "gold": 6,
-    "silver": 39,
-    "bronze": 36,
-    "total": 81
+    "gold": 39,
+    "silver": 36,
+    "bronze": 35,
+    "total": 110
   },
   {
     "country": "GDR",
     "season": "total",
-    "gold": 110,
-    "silver": 11,
-    "bronze": 192,
-    "total": 313
+    "gold": 192,
+    "silver": 165,
+    "bronze": 162,
+    "total": 519
   },
   {
     "country": "FRG",
@@ -1186,18 +1186,18 @@
   {
     "country": "FRG",
     "season": "winter",
-    "gold": 6,
-    "silver": 11,
-    "bronze": 15,
-    "total": 32
+    "gold": 11,
+    "silver": 15,
+    "bronze": 13,
+    "total": 39
   },
   {
     "country": "FRG",
     "season": "total",
-    "gold": 39,
-    "silver": 11,
-    "bronze": 67,
-    "total": 117
+    "gold": 67,
+    "silver": 82,
+    "bronze": 94,
+    "total": 243
   },
   {
     "country": "GHA",
@@ -1210,18 +1210,18 @@
   {
     "country": "GHA",
     "season": "winter",
-    "gold": 3,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 3
+    "total": 0
   },
   {
     "country": "GHA",
     "season": "total",
     "gold": 0,
-    "silver": 18,
-    "bronze": 0,
-    "total": 18
+    "silver": 1,
+    "bronze": 4,
+    "total": 5
   },
   {
     "country": "GBR",
@@ -1234,18 +1234,18 @@
   {
     "country": "GBR",
     "season": "winter",
-    "gold": 24,
-    "silver": 12,
-    "bronze": 5,
-    "total": 41
+    "gold": 12,
+    "silver": 5,
+    "bronze": 17,
+    "total": 34
   },
   {
     "country": "GBR",
     "season": "total",
-    "gold": 34,
-    "silver": 53,
-    "bronze": 296,
-    "total": 383
+    "gold": 296,
+    "silver": 323,
+    "bronze": 331,
+    "total": 950
   },
   {
     "country": "GRE",
@@ -1258,18 +1258,18 @@
   {
     "country": "GRE",
     "season": "winter",
-    "gold": 20,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 20
+    "total": 0
   },
   {
     "country": "GRE",
     "season": "total",
-    "gold": 0,
-    "silver": 49,
-    "bronze": 35,
-    "total": 84
+    "gold": 35,
+    "silver": 45,
+    "bronze": 41,
+    "total": 121
   },
   {
     "country": "GRN",
@@ -1290,10 +1290,10 @@
   {
     "country": "GRN",
     "season": "total",
-    "gold": 0,
-    "silver": 10,
+    "gold": 1,
+    "silver": 1,
     "bronze": 1,
-    "total": 11
+    "total": 3
   },
   {
     "country": "GUA",
@@ -1306,18 +1306,18 @@
   {
     "country": "GUA",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "GUA",
     "season": "total",
     "gold": 0,
-    "silver": 16,
+    "silver": 1,
     "bronze": 0,
-    "total": 16
+    "total": 1
   },
   {
     "country": "GUY",
@@ -1339,9 +1339,9 @@
     "country": "GUY",
     "season": "total",
     "gold": 0,
-    "silver": 18,
-    "bronze": 0,
-    "total": 18
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "HAI",
@@ -1354,18 +1354,18 @@
   {
     "country": "HAI",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "HAI",
     "season": "total",
     "gold": 0,
-    "silver": 17,
-    "bronze": 0,
-    "total": 17
+    "silver": 1,
+    "bronze": 1,
+    "total": 2
   },
   {
     "country": "HKG",
@@ -1378,18 +1378,18 @@
   {
     "country": "HKG",
     "season": "winter",
-    "gold": 6,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 6
+    "total": 0
   },
   {
     "country": "HKG",
     "season": "total",
-    "gold": 0,
-    "silver": 23,
-    "bronze": 2,
-    "total": 25
+    "gold": 2,
+    "silver": 3,
+    "bronze": 4,
+    "total": 9
   },
   {
     "country": "HUN",
@@ -1402,18 +1402,18 @@
   {
     "country": "HUN",
     "season": "winter",
-    "gold": 24,
+    "gold": 2,
     "silver": 2,
-    "bronze": 2,
-    "total": 28
+    "bronze": 6,
+    "total": 10
   },
   {
     "country": "HUN",
     "season": "total",
-    "gold": 10,
-    "silver": 51,
-    "bronze": 183,
-    "total": 244
+    "gold": 183,
+    "silver": 156,
+    "bronze": 182,
+    "total": 521
   },
   {
     "country": "ISL",
@@ -1426,18 +1426,18 @@
   {
     "country": "ISL",
     "season": "winter",
-    "gold": 19,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 19
+    "total": 0
   },
   {
     "country": "ISL",
     "season": "total",
     "gold": 0,
-    "silver": 40,
-    "bronze": 0,
-    "total": 40
+    "silver": 2,
+    "bronze": 2,
+    "total": 4
   },
   {
     "country": "IND",
@@ -1450,18 +1450,18 @@
   {
     "country": "IND",
     "season": "winter",
-    "gold": 11,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 11
+    "total": 0
   },
   {
     "country": "IND",
     "season": "total",
-    "gold": 0,
-    "silver": 36,
-    "bronze": 10,
-    "total": 46
+    "gold": 10,
+    "silver": 9,
+    "bronze": 16,
+    "total": 35
   },
   {
     "country": "INA",
@@ -1482,10 +1482,10 @@
   {
     "country": "INA",
     "season": "total",
-    "gold": 0,
-    "silver": 16,
-    "bronze": 8,
-    "total": 24
+    "gold": 8,
+    "silver": 14,
+    "bronze": 15,
+    "total": 37
   },
   {
     "country": "IRI",
@@ -1498,18 +1498,18 @@
   {
     "country": "IRI",
     "season": "winter",
-    "gold": 12,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 12
+    "total": 0
   },
   {
     "country": "IRI",
     "season": "total",
-    "gold": 0,
-    "silver": 29,
-    "bronze": 24,
-    "total": 53
+    "gold": 24,
+    "silver": 23,
+    "bronze": 29,
+    "total": 76
   },
   {
     "country": "IRQ",
@@ -1531,9 +1531,9 @@
     "country": "IRQ",
     "season": "total",
     "gold": 0,
-    "silver": 15,
-    "bronze": 0,
-    "total": 15
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "IRL",
@@ -1546,18 +1546,18 @@
   {
     "country": "IRL",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "IRL",
     "season": "total",
-    "gold": 0,
-    "silver": 30,
-    "bronze": 11,
-    "total": 41
+    "gold": 11,
+    "silver": 10,
+    "bronze": 14,
+    "total": 35
   },
   {
     "country": "ISR",
@@ -1570,18 +1570,18 @@
   {
     "country": "ISR",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "ISR",
     "season": "total",
-    "gold": 0,
-    "silver": 25,
-    "bronze": 3,
-    "total": 28
+    "gold": 3,
+    "silver": 1,
+    "bronze": 9,
+    "total": 13
   },
   {
     "country": "ITA",
@@ -1594,18 +1594,18 @@
   {
     "country": "ITA",
     "season": "winter",
-    "gold": 24,
-    "silver": 42,
-    "bronze": 43,
-    "total": 109
+    "gold": 42,
+    "silver": 43,
+    "bronze": 56,
+    "total": 141
   },
   {
     "country": "ITA",
     "season": "total",
-    "gold": 141,
-    "silver": 52,
-    "bronze": 259,
-    "total": 452
+    "gold": 259,
+    "silver": 231,
+    "bronze": 269,
+    "total": 759
   },
   {
     "country": "JAM",
@@ -1618,18 +1618,18 @@
   {
     "country": "JAM",
     "season": "winter",
-    "gold": 9,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 9
+    "total": 0
   },
   {
     "country": "JAM",
     "season": "total",
-    "gold": 0,
-    "silver": 27,
-    "bronze": 26,
-    "total": 53
+    "gold": 26,
+    "silver": 36,
+    "bronze": 25,
+    "total": 87
   },
   {
     "country": "JPN",
@@ -1642,18 +1642,18 @@
   {
     "country": "JPN",
     "season": "winter",
-    "gold": 22,
-    "silver": 17,
-    "bronze": 28,
-    "total": 67
+    "gold": 17,
+    "silver": 28,
+    "bronze": 31,
+    "total": 76
   },
   {
     "country": "JPN",
     "season": "total",
-    "gold": 76,
-    "silver": 45,
-    "bronze": 186,
-    "total": 307
+    "gold": 186,
+    "silver": 178,
+    "bronze": 209,
+    "total": 573
   },
   {
     "country": "JOR",
@@ -1674,10 +1674,10 @@
   {
     "country": "JOR",
     "season": "total",
-    "gold": 0,
-    "silver": 11,
+    "gold": 1,
+    "silver": 1,
     "bronze": 1,
-    "total": 12
+    "total": 3
   },
   {
     "country": "KAZ",
@@ -1690,18 +1690,18 @@
   {
     "country": "KAZ",
     "season": "winter",
-    "gold": 8,
-    "silver": 1,
-    "bronze": 3,
-    "total": 12
+    "gold": 1,
+    "silver": 3,
+    "bronze": 4,
+    "total": 8
   },
   {
     "country": "KAZ",
     "season": "total",
-    "gold": 8,
-    "silver": 15,
-    "bronze": 16,
-    "total": 39
+    "gold": 16,
+    "silver": 25,
+    "bronze": 39,
+    "total": 80
   },
   {
     "country": "KEN",
@@ -1714,18 +1714,18 @@
   {
     "country": "KEN",
     "season": "winter",
-    "gold": 4,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 4
+    "total": 0
   },
   {
     "country": "KEN",
     "season": "total",
-    "gold": 0,
-    "silver": 19,
-    "bronze": 35,
-    "total": 54
+    "gold": 35,
+    "silver": 42,
+    "bronze": 36,
+    "total": 113
   },
   {
     "country": "KOS",
@@ -1738,18 +1738,18 @@
   {
     "country": "KOS",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "KOS",
     "season": "total",
-    "gold": 0,
-    "silver": 4,
-    "bronze": 3,
-    "total": 7
+    "gold": 3,
+    "silver": 0,
+    "bronze": 0,
+    "total": 3
   },
   {
     "country": "PRK",
@@ -1762,18 +1762,18 @@
   {
     "country": "PRK",
     "season": "winter",
-    "gold": 9,
-    "silver": 0,
+    "gold": 0,
+    "silver": 1,
     "bronze": 1,
-    "total": 10
+    "total": 2
   },
   {
     "country": "PRK",
     "season": "total",
-    "gold": 2,
-    "silver": 19,
-    "bronze": 16,
-    "total": 37
+    "gold": 16,
+    "silver": 17,
+    "bronze": 24,
+    "total": 57
   },
   {
     "country": "KOR",
@@ -1786,18 +1786,18 @@
   {
     "country": "KOR",
     "season": "winter",
-    "gold": 19,
-    "silver": 33,
-    "bronze": 30,
-    "total": 82
+    "gold": 33,
+    "silver": 30,
+    "bronze": 16,
+    "total": 79
   },
   {
     "country": "KOR",
     "season": "total",
-    "gold": 79,
-    "silver": 37,
-    "bronze": 129,
-    "total": 245
+    "gold": 129,
+    "silver": 121,
+    "bronze": 116,
+    "total": 366
   },
   {
     "country": "KUW",
@@ -1819,9 +1819,9 @@
     "country": "KUW",
     "season": "total",
     "gold": 0,
-    "silver": 13,
-    "bronze": 0,
-    "total": 13
+    "silver": 0,
+    "bronze": 3,
+    "total": 3
   },
   {
     "country": "KGZ",
@@ -1834,18 +1834,18 @@
   {
     "country": "KGZ",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "KGZ",
     "season": "total",
     "gold": 0,
-    "silver": 15,
-    "bronze": 0,
-    "total": 15
+    "silver": 3,
+    "bronze": 4,
+    "total": 7
   },
   {
     "country": "LAT",
@@ -1858,21 +1858,21 @@
   {
     "country": "LAT",
     "season": "winter",
-    "gold": 12,
-    "silver": 1,
-    "bronze": 3,
-    "total": 16
+    "gold": 1,
+    "silver": 3,
+    "bronze": 6,
+    "total": 10
   },
   {
     "country": "LAT",
     "season": "total",
-    "gold": 10,
-    "silver": 24,
-    "bronze": 5,
-    "total": 39
+    "gold": 5,
+    "silver": 14,
+    "bronze": 12,
+    "total": 31
   },
   {
-    "country": "LIB",
+    "country": "LBN",
     "season": "summer",
     "gold": 0,
     "silver": 2,
@@ -1880,20 +1880,20 @@
     "total": 4
   },
   {
-    "country": "LIB",
+    "country": "LBN",
     "season": "winter",
-    "gold": 18,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 18
+    "total": 0
   },
   {
-    "country": "LIB",
+    "country": "LBN",
     "season": "total",
     "gold": 0,
-    "silver": 36,
-    "bronze": 0,
-    "total": 36
+    "silver": 2,
+    "bronze": 2,
+    "total": 4
   },
   {
     "country": "LIE",
@@ -1906,18 +1906,18 @@
   {
     "country": "LIE",
     "season": "winter",
-    "gold": 20,
+    "gold": 2,
     "silver": 2,
-    "bronze": 2,
-    "total": 24
+    "bronze": 6,
+    "total": 10
   },
   {
     "country": "LIE",
     "season": "total",
-    "gold": 10,
-    "silver": 38,
-    "bronze": 2,
-    "total": 50
+    "gold": 2,
+    "silver": 2,
+    "bronze": 6,
+    "total": 10
   },
   {
     "country": "LTU",
@@ -1930,17 +1930,17 @@
   {
     "country": "LTU",
     "season": "winter",
-    "gold": 10,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 10
+    "total": 0
   },
   {
     "country": "LTU",
     "season": "total",
-    "gold": 0,
-    "silver": 20,
-    "bronze": 6,
+    "gold": 6,
+    "silver": 7,
+    "bronze": 13,
     "total": 26
   },
   {
@@ -1954,18 +1954,18 @@
   {
     "country": "LUX",
     "season": "winter",
-    "gold": 10,
-    "silver": 0,
-    "bronze": 2,
-    "total": 12
+    "gold": 0,
+    "silver": 2,
+    "bronze": 0,
+    "total": 2
   },
   {
     "country": "LUX",
     "season": "total",
     "gold": 2,
-    "silver": 35,
-    "bronze": 2,
-    "total": 39
+    "silver": 3,
+    "bronze": 0,
+    "total": 5
   },
   {
     "country": "MAS",
@@ -1978,18 +1978,18 @@
   {
     "country": "MAS",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "MAS",
     "season": "total",
     "gold": 0,
-    "silver": 16,
-    "bronze": 0,
-    "total": 16
+    "silver": 8,
+    "bronze": 5,
+    "total": 13
   },
   {
     "country": "MRI",
@@ -2011,9 +2011,9 @@
     "country": "MRI",
     "season": "total",
     "gold": 0,
-    "silver": 10,
-    "bronze": 0,
-    "total": 10
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "MEX",
@@ -2026,18 +2026,18 @@
   {
     "country": "MEX",
     "season": "winter",
-    "gold": 10,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 10
+    "total": 0
   },
   {
     "country": "MEX",
     "season": "total",
-    "gold": 0,
-    "silver": 34,
-    "bronze": 13,
-    "total": 47
+    "gold": 13,
+    "silver": 24,
+    "bronze": 35,
+    "total": 72
   },
   {
     "country": "MDA",
@@ -2050,18 +2050,18 @@
   {
     "country": "MDA",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "MDA",
     "season": "total",
     "gold": 0,
-    "silver": 15,
-    "bronze": 0,
-    "total": 15
+    "silver": 2,
+    "bronze": 4,
+    "total": 6
   },
   {
     "country": "MGL",
@@ -2074,18 +2074,18 @@
   {
     "country": "MGL",
     "season": "winter",
-    "gold": 15,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 15
+    "total": 0
   },
   {
     "country": "MGL",
     "season": "total",
-    "gold": 0,
-    "silver": 29,
-    "bronze": 2,
-    "total": 31
+    "gold": 2,
+    "silver": 11,
+    "bronze": 17,
+    "total": 30
   },
   {
     "country": "MNE",
@@ -2098,18 +2098,18 @@
   {
     "country": "MNE",
     "season": "winter",
-    "gold": 4,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 4
+    "total": 0
   },
   {
     "country": "MNE",
     "season": "total",
     "gold": 0,
-    "silver": 8,
+    "silver": 1,
     "bronze": 0,
-    "total": 8
+    "total": 1
   },
   {
     "country": "MAR",
@@ -2122,18 +2122,18 @@
   {
     "country": "MAR",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "MAR",
     "season": "total",
-    "gold": 0,
-    "silver": 23,
-    "bronze": 7,
-    "total": 30
+    "gold": 7,
+    "silver": 5,
+    "bronze": 12,
+    "total": 24
   },
   {
     "country": "MOZ",
@@ -2154,10 +2154,10 @@
   {
     "country": "MOZ",
     "season": "total",
-    "gold": 0,
-    "silver": 11,
+    "gold": 1,
+    "silver": 0,
     "bronze": 1,
-    "total": 12
+    "total": 2
   },
   {
     "country": "NAM",
@@ -2179,9 +2179,9 @@
     "country": "NAM",
     "season": "total",
     "gold": 0,
-    "silver": 8,
+    "silver": 5,
     "bronze": 0,
-    "total": 8
+    "total": 5
   },
   {
     "country": "NED",
@@ -2194,18 +2194,18 @@
   {
     "country": "NED",
     "season": "winter",
-    "gold": 22,
-    "silver": 53,
-    "bronze": 49,
-    "total": 124
+    "gold": 53,
+    "silver": 49,
+    "bronze": 45,
+    "total": 147
   },
   {
     "country": "NED",
     "season": "total",
-    "gold": 147,
-    "silver": 49,
-    "bronze": 148,
-    "total": 344
+    "gold": 148,
+    "silver": 154,
+    "bronze": 167,
+    "total": 469
   },
   {
     "country": "AHO",
@@ -2218,18 +2218,18 @@
   {
     "country": "AHO",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "AHO",
     "season": "total",
     "gold": 0,
-    "silver": 15,
+    "silver": 1,
     "bronze": 0,
-    "total": 15
+    "total": 1
   },
   {
     "country": "NZL",
@@ -2242,18 +2242,18 @@
   {
     "country": "NZL",
     "season": "winter",
-    "gold": 17,
+    "gold": 2,
     "silver": 2,
     "bronze": 2,
-    "total": 21
+    "total": 6
   },
   {
     "country": "NZL",
     "season": "total",
-    "gold": 6,
-    "silver": 41,
-    "bronze": 55,
-    "total": 102
+    "gold": 55,
+    "silver": 35,
+    "bronze": 53,
+    "total": 143
   },
   {
     "country": "NIG",
@@ -2275,9 +2275,9 @@
     "country": "NIG",
     "season": "total",
     "gold": 0,
-    "silver": 13,
-    "bronze": 0,
-    "total": 13
+    "silver": 1,
+    "bronze": 1,
+    "total": 2
   },
   {
     "country": "NGR",
@@ -2290,18 +2290,18 @@
   {
     "country": "NGR",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "NGR",
     "season": "total",
-    "gold": 0,
-    "silver": 19,
-    "bronze": 3,
-    "total": 22
+    "gold": 3,
+    "silver": 11,
+    "bronze": 13,
+    "total": 27
   },
   {
     "country": "MKD",
@@ -2314,18 +2314,18 @@
   {
     "country": "MKD",
     "season": "winter",
-    "gold": 7,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 7
+    "total": 0
   },
   {
     "country": "MKD",
     "season": "total",
     "gold": 0,
-    "silver": 14,
-    "bronze": 0,
-    "total": 14
+    "silver": 1,
+    "bronze": 1,
+    "total": 2
   },
   {
     "country": "NOR",
@@ -2338,18 +2338,18 @@
   {
     "country": "NOR",
     "season": "winter",
-    "gold": 24,
-    "silver": 148,
-    "bronze": 133,
-    "total": 305
+    "gold": 148,
+    "silver": 133,
+    "bronze": 124,
+    "total": 405
   },
   {
     "country": "NOR",
     "season": "total",
-    "gold": 405,
-    "silver": 51,
-    "bronze": 210,
-    "total": 666
+    "gold": 210,
+    "silver": 184,
+    "bronze": 174,
+    "total": 568
   },
   {
     "country": "PAK",
@@ -2362,18 +2362,18 @@
   {
     "country": "PAK",
     "season": "winter",
-    "gold": 4,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 4
+    "total": 0
   },
   {
     "country": "PAK",
     "season": "total",
-    "gold": 0,
-    "silver": 22,
-    "bronze": 3,
-    "total": 25
+    "gold": 3,
+    "silver": 3,
+    "bronze": 4,
+    "total": 10
   },
   {
     "country": "PAN",
@@ -2394,10 +2394,10 @@
   {
     "country": "PAN",
     "season": "total",
-    "gold": 0,
-    "silver": 18,
-    "bronze": 1,
-    "total": 19
+    "gold": 1,
+    "silver": 0,
+    "bronze": 2,
+    "total": 3
   },
   {
     "country": "PAR",
@@ -2410,18 +2410,18 @@
   {
     "country": "PAR",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "PAR",
     "season": "total",
     "gold": 0,
-    "silver": 14,
+    "silver": 1,
     "bronze": 0,
-    "total": 14
+    "total": 1
   },
   {
     "country": "PER",
@@ -2434,18 +2434,18 @@
   {
     "country": "PER",
     "season": "winter",
-    "gold": 3,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 3
+    "total": 0
   },
   {
     "country": "PER",
     "season": "total",
-    "gold": 0,
-    "silver": 22,
-    "bronze": 1,
-    "total": 23
+    "gold": 1,
+    "silver": 3,
+    "bronze": 0,
+    "total": 4
   },
   {
     "country": "PHI",
@@ -2458,18 +2458,18 @@
   {
     "country": "PHI",
     "season": "winter",
-    "gold": 6,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 6
+    "total": 0
   },
   {
     "country": "PHI",
     "season": "total",
-    "gold": 0,
-    "silver": 28,
-    "bronze": 1,
-    "total": 29
+    "gold": 1,
+    "silver": 5,
+    "bronze": 8,
+    "total": 14
   },
   {
     "country": "POL",
@@ -2482,18 +2482,18 @@
   {
     "country": "POL",
     "season": "winter",
-    "gold": 24,
+    "gold": 7,
     "silver": 7,
-    "bronze": 7,
-    "total": 38
+    "bronze": 9,
+    "total": 23
   },
   {
     "country": "POL",
     "season": "total",
-    "gold": 23,
-    "silver": 46,
-    "bronze": 79,
-    "total": 148
+    "gold": 79,
+    "silver": 96,
+    "bronze": 146,
+    "total": 321
   },
   {
     "country": "POR",
@@ -2506,18 +2506,18 @@
   {
     "country": "POR",
     "season": "winter",
-    "gold": 9,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 9
+    "total": 0
   },
   {
     "country": "POR",
     "season": "total",
-    "gold": 0,
-    "silver": 34,
-    "bronze": 5,
-    "total": 39
+    "gold": 5,
+    "silver": 9,
+    "bronze": 14,
+    "total": 28
   },
   {
     "country": "PUR",
@@ -2530,18 +2530,18 @@
   {
     "country": "PUR",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "PUR",
     "season": "total",
-    "gold": 0,
-    "silver": 27,
-    "bronze": 2,
-    "total": 29
+    "gold": 2,
+    "silver": 2,
+    "bronze": 6,
+    "total": 10
   },
   {
     "country": "QAT",
@@ -2562,10 +2562,10 @@
   {
     "country": "QAT",
     "season": "total",
-    "gold": 0,
-    "silver": 10,
-    "bronze": 2,
-    "total": 12
+    "gold": 2,
+    "silver": 2,
+    "bronze": 4,
+    "total": 8
   },
   {
     "country": "ROU",
@@ -2578,18 +2578,18 @@
   {
     "country": "ROU",
     "season": "winter",
-    "gold": 22,
+    "gold": 0,
     "silver": 0,
-    "bronze": 0,
-    "total": 22
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "ROU",
     "season": "total",
-    "gold": 1,
-    "silver": 44,
-    "bronze": 90,
-    "total": 135
+    "gold": 90,
+    "silver": 97,
+    "bronze": 122,
+    "total": 309
   },
   {
     "country": "RUS",
@@ -2602,18 +2602,18 @@
   {
     "country": "RUS",
     "season": "winter",
-    "gold": 6,
-    "silver": 47,
-    "bronze": 39,
-    "total": 92
+    "gold": 47,
+    "silver": 39,
+    "bronze": 35,
+    "total": 121
   },
   {
     "country": "RUS",
     "season": "total",
-    "gold": 121,
-    "silver": 12,
-    "bronze": 196,
-    "total": 329
+    "gold": 196,
+    "silver": 165,
+    "bronze": 186,
+    "total": 547
   },
   {
     "country": "RU1",
@@ -2634,10 +2634,10 @@
   {
     "country": "RU1",
     "season": "total",
-    "gold": 0,
-    "silver": 3,
-    "bronze": 1,
-    "total": 4
+    "gold": 1,
+    "silver": 4,
+    "bronze": 3,
+    "total": 8
   },
   {
     "country": "URS",
@@ -2650,18 +2650,18 @@
   {
     "country": "URS",
     "season": "winter",
-    "gold": 9,
-    "silver": 78,
-    "bronze": 57,
-    "total": 144
+    "gold": 78,
+    "silver": 57,
+    "bronze": 59,
+    "total": 194
   },
   {
     "country": "URS",
     "season": "total",
-    "gold": 194,
-    "silver": 18,
-    "bronze": 473,
-    "total": 685
+    "gold": 473,
+    "silver": 376,
+    "bronze": 355,
+    "total": 1204
   },
   {
     "country": "EUN",
@@ -2674,18 +2674,18 @@
   {
     "country": "EUN",
     "season": "winter",
-    "gold": 1,
-    "silver": 9,
-    "bronze": 6,
-    "total": 16
+    "gold": 9,
+    "silver": 6,
+    "bronze": 8,
+    "total": 23
   },
   {
     "country": "EUN",
     "season": "total",
-    "gold": 23,
-    "silver": 2,
-    "bronze": 54,
-    "total": 79
+    "gold": 54,
+    "silver": 44,
+    "bronze": 37,
+    "total": 135
   },
   {
     "country": "OAR",
@@ -2698,18 +2698,18 @@
   {
     "country": "OAR",
     "season": "winter",
-    "gold": 1,
-    "silver": 2,
-    "bronze": 6,
-    "total": 9
+    "gold": 2,
+    "silver": 6,
+    "bronze": 9,
+    "total": 17
   },
   {
     "country": "OAR",
     "season": "total",
-    "gold": 17,
-    "silver": 1,
-    "bronze": 2,
-    "total": 20
+    "gold": 2,
+    "silver": 6,
+    "bronze": 9,
+    "total": 17
   },
   {
     "country": "ROC",
@@ -2722,18 +2722,18 @@
   {
     "country": "ROC",
     "season": "winter",
-    "gold": 1,
-    "silver": 6,
-    "bronze": 12,
-    "total": 19
+    "gold": 6,
+    "silver": 12,
+    "bronze": 14,
+    "total": 32
   },
   {
     "country": "ROC",
     "season": "total",
-    "gold": 32,
-    "silver": 2,
-    "bronze": 26,
-    "total": 60
+    "gold": 26,
+    "silver": 40,
+    "bronze": 37,
+    "total": 103
   },
   {
     "country": "SMR",
@@ -2746,18 +2746,18 @@
   {
     "country": "SMR",
     "season": "winter",
-    "gold": 11,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 11
+    "total": 0
   },
   {
     "country": "SMR",
     "season": "total",
     "gold": 0,
-    "silver": 26,
-    "bronze": 0,
-    "total": 26
+    "silver": 1,
+    "bronze": 2,
+    "total": 3
   },
   {
     "country": "KSA",
@@ -2770,18 +2770,18 @@
   {
     "country": "KSA",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "KSA",
     "season": "total",
     "gold": 0,
-    "silver": 13,
-    "bronze": 0,
-    "total": 13
+    "silver": 2,
+    "bronze": 2,
+    "total": 4
   },
   {
     "country": "SAM",
@@ -2803,9 +2803,9 @@
     "country": "SAM",
     "season": "total",
     "gold": 0,
-    "silver": 10,
+    "silver": 1,
     "bronze": 0,
-    "total": 10
+    "total": 1
   },
   {
     "country": "SEN",
@@ -2818,18 +2818,18 @@
   {
     "country": "SEN",
     "season": "winter",
-    "gold": 5,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 5
+    "total": 0
   },
   {
     "country": "SEN",
     "season": "total",
     "gold": 0,
-    "silver": 20,
+    "silver": 1,
     "bronze": 0,
-    "total": 20
+    "total": 1
   },
   {
     "country": "SRB",
@@ -2842,18 +2842,18 @@
   {
     "country": "SRB",
     "season": "winter",
-    "gold": 4,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 4
+    "total": 0
   },
   {
     "country": "SRB",
     "season": "total",
-    "gold": 0,
-    "silver": 9,
-    "bronze": 6,
-    "total": 15
+    "gold": 6,
+    "silver": 7,
+    "bronze": 11,
+    "total": 24
   },
   {
     "country": "SCG",
@@ -2866,18 +2866,18 @@
   {
     "country": "SCG",
     "season": "winter",
-    "gold": 3,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 3
+    "total": 0
   },
   {
     "country": "SCG",
     "season": "total",
-    "gold": 0,
-    "silver": 6,
-    "bronze": 2,
-    "total": 8
+    "gold": 2,
+    "silver": 4,
+    "bronze": 3,
+    "total": 9
   },
   {
     "country": "SGP",
@@ -2890,18 +2890,18 @@
   {
     "country": "SGP",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "SGP",
     "season": "total",
-    "gold": 0,
-    "silver": 18,
-    "bronze": 1,
-    "total": 19
+    "gold": 1,
+    "silver": 2,
+    "bronze": 2,
+    "total": 5
   },
   {
     "country": "SVK",
@@ -2914,18 +2914,18 @@
   {
     "country": "SVK",
     "season": "winter",
-    "gold": 8,
+    "gold": 4,
     "silver": 4,
-    "bronze": 4,
-    "total": 16
+    "bronze": 2,
+    "total": 10
   },
   {
     "country": "SVK",
     "season": "total",
-    "gold": 10,
-    "silver": 15,
-    "bronze": 14,
-    "total": 39
+    "gold": 14,
+    "silver": 18,
+    "bronze": 10,
+    "total": 42
   },
   {
     "country": "SLO",
@@ -2938,18 +2938,18 @@
   {
     "country": "SLO",
     "season": "winter",
-    "gold": 9,
-    "silver": 4,
-    "bronze": 8,
-    "total": 21
+    "gold": 4,
+    "silver": 8,
+    "bronze": 12,
+    "total": 24
   },
   {
     "country": "SLO",
     "season": "total",
-    "gold": 24,
+    "gold": 12,
     "silver": 17,
-    "bronze": 12,
-    "total": 53
+    "bronze": 23,
+    "total": 52
   },
   {
     "country": "RSA",
@@ -2962,18 +2962,18 @@
   {
     "country": "RSA",
     "season": "winter",
-    "gold": 7,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 7
+    "total": 0
   },
   {
     "country": "RSA",
     "season": "total",
-    "gold": 0,
-    "silver": 27,
-    "bronze": 27,
-    "total": 54
+    "gold": 27,
+    "silver": 33,
+    "bronze": 29,
+    "total": 89
   },
   {
     "country": "ESP",
@@ -2986,18 +2986,18 @@
   {
     "country": "ESP",
     "season": "winter",
-    "gold": 21,
+    "gold": 1,
     "silver": 1,
-    "bronze": 1,
-    "total": 23
+    "bronze": 3,
+    "total": 5
   },
   {
     "country": "ESP",
     "season": "total",
-    "gold": 5,
-    "silver": 45,
-    "bronze": 49,
-    "total": 99
+    "gold": 49,
+    "silver": 73,
+    "bronze": 52,
+    "total": 174
   },
   {
     "country": "SRI",
@@ -3019,9 +3019,9 @@
     "country": "SRI",
     "season": "total",
     "gold": 0,
-    "silver": 18,
+    "silver": 2,
     "bronze": 0,
-    "total": 18
+    "total": 2
   },
   {
     "country": "SUD",
@@ -3043,9 +3043,9 @@
     "country": "SUD",
     "season": "total",
     "gold": 0,
-    "silver": 13,
+    "silver": 1,
     "bronze": 0,
-    "total": 13
+    "total": 1
   },
   {
     "country": "SUR",
@@ -3066,10 +3066,10 @@
   {
     "country": "SUR",
     "season": "total",
-    "gold": 0,
-    "silver": 13,
+    "gold": 1,
+    "silver": 0,
     "bronze": 1,
-    "total": 14
+    "total": 2
   },
   {
     "country": "SWE",
@@ -3082,18 +3082,18 @@
   {
     "country": "SWE",
     "season": "winter",
-    "gold": 24,
-    "silver": 65,
-    "bronze": 51,
-    "total": 140
+    "gold": 65,
+    "silver": 51,
+    "bronze": 60,
+    "total": 176
   },
   {
     "country": "SWE",
     "season": "total",
-    "gold": 176,
-    "silver": 52,
-    "bronze": 213,
-    "total": 441
+    "gold": 213,
+    "silver": 227,
+    "bronze": 239,
+    "total": 679
   },
   {
     "country": "SUI",
@@ -3106,18 +3106,18 @@
   {
     "country": "SUI",
     "season": "winter",
-    "gold": 24,
-    "silver": 63,
-    "bronze": 47,
-    "total": 134
+    "gold": 63,
+    "silver": 47,
+    "bronze": 58,
+    "total": 168
   },
   {
     "country": "SUI",
     "season": "total",
-    "gold": 168,
-    "silver": 53,
-    "bronze": 116,
-    "total": 337
+    "gold": 116,
+    "silver": 126,
+    "bronze": 132,
+    "total": 374
   },
   {
     "country": "SYR",
@@ -3138,10 +3138,10 @@
   {
     "country": "SYR",
     "season": "total",
-    "gold": 0,
-    "silver": 14,
-    "bronze": 1,
-    "total": 15
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
   },
   {
     "country": "TPE",
@@ -3154,18 +3154,18 @@
   {
     "country": "TPE",
     "season": "winter",
-    "gold": 13,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 13
+    "total": 0
   },
   {
     "country": "TPE",
     "season": "total",
-    "gold": 0,
-    "silver": 28,
-    "bronze": 7,
-    "total": 35
+    "gold": 7,
+    "silver": 11,
+    "bronze": 18,
+    "total": 36
   },
   {
     "country": "TJK",
@@ -3178,18 +3178,18 @@
   {
     "country": "TJK",
     "season": "winter",
-    "gold": 4,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 4
+    "total": 0
   },
   {
     "country": "TJK",
     "season": "total",
-    "gold": 0,
-    "silver": 11,
-    "bronze": 1,
-    "total": 12
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
   },
   {
     "country": "TAN",
@@ -3211,9 +3211,9 @@
     "country": "TAN",
     "season": "total",
     "gold": 0,
-    "silver": 14,
+    "silver": 2,
     "bronze": 0,
-    "total": 14
+    "total": 2
   },
   {
     "country": "THA",
@@ -3226,18 +3226,18 @@
   {
     "country": "THA",
     "season": "winter",
-    "gold": 5,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 5
+    "total": 0
   },
   {
     "country": "THA",
     "season": "total",
-    "gold": 0,
-    "silver": 22,
-    "bronze": 10,
-    "total": 32
+    "gold": 10,
+    "silver": 8,
+    "bronze": 17,
+    "total": 35
   },
   {
     "country": "TOG",
@@ -3250,18 +3250,18 @@
   {
     "country": "TOG",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "TOG",
     "season": "total",
     "gold": 0,
-    "silver": 13,
-    "bronze": 0,
-    "total": 13
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
   },
   {
     "country": "TGA",
@@ -3274,18 +3274,18 @@
   {
     "country": "TGA",
     "season": "winter",
-    "gold": 2,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 2
+    "total": 0
   },
   {
     "country": "TGA",
     "season": "total",
     "gold": 0,
-    "silver": 12,
+    "silver": 1,
     "bronze": 0,
-    "total": 12
+    "total": 1
   },
   {
     "country": "TTO",
@@ -3298,18 +3298,18 @@
   {
     "country": "TTO",
     "season": "winter",
-    "gold": 4,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 4
+    "total": 0
   },
   {
     "country": "TTO",
     "season": "total",
-    "gold": 0,
-    "silver": 22,
-    "bronze": 3,
-    "total": 25
+    "gold": 3,
+    "silver": 5,
+    "bronze": 11,
+    "total": 19
   },
   {
     "country": "TUN",
@@ -3330,10 +3330,10 @@
   {
     "country": "TUN",
     "season": "total",
-    "gold": 0,
-    "silver": 15,
-    "bronze": 5,
-    "total": 20
+    "gold": 5,
+    "silver": 3,
+    "bronze": 7,
+    "total": 15
   },
   {
     "country": "TUR",
@@ -3346,18 +3346,18 @@
   {
     "country": "TUR",
     "season": "winter",
-    "gold": 18,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 18
+    "total": 0
   },
   {
     "country": "TUR",
     "season": "total",
-    "gold": 0,
-    "silver": 41,
-    "bronze": 41,
-    "total": 82
+    "gold": 41,
+    "silver": 26,
+    "bronze": 37,
+    "total": 104
   },
   {
     "country": "TKM",
@@ -3379,9 +3379,9 @@
     "country": "TKM",
     "season": "total",
     "gold": 0,
-    "silver": 7,
+    "silver": 1,
     "bronze": 0,
-    "total": 7
+    "total": 1
   },
   {
     "country": "UGA",
@@ -3402,10 +3402,10 @@
   {
     "country": "UGA",
     "season": "total",
-    "gold": 0,
-    "silver": 16,
-    "bronze": 4,
-    "total": 20
+    "gold": 4,
+    "silver": 4,
+    "bronze": 3,
+    "total": 11
   },
   {
     "country": "UKR",
@@ -3418,18 +3418,18 @@
   {
     "country": "UKR",
     "season": "winter",
-    "gold": 8,
-    "silver": 3,
-    "bronze": 2,
-    "total": 13
+    "gold": 3,
+    "silver": 2,
+    "bronze": 4,
+    "total": 9
   },
   {
     "country": "UKR",
     "season": "total",
-    "gold": 9,
-    "silver": 15,
-    "bronze": 38,
-    "total": 62
+    "gold": 38,
+    "silver": 38,
+    "bronze": 72,
+    "total": 148
   },
   {
     "country": "UAE",
@@ -3450,10 +3450,10 @@
   {
     "country": "UAE",
     "season": "total",
-    "gold": 0,
-    "silver": 10,
+    "gold": 1,
+    "silver": 0,
     "bronze": 1,
-    "total": 11
+    "total": 2
   },
   {
     "country": "USA",
@@ -3466,18 +3466,18 @@
   {
     "country": "USA",
     "season": "winter",
-    "gold": 24,
-    "silver": 113,
-    "bronze": 122,
-    "total": 259
+    "gold": 113,
+    "silver": 122,
+    "bronze": 95,
+    "total": 330
   },
   {
     "country": "USA",
     "season": "total",
-    "gold": 330,
-    "silver": 52,
-    "bronze": 1173,
-    "total": 1555
+    "gold": 1173,
+    "silver": 953,
+    "bronze": 833,
+    "total": 2959
   },
   {
     "country": "URU",
@@ -3490,18 +3490,18 @@
   {
     "country": "URU",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "URU",
     "season": "total",
-    "gold": 0,
-    "silver": 23,
-    "bronze": 2,
-    "total": 25
+    "gold": 2,
+    "silver": 2,
+    "bronze": 6,
+    "total": 10
   },
   {
     "country": "UZB",
@@ -3514,18 +3514,18 @@
   {
     "country": "UZB",
     "season": "winter",
-    "gold": 8,
-    "silver": 1,
+    "gold": 1,
+    "silver": 0,
     "bronze": 0,
-    "total": 9
+    "total": 1
   },
   {
     "country": "UZB",
     "season": "total",
-    "gold": 1,
-    "silver": 15,
-    "bronze": 11,
-    "total": 27
+    "gold": 11,
+    "silver": 6,
+    "bronze": 20,
+    "total": 37
   },
   {
     "country": "VEN",
@@ -3538,18 +3538,18 @@
   {
     "country": "VEN",
     "season": "winter",
-    "gold": 4,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 4
+    "total": 0
   },
   {
     "country": "VEN",
     "season": "total",
-    "gold": 0,
-    "silver": 23,
-    "bronze": 3,
-    "total": 26
+    "gold": 3,
+    "silver": 7,
+    "bronze": 9,
+    "total": 19
   },
   {
     "country": "VIE",
@@ -3570,10 +3570,10 @@
   {
     "country": "VIE",
     "season": "total",
-    "gold": 0,
-    "silver": 16,
+    "gold": 1,
+    "silver": 3,
     "bronze": 1,
-    "total": 17
+    "total": 5
   },
   {
     "country": "ISV",
@@ -3586,18 +3586,18 @@
   {
     "country": "ISV",
     "season": "winter",
-    "gold": 8,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 8
+    "total": 0
   },
   {
     "country": "ISV",
     "season": "total",
     "gold": 0,
-    "silver": 21,
+    "silver": 1,
     "bronze": 0,
-    "total": 21
+    "total": 1
   },
   {
     "country": "YUG",
@@ -3610,18 +3610,18 @@
   {
     "country": "YUG",
     "season": "winter",
-    "gold": 14,
-    "silver": 0,
-    "bronze": 3,
-    "total": 17
+    "gold": 0,
+    "silver": 3,
+    "bronze": 1,
+    "total": 4
   },
   {
     "country": "YUG",
     "season": "total",
-    "gold": 4,
-    "silver": 30,
-    "bronze": 26,
-    "total": 60
+    "gold": 26,
+    "silver": 32,
+    "bronze": 29,
+    "total": 87
   },
   {
     "country": "ZAM",
@@ -3643,9 +3643,9 @@
     "country": "ZAM",
     "season": "total",
     "gold": 0,
-    "silver": 14,
-    "bronze": 0,
-    "total": 14
+    "silver": 1,
+    "bronze": 1,
+    "total": 2
   },
   {
     "country": "ZIM",
@@ -3658,18 +3658,18 @@
   {
     "country": "ZIM",
     "season": "winter",
-    "gold": 1,
+    "gold": 0,
     "silver": 0,
     "bronze": 0,
-    "total": 1
+    "total": 0
   },
   {
     "country": "ZIM",
     "season": "total",
-    "gold": 0,
-    "silver": 15,
-    "bronze": 3,
-    "total": 18
+    "gold": 3,
+    "silver": 4,
+    "bronze": 1,
+    "total": 8
   },
   {
     "country": "IOA",
@@ -3690,10 +3690,10 @@
   {
     "country": "IOA",
     "season": "total",
-    "gold": 0,
-    "silver": 3,
+    "gold": 1,
+    "silver": 0,
     "bronze": 1,
-    "total": 4
+    "total": 2
   },
   {
     "country": "IOP",
@@ -3716,8 +3716,8 @@
     "season": "total",
     "gold": 0,
     "silver": 1,
-    "bronze": 0,
-    "total": 1
+    "bronze": 2,
+    "total": 3
   },
   {
     "country": "ZZX",
@@ -3738,9 +3738,9 @@
   {
     "country": "ZZX",
     "season": "total",
-    "gold": 0,
-    "silver": 3,
-    "bronze": 11,
-    "total": 14
+    "gold": 11,
+    "silver": 6,
+    "bronze": 8,
+    "total": 25
   }
 ]

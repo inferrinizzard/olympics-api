@@ -56,7 +56,7 @@ export class Olympics {
 		// writeFileSync('./json/sportsDetail.json', JSON.stringify(this.sportsDetail, null, 2));
 		// writeFileSync('./json/countryMedals.json', JSON.stringify(countryMedals, null, 2));
 		// writeFileSync('./json/countryAttendance.json', JSON.stringify(countryAttendance, null, 2));
-		// writeFileSync('./json/medalsTotals.json', JSON.stringify(this.medalsTotals, null, 2));
+		// writeFileSync('./json/medalTotals.json', JSON.stringify(this.medalsTotals, null, 2));
 
 		return this;
 	}

@@ -24,14 +24,14 @@ export const readMedalTotals = async () => {
 		const summerGold = readCell(row.cells[2]);
 		const summerSilver = readCell(row.cells[3]);
 		const summerBronze = readCell(row.cells[4]);
-		const winterGold = readCell(row.cells[6]);
-		const winterSilver = readCell(row.cells[7]);
-		const winterBronze = readCell(row.cells[8]);
-		const totalGold = readCell(row.cells[10]);
-		const totalSilver = readCell(row.cells[11]);
-		const totalBronze = readCell(row.cells[12]);
+		const winterGold = readCell(row.cells[7]);
+		const winterSilver = readCell(row.cells[8]);
+		const winterBronze = readCell(row.cells[9]);
+		const totalGold = readCell(row.cells[12]);
+		const totalSilver = readCell(row.cells[13]);
+		const totalBronze = readCell(row.cells[14]);
 
-		medalsData = medalsData.concat([
+		[
 			{
 				country: countryCode,
 				season: 'summer',
@@ -56,7 +56,7 @@ export const readMedalTotals = async () => {
 				bronze: totalBronze,
 				total: totalGold + totalSilver + totalBronze,
 			},
-		]);
+		].forEach(medal => medalsData.push(medal));
 	}
 
 	return medalsData;
