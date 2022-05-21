@@ -1105,11 +1105,6 @@
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/22px-Olympic_flag.svg.png"
   },
   {
-    "country": "ANZ",
-    "name": "Australasia",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_Australasian_team_for_Olympic_games.svg/22px-Flag_of_Australasian_team_for_Olympic_games.svg.png"
-  },
-  {
     "country": "COR",
     "name": "Korea",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Unification_flag_of_Korea_%28pre_2006%29.svg/22px-Unification_flag_of_Korea_%28pre_2006%29.svg.png"
@@ -1117,16 +1112,6 @@
   {
     "country": "EOR",
     "name": "Refugee Olympic Team",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/22px-Olympic_flag.svg.png"
-  },
-  {
-    "country": "EUA",
-    "name": "United Team of Germany",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/German_Olympic_flag_%281959-1968%29.svg/22px-German_Olympic_flag_%281959-1968%29.svg.png"
-  },
-  {
-    "country": "EUN",
-    "name": "Unified Team",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/22px-Olympic_flag.svg.png"
   },
   {
@@ -1162,11 +1147,6 @@
   {
     "country": "ROT",
     "name": "Refugee Olympic Team",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/22px-Olympic_flag.svg.png"
-  },
-  {
-    "country": "ZZX",
-    "name": "Mixed team",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/22px-Olympic_flag.svg.png"
   }
 ]

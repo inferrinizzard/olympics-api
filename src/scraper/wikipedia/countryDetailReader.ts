@@ -49,5 +49,9 @@ export const readCountryDetail = async () => {
 		});
 	}
 
-	return countryDetail;
+	return countryDetail.reduce(
+		(countries, cur) =>
+			countries.find(c => c.country === cur.country) ? countries : [...countries, cur],
+		[] as CountryDetailRow[]
+	);
 };

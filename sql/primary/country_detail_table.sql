@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS country_detail (
     country     VARCHAR(3) PRIMARY KEY,
-    name        VARCHAR(20) NOT NULL,
-    flag        VARCHAR(20) NOT NULL
+    name        VARCHAR(50) NOT NULL,
+    flag        TEXT NOT NULL
 );
 
 COMMENT ON TABLE country_detail IS 'Main Country table, holds all country details';
