@@ -1,11 +1,8 @@
 CREATE TABLE IF NOT EXISTS country_attendance (
     id              SERIAL PRIMARY KEY,
     country         VARCHAR(3) NOT NULL,
-    game            VARCHAR(20) NOT NULL,
+    game            VARCHAR(30) NOT NULL,
     num_athletes    INT NOT NULL DEFAULT 0,
-    gold            INT NOT NULL DEFAULT 0,
-    silver          INT NOT NULL DEFAULT 0,
-    bronze          INT NOT NULL DEFAULT 0,
 
     CONSTRAINT fk_country_attendance_country
         FOREIGN KEY(country)

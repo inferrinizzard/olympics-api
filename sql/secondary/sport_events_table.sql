@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS sport_events (
-    game            VARCHAR(20) PRIMARY KEY,
+    game            VARCHAR(30) PRIMARY KEY,
     sport           VARCHAR(3) NOT NULL,
     event           TEXT NOT NULL,
     sex             VARCHAR(5) NOT NULL,

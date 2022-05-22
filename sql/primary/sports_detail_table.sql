@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS sports_detail (
     sport       VARCHAR(3) PRIMARY KEY,
-    name        VARCHAR(20) NOT NULL,
-    icon        VARCHAR(20) NOT NULL
+    name        VARCHAR(30) NOT NULL,
+    icon        TEXT NOT NULL
 );
 
 COMMENT ON TABLE sports_detail IS 'Main Sports table, holds all sports details';
