@@ -31,7 +31,7 @@ router.get('/', (req, res) =>
 // /medals/countries/:country
 router.get('/countries/:country([A-Z]{3})', (req, res) =>
 	db
-		.any(`SELECT * FROM ${medalTotalsTable} WHERE country = ${req.params.country};`)
+		.any(`SELECT * FROM ${medalTotalsTable} WHERE country = '${req.params.country}';`)
 		.then(rows =>
 			rows.length
 				? res.json(rows.reduce((acc, { season, ...row }) => ({ ...acc, [season]: row }), {}))

@@ -2,6 +2,8 @@ import express from 'express';
 
 import { db } from '../db.js';
 
+import type { GamesDetailRow } from '../scraper/types';
+
 const router = express.Router();
 
 const gamesDetailTable = 'games_detail';
@@ -10,16 +12,16 @@ const gamesDetailTable = 'games_detail';
 router.get('/', (req, res) =>
 	db
 		.any(`SELECT DISTINCT game FROM ${gamesDetailTable} ORDER BY game;`)
-		.then(rows => res.json(rows.map(row => row.game)))
+		.then((rows: Pick<GamesDetailRow, 'game'>[]) => res.json(rows.map(row => row.game)))
 		.catch(err => res.status(500).json(err))
 );
 
 // /games/:gamesKey
 router.get('/:gamesKey', async (req, res) =>
 	db
-		.oneOrNone(`SELECT * FROM ${gamesDetailTable} WHERE game = ${req.params.gamesKey};`)
-		.then(output =>
-			output.length
+		.oneOrNone(`SELECT * FROM ${gamesDetailTable} WHERE game = '${req.params.gamesKey}';`)
+		.then((output: GamesDetailRow) =>
+			Object.keys(output).length
 				? res.json(output)
 				: res.status(404).json(`Games with gamesKey:${req.params.gamesKey} not found`)
 		)
