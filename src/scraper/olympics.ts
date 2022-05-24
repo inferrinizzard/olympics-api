@@ -40,16 +40,23 @@ export class Olympics {
 		await this.fetchGamesLookup();
 		this.countryDetail = await readCountryDetail();
 
-		this.gamesDetail = await readGamesDetail(this.gamesLookup);
-		this.sportsDetail = await readSportsDetail();
+		const gamesDetailData = await readGamesDetail(this.gamesLookup, this.getCountryCode.bind(this));
+		this.gamesDetail = gamesDetailData.map(({ countryAthletes, ...rest }) => rest);
 
-		let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
-			this.getCountryCode.bind(this),
-			this.getGamesKey.bind(this)
-		);
-		const countryAttendance = await readCountryAttendance(this.getGamesKey.bind(this));
+		const countryAthletes = gamesDetailData.map(({ countryAthletes, game }) => ({
+			game,
+			countryAthletes,
+		}));
 
-		this.medalsTotals = await readMedalTotals();
+		// this.sportsDetail = await readSportsDetail();
+
+		// let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
+		// 	this.getCountryCode.bind(this),
+		// 	this.getGamesKey.bind(this)
+		// );
+		// const countryAttendance = await readCountryAttendance(this.getGamesKey.bind(this));
+
+		// this.medalsTotals = await readMedalTotals();
 
 		// writeFileSync('./json/countryDetail.json', JSON.stringify(this.countryDetail, null, 2));
 		// writeFileSync('./json/gamesDetail.json', JSON.stringify(this.gamesDetail, null, 2));
@@ -112,6 +119,11 @@ export class Olympics {
 		// edge cases, TODO: resolve this
 		if (!res && countryName.match(/ceylon/i)) return 'SRI';
 		if (!res && countryName.match(/fr yugoslavia/i)) return 'YUG';
+
+		if (!res) {
+			// console.log(`Country not found: ${countryName}`);
+			return '';
+		}
 
 		return res!.country;
 	}

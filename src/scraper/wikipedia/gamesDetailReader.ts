@@ -47,7 +47,33 @@ const readGamesInfobox = (infobox: HTMLTableElement): GamesInfoboxData => {
 	return gamesData as GamesInfoboxData;
 };
 
-export const readGamesDetail = async (gamesLookup: Record<string, GamesKeyLookup>) => {
+const readCountryAthletes = (html: string) => {
+	const document = new JSDOM(html).window.document;
+
+	const table = [...document.querySelectorAll('table.wikitable')].find(table =>
+		table.querySelector('th')?.textContent?.includes('Participating')
+	);
+
+	if (!table) return [];
+
+	const countries = [...(table as HTMLTableElement).rows] // only take the first 2 rows
+		.slice(0, 3)
+		.flatMap(row => [...row.querySelectorAll('li')]); // get all the li's
+	return countries
+		.filter(country => country.querySelector('img'))
+		.map(
+			country =>
+				[
+					country.querySelector('a')!.textContent!,
+					+(country.querySelector('span')?.textContent?.replace(/[\(\)]/g, '') ?? 0), // get the number of athletes, 0 if not valid
+				] as [string, number]
+		);
+};
+
+export const readGamesDetail = async (
+	gamesLookup: Record<string, GamesKeyLookup>,
+	countryCodeLookup: (name: string) => string
+) => {
 	if (Object.keys(gamesLookup).length === 0) {
 		throw new Error('No games found');
 	}
@@ -63,17 +89,28 @@ export const readGamesDetail = async (gamesLookup: Record<string, GamesKeyLookup
 					`${year}_${season[0].toUpperCase() + season.slice(1)}_Olympics`
 				);
 
-				const { numAthletes, ...gamesDetails } = await Wikipedia.getPageHtml(gamesPageUrl)
-					.then(getInfobox)
-					.then(readGamesInfobox);
+				const gamesPageHtml = await Wikipedia.getPageHtml(gamesPageUrl);
+				const { numAthletes, ...gamesDetails } = readGamesInfobox(getInfobox(gamesPageHtml));
+
+				const countryAthletes = readCountryAthletes(gamesPageHtml);
 
 				return {
 					game: gamesKey || year + '-' + season,
 					year: parseInt(year),
 					season,
 					numAthletes: parseInt((numAthletes as string)?.replace(/,/g, '') ?? '-1'),
+					countryAthletes: Object.fromEntries(
+						countryAthletes.map(([country, athletes]) => {
+							const countryCode = countryCodeLookup(country);
+							if (!countryCode) {
+								// TODO: handle historical country name edge cases
+								// console.log(year, season, country, athletes);
+							}
+							return [countryCodeLookup(country), athletes];
+						})
+					),
 					...gamesDetails,
-				} as GamesDetailRow;
+				} as GamesDetailRow & { countryAthletes: Record<string, number> };
 			})
 	);
 };
