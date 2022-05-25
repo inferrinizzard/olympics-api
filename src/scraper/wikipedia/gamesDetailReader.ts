@@ -65,7 +65,12 @@ const readCountryAthletes = (html: string) => {
 			country =>
 				[
 					country.querySelector('a')!.textContent!,
-					+(country.querySelector('span')?.textContent?.replace(/[\(\)]/g, '') ?? 0), // get the number of athletes, 0 if not valid
+					+(
+						country
+							.querySelector('span')
+							?.textContent?.replace(/[\(\)]/g, '')
+							.match(/[0-9]+/)![0] ?? 0
+					), // get the number of athletes, 0 if not valid
 				] as [string, number]
 		);
 };

@@ -43,10 +43,9 @@ export class Olympics {
 		const gamesDetailData = await readGamesDetail(this.gamesLookup, this.getCountryCode.bind(this));
 		this.gamesDetail = gamesDetailData.map(({ countryAthletes, ...rest }) => rest);
 
-		const countryAthletes = gamesDetailData.map(({ countryAthletes, game }) => ({
-			game,
-			countryAthletes,
-		}));
+		const countryAthletes = Object.fromEntries(
+			gamesDetailData.map(({ countryAthletes, game }) => [game, countryAthletes])
+		);
 
 		// this.sportsDetail = await readSportsDetail();
 
