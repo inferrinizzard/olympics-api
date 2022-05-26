@@ -2,7 +2,7 @@ import { db, pgp } from '../db.js';
 
 import { readFileSync } from 'fs';
 import type {
-	CountryAttendenceRow,
+	CountryAttendanceRow,
 	CountryDetailRow,
 	CountryMedalRow,
 	GamesDetailRow,
@@ -26,7 +26,7 @@ export const loadData = async () => {
 	const sportsDetail = loadFile('./json/sportsDetail.json') as SportDetailRow[];
 
 	const medalTotals = loadFile('./json/medalTotals.json') as MedalTotalsRow[];
-	const countryAttendance = loadFile('./json/countryAthletes.json') as CountryAttendenceRow[];
+	const countryAttendance = loadFile('./json/countryAttendance.json') as CountryAttendanceRow[];
 	const countryMedals = loadFile('./json/countryMedals.json') as CountryMedalRow[];
 
 	insertData('country_detail', countryDetail).catch(console.error);

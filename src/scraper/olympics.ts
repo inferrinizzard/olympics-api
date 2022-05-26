@@ -14,6 +14,7 @@ import type {
 	SportDetailRow,
 	CountryMedalRow,
 	MedalTotalsRow,
+	CountryAttendanceRow,
 } from './types';
 
 import { readCountryDetail } from './wikipedia/countryDetailReader.js';
@@ -32,37 +33,41 @@ export class Olympics {
 	gamesDetail: GamesDetailRow[] = [];
 	sportsDetail: SportDetailRow[] = [];
 
-	countryAttendance: CountryMedalRow[] = [];
+	countryMedals: CountryMedalRow[] = [];
+	countryAttendance: CountryAttendanceRow[] = [];
 	medalsTotals: MedalTotalsRow[] = [];
 	sportsEvents = [];
 
 	async init() {
+		console.log('Starting Scraper...');
+		// initial table reads, required for secondary data below
 		await this.fetchGamesLookup();
 		this.countryDetail = await readCountryDetail();
 
 		const gamesDetailData = await readGamesDetail(this.gamesLookup, this.getCountryCode.bind(this));
 		this.gamesDetail = gamesDetailData.map(({ countryAthletes, ...rest }) => rest);
 
-		const countryAthletes = Object.fromEntries(
-			gamesDetailData.map(({ countryAthletes, game }) => [game, countryAthletes])
+		this.countryAttendance = gamesDetailData.map(({ countryAthletes, game }) => ({
+			game,
+			countryAthletes,
+		}));
+
+		this.sportsDetail = await readSportsDetail();
+
+		this.countryMedals = await readCountryMedals(
+			this.getCountryCode.bind(this),
+			this.getGamesKey.bind(this)
 		);
 
-		// this.sportsDetail = await readSportsDetail();
+		this.medalsTotals = await readMedalTotals();
 
-		// let countryMedals: Record<string, Partial<CountryMedalRow>[]> = await readCountryMedals(
-		// 	this.getCountryCode.bind(this),
-		// 	this.getGamesKey.bind(this)
-		// );
-		// const countryAttendance = await readCountryAttendance(this.getGamesKey.bind(this));
-
-		// this.medalsTotals = await readMedalTotals();
-
-		// writeFileSync('./json/countryDetail.json', JSON.stringify(this.countryDetail, null, 2));
-		// writeFileSync('./json/gamesDetail.json', JSON.stringify(this.gamesDetail, null, 2));
-		// writeFileSync('./json/sportsDetail.json', JSON.stringify(this.sportsDetail, null, 2));
-		// writeFileSync('./json/countryMedals.json', JSON.stringify(countryMedals, null, 2));
-		// writeFileSync('./json/countryAttendance.json', JSON.stringify(countryAttendance, null, 2));
-		// writeFileSync('./json/medalTotals.json', JSON.stringify(this.medalsTotals, null, 2));
+		// write scrape results to json
+		writeFileSync('./json/countryDetail.json', JSON.stringify(this.countryDetail, null, 2));
+		writeFileSync('./json/gamesDetail.json', JSON.stringify(this.gamesDetail, null, 2));
+		writeFileSync('./json/sportsDetail.json', JSON.stringify(this.sportsDetail, null, 2));
+		writeFileSync('./json/countryMedals.json', JSON.stringify(this.countryMedals, null, 2));
+		writeFileSync('./json/countryAttendance.json', JSON.stringify(this.countryAttendance, null, 2));
+		writeFileSync('./json/medalTotals.json', JSON.stringify(this.medalsTotals, null, 2));
 
 		return this;
 	}
