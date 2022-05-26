@@ -31,6 +31,11 @@ export interface CountryMedalRow extends Record<string, string | number> {
 	total: number;
 }
 
+export interface CountryAttendenceRow extends Record<string, string | Record<string, number>> {
+	game: string;
+	countryAthletes: Record<string, number>;
+}
+
 export interface MedalTotalsRow extends Record<string, string | number> {
 	country: string;
 	season: string;

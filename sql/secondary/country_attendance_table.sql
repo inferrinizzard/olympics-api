@@ -1,12 +1,8 @@
 CREATE TABLE IF NOT EXISTS country_attendance (
-    id              SERIAL PRIMARY KEY,
-    country         VARCHAR(3) NOT NULL,
-    game            VARCHAR(30) NOT NULL,
-    num_athletes    INT NOT NULL DEFAULT 0,
+    id               SERIAL PRIMARY KEY,
+    game             VARCHAR(30) NOT NULL,
+    country_athletes JSON NOT NULL,
 
-    CONSTRAINT fk_country_attendance_country
-        FOREIGN KEY(country)
-        REFERENCES country_detail(country),
     CONSTRAINT fk_country_attendance_game
         FOREIGN KEY(game)
         REFERENCES games_detail(game)
@@ -14,6 +10,5 @@ CREATE TABLE IF NOT EXISTS country_attendance (
 
 COMMENT ON TABLE country_attendance IS 'Table containing the number of athletes per country and game';
 COMMENT ON COLUMN country_attendance.id IS 'Unique identifier for the row';
-COMMENT ON COLUMN country_attendance.country IS 'Country Code';
 COMMENT ON COLUMN country_attendance.game IS 'Games Key';
-COMMENT ON COLUMN country_attendance.num_athletes IS 'Number of athletes';
+COMMENT ON COLUMN country_attendance.country_athletes IS 'Number of athletes per country';

@@ -2,6 +2,7 @@ import { db, pgp } from '../db.js';
 
 import { readFileSync } from 'fs';
 import type {
+	CountryAttendenceRow,
 	CountryDetailRow,
 	CountryMedalRow,
 	GamesDetailRow,
@@ -19,19 +20,14 @@ const insertData = <Row extends Record<string, any>>(table: string, data: Row[])
 	);
 
 export const loadData = async () => {
-	const countryAttendance = loadFile('./json/countryAttendance.json');
-	const countryMedals = loadFile('./json/countryMedals.json') as CountryMedalRow[];
-
-	// insertData('country_attendance', countryAttendance);
-	// insertData('country_medals', countryMedals);
-
-	return;
 	// check here if the data is already loaded
 	const countryDetail = loadFile('./json/countryDetail.json') as CountryDetailRow[];
 	const gamesDetail = loadFile('./json/gamesDetail.json') as GamesDetailRow[];
 	const sportsDetail = loadFile('./json/sportsDetail.json') as SportDetailRow[];
 
 	const medalTotals = loadFile('./json/medalTotals.json') as MedalTotalsRow[];
+	const countryAttendance = loadFile('./json/countryAthletes.json') as CountryAttendenceRow[];
+	const countryMedals = loadFile('./json/countryMedals.json') as CountryMedalRow[];
 
 	insertData('country_detail', countryDetail).catch(console.error);
 	insertData(
@@ -55,4 +51,6 @@ export const loadData = async () => {
 	insertData('sports_detail', sportsDetail).catch(console.error);
 
 	insertData('medal_totals', medalTotals).catch(console.error);
+	insertData('country_attendance', countryAttendance).catch(console.error);
+	insertData('country_medals', countryMedals);
 };

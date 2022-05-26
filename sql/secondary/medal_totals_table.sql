@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS medal_totals (
     bronze      INT NOT NULL DEFAULT 0,
     total       INT NOT NULL DEFAULT 0,
 
-    CONSTRAINT fk_metal_totals_country
+    CONSTRAINT fk_medal_totals_country
         FOREIGN KEY(country)
         REFERENCES country_detail(country)
 );

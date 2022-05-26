@@ -29,7 +29,7 @@ export const readCountryMedals = async (
 ) => {
 	const medalsPages = await getMedalsPages();
 
-	let gameCountryMedals = {} as Record<string, Omit<CountryMedalRow, 'game'>[]>;
+	let gameCountryMedals = [] as CountryMedalRow[];
 	for (const { title, url } of medalsPages) {
 		// get page contents from page title
 		const medalPage = await Wikipedia.getPageHtml(Wikipedia.getPageUrl(url));
@@ -42,8 +42,6 @@ export const readCountryMedals = async (
 		const year = parseInt(title.split(' ')[0]);
 		const season = title.split(' ')[1].trim().toLowerCase();
 		const gamesKey = gamesKeyLookup(year, season);
-
-		let countryMedals: Omit<CountryMedalRow, 'game'>[] = [];
 
 		for (const row of medalTable.rows) {
 			if (!row.cells[1].querySelector('img')) continue;
@@ -58,10 +56,8 @@ export const readCountryMedals = async (
 			const bronze = parseInt(row.cells[4].textContent!);
 			const total = parseInt(row.cells[5].textContent!);
 
-			countryMedals.push({ country, gold, silver, bronze, total });
+			gameCountryMedals.push({ game: gamesKey, country, gold, silver, bronze, total });
 		}
-
-		gameCountryMedals[gamesKey] = countryMedals;
 	}
 
 	return gameCountryMedals;
