@@ -34,12 +34,12 @@ export class Olympics {
 	sportsDetail: SportDetailRow[] = [];
 
 	countryMedals: CountryMedalRow[] = [];
-	countryAttendance: CountryAttendanceRow[] = [];
+	countryAthletes: CountryAttendanceRow[] = [];
 	medalsTotals: MedalTotalsRow[] = [];
 	sportsEvents = [];
 
 	async init() {
-		console.log('Starting Scraper...');
+		console.info('Starting Scraper...');
 		// initial table reads, required for secondary data below
 		await this.fetchGamesLookup();
 		this.countryDetail = await readCountryDetail();
@@ -47,28 +47,29 @@ export class Olympics {
 		const gamesDetailData = await readGamesDetail(this.gamesLookup, this.getCountryCode.bind(this));
 		this.gamesDetail = gamesDetailData.map(({ countryAthletes, ...rest }) => rest);
 
-		this.countryAttendance = gamesDetailData.map(({ countryAthletes, game }) => ({
+		this.countryAthletes = gamesDetailData.map(({ countryAthletes, game }) => ({
 			game,
 			countryAthletes,
 		}));
 
-		this.sportsDetail = await readSportsDetail();
+		// this.sportsDetail = await readSportsDetail();
 
-		this.countryMedals = await readCountryMedals(
-			this.getCountryCode.bind(this),
-			this.getGamesKey.bind(this)
-		);
+		// this.countryMedals = await readCountryMedals(
+		// 	this.getCountryCode.bind(this),
+		// 	this.getGamesKey.bind(this)
+		// );
 
-		this.medalsTotals = await readMedalTotals();
+		// this.medalsTotals = await readMedalTotals();
 
 		// write scrape results to json
-		writeFileSync('./json/countryDetail.json', JSON.stringify(this.countryDetail, null, 2));
-		writeFileSync('./json/gamesDetail.json', JSON.stringify(this.gamesDetail, null, 2));
-		writeFileSync('./json/sportsDetail.json', JSON.stringify(this.sportsDetail, null, 2));
-		writeFileSync('./json/countryMedals.json', JSON.stringify(this.countryMedals, null, 2));
-		writeFileSync('./json/countryAttendance.json', JSON.stringify(this.countryAttendance, null, 2));
-		writeFileSync('./json/medalTotals.json', JSON.stringify(this.medalsTotals, null, 2));
+		// writeFileSync('./json/countryDetail.json', JSON.stringify(this.countryDetail, null, 2));
+		// writeFileSync('./json/gamesDetail.json', JSON.stringify(this.gamesDetail, null, 2));
+		// writeFileSync('./json/sportsDetail.json', JSON.stringify(this.sportsDetail, null, 2));
+		// writeFileSync('./json/countryMedals.json', JSON.stringify(this.countryMedals, null, 2));
+		writeFileSync('./json/countryAthletes.json', JSON.stringify(this.countryAthletes, null, 2));
+		// writeFileSync('./json/medalTotals.json', JSON.stringify(this.medalsTotals, null, 2));
 
+		console.info('Scraper Finished.');
 		return this;
 	}
 
@@ -117,7 +118,7 @@ export class Olympics {
 
 	getCountryCode(countryName: string): string {
 		const res = this.countryDetail.find(country =>
-			country.name.match(new RegExp(countryName, 'i'))
+			country.name.match(new RegExp(`^${countryName}$`, 'iu'))
 		);
 
 		// edge cases, TODO: resolve this
