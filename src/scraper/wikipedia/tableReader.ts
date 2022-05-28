@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import { CountryDetail, EventSex, MedalType } from '../models/olympics';
+import { CountryDetail, EventSex, MedalType } from '../../models/olympics';
 
 // gets the last table element within DOM
 export const extractTable = (element: JSDOM) =>

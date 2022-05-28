@@ -2,7 +2,7 @@ import got from 'got';
 import { JSDOM } from 'jsdom';
 import { readFileSync } from 'fs';
 
-import { DataTable } from '../dataTable.js';
+import { DataTable } from '../../dataTable.js';
 
 const baseUrl = 'https://olympics.com/en/olympic-games/';
 const startUrl = baseUrl + 'olympic-results';
@@ -32,7 +32,7 @@ class OlympicsCom {
 	gamesEventWinners: DataTable<EventWinnersRow> = new DataTable();
 
 	private sportsCodeJson: { code: string; name: string }[] = JSON.parse(
-		readFileSync('src/olympics-com/sportCodes.json', 'utf8')
+		readFileSync('src/scraper/olympics-com/sportCodes.json', 'utf8')
 	);
 
 	async init() {

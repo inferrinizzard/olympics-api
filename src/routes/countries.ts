@@ -1,20 +1,31 @@
 import express from 'express';
 
-import { olympics } from './index.js';
+import { db } from '../db.js';
+
+import type { CountryDetailRow } from '../scraper/types';
 
 const router = express.Router();
 
+const countryDetailTable = 'country_detail';
+
 // /countries
-router.get('/', (req, res) => res.json(Object.keys(olympics.countryDetail).sort()));
+router.get('/', (req, res) =>
+	db
+		.any(`SELECT DISTINCT country FROM ${countryDetailTable} ORDER BY country;`)
+		.then((rows: Pick<CountryDetailRow, 'country'>[]) => res.json(rows.map(row => row.country)))
+		.catch(err => res.status(500).json(err))
+);
 
 // /countries/:country
-router.get('/:country([A-Z]{3})', (req, res) => {
-	const countryCode = req.params.country;
-	if (!olympics.countryDetail[countryCode]) {
-		res.status(404).send(`Country ${countryCode} not found`);
-	} else {
-		res.json(olympics.countryDetail[countryCode]);
-	}
-});
+router.get('/:country([A-Z]{3})', (req, res) =>
+	db
+		.oneOrNone(`SELECT * FROM ${countryDetailTable} WHERE country = '${req.params.country}';`)
+		.then((output: CountryDetailRow) =>
+			Object.keys(output).length
+				? res.json(output)
+				: res.status(404).json(`Country ${req.params.country} not found`)
+		)
+		.catch(err => res.status(500).json(err))
+);
 
 export default router;
