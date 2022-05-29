@@ -41,8 +41,8 @@ router.get('/:sport([A-Z0-9]{3})/events/:game', (req, res) =>
 			`
 		)
 		.then(output =>
-			output?.length && output.events.length
-				? res.json(output.events)
+			output
+				? res.json(output)
 				: res.status(404).json(`Sport ${req.params.sport} not found for Game: ${req.params.game}`)
 		)
 		.catch(err => res.status(500).json(err))

@@ -44,3 +44,15 @@ export interface MedalTotalsRow extends Record<string, string | number> {
 	bronze: number;
 	total: number;
 }
+
+export interface SportsEventRow extends Record<string, string | Partial<SportsEventWinners>> {
+	game: string;
+	sport: string;
+	events: Partial<SportsEventWinners>;
+}
+
+interface SportsEventWinners extends Record<string, string[]> {
+	gold: string[];
+	silver: string[];
+	bronze: string[];
+}

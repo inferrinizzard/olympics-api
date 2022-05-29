@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS country_detail CASCADE;
+
 CREATE TABLE IF NOT EXISTS country_detail (
     country     VARCHAR(3) PRIMARY KEY,
     name        VARCHAR(50) NOT NULL,

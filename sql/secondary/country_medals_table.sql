@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS country_medals CASCADE;
+
 CREATE TABLE IF NOT EXISTS country_medals (
     id          SERIAL PRIMARY KEY,
     country     VARCHAR(3) NOT NULL,

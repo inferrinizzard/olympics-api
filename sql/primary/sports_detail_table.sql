@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS sports_detail CASCADE;
+
 CREATE TABLE IF NOT EXISTS sports_detail (
     sport       VARCHAR(3) PRIMARY KEY,
     name        VARCHAR(30) NOT NULL,

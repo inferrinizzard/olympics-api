@@ -8,6 +8,7 @@ import type {
 	GamesDetailRow,
 	MedalTotalsRow,
 	SportDetailRow,
+	SportsEventRow,
 } from '../scraper/types';
 
 const loadFile = (path: string) => JSON.parse(readFileSync(path, 'utf8'));
@@ -26,8 +27,9 @@ export const loadData = async () => {
 	const sportsDetail = loadFile('./json/sportsDetail.json') as SportDetailRow[];
 
 	const medalTotals = loadFile('./json/medalTotals.json') as MedalTotalsRow[];
-	const countryAttendance = loadFile('./json/countryAttendance.json') as CountryAttendanceRow[];
+	const countryAttendance = loadFile('./json/countryAthletes.json') as CountryAttendanceRow[];
 	const countryMedals = loadFile('./json/countryMedals.json') as CountryMedalRow[];
+	const sportsEvents = loadFile('./json/sportsEvents.json') as SportsEventRow[];
 
 	insertData('country_detail', countryDetail).catch(console.error);
 	insertData(
@@ -52,5 +54,6 @@ export const loadData = async () => {
 
 	insertData('medal_totals', medalTotals).catch(console.error);
 	insertData('country_attendance', countryAttendance).catch(console.error);
-	insertData('country_medals', countryMedals);
+	insertData('country_medals', countryMedals).catch(console.error);
+	insertData('sports_events', sportsEvents).catch(console.error);
 };
