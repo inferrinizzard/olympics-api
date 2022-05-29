@@ -2,8 +2,6 @@ import got from 'got';
 import { JSDOM } from 'jsdom';
 import { readFileSync } from 'fs';
 
-import { DataTable } from '../../dataTable.js';
-
 const baseUrl = 'https://olympics.com/en/olympic-games/';
 const startUrl = baseUrl + 'olympic-results';
 
@@ -29,7 +27,7 @@ class OlympicsCom {
 	games: string[] = [];
 	gamesSports: Record<string, string[]> = {};
 
-	gamesEventWinners: DataTable<EventWinnersRow> = new DataTable();
+	gamesEventWinners: any;
 
 	private sportsCodeJson: { code: string; name: string }[] = JSON.parse(
 		readFileSync('src/scraper/olympics-com/sportCodes.json', 'utf8')
