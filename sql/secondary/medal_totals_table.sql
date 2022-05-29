@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS medal_totals CASCADE;
+
 CREATE TABLE IF NOT EXISTS medal_totals (
     country     VARCHAR(3) PRIMARY KEY,
     season      VARCHAR(6) NOT NULL,

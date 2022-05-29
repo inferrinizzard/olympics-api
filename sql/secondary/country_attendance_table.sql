@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS country_attendance CASCADE;
+
 CREATE TABLE IF NOT EXISTS country_attendance (
     id               SERIAL PRIMARY KEY,
     game             VARCHAR(30) NOT NULL,
