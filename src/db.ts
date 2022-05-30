@@ -11,5 +11,5 @@ const connectionString = `postgresql://${env.DB_USER}:${env.DB_PASSWORD}@${env.D
 export const pgp = pgPromise({ capSQL: true });
 export const db = pgp({
 	connectionString: isProduction ? env.DATABASE_URL : connectionString,
-	ssl: isProduction,
+	ssl: isProduction ? { rejectUnauthorized: false } : false,
 });
