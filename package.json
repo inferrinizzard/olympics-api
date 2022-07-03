@@ -31,7 +31,7 @@
 			"lib/**/*"
 		],
 		"execMap": {
-			"ts": "ts-node --esm"
+			"ts": "ts-node --esm --experimentalSpecifierResolution node"
 		},
 		"ext": "ts,js,json"
 	},
@@ -51,7 +51,7 @@
 		"@types/pg-promise": "^5.4.3",
 		"@types/swagger-ui-express": "^4.1.3",
 		"nodemon": "^2.0.15",
-		"ts-node": "^10.7.0",
+		"ts-node": "^10.8.2",
 		"typescript": "^4.6.3"
 	}
 }
