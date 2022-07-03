@@ -3,9 +3,9 @@
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, HttpStatusCodeLiteral, TsoaResponse, fetchMiddlewares } from '@tsoa/runtime';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { CountryDetailController } from './../controllers/countryDataController.js';
+import { CountryDataController } from './../controllers/countryDataController.js';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { GamesDetailController } from './../controllers/gamesDataController.js';
+import { GamesDataController } from './../controllers/gamesDataController.js';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
 
@@ -59,8 +59,8 @@ export function RegisterRoutes(app: express.Router) {
     //      Please look into the "controllerPathGlobs" config option described in the readme: https://github.com/lukeautry/tsoa
     // ###########################################################################################################
         app.get('/countries',
-            ...(fetchMiddlewares<RequestHandler>(CountryDetailController)),
-            ...(fetchMiddlewares<RequestHandler>(CountryDetailController.prototype.getAllCountries)),
+            ...(fetchMiddlewares<RequestHandler>(CountryDataController)),
+            ...(fetchMiddlewares<RequestHandler>(CountryDataController.prototype.getAllCountries)),
 
             function CountryDetailController_getAllCountries(request: any, response: any, next: any) {
             const args = {
@@ -72,7 +72,7 @@ export function RegisterRoutes(app: express.Router) {
             try {
                 validatedArgs = getValidatedArgs(args, request, response);
 
-                const controller = new CountryDetailController();
+                const controller = new CountryDataController();
 
 
               const promise = controller.getAllCountries.apply(controller, validatedArgs as any);
@@ -83,8 +83,8 @@ export function RegisterRoutes(app: express.Router) {
         });
         // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
         app.get('/countries/:country',
-            ...(fetchMiddlewares<RequestHandler>(CountryDetailController)),
-            ...(fetchMiddlewares<RequestHandler>(CountryDetailController.prototype.getCountry)),
+            ...(fetchMiddlewares<RequestHandler>(CountryDataController)),
+            ...(fetchMiddlewares<RequestHandler>(CountryDataController.prototype.getCountry)),
 
             function CountryDetailController_getCountry(request: any, response: any, next: any) {
             const args = {
@@ -97,7 +97,7 @@ export function RegisterRoutes(app: express.Router) {
             try {
                 validatedArgs = getValidatedArgs(args, request, response);
 
-                const controller = new CountryDetailController();
+                const controller = new CountryDataController();
 
 
               const promise = controller.getCountry.apply(controller, validatedArgs as any);
@@ -108,8 +108,8 @@ export function RegisterRoutes(app: express.Router) {
         });
         // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
         app.get('/games',
-            ...(fetchMiddlewares<RequestHandler>(GamesDetailController)),
-            ...(fetchMiddlewares<RequestHandler>(GamesDetailController.prototype.getAllGames)),
+            ...(fetchMiddlewares<RequestHandler>(GamesDataController)),
+            ...(fetchMiddlewares<RequestHandler>(GamesDataController.prototype.getAllGames)),
 
             function GamesDetailController_getAllGames(request: any, response: any, next: any) {
             const args = {
@@ -121,7 +121,7 @@ export function RegisterRoutes(app: express.Router) {
             try {
                 validatedArgs = getValidatedArgs(args, request, response);
 
-                const controller = new GamesDetailController();
+                const controller = new GamesDataController();
 
 
               const promise = controller.getAllGames.apply(controller, validatedArgs as any);
@@ -132,8 +132,8 @@ export function RegisterRoutes(app: express.Router) {
         });
         // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
         app.get('/games/:game',
-            ...(fetchMiddlewares<RequestHandler>(GamesDetailController)),
-            ...(fetchMiddlewares<RequestHandler>(GamesDetailController.prototype.getGames)),
+            ...(fetchMiddlewares<RequestHandler>(GamesDataController)),
+            ...(fetchMiddlewares<RequestHandler>(GamesDataController.prototype.getGames)),
 
             function GamesDetailController_getGames(request: any, response: any, next: any) {
             const args = {
@@ -146,7 +146,7 @@ export function RegisterRoutes(app: express.Router) {
             try {
                 validatedArgs = getValidatedArgs(args, request, response);
 
-                const controller = new GamesDetailController();
+                const controller = new GamesDataController();
 
 
               const promise = controller.getGames.apply(controller, validatedArgs as any);

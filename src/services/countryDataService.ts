@@ -2,7 +2,7 @@ import { db } from '../db.js';
 
 import type { CountryDetailRow, CountryId } from '../models/countryData';
 
-export class CountryDetailService {
+export class CountryDataService {
 	countryDetailTable = 'country_detail';
 
 	public getAll = (): Promise<CountryId[]> =>

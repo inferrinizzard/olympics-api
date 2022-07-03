@@ -2,7 +2,7 @@ import { db } from '../db.js';
 
 import type { GamesDetailRow, GamesId } from '../models/gamesData';
 
-export class GamesDetailService {
+export class GamesDataService {
 	gamesDetailTable = 'games_detail';
 
 	public getAll = (): Promise<GamesId[]> =>
