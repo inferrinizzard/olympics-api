@@ -8,9 +8,13 @@ import imagesRouter from './images.js';
 
 import { RegisterRoutes } from './routes.js';
 
+import swaggerRouter from './swagger.js';
+
 const router = express.Router();
 
 // router.get('/', (req, res) => res.send('Swagger UI'));
+
+router.use('/docs', swaggerRouter);
 
 // router.use('/countries', countriesRouter);
 // router.use('/games', gamesRouter);
