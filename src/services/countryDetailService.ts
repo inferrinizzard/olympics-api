@@ -1,15 +1,15 @@
 import { db } from '../db.js';
 
-import { CountryDetailRow } from '../models/countryDetail';
+import type { CountryDetailRow, CountryId } from '../models/countryDetail';
 
 export class CountryDetailService {
 	countryDetailTable = 'country_detail';
 
-	public getAll = (): Promise<string[]> =>
+	public getAll = (): Promise<CountryId[]> =>
 		db
 			.any(`SELECT DISTINCT country FROM ${this.countryDetailTable} ORDER BY country;`)
 			.then((rows: Pick<CountryDetailRow, 'country'>[]) => rows.map(row => row.country));
 
-	public get = (country: string): Promise<CountryDetailRow | null> =>
+	public get = (country: CountryId): Promise<CountryDetailRow | null> =>
 		db.oneOrNone(`SELECT * FROM ${this.countryDetailTable} WHERE country = '${country}';`);
 }
