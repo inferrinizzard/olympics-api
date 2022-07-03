@@ -6,14 +6,18 @@ import medalsRouter from './medals.js';
 import sportsRouter from './sports.js';
 import imagesRouter from './images.js';
 
+import { RegisterRoutes } from './routes.js';
+
 const router = express.Router();
 
-router.get('/', (req, res) => res.send('Swagger UI'));
+// router.get('/', (req, res) => res.send('Swagger UI'));
 
-router.use('/countries', countriesRouter);
-router.use('/games', gamesRouter);
-router.use('/medals', medalsRouter);
-router.use('/sports', sportsRouter);
-router.use('/images', imagesRouter);
+// router.use('/countries', countriesRouter);
+// router.use('/games', gamesRouter);
+// router.use('/medals', medalsRouter);
+// router.use('/sports', sportsRouter);
+// router.use('/images', imagesRouter);
+
+RegisterRoutes(router);
 
 export default router;
