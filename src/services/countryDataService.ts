@@ -1,6 +1,6 @@
 import { db } from '../db.js';
 
-import type { CountryDetailRow, CountryId } from '../models/countryDetail';
+import type { CountryDetailRow, CountryId } from '../models/countryData';
 
 export class CountryDetailService {
 	countryDetailTable = 'country_detail';

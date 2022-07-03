@@ -1,7 +1,7 @@
 import { Controller, Get, Path, Route } from 'tsoa';
 
-import type { CountryDetailRow, CountryId } from '../models/countryDetail';
-import { CountryDetailService } from '../services/countryDetailService.js';
+import type { CountryDetailRow, CountryId } from '../models/countryData';
+import { CountryDetailService } from '../services/countryDataService.js';
 
 @Route('countries')
 export class CountryDetailController extends Controller {

@@ -3,13 +3,18 @@
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, HttpStatusCodeLiteral, TsoaResponse, fetchMiddlewares } from '@tsoa/runtime';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { CountryDetailController } from './../controllers/countryDetailController.js';
+import { CountryDetailController } from './../controllers/countryDataController.js';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
 
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 
 const models: TsoaRoute.Models = {
+    "CountryId": {
+        "dataType": "refAlias",
+        "type": {"dataType":"string","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "CountryDetailRow": {
         "dataType": "refObject",
         "properties": {
@@ -60,7 +65,7 @@ export function RegisterRoutes(app: express.Router) {
 
             function CountryDetailController_getCountry(request: any, response: any, next: any) {
             const args = {
-                    country: {"in":"path","name":"country","required":true,"dataType":"string"},
+                    country: {"in":"path","name":"country","required":true,"ref":"CountryId"},
             };
 
             // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa

@@ -6,6 +6,9 @@
 		"requestBodies": {},
 		"responses": {},
 		"schemas": {
+			"CountryId": {
+				"type": "string"
+			},
 			"CountryDetailRow": {
 				"properties": {
 					"country": {
@@ -51,7 +54,7 @@
 							"application/json": {
 								"schema": {
 									"items": {
-										"type": "string"
+										"$ref": "#/components/schemas/CountryId"
 									},
 									"type": "array"
 								}
@@ -90,7 +93,7 @@
 						"name": "country",
 						"required": true,
 						"schema": {
-							"type": "string"
+							"$ref": "#/components/schemas/CountryId"
 						}
 					}
 				]
