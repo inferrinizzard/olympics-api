@@ -28,6 +28,55 @@
 				],
 				"type": "object",
 				"additionalProperties": false
+			},
+			"GamesId": {
+				"type": "string"
+			},
+			"GamesDetailRow": {
+				"properties": {
+					"game": {
+						"type": "string"
+					},
+					"year": {
+						"type": "number",
+						"format": "double"
+					},
+					"season": {
+						"type": "string"
+					},
+					"title": {
+						"type": "string"
+					},
+					"emblem": {
+						"type": "string"
+					},
+					"host": {
+						"type": "string"
+					},
+					"numAthletes": {
+						"type": "number",
+						"format": "double"
+					},
+					"startDate": {
+						"type": "string"
+					},
+					"endDate": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"game",
+					"year",
+					"season",
+					"title",
+					"emblem",
+					"host",
+					"numAthletes",
+					"startDate",
+					"endDate"
+				],
+				"type": "object",
+				"additionalProperties": false
 			}
 		},
 		"securitySchemes": {}
@@ -94,6 +143,61 @@
 						"required": true,
 						"schema": {
 							"$ref": "#/components/schemas/CountryId"
+						}
+					}
+				]
+			}
+		},
+		"/games": {
+			"get": {
+				"operationId": "GetAllGames",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"items": {
+										"$ref": "#/components/schemas/GamesId"
+									},
+									"type": "array"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/games/{game}": {
+			"get": {
+				"operationId": "GetGames",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/GamesDetailRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "game",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/GamesId"
 						}
 					}
 				]

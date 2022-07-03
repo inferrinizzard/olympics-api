@@ -4,6 +4,8 @@
 import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, HttpStatusCodeLiteral, TsoaResponse, fetchMiddlewares } from '@tsoa/runtime';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { CountryDetailController } from './../controllers/countryDataController.js';
+// WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+import { GamesDetailController } from './../controllers/gamesDataController.js';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
 
@@ -21,6 +23,27 @@ const models: TsoaRoute.Models = {
             "country": {"dataType":"string","required":true},
             "name": {"dataType":"string","required":true},
             "flag": {"dataType":"string","required":true},
+        },
+        "additionalProperties": false,
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "GamesId": {
+        "dataType": "refAlias",
+        "type": {"dataType":"string","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "GamesDetailRow": {
+        "dataType": "refObject",
+        "properties": {
+            "game": {"dataType":"string","required":true},
+            "year": {"dataType":"double","required":true},
+            "season": {"dataType":"string","required":true},
+            "title": {"dataType":"string","required":true},
+            "emblem": {"dataType":"string","required":true},
+            "host": {"dataType":"string","required":true},
+            "numAthletes": {"dataType":"double","required":true},
+            "startDate": {"dataType":"string","required":true},
+            "endDate": {"dataType":"string","required":true},
         },
         "additionalProperties": false,
     },
@@ -78,6 +101,55 @@ export function RegisterRoutes(app: express.Router) {
 
 
               const promise = controller.getCountry.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/games',
+            ...(fetchMiddlewares<RequestHandler>(GamesDetailController)),
+            ...(fetchMiddlewares<RequestHandler>(GamesDetailController.prototype.getAllGames)),
+
+            function GamesDetailController_getAllGames(request: any, response: any, next: any) {
+            const args = {
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new GamesDetailController();
+
+
+              const promise = controller.getAllGames.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/games/:game',
+            ...(fetchMiddlewares<RequestHandler>(GamesDetailController)),
+            ...(fetchMiddlewares<RequestHandler>(GamesDetailController.prototype.getGames)),
+
+            function GamesDetailController_getGames(request: any, response: any, next: any) {
+            const args = {
+                    game: {"in":"path","name":"game","required":true,"ref":"GamesId"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new GamesDetailController();
+
+
+              const promise = controller.getGames.apply(controller, validatedArgs as any);
               promiseHandler(controller, promise, response, undefined, next);
             } catch (err) {
                 return next(err);
