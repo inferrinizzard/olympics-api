@@ -6,6 +6,8 @@ import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, H
 import { CountryDataController } from './../controllers/countryDataController.js';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { GamesDataController } from './../controllers/gamesDataController.js';
+// WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+import { MedalsDataController } from './../controllers/medalsDataController.js';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
 
@@ -48,6 +50,24 @@ const models: TsoaRoute.Models = {
         "additionalProperties": false,
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "Record_CountryId.Exclude_MedalTotalsRow.CountryId__": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "MedalTotalsRow": {
+        "dataType": "refObject",
+        "properties": {
+            "country": {"ref":"CountryId","required":true},
+            "season": {"dataType":"string","required":true},
+            "gold": {"dataType":"double","required":true},
+            "silver": {"dataType":"double","required":true},
+            "bronze": {"dataType":"double","required":true},
+            "total": {"dataType":"double","required":true},
+        },
+        "additionalProperties": false,
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 };
 const validationService = new ValidationService(models);
 
@@ -62,7 +82,7 @@ export function RegisterRoutes(app: express.Router) {
             ...(fetchMiddlewares<RequestHandler>(CountryDataController)),
             ...(fetchMiddlewares<RequestHandler>(CountryDataController.prototype.getAllCountries)),
 
-            function CountryDetailController_getAllCountries(request: any, response: any, next: any) {
+            function CountryDataController_getAllCountries(request: any, response: any, next: any) {
             const args = {
             };
 
@@ -86,7 +106,7 @@ export function RegisterRoutes(app: express.Router) {
             ...(fetchMiddlewares<RequestHandler>(CountryDataController)),
             ...(fetchMiddlewares<RequestHandler>(CountryDataController.prototype.getCountry)),
 
-            function CountryDetailController_getCountry(request: any, response: any, next: any) {
+            function CountryDataController_getCountry(request: any, response: any, next: any) {
             const args = {
                     country: {"in":"path","name":"country","required":true,"ref":"CountryId"},
             };
@@ -111,7 +131,7 @@ export function RegisterRoutes(app: express.Router) {
             ...(fetchMiddlewares<RequestHandler>(GamesDataController)),
             ...(fetchMiddlewares<RequestHandler>(GamesDataController.prototype.getAllGames)),
 
-            function GamesDetailController_getAllGames(request: any, response: any, next: any) {
+            function GamesDataController_getAllGames(request: any, response: any, next: any) {
             const args = {
             };
 
@@ -135,7 +155,7 @@ export function RegisterRoutes(app: express.Router) {
             ...(fetchMiddlewares<RequestHandler>(GamesDataController)),
             ...(fetchMiddlewares<RequestHandler>(GamesDataController.prototype.getGames)),
 
-            function GamesDetailController_getGames(request: any, response: any, next: any) {
+            function GamesDataController_getGames(request: any, response: any, next: any) {
             const args = {
                     game: {"in":"path","name":"game","required":true,"ref":"GamesId"},
             };
@@ -150,6 +170,55 @@ export function RegisterRoutes(app: express.Router) {
 
 
               const promise = controller.getGames.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/medals',
+            ...(fetchMiddlewares<RequestHandler>(MedalsDataController)),
+            ...(fetchMiddlewares<RequestHandler>(MedalsDataController.prototype.getAllTotals)),
+
+            function MedalsDataController_getAllTotals(request: any, response: any, next: any) {
+            const args = {
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new MedalsDataController();
+
+
+              const promise = controller.getAllTotals.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/medals/:country',
+            ...(fetchMiddlewares<RequestHandler>(MedalsDataController)),
+            ...(fetchMiddlewares<RequestHandler>(MedalsDataController.prototype.getMedals)),
+
+            function MedalsDataController_getMedals(request: any, response: any, next: any) {
+            const args = {
+                    country: {"in":"path","name":"country","required":true,"ref":"CountryId"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new MedalsDataController();
+
+
+              const promise = controller.getMedals.apply(controller, validatedArgs as any);
               promiseHandler(controller, promise, response, undefined, next);
             } catch (err) {
                 return next(err);

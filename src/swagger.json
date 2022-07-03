@@ -77,6 +77,47 @@
 				],
 				"type": "object",
 				"additionalProperties": false
+			},
+			"Record_CountryId.Exclude_MedalTotalsRow.CountryId__": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"MedalTotalsRow": {
+				"properties": {
+					"country": {
+						"$ref": "#/components/schemas/CountryId"
+					},
+					"season": {
+						"type": "string"
+					},
+					"gold": {
+						"type": "number",
+						"format": "double"
+					},
+					"silver": {
+						"type": "number",
+						"format": "double"
+					},
+					"bronze": {
+						"type": "number",
+						"format": "double"
+					},
+					"total": {
+						"type": "number",
+						"format": "double"
+					}
+				},
+				"required": [
+					"country",
+					"season",
+					"gold",
+					"silver",
+					"bronze",
+					"total"
+				],
+				"type": "object",
+				"additionalProperties": false
 			}
 		},
 		"securitySchemes": {}
@@ -198,6 +239,58 @@
 						"required": true,
 						"schema": {
 							"$ref": "#/components/schemas/GamesId"
+						}
+					}
+				]
+			}
+		},
+		"/medals": {
+			"get": {
+				"operationId": "GetAllTotals",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_CountryId.Exclude_MedalTotalsRow.CountryId__"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/medals/{country}": {
+			"get": {
+				"operationId": "GetMedals",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/MedalTotalsRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "country",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/CountryId"
 						}
 					}
 				]
