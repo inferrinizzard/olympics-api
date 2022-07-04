@@ -78,6 +78,21 @@
 				"type": "object",
 				"additionalProperties": false
 			},
+			"Record_CountryId.CountryDetailRow-at-flag_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"Record_GamesId.GamesDetailRow-at-emblem_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"Record_SportId.SportDetailRow-at-logo_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
 			"Record_CountryId.Exclude_MedalTotalsRow.CountryId__": {
 				"properties": {},
 				"type": "object",
@@ -309,6 +324,63 @@
 						}
 					}
 				]
+			}
+		},
+		"/images/countries": {
+			"get": {
+				"operationId": "GetCountryFlags",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_CountryId.CountryDetailRow-at-flag_"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/images/games": {
+			"get": {
+				"operationId": "GetGamesEmblems",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_GamesId.GamesDetailRow-at-emblem_"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/images/sports": {
+			"get": {
+				"operationId": "GetSportsLogos",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_SportId.SportDetailRow-at-logo_"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
 			}
 		},
 		"/medals": {
