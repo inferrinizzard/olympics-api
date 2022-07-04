@@ -118,6 +118,73 @@
 				],
 				"type": "object",
 				"additionalProperties": false
+			},
+			"SportId": {
+				"type": "string"
+			},
+			"SportDetailRow": {
+				"properties": {
+					"sport": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					},
+					"icon": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"sport",
+					"name",
+					"icon"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"Partial_SportsEventWinners_": {
+				"properties": {
+					"gold": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"silver": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"bronze": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					}
+				},
+				"type": "object",
+				"description": "Make all properties in T optional"
+			},
+			"SportsEventRow": {
+				"properties": {
+					"game": {
+						"$ref": "#/components/schemas/GamesId"
+					},
+					"sport": {
+						"$ref": "#/components/schemas/SportId"
+					},
+					"events": {
+						"$ref": "#/components/schemas/Partial_SportsEventWinners_"
+					}
+				},
+				"required": [
+					"game",
+					"sport",
+					"events"
+				],
+				"type": "object",
+				"additionalProperties": false
 			}
 		},
 		"securitySchemes": {}
@@ -291,6 +358,102 @@
 						"required": true,
 						"schema": {
 							"$ref": "#/components/schemas/CountryId"
+						}
+					}
+				]
+			}
+		},
+		"/sports": {
+			"get": {
+				"operationId": "GetAllSports",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"items": {
+										"$ref": "#/components/schemas/SportId"
+									},
+									"type": "array"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/sports/{sport}": {
+			"get": {
+				"operationId": "GetSports",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/SportDetailRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "sport",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/SportId"
+						}
+					}
+				]
+			}
+		},
+		"/sports/{sport}/events/{game}": {
+			"get": {
+				"operationId": "GetSportsEvent",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/SportsEventRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "sport",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/SportId"
+						}
+					},
+					{
+						"in": "path",
+						"name": "game",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/GamesId"
 						}
 					}
 				]

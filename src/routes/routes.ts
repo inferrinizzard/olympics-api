@@ -8,6 +8,8 @@ import { CountryDataController } from './../controllers/countryDataController.js
 import { GamesDataController } from './../controllers/gamesDataController.js';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { MedalsDataController } from './../controllers/medalsDataController.js';
+// WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+import { SportsDataController } from './../controllers/sportsDataController.js';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
 
@@ -64,6 +66,36 @@ const models: TsoaRoute.Models = {
             "silver": {"dataType":"double","required":true},
             "bronze": {"dataType":"double","required":true},
             "total": {"dataType":"double","required":true},
+        },
+        "additionalProperties": false,
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "SportId": {
+        "dataType": "refAlias",
+        "type": {"dataType":"string","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "SportDetailRow": {
+        "dataType": "refObject",
+        "properties": {
+            "sport": {"dataType":"string","required":true},
+            "name": {"dataType":"string","required":true},
+            "icon": {"dataType":"string","required":true},
+        },
+        "additionalProperties": false,
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "Partial_SportsEventWinners_": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"gold":{"dataType":"array","array":{"dataType":"string"}},"silver":{"dataType":"array","array":{"dataType":"string"}},"bronze":{"dataType":"array","array":{"dataType":"string"}}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "SportsEventRow": {
+        "dataType": "refObject",
+        "properties": {
+            "game": {"ref":"GamesId","required":true},
+            "sport": {"ref":"SportId","required":true},
+            "events": {"ref":"Partial_SportsEventWinners_","required":true},
         },
         "additionalProperties": false,
     },
@@ -219,6 +251,81 @@ export function RegisterRoutes(app: express.Router) {
 
 
               const promise = controller.getMedals.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/sports',
+            ...(fetchMiddlewares<RequestHandler>(SportsDataController)),
+            ...(fetchMiddlewares<RequestHandler>(SportsDataController.prototype.getAllSports)),
+
+            function SportsDataController_getAllSports(request: any, response: any, next: any) {
+            const args = {
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new SportsDataController();
+
+
+              const promise = controller.getAllSports.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/sports/:sport',
+            ...(fetchMiddlewares<RequestHandler>(SportsDataController)),
+            ...(fetchMiddlewares<RequestHandler>(SportsDataController.prototype.getSports)),
+
+            function SportsDataController_getSports(request: any, response: any, next: any) {
+            const args = {
+                    sport: {"in":"path","name":"sport","required":true,"ref":"SportId"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new SportsDataController();
+
+
+              const promise = controller.getSports.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/sports/:sport/events/:game',
+            ...(fetchMiddlewares<RequestHandler>(SportsDataController)),
+            ...(fetchMiddlewares<RequestHandler>(SportsDataController.prototype.getSportsEvent)),
+
+            function SportsDataController_getSportsEvent(request: any, response: any, next: any) {
+            const args = {
+                    sport: {"in":"path","name":"sport","required":true,"ref":"SportId"},
+                    game: {"in":"path","name":"game","required":true,"ref":"GamesId"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new SportsDataController();
+
+
+              const promise = controller.getSportsEvent.apply(controller, validatedArgs as any);
               promiseHandler(controller, promise, response, undefined, next);
             } catch (err) {
                 return next(err);
