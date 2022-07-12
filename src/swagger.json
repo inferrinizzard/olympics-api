@@ -1,0 +1,540 @@
+{
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {
+			"CountryId": {
+				"type": "string"
+			},
+			"CountryDetailRow": {
+				"properties": {
+					"country": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					},
+					"flag": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"country",
+					"name",
+					"flag"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"GamesId": {
+				"type": "string"
+			},
+			"GamesDetailRow": {
+				"properties": {
+					"game": {
+						"type": "string"
+					},
+					"year": {
+						"type": "number",
+						"format": "double"
+					},
+					"season": {
+						"type": "string"
+					},
+					"title": {
+						"type": "string"
+					},
+					"emblem": {
+						"type": "string"
+					},
+					"host": {
+						"type": "string"
+					},
+					"numAthletes": {
+						"type": "number",
+						"format": "double"
+					},
+					"startDate": {
+						"type": "string"
+					},
+					"endDate": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"game",
+					"year",
+					"season",
+					"title",
+					"emblem",
+					"host",
+					"numAthletes",
+					"startDate",
+					"endDate"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"Record_CountryId.CountryDetailRow-at-flag_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"Record_GamesId.GamesDetailRow-at-emblem_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"Record_SportId.SportDetailRow-at-logo_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"Record_CountryId.Exclude_MedalTotalsRow.CountryId__": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"MedalTotalsRow": {
+				"properties": {
+					"country": {
+						"$ref": "#/components/schemas/CountryId"
+					},
+					"season": {
+						"type": "string"
+					},
+					"gold": {
+						"type": "number",
+						"format": "double"
+					},
+					"silver": {
+						"type": "number",
+						"format": "double"
+					},
+					"bronze": {
+						"type": "number",
+						"format": "double"
+					},
+					"total": {
+						"type": "number",
+						"format": "double"
+					}
+				},
+				"required": [
+					"country",
+					"season",
+					"gold",
+					"silver",
+					"bronze",
+					"total"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"SportId": {
+				"type": "string"
+			},
+			"SportDetailRow": {
+				"properties": {
+					"sport": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					},
+					"icon": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"sport",
+					"name",
+					"icon"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"Partial_SportsEventWinners_": {
+				"properties": {
+					"gold": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"silver": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"bronze": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					}
+				},
+				"type": "object",
+				"description": "Make all properties in T optional"
+			},
+			"SportsEventRow": {
+				"properties": {
+					"game": {
+						"$ref": "#/components/schemas/GamesId"
+					},
+					"sport": {
+						"$ref": "#/components/schemas/SportId"
+					},
+					"events": {
+						"$ref": "#/components/schemas/Partial_SportsEventWinners_"
+					}
+				},
+				"required": [
+					"game",
+					"sport",
+					"events"
+				],
+				"type": "object",
+				"additionalProperties": false
+			}
+		},
+		"securitySchemes": {}
+	},
+	"info": {
+		"title": "olympics-api",
+		"version": "1.0.0",
+		"license": {
+			"name": "MIT"
+		},
+		"contact": {
+			"name": "inferrinizzard"
+		}
+	},
+	"openapi": "3.0.0",
+	"paths": {
+		"/countries": {
+			"get": {
+				"operationId": "GetAllCountries",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"items": {
+										"$ref": "#/components/schemas/CountryId"
+									},
+									"type": "array"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/countries/{country}": {
+			"get": {
+				"operationId": "GetCountry",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/CountryDetailRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "country",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/CountryId"
+						}
+					}
+				]
+			}
+		},
+		"/games": {
+			"get": {
+				"operationId": "GetAllGames",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"items": {
+										"$ref": "#/components/schemas/GamesId"
+									},
+									"type": "array"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/games/{game}": {
+			"get": {
+				"operationId": "GetGames",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/GamesDetailRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "game",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/GamesId"
+						}
+					}
+				]
+			}
+		},
+		"/images/countries": {
+			"get": {
+				"operationId": "GetCountryFlags",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_CountryId.CountryDetailRow-at-flag_"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/images/games": {
+			"get": {
+				"operationId": "GetGamesEmblems",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_GamesId.GamesDetailRow-at-emblem_"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/images/sports": {
+			"get": {
+				"operationId": "GetSportsLogos",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_SportId.SportDetailRow-at-logo_"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/medals": {
+			"get": {
+				"operationId": "GetAllTotals",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_CountryId.Exclude_MedalTotalsRow.CountryId__"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/medals/{country}": {
+			"get": {
+				"operationId": "GetMedals",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/MedalTotalsRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "country",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/CountryId"
+						}
+					}
+				]
+			}
+		},
+		"/sports": {
+			"get": {
+				"operationId": "GetAllSports",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"items": {
+										"$ref": "#/components/schemas/SportId"
+									},
+									"type": "array"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/sports/{sport}": {
+			"get": {
+				"operationId": "GetSports",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/SportDetailRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "sport",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/SportId"
+						}
+					}
+				]
+			}
+		},
+		"/sports/{sport}/events/{game}": {
+			"get": {
+				"operationId": "GetSportsEvent",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/SportsEventRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "sport",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/SportId"
+						}
+					},
+					{
+						"in": "path",
+						"name": "game",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/GamesId"
+						}
+					}
+				]
+			}
+		}
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}
