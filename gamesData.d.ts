@@ -11,3 +11,5 @@ export interface GamesDetailRow extends Record<string, string | number> {
 	startDate: string;
 	endDate: string;
 }
+
+export type GamesEmblemMap = Record<GamesId, GamesDetailRow['emblem']>;

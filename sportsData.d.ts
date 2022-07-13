@@ -19,3 +19,5 @@ interface SportsEventWinners extends Record<string, string[]> {
 	silver: string[];
 	bronze: string[];
 }
+
+export type SportsIconMap = Record<SportId, SportDetailRow['icon']>;
