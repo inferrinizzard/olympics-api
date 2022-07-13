@@ -59,37 +59,52 @@ const models: TsoaRoute.Models = {
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "CountryFlagMap": {
+        "dataType": "refAlias",
+        "type": {"ref":"Record_CountryId.CountryDetailRow-at-flag_","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "Record_GamesId.GamesDetailRow-at-emblem_": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-    "Record_SportId.SportDetailRow-at-logo_": {
+    "GamesEmblemMap": {
+        "dataType": "refAlias",
+        "type": {"ref":"Record_GamesId.GamesDetailRow-at-emblem_","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "Record_SportId.SportDetailRow-at-icon_": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-    "Record_CountryId.Exclude_MedalTotalsRow.CountryId__": {
+    "SportsIconMap": {
+        "dataType": "refAlias",
+        "type": {"ref":"Record_SportId.SportDetailRow-at-icon_","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "Record_CountryId.MedalColumn_": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "CountryMedalsMap": {
+        "dataType": "refAlias",
+        "type": {"ref":"Record_CountryId.MedalColumn_","validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "MedalTotalsRow": {
         "dataType": "refObject",
         "properties": {
-            "country": {"ref":"CountryId","required":true},
-            "season": {"dataType":"string","required":true},
             "gold": {"dataType":"double","required":true},
             "silver": {"dataType":"double","required":true},
             "bronze": {"dataType":"double","required":true},
             "total": {"dataType":"double","required":true},
+            "country": {"ref":"CountryId","required":true},
+            "season": {"dataType":"string","required":true},
         },
         "additionalProperties": false,
-    },
-    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-    "Record_CountryId.Pick_CountryMedalRow.gold-or-silver-or-bronze-or-total__": {
-        "dataType": "refAlias",
-        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "SportId": {
