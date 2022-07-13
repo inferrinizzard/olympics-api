@@ -19,4 +19,4 @@ export interface CountryMedalRow extends Medals {
 	country: CountryId;
 }
 
-export type CountryMedalsMap = Record<CountryId, MedalColumn>;
+export type CountryMedalsMap = Record<CountryId, Record<MedalColumn, number>>;
