@@ -22,7 +22,8 @@
 		"clean": "rm -r dist",
 		"dev": "tsoa routes-and-spec && nodemon src/index.ts",
 		"build": "tsoa routes-and-spec && tsc",
-		"start": "node dist/index.js"
+		"start": "node dist/index.js",
+		"publish-types": "git subtree push --prefix src/models origin api-types"
 	},
 	"nodemonConfig": {
 		"restartable": "rs",
