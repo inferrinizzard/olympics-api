@@ -6,7 +6,7 @@ import swaggerRouter from './swagger.js';
 
 const router = express.Router();
 
-router.get('/', (req, res) => res.redirect('/docs'));
+router.get('/', (req, res) => res.redirect('/api/docs'));
 
 router.use('/docs', swaggerRouter);
 
