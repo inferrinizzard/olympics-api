@@ -10,11 +10,11 @@ export interface MedalTotalsRow extends Record<string, string | number> {
 	total: number;
 }
 
-// export interface CountryMedalRow extends Record<string, string | number> {
-// 	game: GamesId;
-// 	country: CountryId;
-// 	gold: number;
-// 	silver: number;
-// 	bronze: number;
-// 	total: number;
-// }
+export interface CountryMedalRow extends Record<string, string | number> {
+	game: GamesId;
+	country: CountryId;
+	gold: number;
+	silver: number;
+	bronze: number;
+	total: number;
+}
