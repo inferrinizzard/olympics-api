@@ -18,3 +18,5 @@ export interface CountryMedalRow extends Medals {
 	game: GamesId;
 	country: CountryId;
 }
+
+export type CountryMedalsMap = Record<CountryId, MedalColumn>;

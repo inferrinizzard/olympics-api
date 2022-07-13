@@ -2,13 +2,13 @@ import { Controller, Get, Path, Route } from 'tsoa';
 
 import type { GamesId } from '../models/gamesData';
 import type { CountryId } from '../models/countryData';
-import type { CountryMedalRow, MedalTotalsRow } from '../models/medalsData';
+import type { CountryMedalsMap, MedalTotalsRow } from '../models/medalsData';
 import { MedalsDataService } from '../services/medalsDataService.js';
 
 @Route('medals')
 export class MedalsDataController extends Controller {
 	@Get()
-	public async getAllTotals(): Promise<Record<CountryId, Exclude<MedalTotalsRow, CountryId>>> {
+	public async getAllTotals(): Promise<CountryMedalsMap> {
 		return new MedalsDataService().getTotals();
 	}
 
@@ -18,9 +18,7 @@ export class MedalsDataController extends Controller {
 	}
 
 	@Get('games/{game}')
-	public async getGamesMedals(
-		@Path() game: GamesId
-	): Promise<Record<CountryId, Pick<CountryMedalRow, 'gold' | 'silver' | 'bronze' | 'total'>>> {
+	public async getGamesMedals(@Path() game: GamesId): Promise<CountryMedalsMap> {
 		return new MedalsDataService().getGameMedals(game);
 	}
 }

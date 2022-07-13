@@ -2,13 +2,13 @@ import { db } from '../db.js';
 
 import type { CountryId } from '../models/countryData';
 import type { GamesId } from '../models/gamesData.js';
-import type { CountryMedalRow, MedalTotalsRow } from '../models/medalsData';
+import type { CountryMedalRow, CountryMedalsMap, MedalTotalsRow } from '../models/medalsData';
 
 export class MedalsDataService {
 	medalTotalsTable = 'medal_totals';
 	countryMedalsTable = 'country_medals';
 
-	public getTotals = (): Promise<Record<CountryId, Exclude<MedalTotalsRow, CountryId>>> =>
+	public getTotals = (): Promise<CountryMedalsMap> =>
 		db
 			.any(
 				`
@@ -28,9 +28,7 @@ export class MedalsDataService {
 	public getCountryTotals = (country: CountryId): Promise<MedalTotalsRow | null> =>
 		db.oneOrNone(`SELECT * FROM ${this.medalTotalsTable} WHERE country = '${country}';`);
 
-	public getGameMedals = (
-		game: GamesId
-	): Promise<Record<CountryId, Pick<CountryMedalRow, 'gold' | 'silver' | 'bronze' | 'total'>>> =>
+	public getGameMedals = (game: GamesId): Promise<CountryMedalsMap> =>
 		db.any(`SELECT * FROM ${this.countryMedalsTable} WHERE game = '${game}';`).then(rows =>
 			rows.reduce(
 				(acc, { country, gold, silver, bronze, total }) => ({
