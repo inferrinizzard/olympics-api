@@ -1,20 +1,20 @@
 import type { CountryId } from './countryData';
 import type { GamesId } from './gamesData';
 
-export interface MedalTotalsRow extends Record<string, string | number> {
-	country: CountryId;
-	season: string;
+export interface Medals extends Record<string, string | number> {
 	gold: number;
 	silver: number;
 	bronze: number;
 	total: number;
 }
 
-export interface CountryMedalRow extends Record<string, string | number> {
+export type MedalColumn = keyof Medals;
+export interface MedalTotalsRow extends Medals {
+	country: CountryId;
+	season: string;
+}
+
+export interface CountryMedalRow extends Medals {
 	game: GamesId;
 	country: CountryId;
-	gold: number;
-	silver: number;
-	bronze: number;
-	total: number;
 }
