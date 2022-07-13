@@ -134,6 +134,11 @@
 				"type": "object",
 				"additionalProperties": false
 			},
+			"Record_CountryId.Pick_CountryMedalRow.gold-or-silver-or-bronze-or-total__": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
 			"SportId": {
 				"type": "string"
 			},
@@ -402,7 +407,7 @@
 				"parameters": []
 			}
 		},
-		"/medals/{country}": {
+		"/medals/countries/{country}": {
 			"get": {
 				"operationId": "GetMedals",
 				"responses": {
@@ -430,6 +435,34 @@
 						"required": true,
 						"schema": {
 							"$ref": "#/components/schemas/CountryId"
+						}
+					}
+				]
+			}
+		},
+		"/medals/games/{game}": {
+			"get": {
+				"operationId": "GetGamesMedals",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Record_CountryId.Pick_CountryMedalRow.gold-or-silver-or-bronze-or-total__"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "game",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/GamesId"
 						}
 					}
 				]
