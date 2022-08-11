@@ -32,6 +32,30 @@
 			"GamesId": {
 				"type": "string"
 			},
+			"Record_CountryId.number_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"CountryAthletes": {
+				"$ref": "#/components/schemas/Record_CountryId.number_"
+			},
+			"CountryAttendanceRow": {
+				"properties": {
+					"game": {
+						"$ref": "#/components/schemas/GamesId"
+					},
+					"countryAthletes": {
+						"$ref": "#/components/schemas/CountryAthletes"
+					}
+				},
+				"required": [
+					"game",
+					"countryAthletes"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
 			"GamesDetailRow": {
 				"properties": {
 					"game": {
@@ -83,29 +107,35 @@
 				"type": "object",
 				"description": "Construct a type with a set of properties K of type T"
 			},
+			"CountryFlagMap": {
+				"$ref": "#/components/schemas/Record_CountryId.CountryDetailRow-at-flag_"
+			},
 			"Record_GamesId.GamesDetailRow-at-emblem_": {
 				"properties": {},
 				"type": "object",
 				"description": "Construct a type with a set of properties K of type T"
 			},
-			"Record_SportId.SportDetailRow-at-logo_": {
+			"GamesEmblemMap": {
+				"$ref": "#/components/schemas/Record_GamesId.GamesDetailRow-at-emblem_"
+			},
+			"Record_SportId.SportDetailRow-at-icon_": {
 				"properties": {},
 				"type": "object",
 				"description": "Construct a type with a set of properties K of type T"
 			},
-			"Record_CountryId.Exclude_MedalTotalsRow.CountryId__": {
+			"SportsIconMap": {
+				"$ref": "#/components/schemas/Record_SportId.SportDetailRow-at-icon_"
+			},
+			"Record_CountryId.Record_MedalColumn.number__": {
 				"properties": {},
 				"type": "object",
 				"description": "Construct a type with a set of properties K of type T"
+			},
+			"CountryMedalsMap": {
+				"$ref": "#/components/schemas/Record_CountryId.Record_MedalColumn.number__"
 			},
 			"MedalTotalsRow": {
 				"properties": {
-					"country": {
-						"$ref": "#/components/schemas/CountryId"
-					},
-					"season": {
-						"type": "string"
-					},
 					"gold": {
 						"type": "number",
 						"format": "double"
@@ -121,23 +151,24 @@
 					"total": {
 						"type": "number",
 						"format": "double"
+					},
+					"country": {
+						"$ref": "#/components/schemas/CountryId"
+					},
+					"season": {
+						"type": "string"
 					}
 				},
 				"required": [
-					"country",
-					"season",
 					"gold",
 					"silver",
 					"bronze",
-					"total"
+					"total",
+					"country",
+					"season"
 				],
 				"type": "object",
 				"additionalProperties": false
-			},
-			"Record_CountryId.Pick_CountryMedalRow.gold-or-silver-or-bronze-or-total__": {
-				"properties": {},
-				"type": "object",
-				"description": "Construct a type with a set of properties K of type T"
 			},
 			"SportId": {
 				"type": "string"
@@ -276,6 +307,39 @@
 				]
 			}
 		},
+		"/countries/games/{game}": {
+			"get": {
+				"operationId": "GetCountryAttendance",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/CountryAttendanceRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "game",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/GamesId"
+						}
+					}
+				]
+			}
+		},
 		"/games": {
 			"get": {
 				"operationId": "GetAllGames",
@@ -340,7 +404,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/Record_CountryId.CountryDetailRow-at-flag_"
+									"$ref": "#/components/schemas/CountryFlagMap"
 								}
 							}
 						}
@@ -359,7 +423,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/Record_GamesId.GamesDetailRow-at-emblem_"
+									"$ref": "#/components/schemas/GamesEmblemMap"
 								}
 							}
 						}
@@ -378,7 +442,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/Record_SportId.SportDetailRow-at-logo_"
+									"$ref": "#/components/schemas/SportsIconMap"
 								}
 							}
 						}
@@ -397,7 +461,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/Record_CountryId.Exclude_MedalTotalsRow.CountryId__"
+									"$ref": "#/components/schemas/CountryMedalsMap"
 								}
 							}
 						}
@@ -449,7 +513,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/Record_CountryId.Pick_CountryMedalRow.gold-or-silver-or-bronze-or-total__"
+									"$ref": "#/components/schemas/CountryMedalsMap"
 								}
 							}
 						}

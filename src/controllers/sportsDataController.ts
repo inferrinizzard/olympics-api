@@ -21,6 +21,11 @@ export class SportsDataController extends Controller {
 		@Path() sport: SportId,
 		@Path() game: GamesId
 	): Promise<SportsEventRow | null> {
-		return new SportsDataService().getEvent(sport, game);
+		return new SportsDataService().getEventResults(sport, game);
 	}
+
+	// @Get('games/{game}')
+	// public async getGameSports(@Path() game: GamesId): Promise<SportsEventRow[]> {
+	// 	return new SportsDataService().getGameEvents(game);
+	// }
 }
