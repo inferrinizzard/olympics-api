@@ -15,13 +15,30 @@ export class SportsDataService {
 	public get = (sport: SportId): Promise<SportDetailRow | null> =>
 		db.oneOrNone(`SELECT * FROM ${this.sportsDetailTable} WHERE sport = '${sport}';`);
 
-	public getEvent = (sport: SportId, game: GamesId): Promise<SportsEventRow | null> =>
-		db.oneOrNone(
-			`
+	public getEventResults = (sport: SportId, game: GamesId): Promise<SportsEventRow | null> =>
+		db.oneOrNone(`
 			SELECT *
 			FROM ${this.sportsEventsTable}
 			WHERE sport = '${sport}'
 				AND game = '${game}';
-			`
-		);
+		`);
+
+	// public getGameEvents = (game: GamesId): Promise<SportsEventRow[]> =>
+	// 	db.any(`
+	// 		SELECT *
+	// 		FROM ${this.sportsEventsTable}
+	// 		WHERE game = '${game}';
+	// 	`);
+
+	// db.any(`
+	// 	SELECT *
+	// 	FROM (
+	// 		SELECT
+	// 		sport
+	// 		FROM ${this.sportsEventsTable}
+	// 		WHERE game = '${game}'
+	// 	) game_sports
+	// 	JOIN ${this.sportsDetailTable}
+	// 		ON game_sports.sport = ${this.sportsDetailTable}.sport;
+	// `);
 }

@@ -5,8 +5,6 @@ import routes from './routes/index.js';
 import { initDatabase } from './database/index.js';
 import { Olympics } from './scraper/olympics.js';
 
-export * from './models';
-
 const port = process.env.PORT || 3000;
 
 // const olympics = await new Olympics().init();
