@@ -1,9 +1,11 @@
 import { db } from '../db.js';
 
-import type { CountryDetailRow, CountryId } from '../models/countryData';
+import type { CountryAttendanceRow, CountryDetailRow, CountryId } from '../models/countryData';
+import type { GamesId } from '../models/gamesData';
 
 export class CountryDataService {
 	countryDetailTable = 'country_detail';
+	countryAttendanceTable = 'country_attendance';
 
 	public getAll = (): Promise<CountryId[]> =>
 		db
@@ -12,4 +14,9 @@ export class CountryDataService {
 
 	public get = (country: CountryId): Promise<CountryDetailRow | null> =>
 		db.oneOrNone(`SELECT * FROM ${this.countryDetailTable} WHERE country = '${country}';`);
+
+	public getAttendance = (game: GamesId): Promise<CountryAttendanceRow | null> =>
+		db.oneOrNone(
+			`SELECT game, country_athletes FROM ${this.countryAttendanceTable} WHERE game = '${game}';`
+		);
 }

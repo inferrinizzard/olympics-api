@@ -1,3 +1,5 @@
+import type { GamesId } from './gamesData';
+
 export type CountryId = CountryDetailRow['country'];
 
 export interface CountryDetailRow extends Record<string, string> {
@@ -7,3 +9,10 @@ export interface CountryDetailRow extends Record<string, string> {
 }
 
 export type CountryFlagMap = Record<CountryId, CountryDetailRow['flag']>;
+
+export type CountryAthletes = Record<CountryId, number>;
+
+export interface CountryAttendanceRow {
+	game: GamesId;
+	countryAthletes: CountryAthletes;
+}

@@ -3,15 +3,15 @@
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, HttpStatusCodeLiteral, TsoaResponse, fetchMiddlewares } from '@tsoa/runtime';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { CountryDataController } from './../controllers/countryDataController.js';
+import { CountryDataController } from './../controllers/countryDataController';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { GamesDataController } from './../controllers/gamesDataController.js';
+import { GamesDataController } from './../controllers/gamesDataController';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { ImageDataController } from './../controllers/imageDataController.js';
+import { ImageDataController } from './../controllers/imageDataController';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { MedalsDataController } from './../controllers/medalsDataController.js';
+import { MedalsDataController } from './../controllers/medalsDataController';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { SportsDataController } from './../controllers/sportsDataController.js';
+import { SportsDataController } from './../controllers/sportsDataController';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
 
@@ -36,6 +36,25 @@ const models: TsoaRoute.Models = {
     "GamesId": {
         "dataType": "refAlias",
         "type": {"dataType":"string","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "Record_CountryId.number_": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "CountryAthletes": {
+        "dataType": "refAlias",
+        "type": {"ref":"Record_CountryId.number_","validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "CountryAttendanceRow": {
+        "dataType": "refObject",
+        "properties": {
+            "game": {"ref":"GamesId","required":true},
+            "countryAthletes": {"ref":"CountryAthletes","required":true},
+        },
+        "additionalProperties": false,
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "GamesDetailRow": {
@@ -84,14 +103,14 @@ const models: TsoaRoute.Models = {
         "type": {"ref":"Record_SportId.SportDetailRow-at-icon_","validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-    "Record_CountryId.MedalColumn_": {
+    "Record_CountryId.Record_MedalColumn.number__": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "CountryMedalsMap": {
         "dataType": "refAlias",
-        "type": {"ref":"Record_CountryId.MedalColumn_","validators":{}},
+        "type": {"ref":"Record_CountryId.Record_MedalColumn.number__","validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "MedalTotalsRow": {
@@ -190,6 +209,31 @@ export function RegisterRoutes(app: express.Router) {
 
 
               const promise = controller.getCountry.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/countries/games/:game',
+            ...(fetchMiddlewares<RequestHandler>(CountryDataController)),
+            ...(fetchMiddlewares<RequestHandler>(CountryDataController.prototype.getCountryAttendance)),
+
+            function CountryDataController_getCountryAttendance(request: any, response: any, next: any) {
+            const args = {
+                    game: {"in":"path","name":"game","required":true,"ref":"GamesId"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new CountryDataController();
+
+
+              const promise = controller.getCountryAttendance.apply(controller, validatedArgs as any);
               promiseHandler(controller, promise, response, undefined, next);
             } catch (err) {
                 return next(err);

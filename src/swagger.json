@@ -32,6 +32,30 @@
 			"GamesId": {
 				"type": "string"
 			},
+			"Record_CountryId.number_": {
+				"properties": {},
+				"type": "object",
+				"description": "Construct a type with a set of properties K of type T"
+			},
+			"CountryAthletes": {
+				"$ref": "#/components/schemas/Record_CountryId.number_"
+			},
+			"CountryAttendanceRow": {
+				"properties": {
+					"game": {
+						"$ref": "#/components/schemas/GamesId"
+					},
+					"countryAthletes": {
+						"$ref": "#/components/schemas/CountryAthletes"
+					}
+				},
+				"required": [
+					"game",
+					"countryAthletes"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
 			"GamesDetailRow": {
 				"properties": {
 					"game": {
@@ -102,13 +126,13 @@
 			"SportsIconMap": {
 				"$ref": "#/components/schemas/Record_SportId.SportDetailRow-at-icon_"
 			},
-			"Record_CountryId.MedalColumn_": {
+			"Record_CountryId.Record_MedalColumn.number__": {
 				"properties": {},
 				"type": "object",
 				"description": "Construct a type with a set of properties K of type T"
 			},
 			"CountryMedalsMap": {
-				"$ref": "#/components/schemas/Record_CountryId.MedalColumn_"
+				"$ref": "#/components/schemas/Record_CountryId.Record_MedalColumn.number__"
 			},
 			"MedalTotalsRow": {
 				"properties": {
@@ -278,6 +302,39 @@
 						"required": true,
 						"schema": {
 							"$ref": "#/components/schemas/CountryId"
+						}
+					}
+				]
+			}
+		},
+		"/countries/games/{game}": {
+			"get": {
+				"operationId": "GetCountryAttendance",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"allOf": [
+										{
+											"$ref": "#/components/schemas/CountryAttendanceRow"
+										}
+									],
+									"nullable": true
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "game",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/GamesId"
 						}
 					}
 				]
