@@ -1,7 +1,8 @@
 DROP TABLE IF EXISTS medal_totals CASCADE;
 
 CREATE TABLE IF NOT EXISTS medal_totals (
-    country     VARCHAR(3) PRIMARY KEY,
+    id          SERIAL PRIMARY KEY,
+    country     VARCHAR(3),
     season      VARCHAR(6) NOT NULL,
     gold        INT NOT NULL DEFAULT 0,
     silver      INT NOT NULL DEFAULT 0,
@@ -14,6 +15,7 @@ CREATE TABLE IF NOT EXISTS medal_totals (
 );
 
 COMMENT ON TABLE medal_totals IS 'Table containing the number of medals per country and season';
+COMMENT ON COLUMN country_attendance.id IS 'Unique identifier for the row';
 COMMENT ON COLUMN medal_totals.country IS 'Country Code';
 COMMENT ON COLUMN medal_totals.season IS 'Type of games (summer|winter)';
 COMMENT ON COLUMN medal_totals.gold IS 'Number of gold medals';
