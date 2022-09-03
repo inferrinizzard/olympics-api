@@ -1204,7 +1204,7 @@
 		"sport": "ATH",
 		"event": "Men's High Jump",
 		"gold": ["QAT", "ITA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["BLR"]
 	},
 	{
@@ -3765,14 +3765,14 @@
 		"event": "Four-man",
 		"gold": ["GER"],
 		"silver": ["GER", "KOR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "pyeongchang-2018",
 		"sport": "BOB",
 		"event": "Two-man",
 		"gold": ["CAN", "GER"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["LAT"]
 	},
 	{
@@ -6149,7 +6149,7 @@
 		"event": "100m butterfly men",
 		"gold": ["SGP"],
 		"silver": ["USA", "RSA", "HUN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "rio-2016",
@@ -6172,7 +6172,7 @@
 		"sport": "SWM",
 		"event": "100m freestyle women",
 		"gold": ["USA", "CAN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["SWE"]
 	},
 	{
@@ -6876,7 +6876,7 @@
 		"sport": "ALP",
 		"event": "downhill women",
 		"gold": ["SLO", "SUI"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["SUI"]
 	},
 	{
@@ -6988,7 +6988,7 @@
 		"sport": "BTH",
 		"event": "4x6km relay women",
 		"gold": ["UKR"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["NOR"]
 	},
 	{
@@ -7004,7 +7004,7 @@
 		"sport": "BTH",
 		"event": "7.5km women",
 		"gold": ["SVK"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["UKR"]
 	},
 	{
@@ -7724,8 +7724,8 @@
 		"sport": "ATH",
 		"event": "1500m women",
 		"gold": ["BRN"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "london-2012",
@@ -7877,7 +7877,7 @@
 		"event": "800m women",
 		"gold": ["RSA"],
 		"silver": ["RUS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-2012",
@@ -7933,7 +7933,7 @@
 		"event": "high jump men",
 		"gold": ["USA"],
 		"silver": ["QAT", "CAN", "GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-2012",
@@ -9349,7 +9349,7 @@
 		"event": "100m butterfly men",
 		"gold": ["USA"],
 		"silver": ["RSA", "RUS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-2012",
@@ -9437,7 +9437,7 @@
 		"event": "200m freestyle men",
 		"gold": ["FRA"],
 		"silver": ["KOR", "CHN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-2012",
@@ -9795,7 +9795,7 @@
 		"game": "london-2012",
 		"sport": "WLF",
 		"event": "105kg heavyweight men",
-		"gold": null,
+		"gold": [],
 		"silver": ["IRI"],
 		"bronze": ["POL"]
 	},
@@ -9908,7 +9908,7 @@
 		"sport": "WRE",
 		"event": "Freestyle 120kg men",
 		"gold": ["IRI", "RUS"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA", "KAZ"]
 	},
 	{
@@ -10181,7 +10181,7 @@
 		"event": "20km men",
 		"gold": ["NOR"],
 		"silver": ["BLR", "NOR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "vancouver-2010",
@@ -10805,7 +10805,7 @@
 		"event": "100m women",
 		"gold": ["JAM"],
 		"silver": ["JAM", "JAM"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "beijing-2008",
@@ -11076,7 +11076,7 @@
 		"sport": "ATH",
 		"event": "long jump women",
 		"gold": ["BRA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["NGR"]
 	},
 	{
@@ -11213,7 +11213,7 @@
 		"event": "Beach volleyball men",
 		"gold": ["USA"],
 		"silver": ["BRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "beijing-2008",
@@ -14092,8 +14092,8 @@
 		"sport": "ATH",
 		"event": "hammer throw men",
 		"gold": ["JPN"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "athens-2004",
@@ -14205,7 +14205,7 @@
 		"event": "shot put women",
 		"gold": ["CUB"],
 		"silver": ["GER"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-2004",
@@ -14291,7 +14291,7 @@
 		"game": "athens-2004",
 		"sport": "VBV",
 		"event": "Beach volleyball men",
-		"gold": null,
+		"gold": [],
 		"silver": ["ESP"],
 		"bronze": ["SUI"]
 	},
@@ -16404,7 +16404,7 @@
 		"sport": "CCS",
 		"event": "10km pursuit men",
 		"gold": ["NOR", "NOR"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["SWE"]
 	},
 	{
@@ -16540,7 +16540,7 @@
 		"sport": "FSK",
 		"event": "Pairs mixed",
 		"gold": ["RUS", "CAN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["CHN"]
 	},
 	{
@@ -16923,7 +16923,7 @@
 		"game": "sydney-2000",
 		"sport": "ATH",
 		"event": "100m women",
-		"gold": null,
+		"gold": [],
 		"silver": ["GRE", "JAM"],
 		"bronze": ["JAM"]
 	},
@@ -17324,7 +17324,7 @@
 		"sport": "VBV",
 		"event": "Beach volleyball men",
 		"gold": ["USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["GER"]
 	},
 	{
@@ -17597,7 +17597,7 @@
 		"event": "individual time trial men",
 		"gold": ["RUS"],
 		"silver": ["GER"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "sydney-2000",
@@ -18780,7 +18780,7 @@
 		"sport": "SWM",
 		"event": "50m freestyle men",
 		"gold": ["USA", "USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["NED"]
 	},
 	{
@@ -19325,7 +19325,7 @@
 		"event": "super-G men",
 		"gold": ["AUT"],
 		"silver": ["SUI", "AUT"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "nagano-1998",
@@ -19396,7 +19396,7 @@
 		"sport": "BOB",
 		"event": "two-man men",
 		"gold": ["ITA", "CAN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["GER"]
 	},
 	{
@@ -20845,7 +20845,7 @@
 		"event": "rings men",
 		"gold": ["ITA"],
 		"silver": ["HUN", "ROU"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "atlanta-1996",
@@ -20869,7 +20869,7 @@
 		"event": "uneven bars women",
 		"gold": ["RUS"],
 		"silver": ["CHN", "USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "atlanta-1996",
@@ -23349,7 +23349,7 @@
 		"event": "balance beam women",
 		"gold": ["EUN"],
 		"silver": ["CHN", "USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "barcelona-1992",
@@ -23357,7 +23357,7 @@
 		"event": "floor exercises men",
 		"gold": ["CHN"],
 		"silver": ["EUN", "JPN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "barcelona-1992",
@@ -23373,7 +23373,7 @@
 		"event": "horizontal bar men",
 		"gold": ["USA"],
 		"silver": ["EUN", "GER"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "barcelona-1992",
@@ -23404,7 +23404,7 @@
 		"sport": "GAR",
 		"event": "pommel horse men",
 		"gold": ["EUN", "PRK"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["GER"]
 	},
 	{
@@ -23452,7 +23452,7 @@
 		"sport": "GAR",
 		"event": "vault women",
 		"gold": ["HUN", "ROU"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["EUN"]
 	},
 	{
@@ -24180,7 +24180,7 @@
 		"sport": "SWA",
 		"event": "solo women",
 		"gold": ["USA", "CAN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["JPN"]
 	},
 	{
@@ -24333,7 +24333,7 @@
 		"event": "75  825kg lightheavyweight men",
 		"gold": ["GRE"],
 		"silver": ["POL"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "barcelona-1992",
@@ -24557,7 +24557,7 @@
 		"event": "giant slalom women",
 		"gold": ["SWE"],
 		"silver": ["USA", "AUT"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "albertville-1992",
@@ -25796,7 +25796,7 @@
 		"sport": "GAR",
 		"event": "horizontal bar men",
 		"gold": ["URS", "URS"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["GDR", "ROU"]
 	},
 	{
@@ -25828,15 +25828,15 @@
 		"sport": "GAR",
 		"event": "pommel horse men",
 		"gold": ["BUL", "HUN", "URS"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "seoul-1988",
 		"sport": "GAR",
 		"event": "rings men",
 		"gold": ["GDR", "URS"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["GDR"]
 	},
 	{
@@ -28004,7 +28004,7 @@
 		"sport": "GAR",
 		"event": "balance beam women",
 		"gold": ["ROU", "ROU"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA"]
 	},
 	{
@@ -28060,7 +28060,7 @@
 		"sport": "GAR",
 		"event": "pommel horse men",
 		"gold": ["CHN", "USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA"]
 	},
 	{
@@ -28068,7 +28068,7 @@
 		"sport": "GAR",
 		"event": "rings men",
 		"gold": ["JPN", "CHN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA"]
 	},
 	{
@@ -28092,7 +28092,7 @@
 		"sport": "GAR",
 		"event": "uneven bars women",
 		"gold": ["CHN", "USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA"]
 	},
 	{
@@ -28101,7 +28101,7 @@
 		"event": "vault men",
 		"gold": ["CHN"],
 		"silver": ["CHN", "JPN", "JPN", "USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "los-angeles-1984",
@@ -28548,7 +28548,7 @@
 		"sport": "SWM",
 		"event": "100m freestyle women",
 		"gold": ["USA", "USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["NED"]
 	},
 	{
@@ -29605,7 +29605,7 @@
 		"event": "pole vault men",
 		"gold": ["POL"],
 		"silver": ["POL", "URS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "moscow-1980",
@@ -30044,7 +30044,7 @@
 		"sport": "GAR",
 		"event": "floor exercises women",
 		"gold": ["URS", "ROU"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["URS", "GDR"]
 	},
 	{
@@ -30069,7 +30069,7 @@
 		"event": "individual all-round women",
 		"gold": ["URS"],
 		"silver": ["ROU", "GDR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "moscow-1980",
@@ -31165,7 +31165,7 @@
 		"event": "Normal Hill Individual men",
 		"gold": ["AUT"],
 		"silver": ["GDR", "JPN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "lake-placid-1980",
@@ -32053,7 +32053,7 @@
 		"event": "vault women",
 		"gold": ["URS"],
 		"silver": ["URS", "GDR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "montreal-1976",
@@ -33629,7 +33629,7 @@
 		"event": "individual road race men",
 		"gold": ["NED"],
 		"silver": ["AUS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "munich-1972",
@@ -33637,7 +33637,7 @@
 		"event": "team time trial men",
 		"gold": ["URS"],
 		"silver": ["POL"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "munich-1972",
@@ -33925,7 +33925,7 @@
 		"event": "uneven bars women",
 		"gold": ["GDR"],
 		"silver": ["URS", "GDR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "munich-1972",
@@ -33972,7 +33972,7 @@
 		"sport": "JUD",
 		"event": "63kg lightweight men",
 		"gold": ["JPN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["PRK", "FRA"]
 	},
 	{
@@ -34852,7 +34852,7 @@
 		"sport": "LUG",
 		"event": "Doubles mixed",
 		"gold": ["ITA", "GDR"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["GDR"]
 	},
 	{
@@ -35636,7 +35636,7 @@
 		"sport": "GAR",
 		"event": "floor exercises women",
 		"gold": ["URS", "TCH"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["URS"]
 	},
 	{
@@ -35644,7 +35644,7 @@
 		"sport": "GAR",
 		"event": "horizontal bar men",
 		"gold": ["URS", "JPN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["JPN"]
 	},
 	{
@@ -36573,7 +36573,7 @@
 		"event": "1500m men",
 		"gold": ["NED"],
 		"silver": ["NOR", "NED"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "grenoble-1968",
@@ -36605,7 +36605,7 @@
 		"event": "500m men",
 		"gold": ["FRG"],
 		"silver": ["USA", "NOR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "grenoble-1968",
@@ -36613,7 +36613,7 @@
 		"event": "500m women",
 		"gold": ["URS"],
 		"silver": ["USA", "USA", "USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "tokyo-1964",
@@ -37277,7 +37277,7 @@
 		"event": "floor exercises men",
 		"gold": ["ITA"],
 		"silver": ["URS", "JPN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "tokyo-1964",
@@ -37301,7 +37301,7 @@
 		"event": "individual all-round men",
 		"gold": ["JPN"],
 		"silver": ["JPN", "URS", "URS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "tokyo-1964",
@@ -37365,7 +37365,7 @@
 		"event": "vault women",
 		"gold": ["TCH"],
 		"silver": ["URS", "GER"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "tokyo-1964",
@@ -37949,7 +37949,7 @@
 		"event": "giant slalom women",
 		"gold": ["FRA"],
 		"silver": ["FRA", "USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "innsbruck-1964",
@@ -38165,7 +38165,7 @@
 		"event": "3000m women",
 		"gold": ["URS"],
 		"silver": ["PRK", "URS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "innsbruck-1964",
@@ -38181,7 +38181,7 @@
 		"event": "500m men",
 		"gold": ["USA"],
 		"silver": ["NOR", "URS", "URS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "innsbruck-1964",
@@ -38389,7 +38389,7 @@
 		"event": "high jump women",
 		"gold": ["ROU"],
 		"silver": ["GBR", "POL"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "rome-1960",
@@ -38868,7 +38868,7 @@
 		"sport": "GAR",
 		"event": "pommel horse men",
 		"gold": ["URS", "FIN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["JPN"]
 	},
 	{
@@ -38900,7 +38900,7 @@
 		"sport": "GAR",
 		"event": "vault men",
 		"gold": ["URS", "JPN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["URS"]
 	},
 	{
@@ -39564,7 +39564,7 @@
 		"sport": "SSK",
 		"event": "1500m men",
 		"gold": ["NOR", "URS"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["URS"]
 	},
 	{
@@ -39797,7 +39797,7 @@
 		"event": "high jump women",
 		"gold": ["USA"],
 		"silver": ["GBR", "URS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "melbourne-1956",
@@ -40181,7 +40181,7 @@
 		"event": "balance beam women",
 		"gold": ["HUN"],
 		"silver": ["TCH", "URS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "melbourne-1956",
@@ -40189,14 +40189,14 @@
 		"event": "floor exercises men",
 		"gold": ["URS"],
 		"silver": ["URS", "JPN", "SWE"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "melbourne-1956",
 		"sport": "GAR",
 		"event": "floor exercises women",
 		"gold": ["URS", "HUN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["ROU"]
 	},
 	{
@@ -40284,7 +40284,7 @@
 		"sport": "GAR",
 		"event": "vault men",
 		"gold": ["URS", "GER"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["URS"]
 	},
 	{
@@ -40940,7 +40940,7 @@
 		"sport": "SSK",
 		"event": "1500m men",
 		"gold": ["URS", "URS"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["FIN"]
 	},
 	{
@@ -41557,7 +41557,7 @@
 		"event": "floor exercises men",
 		"gold": ["SWE"],
 		"silver": ["POL", "JPN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "helsinki-1952",
@@ -41573,7 +41573,7 @@
 		"event": "horizontal bar men",
 		"gold": ["SUI"],
 		"silver": ["GER", "SUI"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "helsinki-1952",
@@ -41605,7 +41605,7 @@
 		"event": "pommel horse men",
 		"gold": ["URS"],
 		"silver": ["URS", "URS"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "helsinki-1952",
@@ -42932,8 +42932,8 @@
 		"sport": "GAR",
 		"event": "pommel horse men",
 		"gold": ["FIN", "FIN", "FIN"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "london-1948",
@@ -43557,7 +43557,7 @@
 		"event": "500m men",
 		"gold": ["NOR"],
 		"silver": ["USA", "NOR", "USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "berlin-1936",
@@ -44396,7 +44396,7 @@
 		"sport": "WLF",
 		"event": "60-67.5kg lightweight men",
 		"gold": ["EGY", "AUT"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["GER"]
 	},
 	{
@@ -45085,7 +45085,7 @@
 		"event": "team mixed",
 		"gold": ["USA"],
 		"silver": ["NED"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "los-angeles-1932",
@@ -45325,7 +45325,7 @@
 		"event": "8m mixed",
 		"gold": ["USA"],
 		"silver": ["CAN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "los-angeles-1932",
@@ -46444,7 +46444,7 @@
 		"sport": "WLF",
 		"event": "60-67.5kg lightweight men",
 		"gold": ["GER", "AUT"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["FRA"]
 	},
 	{
@@ -46684,7 +46684,7 @@
 		"sport": "SSK",
 		"event": "500m men",
 		"gold": ["NOR", "FIN"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA", "FIN", "NOR"]
 	},
 	{
@@ -47165,7 +47165,7 @@
 		"event": "Sidehorse vault men",
 		"gold": ["FRA"],
 		"silver": ["FRA", "FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1924",
@@ -47285,7 +47285,7 @@
 		"event": "pair without coxswain 2 men",
 		"gold": ["NED"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1924",
@@ -47836,16 +47836,16 @@
 		"sport": "ARC",
 		"event": "fixed bird target large birds teams men",
 		"gold": ["BEL"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
 		"sport": "ARC",
 		"event": "fixed bird target small bird teams men",
 		"gold": ["BEL"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -47861,7 +47861,7 @@
 		"event": "moving bird target 28m men",
 		"gold": ["BEL"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -47877,7 +47877,7 @@
 		"event": "moving bird target 33m men",
 		"gold": ["BEL"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -47885,7 +47885,7 @@
 		"event": "moving bird target 33m teams men",
 		"gold": ["BEL"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -47893,7 +47893,7 @@
 		"event": "moving bird target 50m men",
 		"gold": ["FRA"],
 		"silver": ["BEL"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -47901,7 +47901,7 @@
 		"event": "moving bird target 50m teams men",
 		"gold": ["BEL"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -48437,7 +48437,7 @@
 		"event": "team free system men",
 		"gold": ["DEN"],
 		"silver": ["NOR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -48517,23 +48517,23 @@
 		"event": "rugby men",
 		"gold": ["USA"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
 		"sport": "SAL",
 		"event": "10m rating 1907 mixed",
 		"gold": ["NOR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
 		"sport": "SAL",
 		"event": "10m rating 1919 mixed",
 		"gold": ["NOR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -48541,31 +48541,31 @@
 		"event": "12 foot dinghy mixed",
 		"gold": ["NED"],
 		"silver": ["NED"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
 		"sport": "SAL",
 		"event": "12m rating 1907 mixed",
 		"gold": ["NOR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
 		"sport": "SAL",
 		"event": "12m rating 1919 mixed",
 		"gold": ["NOR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
 		"sport": "SAL",
 		"event": "30m sq mixed",
 		"gold": ["SWE"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -48573,7 +48573,7 @@
 		"event": "40m sq mixed",
 		"gold": ["SWE"],
 		"silver": ["SWE"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -48581,7 +48581,7 @@
 		"event": "65m rating 1919 mixed",
 		"gold": ["NED"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -48597,7 +48597,7 @@
 		"event": "6m rating 1919 men",
 		"gold": ["NOR"],
 		"silver": ["BEL"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -48605,15 +48605,15 @@
 		"event": "7m mixed",
 		"gold": ["GBR"],
 		"silver": ["NOR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
 		"sport": "SAL",
 		"event": "8m rating 1907 mixed",
 		"gold": ["NOR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "antwerp-1920",
@@ -49117,7 +49117,7 @@
 		"event": "4x100m relay men",
 		"gold": ["GBR"],
 		"silver": ["SWE"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "stockholm-1912",
@@ -49797,7 +49797,7 @@
 		"event": "tug of war men",
 		"gold": ["SWE"],
 		"silver": ["GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "stockholm-1912",
@@ -49843,7 +49843,7 @@
 		"game": "stockholm-1912",
 		"sport": "WRE",
 		"event": "Middleweight B, Greco-Roman (\u00e2\u2030\u00a482.5 kilograms) Men",
-		"gold": null,
+		"gold": [],
 		"silver": ["SWE", "FIN"],
 		"bronze": ["HUN"]
 	},
@@ -49956,8 +49956,8 @@
 		"sport": "ATH",
 		"event": "400m men",
 		"gold": ["GBR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50005,7 +50005,7 @@
 		"event": "high jump men",
 		"gold": ["USA"],
 		"silver": ["GBR", "HUN", "FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50013,7 +50013,7 @@
 		"event": "high jump standing men",
 		"gold": ["USA"],
 		"silver": ["USA", "GRE"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50060,7 +50060,7 @@
 		"sport": "ATH",
 		"event": "pole vault men",
 		"gold": ["USA", "USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA", "SWE", "CAN"]
 	},
 	{
@@ -50293,7 +50293,7 @@
 		"event": "lacrosse men",
 		"gold": ["CAN"],
 		"silver": ["GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50301,7 +50301,7 @@
 		"event": "polo men",
 		"gold": ["GBR"],
 		"silver": ["GBR", "GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50357,7 +50357,7 @@
 		"event": "rugby men",
 		"gold": ["ANZ"],
 		"silver": ["GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50365,7 +50365,7 @@
 		"event": "12m mixed",
 		"gold": ["GBR"],
 		"silver": ["GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50380,8 +50380,8 @@
 		"sport": "SAL",
 		"event": "7m mixed",
 		"gold": ["GBR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50421,7 +50421,7 @@
 		"event": "100m running deer single shots team men",
 		"gold": ["SWE"],
 		"silver": ["GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50612,24 +50612,24 @@
 		"sport": "PBT",
 		"event": "8m class C men",
 		"gold": ["GBR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
 		"sport": "PBT",
 		"event": "class B up to 60 feet men",
 		"gold": ["GBR"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
 		"sport": "PBT",
 		"event": "open class A men",
 		"gold": ["FRA"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "london-1908",
@@ -50756,8 +50756,8 @@
 		"sport": "ARC",
 		"event": "teams FITA round women",
 		"gold": ["USA"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "st-louis-1904",
@@ -50829,7 +50829,7 @@
 		"event": "4miles team men",
 		"gold": ["USA"],
 		"silver": ["MIX"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "st-louis-1904",
@@ -50957,7 +50957,7 @@
 		"event": "4763  5216kg bantamweight men",
 		"gold": ["USA"],
 		"silver": ["USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "st-louis-1904",
@@ -50965,7 +50965,7 @@
 		"event": "4763kg flyweight men",
 		"gold": ["USA"],
 		"silver": ["USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "st-louis-1904",
@@ -50997,7 +50997,7 @@
 		"event": "6577  7167kg middleweight men",
 		"gold": ["USA"],
 		"silver": ["USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "st-louis-1904",
@@ -51085,7 +51085,7 @@
 		"event": "foil team men",
 		"gold": ["MIX"],
 		"silver": ["USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "st-louis-1904",
@@ -51180,7 +51180,7 @@
 		"sport": "GAR",
 		"event": "horizontal bar men",
 		"gold": ["USA", "USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA"]
 	},
 	{
@@ -51228,7 +51228,7 @@
 		"sport": "GAR",
 		"event": "vault men",
 		"gold": ["USA", "USA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["USA"]
 	},
 	{
@@ -51253,7 +51253,7 @@
 		"event": "Coxed Eights Men",
 		"gold": ["USA"],
 		"silver": ["CAN"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "st-louis-1904",
@@ -51477,7 +51477,7 @@
 		"event": "Championnat Du Monde Men",
 		"gold": ["FRA"],
 		"silver": ["BEL"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -51517,7 +51517,7 @@
 		"event": "sur la perche \u00c3\u00a0 la herse men",
 		"gold": ["BEL"],
 		"silver": ["BEL", "FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -51605,7 +51605,7 @@
 		"event": "5000m team men",
 		"gold": ["MIX"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -51716,8 +51716,8 @@
 		"sport": "PEL",
 		"event": "cesta punta men",
 		"gold": ["ESP"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -51725,15 +51725,15 @@
 		"event": "cricket men",
 		"gold": ["GBR"],
 		"silver": ["MIX"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
 		"sport": "CQT",
 		"event": "double men",
 		"gold": ["FRA"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -51780,7 +51780,7 @@
 		"sport": "EJP",
 		"event": "high jump mixed",
 		"gold": ["ITA", "FRA"],
-		"silver": null,
+		"silver": [],
 		"bronze": ["BEL"]
 	},
 	{
@@ -51941,7 +51941,7 @@
 		"event": "rugby men",
 		"gold": ["MIX"],
 		"silver": ["GER", "GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -52077,7 +52077,7 @@
 		"event": "army rifle 300m kneeling men",
 		"gold": ["SUI"],
 		"silver": ["DEN", "SUI"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -52205,7 +52205,7 @@
 		"event": "tug of war men",
 		"gold": ["MIX"],
 		"silver": ["MIX"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "paris-1900",
@@ -52229,7 +52229,7 @@
 		"event": "110m hurdles men",
 		"gold": ["USA"],
 		"silver": ["GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52269,7 +52269,7 @@
 		"event": "high jump men",
 		"gold": ["USA"],
 		"silver": ["USA", "USA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52325,7 +52325,7 @@
 		"event": "100km men",
 		"gold": ["FRA"],
 		"silver": ["GRE"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52341,7 +52341,7 @@
 		"event": "12-hour race men",
 		"gold": ["AUT"],
 		"silver": ["GBR"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52373,7 +52373,7 @@
 		"event": "foil masters men",
 		"gold": ["GRE"],
 		"silver": ["FRA"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52389,7 +52389,7 @@
 		"event": "horizontal bar men",
 		"gold": ["GER"],
 		"silver": ["GER"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52397,7 +52397,7 @@
 		"event": "parallel bars men",
 		"gold": ["GER"],
 		"silver": ["SUI"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52405,7 +52405,7 @@
 		"event": "pommel horse men",
 		"gold": ["SUI"],
 		"silver": ["GER"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52428,8 +52428,8 @@
 		"sport": "GAR",
 		"event": "team horizontal bar men",
 		"gold": ["GER"],
-		"silver": null,
-		"bronze": null
+		"silver": [],
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52501,7 +52501,7 @@
 		"event": "100m freestyle men",
 		"gold": ["HUN"],
 		"silver": ["AUT"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
@@ -52509,7 +52509,7 @@
 		"event": "1200m freestyle men",
 		"gold": ["HUN"],
 		"silver": ["GRE"],
-		"bronze": null
+		"bronze": []
 	},
 	{
 		"game": "athens-1896",
