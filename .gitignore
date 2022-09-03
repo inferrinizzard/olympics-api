@@ -32,6 +32,7 @@ jspm_packages/
 .env
 .env.test
 .cache
+.cockroach
 
 # build output dir
 dist
