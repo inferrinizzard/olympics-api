@@ -24,3 +24,10 @@ FROM (
 WHERE country IS NOT NULL
 GROUP BY country
 ;
+
+COMMENT ON MATERIALIZED VIEW country_medal_totals IS 'View with the number of medals per country and season';
+COMMENT ON COLUMN country_medal_totals.country IS 'Country Code';
+COMMENT ON COLUMN country_medal_totals.season IS 'Type of games (summer|winter)';
+COMMENT ON COLUMN country_medal_totals.gold IS 'Number of gold medals';
+COMMENT ON COLUMN country_medal_totals.silver IS 'Number of silver medals';
+COMMENT ON COLUMN country_medal_totals.bronze IS 'Number of bronze medals';
