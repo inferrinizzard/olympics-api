@@ -1,4 +1,4 @@
-CREATE VIEW country_attendance AS
+CREATE MATERIALIZED VIEW country_attendance AS
 SELECT
     country,
     ARRAY_AGG(game) AS games
