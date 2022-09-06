@@ -27,7 +27,7 @@ export const loadData = async () => {
 	const sportsDetail = loadFile('./json/sportsDetail.json') as SportDetailRow[];
 
 	// const medalTotals = loadFile('./json/medalTotals.json') as MedalTotalsRow[];
-	const countryAttendance = loadFile('./json/countryAthletes.json') as CountryAttendanceRow[];
+	const countryAthletes = loadFile('./json/countryAthletes.json') as CountryAttendanceRow[];
 	// const countryMedals = loadFile('./json/countryMedals.json') as CountryMedalRow[];
 	const sportsEvents = loadFile('./json/sportsEvents.json') as SportsEventRow[];
 
@@ -53,7 +53,7 @@ export const loadData = async () => {
 	insertData('sports_detail', sportsDetail).catch(console.error);
 
 	// insertData('medal_totals', medalTotals).catch(console.error);
-	insertData('country_attendance', countryAttendance).catch(console.error);
+	insertData('country_athletes', countryAthletes).catch(console.error);
 	// insertData('country_medals', countryMedals).catch(console.error);
 	insertData('sports_events', sportsEvents).catch(console.error);
 };

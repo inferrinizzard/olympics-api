@@ -19,7 +19,9 @@ export const createTables = async () => {
 	await initSecondaryTables;
 
 	const initViews = readDir(`${sqlDir}/views`)
-		.then(files => Promise.all(files.map(file => readFile(`${sqlDir}/views/${file}`, 'utf8'))))
+		.then(files =>
+			Promise.all(files.sort().map(file => readFile(`${sqlDir}/views/${file}`, 'utf8')))
+		)
 		.then(files => Promise.all(files.map(query => db.query(query))));
 
 	return initViews;
