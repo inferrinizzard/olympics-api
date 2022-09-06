@@ -1,5 +1,3 @@
-DROP TABLE IF EXISTS sports_events CASCADE;
-
 CREATE TABLE IF NOT EXISTS sports_events (
     id              SERIAL PRIMARY KEY,
     game            VARCHAR(30) NOT NULL,

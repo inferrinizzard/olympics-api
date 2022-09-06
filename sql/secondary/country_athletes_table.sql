@@ -1,5 +1,3 @@
-DROP TABLE IF EXISTS country_athletes CASCADE;
-
 CREATE TABLE IF NOT EXISTS country_athletes (
     id               SERIAL PRIMARY KEY,
     game             VARCHAR(30) NOT NULL,

@@ -1,4 +1,4 @@
-CREATE MATERIALIZED VIEW country_game_medals AS
+CREATE MATERIALIZED VIEW IF NOT EXISTS country_game_medals AS
 SELECT
     game,
     country,
@@ -29,7 +29,7 @@ WHERE country IS NOT NULL
 GROUP BY game, country
 ;
 
-COMMENT ON MATERIALIZED VIEW country_game_medals IS 'View with number of medals per game for each country';
+COMMENT ON TABLE country_game_medals IS 'View with number of medals per game for each country';
 COMMENT ON COLUMN country_game_medals.country IS 'Country Code';
 COMMENT ON COLUMN country_game_medals.game IS 'Games Key';
 COMMENT ON COLUMN country_game_medals.gold IS 'Number of gold medals';

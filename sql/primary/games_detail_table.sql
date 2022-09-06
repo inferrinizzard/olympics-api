@@ -1,5 +1,3 @@
-DROP TABLE IF EXISTS games_detail CASCADE;
-
 CREATE TABLE IF NOT EXISTS games_detail (
     game            VARCHAR(30) PRIMARY KEY,
     year            INT NOT NULL,
