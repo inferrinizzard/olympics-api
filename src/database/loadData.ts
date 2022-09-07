@@ -11,12 +11,23 @@ import type {
 
 const loadFile = (path: string) => JSON.parse(readFileSync(path, 'utf8'));
 
-const insertData = <Row extends Record<string, any>>(table: string, data: Row[]) =>
-	db.none(
-		pgp.helpers
-			.insert(data, new pgp.helpers.ColumnSet(Object.keys(data[0]), { table }))
-			.concat(' ON CONFLICT DO NOTHING')
-	);
+const insertData = async <Row extends Record<string, any>>(table: string, data: Row[]) => {
+	// check if rows already exist
+	const hasRows = await db.oneOrNone(`SELECT TRUE FROM ${table} LIMIT 1`).then(({ bool }) => bool);
+	if (hasRows) {
+		console.log(`${table} already has data, skipping`);
+		return;
+	}
+
+	// load data into table
+	return db
+		.none(
+			pgp.helpers
+				.insert(data, new pgp.helpers.ColumnSet(Object.keys(data[0]), { table }))
+				.concat(' ON CONFLICT DO NOTHING')
+		)
+		.finally(() => console.log(`Loaded table ${table} with ${data.length} rows`));
+};
 
 export const loadData = async () => {
 	const countryDetail = loadFile('./json/countryDetail.json') as CountryDetailRow[];
