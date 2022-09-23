@@ -59,5 +59,9 @@ export const loadData = async () => {
 	insertData('sports_detail', sportsDetail).catch(console.error);
 
 	insertData('country_athletes', countryAthletes).catch(console.error);
+	db.none('REFRESH MATERIALIZED VIEW country_attendance;');
 	insertData('sports_events', sportsEvents).catch(console.error);
+	db.none('REFRESH MATERIALIZED VIEW country_game_medals;').then(() =>
+		db.none('REFRESH MATERIALIZED VIEW country_medal_totals;')
+	);
 };
