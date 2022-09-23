@@ -4,31 +4,37 @@ import { readFileSync } from 'fs';
 import type {
 	CountryAttendanceRow,
 	CountryDetailRow,
-	CountryMedalRow,
 	GamesDetailRow,
-	MedalTotalsRow,
 	SportDetailRow,
 	SportsEventRow,
 } from '../scraper/types';
 
 const loadFile = (path: string) => JSON.parse(readFileSync(path, 'utf8'));
 
-const insertData = <Row extends Record<string, any>>(table: string, data: Row[]) =>
-	db.none(
-		pgp.helpers
-			.insert(data, new pgp.helpers.ColumnSet(Object.keys(data[0]), { table }))
-			.concat(' ON CONFLICT DO NOTHING')
-	);
+const insertData = async <Row extends Record<string, any>>(table: string, data: Row[]) => {
+	// check if rows already exist
+	const hasRows = await db.oneOrNone(`SELECT TRUE FROM ${table} LIMIT 1`).then(({ bool }) => bool);
+	if (hasRows) {
+		console.log(`${table} already has data, skipping`);
+		return;
+	}
+
+	// load data into table
+	return db
+		.none(
+			pgp.helpers
+				.insert(data, new pgp.helpers.ColumnSet(Object.keys(data[0]), { table }))
+				.concat(' ON CONFLICT DO NOTHING')
+		)
+		.finally(() => console.log(`Loaded table ${table} with ${data.length} rows`));
+};
 
 export const loadData = async () => {
-	// check here if the data is already loaded
 	const countryDetail = loadFile('./json/countryDetail.json') as CountryDetailRow[];
 	const gamesDetail = loadFile('./json/gamesDetail.json') as GamesDetailRow[];
 	const sportsDetail = loadFile('./json/sportsDetail.json') as SportDetailRow[];
 
-	const medalTotals = loadFile('./json/medalTotals.json') as MedalTotalsRow[];
-	const countryAttendance = loadFile('./json/countryAthletes.json') as CountryAttendanceRow[];
-	const countryMedals = loadFile('./json/countryMedals.json') as CountryMedalRow[];
+	const countryAthletes = loadFile('./json/countryAthletes.json') as CountryAttendanceRow[];
 	const sportsEvents = loadFile('./json/sportsEvents.json') as SportsEventRow[];
 
 	insertData('country_detail', countryDetail).catch(console.error);
@@ -52,8 +58,10 @@ export const loadData = async () => {
 	).catch(console.error);
 	insertData('sports_detail', sportsDetail).catch(console.error);
 
-	insertData('medal_totals', medalTotals).catch(console.error);
-	insertData('country_attendance', countryAttendance).catch(console.error);
-	insertData('country_medals', countryMedals).catch(console.error);
+	insertData('country_athletes', countryAthletes).catch(console.error);
+	db.none('REFRESH MATERIALIZED VIEW country_attendance;');
 	insertData('sports_events', sportsEvents).catch(console.error);
+	db.none('REFRESH MATERIALIZED VIEW country_game_medals;').then(() =>
+		db.none('REFRESH MATERIALIZED VIEW country_medal_totals;')
+	);
 };
