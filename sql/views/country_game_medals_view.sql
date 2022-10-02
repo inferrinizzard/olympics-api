@@ -1,42 +1,37 @@
 CREATE MATERIALIZED VIEW IF NOT EXISTS country_game_medals AS
-WITH unnested_sports_events AS (
-    SELECT
-        game,
-        UNNEST(gold) AS gold,
-        UNNEST(silver) AS silver,
-        UNNEST(bronze) AS bronze
-    FROM sports_events
-)
 SELECT
     COALESCE(gold_count.game, silver_count.game, bronze_count.game) AS game,
     COALESCE(gold_count.country, silver_count.country, bronze_count.country) AS country,
-    COALESCE(gold_count.total, 0) AS gold,
-    COALESCE(silver_count.total, 0) AS silver,
-    COALESCE(bronze_count.total, 0) AS bronze
+    COALESCE(gold, 0) AS gold,
+    COALESCE(silver, 0) AS silver,
+    COALESCE(bronze, 0) AS bronze
 FROM (
     SELECT
         game,
-        gold AS country,
-        COUNT(gold) AS total
-    FROM unnested_sports_events
-    GROUP BY game, gold
+        country,
+        COUNT(country) AS gold
+    FROM sports_events
+        CROSS JOIN UNNEST(gold) AS country
+    GROUP BY game, country
     ) gold_count
 FULL JOIN (
     SELECT
         game,
-        silver AS country,
-        COUNT(silver) AS total
-    FROM unnested_sports_events
-    GROUP BY game, silver
+        country,
+        COUNT(country) AS silver
+    FROM sports_events
+        CROSS JOIN UNNEST(silver) AS country
+    GROUP BY game, country
     ) silver_count
 ON gold_count.country = silver_count.country AND gold_count.game = silver_count.game
 FULL JOIN (
     SELECT
         game,
-        bronze AS country,
-        COUNT(bronze) AS total
-    FROM unnested_sports_events
-    GROUP BY game, bronze
+        country,
+        COUNT(country) AS bronze
+    FROM sports_events
+        CROSS JOIN UNNEST(bronze) AS country
+    GROUP BY game, country
     ) bronze_count
 ON gold_count.country = bronze_count.country AND gold_count.game = bronze_count.game
 ;
