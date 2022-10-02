@@ -8,11 +8,11 @@ WITH unnested_sports_events AS (
     FROM sports_events
 )
 SELECT
-    COALESCE(gold_t.game, silver_t.game, bronze_t.game) AS game,
-    COALESCE(gold_t.country, silver_t.country, bronze_t.country) AS country,
-    SUM(gold_t.total) AS gold,
-    SUM(silver_t.total) AS silver,
-    SUM(bronze_t.total) AS bronze
+    COALESCE(gold_count.game, silver_count.game, bronze_count.game) AS game,
+    COALESCE(gold_count.country, silver_count.country, bronze_count.country) AS country,
+    COALESCE(gold_count.total, 0) AS gold,
+    COALESCE(silver_count.total, 0) AS silver,
+    COALESCE(bronze_count.total, 0) AS bronze
 FROM (
     SELECT
         game,
@@ -20,7 +20,7 @@ FROM (
         COUNT(gold) AS total
     FROM unnested_sports_events
     GROUP BY game, gold
-) gold_t
+    ) gold_count
 FULL JOIN (
     SELECT
         game,
@@ -28,8 +28,8 @@ FULL JOIN (
         COUNT(silver) AS total
     FROM unnested_sports_events
     GROUP BY game, silver
-) silver_t
-    ON gold_t.country = silver_t.country
+    ) silver_count
+ON gold_count.country = silver_count.country AND gold_count.game = silver_count.game
 FULL JOIN (
     SELECT
         game,
@@ -37,12 +37,8 @@ FULL JOIN (
         COUNT(bronze) AS total
     FROM unnested_sports_events
     GROUP BY game, bronze
-) bronze_t
-    ON gold_t.country = bronze_t.country
-WHERE COALESCE(gold_t.country, silver_t.country, bronze_t.country) IS NOT NULL
-GROUP BY
-    COALESCE(gold_t.game, silver_t.game, bronze_t.game),
-    COALESCE(gold_t.country, silver_t.country, bronze_t.country)
+    ) bronze_count
+ON gold_count.country = bronze_count.country AND gold_count.game = bronze_count.game
 ;
 
 -- SELECT
