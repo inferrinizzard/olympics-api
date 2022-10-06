@@ -20,7 +20,7 @@ const insertData = async <Row extends Record<string, any>>(
 		// check if rows already exist
 		const hasRows = await db
 			.oneOrNone(`SELECT TRUE FROM ${table} LIMIT 1`)
-			.then(({ bool }) => bool);
+			.then(res => res?.bool ?? false);
 		if (hasRows) {
 			console.log(`${table} already has data, skipping`);
 			return;
