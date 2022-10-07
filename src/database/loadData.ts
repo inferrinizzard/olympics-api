@@ -74,9 +74,10 @@ export const loadData = async () => {
 
 	insertData('sports_events', sportsEvents)
 		.catch(console.error)
-		.then(() =>
-			db
-				.none('REFRESH MATERIALIZED VIEW country_game_medals;')
-				.then(() => db.none('REFRESH MATERIALIZED VIEW country_medal_totals;'))
-		);
+		.then(() => {
+			db.none('REFRESH MATERIALIZED VIEW country_game_medals;').then(() =>
+				db.none('REFRESH MATERIALIZED VIEW country_medal_totals;')
+			);
+			db.none('REFRESH MATERIALIZED VIEW country_sports_medals;');
+		});
 };
