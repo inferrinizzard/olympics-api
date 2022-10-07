@@ -2,401 +2,401 @@
   {
     "name": "Artistic Swimming",
     "sport": "SWA",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Synchronized_swimming_pictogram.svg/17px-Synchronized_swimming_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Synchronized_swimming_pictogram.svg/240px-Synchronized_swimming_pictogram.svg.png"
   },
   {
     "name": "Diving",
     "sport": "DIV",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Diving_pictogram.svg/17px-Diving_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Diving_pictogram.svg/240px-Diving_pictogram.svg.png"
   },
   {
     "name": "Marathon Swimming",
     "sport": "OWS",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Open_water_swimming_pictogram.svg/17px-Open_water_swimming_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Open_water_swimming_pictogram.svg/240px-Open_water_swimming_pictogram.svg.png"
   },
   {
     "name": "Swimming",
     "sport": "SWM",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Swimming_pictogram.svg/17px-Swimming_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Swimming_pictogram.svg/240px-Swimming_pictogram.svg.png"
   },
   {
     "name": "Water Polo",
     "sport": "WPO",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Water_polo_pictogram.svg/17px-Water_polo_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Water_polo_pictogram.svg/240px-Water_polo_pictogram.svg.png"
   },
   {
     "name": "3x3 Basketball",
     "sport": "BK3",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/3x3_basketball_pictogram.svg/17px-3x3_basketball_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/3x3_basketball_pictogram.svg/240px-3x3_basketball_pictogram.svg.png"
   },
   {
     "name": "Basketball",
     "sport": "BKB",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Basketball_pictogram.svg/17px-Basketball_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Basketball_pictogram.svg/240px-Basketball_pictogram.svg.png"
   },
   {
     "name": "Canoe Sprint",
     "sport": "CSP",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canoeing_%28flatwater%29_pictogram.svg/17px-Canoeing_%28flatwater%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canoeing_%28flatwater%29_pictogram.svg/240px-Canoeing_%28flatwater%29_pictogram.svg.png"
   },
   {
     "name": "Canoe Slalom",
     "sport": "CSL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Canoeing_%28slalom%29_pictogram.svg/17px-Canoeing_%28slalom%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Canoeing_%28slalom%29_pictogram.svg/240px-Canoeing_%28slalom%29_pictogram.svg.png"
   },
   {
     "name": "Cycling BMX Freestyle",
     "sport": "BMF",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cycling_%28BMX_freestyle%29_pictogram.svg/17px-Cycling_%28BMX_freestyle%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cycling_%28BMX_freestyle%29_pictogram.svg/240px-Cycling_%28BMX_freestyle%29_pictogram.svg.png"
   },
   {
     "name": "Cycling BMX Racing",
     "sport": "BMX",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cycling_%28BMX%29_pictogram.svg/17px-Cycling_%28BMX%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cycling_%28BMX%29_pictogram.svg/240px-Cycling_%28BMX%29_pictogram.svg.png"
   },
   {
     "name": "Cycling Mountain Bike",
     "sport": "MTB",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cycling_%28mountain_biking%29_pictogram.svg/17px-Cycling_%28mountain_biking%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cycling_%28mountain_biking%29_pictogram.svg/240px-Cycling_%28mountain_biking%29_pictogram.svg.png"
   },
   {
     "name": "Cycling Road",
     "sport": "CRD",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cycling_%28road%29_pictogram.svg/17px-Cycling_%28road%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cycling_%28road%29_pictogram.svg/240px-Cycling_%28road%29_pictogram.svg.png"
   },
   {
     "name": "Cycling Track",
     "sport": "CTR",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cycling_%28track%29_pictogram.svg/17px-Cycling_%28track%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cycling_%28track%29_pictogram.svg/240px-Cycling_%28track%29_pictogram.svg.png"
   },
   {
     "name": "Artistic Gymnastics",
     "sport": "GAR",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Gymnastics_%28artistic%29_pictogram.svg/17px-Gymnastics_%28artistic%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Gymnastics_%28artistic%29_pictogram.svg/240px-Gymnastics_%28artistic%29_pictogram.svg.png"
   },
   {
     "name": "Rhythmic Gymnastics",
     "sport": "GRY",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gymnastics_%28rhythmic%29_pictogram.svg/17px-Gymnastics_%28rhythmic%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gymnastics_%28rhythmic%29_pictogram.svg/240px-Gymnastics_%28rhythmic%29_pictogram.svg.png"
   },
   {
     "name": "Trampoline Gymnastics",
     "sport": "GTR",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Gymnastics_%28trampoline%29_pictogram.svg/17px-Gymnastics_%28trampoline%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Gymnastics_%28trampoline%29_pictogram.svg/240px-Gymnastics_%28trampoline%29_pictogram.svg.png"
   },
   {
     "name": "Volleyball - Beach",
     "sport": "VBV",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Volleyball_%28beach%29_pictogram.svg/17px-Volleyball_%28beach%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Volleyball_%28beach%29_pictogram.svg/240px-Volleyball_%28beach%29_pictogram.svg.png"
   },
   {
     "name": "Volleyball - Indoor",
     "sport": "VVO",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Volleyball_%28indoor%29_pictogram.svg/17px-Volleyball_%28indoor%29_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Volleyball_%28indoor%29_pictogram.svg/240px-Volleyball_%28indoor%29_pictogram.svg.png"
   },
   {
     "name": "Equestrian - Dressage",
     "sport": "EDR",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Equestrian_Dressage_pictogram.svg/17px-Equestrian_Dressage_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Equestrian_Dressage_pictogram.svg/240px-Equestrian_Dressage_pictogram.svg.png"
   },
   {
     "name": "Equestrian - Eventing",
     "sport": "EVE",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Equestrian_Eventing_pictogram.svg/17px-Equestrian_Eventing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Equestrian_Eventing_pictogram.svg/240px-Equestrian_Eventing_pictogram.svg.png"
   },
   {
     "name": "Equestrian - Jumping",
     "sport": "EJP",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Equestrian_Jumping_pictogram.svg/17px-Equestrian_Jumping_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Equestrian_Jumping_pictogram.svg/240px-Equestrian_Jumping_pictogram.svg.png"
   },
   {
     "name": "Wrestling - Freestyle",
     "sport": "WRE",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Wrestling_Freestyle_pictogram.svg/17px-Wrestling_Freestyle_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Wrestling_Freestyle_pictogram.svg/240px-Wrestling_Freestyle_pictogram.svg.png"
   },
   {
     "name": "Wrestling - Greco-Roman",
     "sport": "WGR",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Wrestling_pictogram.svg/17px-Wrestling_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Wrestling_pictogram.svg/240px-Wrestling_pictogram.svg.png"
   },
   {
     "name": "Archery",
     "sport": "ARC",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Archery_pictogram.svg/17px-Archery_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Archery_pictogram.svg/240px-Archery_pictogram.svg.png"
   },
   {
     "name": "Athletics",
     "sport": "ATH",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Athletics_pictogram.svg/17px-Athletics_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Athletics_pictogram.svg/240px-Athletics_pictogram.svg.png"
   },
   {
     "name": "Badminton",
     "sport": "BDM",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Badminton_pictogram.svg/17px-Badminton_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Badminton_pictogram.svg/240px-Badminton_pictogram.svg.png"
   },
   {
     "name": "Boxing",
     "sport": "BOX",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Boxing_pictogram.svg/17px-Boxing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Boxing_pictogram.svg/240px-Boxing_pictogram.svg.png"
   },
   {
     "name": "Breaking",
     "sport": "BKG",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Breakdancing_pictogram.svg/17px-Breakdancing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Breakdancing_pictogram.svg/240px-Breakdancing_pictogram.svg.png"
   },
   {
     "name": "Fencing",
     "sport": "FEN",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Fencing_pictogram.svg/17px-Fencing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Fencing_pictogram.svg/240px-Fencing_pictogram.svg.png"
   },
   {
     "name": "Field hockey",
     "sport": "HOC",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Field_hockey_pictogram.svg/17px-Field_hockey_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Field_hockey_pictogram.svg/240px-Field_hockey_pictogram.svg.png"
   },
   {
     "name": "Football",
     "sport": "FBL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Football_pictogram.svg/17px-Football_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Football_pictogram.svg/240px-Football_pictogram.svg.png"
   },
   {
     "name": "Golf",
     "sport": "GLF",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Golf_pictogram.svg/17px-Golf_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Golf_pictogram.svg/240px-Golf_pictogram.svg.png"
   },
   {
     "name": "Handball",
     "sport": "HBL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Handball_pictogram.svg/17px-Handball_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Handball_pictogram.svg/240px-Handball_pictogram.svg.png"
   },
   {
     "name": "Judo",
     "sport": "JUD",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Judo_pictogram.svg/17px-Judo_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Judo_pictogram.svg/240px-Judo_pictogram.svg.png"
   },
   {
     "name": "Modern Pentathlon",
     "sport": "MPN",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Modern_pentathlon_pictogram.svg/17px-Modern_pentathlon_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Modern_pentathlon_pictogram.svg/240px-Modern_pentathlon_pictogram.svg.png"
   },
   {
     "name": "Rowing",
     "sport": "ROW",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rowing_pictogram.svg/17px-Rowing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rowing_pictogram.svg/240px-Rowing_pictogram.svg.png"
   },
   {
     "name": "Rugby Sevens",
     "sport": "RU7",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Rugby_sevens_pictogram.svg/17px-Rugby_sevens_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Rugby_sevens_pictogram.svg/240px-Rugby_sevens_pictogram.svg.png"
   },
   {
     "name": "Sailing",
     "sport": "SAL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sailing_pictogram.svg/17px-Sailing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sailing_pictogram.svg/240px-Sailing_pictogram.svg.png"
   },
   {
     "name": "Shooting",
     "sport": "SHO",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shooting_pictogram.svg/17px-Shooting_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shooting_pictogram.svg/240px-Shooting_pictogram.svg.png"
   },
   {
     "name": "Skateboarding",
     "sport": "SKB",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Skateboarding_pictogram.svg/17px-Skateboarding_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Skateboarding_pictogram.svg/240px-Skateboarding_pictogram.svg.png"
   },
   {
     "name": "Sport Climbing",
     "sport": "CLB",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Climbing_pictogram.svg/17px-Climbing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Climbing_pictogram.svg/240px-Climbing_pictogram.svg.png"
   },
   {
     "name": "Surfing",
     "sport": "SRF",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Surfing_pictogram.svg/17px-Surfing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Surfing_pictogram.svg/240px-Surfing_pictogram.svg.png"
   },
   {
     "name": "Table Tennis",
     "sport": "TTE",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Table_tennis_pictogram.svg/17px-Table_tennis_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Table_tennis_pictogram.svg/240px-Table_tennis_pictogram.svg.png"
   },
   {
     "name": "Taekwondo",
     "sport": "TKW",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Taekwondo_pictogram.svg/17px-Taekwondo_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Taekwondo_pictogram.svg/240px-Taekwondo_pictogram.svg.png"
   },
   {
     "name": "Tennis",
     "sport": "TEN",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tennis_pictogram.svg/17px-Tennis_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tennis_pictogram.svg/240px-Tennis_pictogram.svg.png"
   },
   {
     "name": "Triathlon",
     "sport": "TRI",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Triathlon_pictogram.svg/17px-Triathlon_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Triathlon_pictogram.svg/240px-Triathlon_pictogram.svg.png"
   },
   {
     "name": "Weightlifting",
     "sport": "WLF",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Weightlifting_pictogram.svg/17px-Weightlifting_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Weightlifting_pictogram.svg/240px-Weightlifting_pictogram.svg.png"
   },
   {
     "name": "Baseball",
     "sport": "BSB",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Baseball_pictogram.svg/17px-Baseball_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Baseball_pictogram.svg/240px-Baseball_pictogram.svg.png"
   },
   {
     "name": "Softball",
     "sport": "SBL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Softball_pictogram.svg/17px-Softball_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Softball_pictogram.svg/240px-Softball_pictogram.svg.png"
   },
   {
     "name": "Equestrian - Vaulting",
     "sport": "EVL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/EQ_Vaulting_pictogram.svg/17px-EQ_Vaulting_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/EQ_Vaulting_pictogram.svg/240px-EQ_Vaulting_pictogram.svg.png"
   },
   {
     "name": "Equestrian - Driving",
     "sport": "EDV",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Equestrian_Driving_pictogram.svg/17px-Equestrian_Driving_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Equestrian_Driving_pictogram.svg/240px-Equestrian_Driving_pictogram.svg.png"
   },
   {
     "name": "Karate - Kata",
     "sport": "KAT",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Karate_icon.svg/17px-Karate_icon.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Karate_icon.svg/240px-Karate_icon.svg.png"
   },
   {
     "name": "Karate - Kumite",
     "sport": "KTE",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Karate_Kumite_pictogram.svg/17px-Karate_Kumite_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Karate_Kumite_pictogram.svg/240px-Karate_Kumite_pictogram.svg.png"
   },
   {
     "name": "Rugby - Rugby Union",
     "sport": "RUG",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rugby_union_pictogram.svg/17px-Rugby_union_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rugby_union_pictogram.svg/240px-Rugby_union_pictogram.svg.png"
   },
   {
     "name": "Basque Pelota",
     "sport": "PEL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Basque_pelota_pictogram.svg/17px-Basque_pelota_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Basque_pelota_pictogram.svg/240px-Basque_pelota_pictogram.svg.png"
   },
   {
     "name": "Cricket",
     "sport": "CKT",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cricket_pictogram.svg/17px-Cricket_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cricket_pictogram.svg/240px-Cricket_pictogram.svg.png"
   },
   {
     "name": "Croquet",
     "sport": "CQT",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Croquet_pictogram.svg/17px-Croquet_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Croquet_pictogram.svg/240px-Croquet_pictogram.svg.png"
   },
   {
     "name": "Lacrosse",
     "sport": "LAX",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Lacrosse_pictogram.svg/17px-Lacrosse_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Lacrosse_pictogram.svg/240px-Lacrosse_pictogram.svg.png"
   },
   {
     "name": "Jeu de Paume",
     "sport": "JDP",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Jeu_de_paume_pictogram.svg/17px-Jeu_de_paume_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Jeu_de_paume_pictogram.svg/240px-Jeu_de_paume_pictogram.svg.png"
   },
   {
     "name": "Polo",
     "sport": "POL",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Polo_pictogram.svg/17px-Polo_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Polo_pictogram.svg/240px-Polo_pictogram.svg.png"
   },
   {
     "name": "Rackets",
     "sport": "RQT",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Racquets_pictogram.svg/17px-Racquets_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Racquets_pictogram.svg/240px-Racquets_pictogram.svg.png"
   },
   {
     "name": "Roque",
     "sport": "ROQ",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Roque_pictogram.svg/17px-Roque_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Roque_pictogram.svg/240px-Roque_pictogram.svg.png"
   },
   {
     "name": "Tug of War",
     "sport": "TOW",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Tug_of_war_pictogram.svg/17px-Tug_of_war_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Tug_of_war_pictogram.svg/240px-Tug_of_war_pictogram.svg.png"
   },
   {
     "name": "Water Motorsports",
     "sport": "PBT",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Water_motorsports_pictogram.svg/17px-Water_motorsports_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Water_motorsports_pictogram.svg/240px-Water_motorsports_pictogram.svg.png"
   },
   {
     "name": "Figure Skating",
     "sport": "FSK",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Figure_skating_pictogram.svg/17px-Figure_skating_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Figure_skating_pictogram.svg/240px-Figure_skating_pictogram.svg.png"
   },
   {
     "name": "Ice Hockey",
     "sport": "IHO",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ice_hockey_pictogram.svg/17px-Ice_hockey_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ice_hockey_pictogram.svg/240px-Ice_hockey_pictogram.svg.png"
   },
   {
     "name": "Speed Skating",
     "sport": "SSK",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Speed_skating_pictogram.svg/17px-Speed_skating_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Speed_skating_pictogram.svg/240px-Speed_skating_pictogram.svg.png"
   },
   {
     "name": "Short Track Speed Skating",
     "sport": "STK",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Short_track_speed_skating_pictogram.svg/17px-Short_track_speed_skating_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Short_track_speed_skating_pictogram.svg/240px-Short_track_speed_skating_pictogram.svg.png"
   },
   {
     "name": "Curling",
     "sport": "CUR",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Curling_pictogram.svg/17px-Curling_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Curling_pictogram.svg/240px-Curling_pictogram.svg.png"
   },
   {
     "name": "Cross-Country Skiing",
     "sport": "CCS",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cross_country_skiing_pictogram.svg/17px-Cross_country_skiing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cross_country_skiing_pictogram.svg/240px-Cross_country_skiing_pictogram.svg.png"
   },
   {
     "name": "Alpine Skiing",
     "sport": "ALP",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alpine_skiing_pictogram.svg/17px-Alpine_skiing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alpine_skiing_pictogram.svg/240px-Alpine_skiing_pictogram.svg.png"
   },
   {
     "name": "Ski Jumping",
     "sport": "SJP",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ski_jumping_pictogram.svg/17px-Ski_jumping_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ski_jumping_pictogram.svg/240px-Ski_jumping_pictogram.svg.png"
   },
   {
     "name": "Nordic Combined",
     "sport": "NCB",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nordic_combined_pictogram.svg/17px-Nordic_combined_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nordic_combined_pictogram.svg/240px-Nordic_combined_pictogram.svg.png"
   },
   {
     "name": "Freestyle Skiing",
     "sport": "FRS",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Freestyle_skiing_pictogram.svg/17px-Freestyle_skiing_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Freestyle_skiing_pictogram.svg/240px-Freestyle_skiing_pictogram.svg.png"
   },
   {
     "name": "Snowboarding",
     "sport": "SBD",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Snowboarding_pictogram.svg/17px-Snowboarding_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Snowboarding_pictogram.svg/240px-Snowboarding_pictogram.svg.png"
   },
   {
     "name": "Biathlon",
     "sport": "BTH",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Biathlon_pictogram.svg/17px-Biathlon_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Biathlon_pictogram.svg/240px-Biathlon_pictogram.svg.png"
   },
   {
     "name": "Luge",
     "sport": "LUG",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Luge_pictogram.svg/17px-Luge_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Luge_pictogram.svg/240px-Luge_pictogram.svg.png"
   },
   {
     "name": "Bobsleigh",
     "sport": "BOB",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bobsleigh_pictogram.svg/17px-Bobsleigh_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bobsleigh_pictogram.svg/240px-Bobsleigh_pictogram.svg.png"
   },
   {
     "name": "Skeleton",
     "sport": "SKN",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Skeleton_pictogram.svg/17px-Skeleton_pictogram.svg.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Skeleton_pictogram.svg/240px-Skeleton_pictogram.svg.png"
   }
 ]

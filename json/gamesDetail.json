@@ -60,7 +60,7 @@
 		"season": "summer",
 		"numAthletes": -1,
 		"title": "Games of the VI Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Sport-posters-summer-olympics.jpg/220px-Sport-posters-summer-olympics.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Poster_for_Amsterdam%27s_Summer_Olympics_bid_in_1916.jpg/175px-Poster_for_Amsterdam%27s_Summer_Olympics_bid_in_1916.jpg",
 		"host": "Berlin, German Empire",
 		"startDate": "",
 		"endDate": ""
@@ -137,7 +137,7 @@
 		"season": "summer",
 		"numAthletes": -1,
 		"title": "Games of the XIII Olympiad",
-		"image": "",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -401,7 +401,7 @@
 		"season": "winter",
 		"numAthletes": -1,
 		"title": "V Olympic Winter Games",
-		"image": "",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -412,7 +412,7 @@
 		"season": "winter",
 		"numAthletes": -1,
 		"title": "IV Olympic Winter Games",
-		"image": "",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -632,7 +632,7 @@
 		"season": "winter",
 		"numAthletes": 2871,
 		"title": "XXIV Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/2022_Winter_Olympics_official_logo.svg/200px-2022_Winter_Olympics_official_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/2022_Winter_Olympics_official_logo-en.svg/202px-2022_Winter_Olympics_official_logo-en.svg.png",
 		"host": "Beijing, China",
 		"startDate": "4 February",
 		"endDate": "20 February"
