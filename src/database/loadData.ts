@@ -39,6 +39,8 @@ const insertData = async <Row extends Record<string, any>>(
 		.finally(() => console.log(`Loaded table ${table} with ${data.length} rows`));
 };
 
+const refreshView = (view: string) => db.none(`REFRESH MATERIALIZED VIEW ${view};`);
+
 export const loadData = async () => {
 	const countryDetail = loadFile('./json/countryDetail.json') as CountryDetailRow[];
 	const gamesDetail = loadFile('./json/gamesDetail.json') as GamesDetailRow[];
@@ -75,9 +77,7 @@ export const loadData = async () => {
 	insertData('sports_events', sportsEvents)
 		.catch(console.error)
 		.then(() => {
-			db.none('REFRESH MATERIALIZED VIEW country_game_medals;').then(() =>
-				db.none('REFRESH MATERIALIZED VIEW country_medal_totals;')
-			);
-			db.none('REFRESH MATERIALIZED VIEW country_sports_medals;');
+			refreshView('country_game_medals').then(() => refreshView('country_medal_totals'));
+			refreshView('country_sports_medals');
 		});
 };
