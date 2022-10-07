@@ -137,7 +137,7 @@
 		"season": "summer",
 		"numAthletes": -1,
 		"title": "Games of the XIII Olympiad",
-		"image": "",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -401,7 +401,7 @@
 		"season": "winter",
 		"numAthletes": -1,
 		"title": "V Olympic Winter Games",
-		"image": "",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -412,7 +412,7 @@
 		"season": "winter",
 		"numAthletes": -1,
 		"title": "IV Olympic Winter Games",
-		"image": "",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
