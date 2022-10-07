@@ -26,7 +26,7 @@ const insertData = async <Row extends Record<string, any>>(
 			return;
 		}
 	} else {
-		db.none(`TRUNCATE TABLE ${table} CASCADE;`);
+		await db.none(`TRUNCATE TABLE ${table} CASCADE;`);
 	}
 
 	// load data into table
