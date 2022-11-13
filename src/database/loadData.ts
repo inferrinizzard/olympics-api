@@ -11,12 +11,22 @@ import type {
 
 const loadFile = (path: string) => JSON.parse(readFileSync(path, 'utf8'));
 
-const insertData = async <Row extends Record<string, any>>(table: string, data: Row[]) => {
-	// check if rows already exist
-	const hasRows = await db.oneOrNone(`SELECT TRUE FROM ${table} LIMIT 1`).then(({ bool }) => bool);
-	if (hasRows) {
-		console.log(`${table} already has data, skipping`);
-		return;
+const insertData = async <Row extends Record<string, any>>(
+	table: string,
+	data: Row[],
+	force = false
+) => {
+	if (!force) {
+		// check if rows already exist
+		const hasRows = await db
+			.oneOrNone(`SELECT TRUE FROM ${table} LIMIT 1`)
+			.then(res => res?.bool ?? false);
+		if (hasRows) {
+			console.log(`${table} already has data, skipping`);
+			return;
+		}
+	} else {
+		await db.none(`TRUNCATE TABLE ${table} CASCADE;`);
 	}
 
 	// load data into table
@@ -28,6 +38,8 @@ const insertData = async <Row extends Record<string, any>>(table: string, data: 
 		)
 		.finally(() => console.log(`Loaded table ${table} with ${data.length} rows`));
 };
+
+const refreshView = (view: string) => db.none(`REFRESH MATERIALIZED VIEW ${view};`);
 
 export const loadData = async () => {
 	const countryDetail = loadFile('./json/countryDetail.json') as CountryDetailRow[];
@@ -58,10 +70,14 @@ export const loadData = async () => {
 	).catch(console.error);
 	insertData('sports_detail', sportsDetail).catch(console.error);
 
-	insertData('country_athletes', countryAthletes).catch(console.error);
-	db.none('REFRESH MATERIALIZED VIEW country_attendance;');
-	insertData('sports_events', sportsEvents).catch(console.error);
-	db.none('REFRESH MATERIALIZED VIEW country_game_medals;').then(() =>
-		db.none('REFRESH MATERIALIZED VIEW country_medal_totals;')
-	);
+	insertData('country_athletes', countryAthletes)
+		.catch(console.error)
+		.then(() => db.none('REFRESH MATERIALIZED VIEW country_attendance;'));
+
+	insertData('sports_events', sportsEvents)
+		.catch(console.error)
+		.then(() => {
+			refreshView('country_game_medals').then(() => refreshView('country_medal_totals'));
+			refreshView('country_sports_medals');
+		});
 };
