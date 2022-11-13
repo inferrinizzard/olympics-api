@@ -5,7 +5,7 @@
 		"season": "summer",
 		"numAthletes": 241,
 		"title": "Games of the I Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Athens_1896_report_cover.jpg/200px-Athens_1896_report_cover.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Athens_1896_report_cover.jpg",
 		"host": "Athens, Greece",
 		"startDate": "6 April 1896",
 		"endDate": "15 April 1896"
@@ -16,7 +16,7 @@
 		"season": "summer",
 		"numAthletes": 1226,
 		"title": "Games of the II Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/1900_Olympic_Games_Poster_Paris.jpg/180px-1900_Olympic_Games_Poster_Paris.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/1900_Olympic_Games_Poster_Paris.jpg",
 		"host": "Paris, France",
 		"startDate": "14 May 1900",
 		"endDate": "28 October 1900"
@@ -27,7 +27,7 @@
 		"season": "summer",
 		"numAthletes": 651,
 		"title": "Games of the III Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/1904summerolympicsposter.jpg/180px-1904summerolympicsposter.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/4/47/1904summerolympicsposter.jpg",
 		"host": "St. Louis, Missouri, United States",
 		"startDate": "",
 		"endDate": ""
@@ -38,7 +38,7 @@
 		"season": "summer",
 		"numAthletes": 2008,
 		"title": "Games of the IV Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Olympic_games_1908_London.jpg/180px-Olympic_games_1908_London.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Olympic_games_1908_London.jpg",
 		"host": "London, England, United Kingdom",
 		"startDate": "27 April 1908",
 		"endDate": "31 October 1908"
@@ -49,7 +49,7 @@
 		"season": "summer",
 		"numAthletes": 2406,
 		"title": "Games of the V Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/1912_Summer_Olympics_poster.jpg/180px-1912_Summer_Olympics_poster.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/bd/1912_Summer_Olympics_poster.jpg",
 		"host": "Stockholm, Sweden",
 		"startDate": "6 July 1912",
 		"endDate": "22 July 1912"
@@ -60,7 +60,7 @@
 		"season": "summer",
 		"numAthletes": -1,
 		"title": "Games of the VI Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Poster_for_Amsterdam%27s_Summer_Olympics_bid_in_1916.jpg/175px-Poster_for_Amsterdam%27s_Summer_Olympics_bid_in_1916.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Poster_for_Amsterdam%27s_Summer_Olympics_bid_in_1916.jpg",
 		"host": "Berlin, German Empire",
 		"startDate": "",
 		"endDate": ""
@@ -71,7 +71,7 @@
 		"season": "summer",
 		"numAthletes": 2626,
 		"title": "Games of the VII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/1920_olympics_poster.jpg/180px-1920_olympics_poster.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/7/73/1920_olympics_poster.jpg",
 		"host": "Antwerp, Belgium",
 		"startDate": "14 August 1920",
 		"endDate": "12 September 1920"
@@ -82,7 +82,7 @@
 		"season": "summer",
 		"numAthletes": 3089,
 		"title": "Games of the VIII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/1924_Summer_Olympics_logo.svg/250px-1924_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/4/45/1924_Summer_Olympics_logo.svg",
 		"host": "Paris, Île-de-France, France",
 		"startDate": "5 July 1924",
 		"endDate": "27 July 1924"
@@ -93,7 +93,7 @@
 		"season": "summer",
 		"numAthletes": 2883,
 		"title": "Games of the IX Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/1928_Olympics_poster.jpg/180px-1928_Olympics_poster.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/f9/1928_Olympics_poster.jpg",
 		"host": "Amsterdam, Netherlands",
 		"startDate": "28 July 1928",
 		"endDate": "12 August 1928"
@@ -104,7 +104,7 @@
 		"season": "summer",
 		"numAthletes": 1332,
 		"title": "Games of the X Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/1932_Summer_Olympics_logo.svg/240px-1932_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/0f/1932_Summer_Olympics_logo.svg",
 		"host": "Los Angeles, California, United States",
 		"startDate": "",
 		"endDate": ""
@@ -115,7 +115,7 @@
 		"season": "summer",
 		"numAthletes": 3963,
 		"title": "Games of the XI Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/1936_Summer_Olympics_logo.svg/220px-1936_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/8c/1936_Summer_Olympics_logo.svg",
 		"host": "Berlin, Germany",
 		"startDate": "1 August 1936",
 		"endDate": "16 August 1936"
@@ -126,7 +126,7 @@
 		"season": "summer",
 		"numAthletes": -1,
 		"title": "Games of the XII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Poster_Olympische_Sommerspiele_Tokio_1940.jpg/220px-Poster_Olympische_Sommerspiele_Tokio_1940.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Poster_Olympische_Sommerspiele_Tokio_1940.jpg",
 		"host": "Tokyo City, Empire of JapanHelsinki, Finland",
 		"startDate": "",
 		"endDate": ""
@@ -137,7 +137,7 @@
 		"season": "summer",
 		"numAthletes": -1,
 		"title": "Games of the XIII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympic_rings_without_rims.svg",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -148,7 +148,7 @@
 		"season": "summer",
 		"numAthletes": 4104,
 		"title": "Games of the XIV Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/1948_Summer_Olympics_logos.svg/180px-1948_Summer_Olympics_logos.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/47/1948_Summer_Olympics_logos.svg",
 		"host": "London, England, United Kingdom",
 		"startDate": "29 July 1948",
 		"endDate": "14 August 1948"
@@ -159,7 +159,7 @@
 		"season": "summer",
 		"numAthletes": 4955,
 		"title": "Games of the XV Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/1952_Summer_Olympics_logo.svg/140px-1952_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/cd/1952_Summer_Olympics_logo.svg",
 		"host": "Helsinki, Finland",
 		"startDate": "19 July 1952",
 		"endDate": "3 August 1952"
@@ -170,7 +170,7 @@
 		"season": "summer",
 		"numAthletes": 3314,
 		"title": "Games of the XVI Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/1956_Summer_Olympics_logo.svg/150px-1956_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e3/1956_Summer_Olympics_logo.svg",
 		"host": "Melbourne, Victoria, Australia / Stockholm, Sweden",
 		"startDate": "22 November 1956",
 		"endDate": "8 December 1956"
@@ -181,7 +181,7 @@
 		"season": "summer",
 		"numAthletes": 5338,
 		"title": "Games of the XVII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/1960_Summer_Olympics_logo.png/180px-1960_Summer_Olympics_logo.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/11/1960_Summer_Olympics_logo.png",
 		"host": "Rome, Lazio, Italy",
 		"startDate": "25 August 1960",
 		"endDate": "11 September 1960"
@@ -192,7 +192,7 @@
 		"season": "summer",
 		"numAthletes": 5151,
 		"title": "Games of the XVIII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tokyo_1964_Summer_Olympics_logo.svg/130px-Tokyo_1964_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tokyo_1964_Summer_Olympics_logo.svg",
 		"host": "Tokyo, Japan",
 		"startDate": "10 October 1964",
 		"endDate": "24 October 1964"
@@ -203,7 +203,7 @@
 		"season": "summer",
 		"numAthletes": 5516,
 		"title": "Games of the XIX Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/1968_Mexico_emblem.svg/280px-1968_Mexico_emblem.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/1968_Mexico_emblem.svg",
 		"host": "Mexico City, Mexico",
 		"startDate": "12 October 1968",
 		"endDate": "27 October 1968"
@@ -214,7 +214,7 @@
 		"season": "summer",
 		"numAthletes": 7134,
 		"title": "Games of the XX Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/1972_Summer_Olympics_logo.svg/280px-1972_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d1/1972_Summer_Olympics_logo.svg",
 		"host": "Munich, Bavaria, West Germany",
 		"startDate": "26 August 1972",
 		"endDate": "11 September 1972"
@@ -225,7 +225,7 @@
 		"season": "summer",
 		"numAthletes": 6084,
 		"title": "Games of the XXI Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/1976_Summer_Olympics_logo.svg/190px-1976_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/4e/1976_Summer_Olympics_logo.svg",
 		"host": "Montreal, Quebec, Canada",
 		"startDate": "",
 		"endDate": ""
@@ -236,7 +236,7 @@
 		"season": "summer",
 		"numAthletes": 5179,
 		"title": "Games of the XXII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Emblem_of_the_1980_Summer_Olympics.svg/130px-Emblem_of_the_1980_Summer_Olympics.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Emblem_of_the_1980_Summer_Olympics.svg",
 		"host": "Moscow, Russian SFSR, Soviet Union",
 		"startDate": "19 July 1980",
 		"endDate": "3 August 1980"
@@ -247,7 +247,7 @@
 		"season": "summer",
 		"numAthletes": 6829,
 		"title": "Games of the XXIII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/1984_Summer_Olympics_logo.svg/250px-1984_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/0c/1984_Summer_Olympics_logo.svg",
 		"host": "Los Angeles, California, United States",
 		"startDate": "",
 		"endDate": ""
@@ -258,7 +258,7 @@
 		"season": "summer",
 		"numAthletes": 8391,
 		"title": "Games of the XXIV Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/1988_Summer_Olympics_logo.svg/150px-1988_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d6/1988_Summer_Olympics_logo.svg",
 		"host": "Seoul, South Korea",
 		"startDate": "17 September 1988",
 		"endDate": "2 October 1988"
@@ -269,7 +269,7 @@
 		"season": "summer",
 		"numAthletes": 9356,
 		"title": "Games of the XXV Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/1992_Summer_Olympics_logo.svg/220px-1992_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/7/7a/1992_Summer_Olympics_logo.svg",
 		"host": "Barcelona, Catalonia, Spain",
 		"startDate": "25 July 1992",
 		"endDate": "9 August 1992"
@@ -280,7 +280,7 @@
 		"season": "summer",
 		"numAthletes": 10320,
 		"title": "Games of the XXVI Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/1996_Summer_Olympics_logo.svg/125px-1996_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/4e/1996_Summer_Olympics_logo.svg",
 		"host": "Atlanta, Georgia, United States",
 		"startDate": "",
 		"endDate": ""
@@ -291,7 +291,7 @@
 		"season": "summer",
 		"numAthletes": 10651,
 		"title": "Games of the XXVII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/2000_Summer_Olympics_logo.svg/200px-2000_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/81/2000_Summer_Olympics_logo.svg",
 		"host": "Sydney, New South Wales, Australia",
 		"startDate": "15 September 2000",
 		"endDate": "1 October 2000"
@@ -302,7 +302,7 @@
 		"season": "summer",
 		"numAthletes": 10625,
 		"title": "Games of the XXVIII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/2004_Summer_Olympics_logo.svg/143px-2004_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/16/2004_Summer_Olympics_logo.svg",
 		"host": "Athens, Greece",
 		"startDate": "13 August 2004",
 		"endDate": "29 August 2004"
@@ -313,7 +313,7 @@
 		"season": "summer",
 		"numAthletes": 10942,
 		"title": "Games of the XXIX Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Beijing2008SummerOlympics.png/180px-Beijing2008SummerOlympics.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/68/Beijing2008SummerOlympics.png",
 		"host": "Beijing, China",
 		"startDate": "8 August 2008",
 		"endDate": "24 August 2008"
@@ -324,7 +324,7 @@
 		"season": "summer",
 		"numAthletes": 10768,
 		"title": "Games of the XXX Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/2012_Summer_Olympics_logo.svg/200px-2012_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/de/2012_Summer_Olympics_logo.svg",
 		"host": "London, England, United Kingdom",
 		"startDate": "27 July 2012",
 		"endDate": "12 August 2012"
@@ -335,7 +335,7 @@
 		"season": "summer",
 		"numAthletes": 11238,
 		"title": "Games of the XXXI Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/2016_Summer_Olympics_logo.svg/200px-2016_Summer_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/df/2016_Summer_Olympics_logo.svg",
 		"host": "Rio de Janeiro, Brazil",
 		"startDate": "5 August 2016",
 		"endDate": "21 August 2016"
@@ -346,7 +346,7 @@
 		"season": "summer",
 		"numAthletes": 11656,
 		"title": "Games of the XXXII Olympiad",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/2020_Summer_Olympics_logo_new.svg/160px-2020_Summer_Olympics_logo_new.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/1/1d/2020_Summer_Olympics_logo_new.svg",
 		"host": "Tokyo, Japan",
 		"startDate": "23 July 2021",
 		"endDate": "8 August 2021"
@@ -357,7 +357,7 @@
 		"season": "winter",
 		"numAthletes": 258,
 		"title": "I Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/1924WOlympicPoster.jpg/175px-1924WOlympicPoster.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/1924WOlympicPoster.jpg",
 		"host": "Chamonix, Auvergne-Rhône-Alpes, France",
 		"startDate": "25 January 1924",
 		"endDate": "5 February 1924"
@@ -368,7 +368,7 @@
 		"season": "winter",
 		"numAthletes": 464,
 		"title": "II Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/1928_Winter_Olympics_poster.jpg/150px-1928_Winter_Olympics_poster.jpg",
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/c5/1928_Winter_Olympics_poster.jpg",
 		"host": "St. Moritz, Grisons, Switzerland",
 		"startDate": "11 February 1928",
 		"endDate": "19 February 1928"
@@ -379,7 +379,7 @@
 		"season": "winter",
 		"numAthletes": 252,
 		"title": "III Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/1932_Winter_Olympics.svg/200px-1932_Winter_Olympics.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/a5/1932_Winter_Olympics.svg",
 		"host": "Lake Placid, New York, United States",
 		"startDate": "",
 		"endDate": ""
@@ -390,7 +390,7 @@
 		"season": "winter",
 		"numAthletes": 646,
 		"title": "IV Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/1936_Winter_Olympics.svg/200px-1936_Winter_Olympics.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/bf/1936_Winter_Olympics.svg",
 		"host": "Garmisch-Partenkirchen, Bavaria, Germany",
 		"startDate": "6 February 1936",
 		"endDate": "16 February 1936"
@@ -401,7 +401,7 @@
 		"season": "winter",
 		"numAthletes": -1,
 		"title": "V Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympic_rings_without_rims.svg",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -412,7 +412,7 @@
 		"season": "winter",
 		"numAthletes": -1,
 		"title": "IV Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/320px-Olympic_rings_without_rims.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympic_rings_without_rims.svg",
 		"host": "",
 		"startDate": "",
 		"endDate": ""
@@ -423,7 +423,7 @@
 		"season": "winter",
 		"numAthletes": 669,
 		"title": "V Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/1948_Winter_Olympics_logo.png/130px-1948_Winter_Olympics_logo.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/fe/1948_Winter_Olympics_logo.png",
 		"host": "St. Moritz, Grisons, Switzerland",
 		"startDate": "30 January 1948",
 		"endDate": "8 February 1948"
@@ -434,7 +434,7 @@
 		"season": "winter",
 		"numAthletes": 694,
 		"title": "VI Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/1952_Winter_Olympics.svg/200px-1952_Winter_Olympics.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/65/1952_Winter_Olympics.svg",
 		"host": "Oslo, Norway",
 		"startDate": "14 February 1952",
 		"endDate": "25 February 1952"
@@ -445,7 +445,7 @@
 		"season": "winter",
 		"numAthletes": 821,
 		"title": "VII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/1956_Winter_Olympics_logo.png/210px-1956_Winter_Olympics_logo.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/8f/1956_Winter_Olympics_logo.png",
 		"host": "Cortina d'Ampezzo, Veneto, Italy",
 		"startDate": "26 January 1956",
 		"endDate": "5 February 1956"
@@ -456,7 +456,7 @@
 		"season": "winter",
 		"numAthletes": 665,
 		"title": "VIII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/1960_Winter_Olympics_logo.svg/180px-1960_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/62/1960_Winter_Olympics_logo.svg",
 		"host": "Squaw Valley, California, United States",
 		"startDate": "",
 		"endDate": ""
@@ -467,7 +467,7 @@
 		"season": "winter",
 		"numAthletes": 1091,
 		"title": "IX Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/1964_Winter_Olympics_logo.svg/200px-1964_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/8f/1964_Winter_Olympics_logo.svg",
 		"host": "Innsbruck, Tyrol, Austria",
 		"startDate": "29 January 1964",
 		"endDate": "9 February 1964"
@@ -478,7 +478,7 @@
 		"season": "winter",
 		"numAthletes": 1158,
 		"title": "X Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/1968_Winter_Olympics_logo.svg/190px-1968_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/a4/1968_Winter_Olympics_logo.svg",
 		"host": "Grenoble, Auvergne-Rhône-Alpes, France",
 		"startDate": "6 February 1968",
 		"endDate": "18 February 1968"
@@ -489,7 +489,7 @@
 		"season": "winter",
 		"numAthletes": 1006,
 		"title": "XI Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/1972_Winter_Olympics.svg/100px-1972_Winter_Olympics.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/6f/1972_Winter_Olympics.svg",
 		"host": "Sapporo, Hokkaidō, Japan",
 		"startDate": "",
 		"endDate": ""
@@ -500,7 +500,7 @@
 		"season": "winter",
 		"numAthletes": 1123,
 		"title": "XII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/1976_Winter_Olympics_logo.svg/200px-1976_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/44/1976_Winter_Olympics_logo.svg",
 		"host": "Innsbruck, Tyrol, Austria",
 		"startDate": "4 February 1976",
 		"endDate": "15 February 1976"
@@ -511,7 +511,7 @@
 		"season": "winter",
 		"numAthletes": 1072,
 		"title": "XIII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/1980_Winter_Olympics_logo.svg/170px-1980_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/99/1980_Winter_Olympics_logo.svg",
 		"host": "Lake Placid, New York, United States",
 		"startDate": "13 February 1980",
 		"endDate": "24 February 1980"
@@ -522,7 +522,7 @@
 		"season": "winter",
 		"numAthletes": 1272,
 		"title": "XIV Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/1984_Winter_Olympics_logo.svg/140px-1984_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/e/e8/1984_Winter_Olympics_logo.svg",
 		"host": "Sarajevo, Socialist Republic of Bosnia and Herzegovina, Yugoslavia",
 		"startDate": "8 February 1984",
 		"endDate": "19 February 1984"
@@ -533,7 +533,7 @@
 		"season": "winter",
 		"numAthletes": 1423,
 		"title": "XV Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/1988_Winter_Olympics_logo.svg/150px-1988_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/6/64/1988_Winter_Olympics_logo.svg",
 		"host": "Calgary, Alberta, Canada",
 		"startDate": "",
 		"endDate": ""
@@ -544,7 +544,7 @@
 		"season": "winter",
 		"numAthletes": 1801,
 		"title": "XVI Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/1992_Winter_Olympics_logo.svg/170px-1992_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/d/d1/1992_Winter_Olympics_logo.svg",
 		"host": "Albertville, Auvergne-Rhône-Alpes, France",
 		"startDate": "8 February 1992",
 		"endDate": "23 February 1992"
@@ -555,7 +555,7 @@
 		"season": "winter",
 		"numAthletes": 1737,
 		"title": "XVII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/1994_Winter_Olympics_logo.svg/200px-1994_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/9/96/1994_Winter_Olympics_logo.svg",
 		"host": "Lillehammer, Innlandet, Norway",
 		"startDate": "12 February 1994",
 		"endDate": "27 February 1994"
@@ -566,7 +566,7 @@
 		"season": "winter",
 		"numAthletes": 2176,
 		"title": "XVIII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/1998_Winter_Olympics_logo.svg/240px-1998_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/fc/1998_Winter_Olympics_logo.svg",
 		"host": "Nagano, Japan",
 		"startDate": "7 February 1998",
 		"endDate": "22 February 1998"
@@ -577,7 +577,7 @@
 		"season": "winter",
 		"numAthletes": 2399,
 		"title": "XIX Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/2002_Winter_Olympics_logo.svg/220px-2002_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/4/47/2002_Winter_Olympics_logo.svg",
 		"host": "Salt Lake City, Utah, United States",
 		"startDate": "",
 		"endDate": ""
@@ -588,7 +588,7 @@
 		"season": "winter",
 		"numAthletes": 2629,
 		"title": "XX Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/2006_Winter_Olympics_logo.svg/230px-2006_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/c/ce/2006_Winter_Olympics_logo.svg",
 		"host": "Turin, Piedmont, Italy",
 		"startDate": "10 February 2006",
 		"endDate": "26 February 2006"
@@ -599,7 +599,7 @@
 		"season": "winter",
 		"numAthletes": 2626,
 		"title": "XXI Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/2010_Winter_Olympics_logo.svg/190px-2010_Winter_Olympics_logo.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/a/a7/2010_Winter_Olympics_logo.svg",
 		"host": "Vancouver, British Columbia, Canada",
 		"startDate": "",
 		"endDate": ""
@@ -610,7 +610,7 @@
 		"season": "winter",
 		"numAthletes": 2873,
 		"title": "XXII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sochi_2014_%28Emblem%29.svg/240px-Sochi_2014_%28Emblem%29.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sochi_2014_%28Emblem%29.svg",
 		"host": "Sochi, Krasnodar Krai, Russia",
 		"startDate": "7 February 2014",
 		"endDate": "23 February 2014"
@@ -621,7 +621,7 @@
 		"season": "winter",
 		"numAthletes": 2922,
 		"title": "XXIII Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/PyeongChang_2018_Winter_Olympics.svg/240px-PyeongChang_2018_Winter_Olympics.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/PyeongChang_2018_Winter_Olympics.svg",
 		"host": "Pyeongchang, Gangwon, South Korea",
 		"startDate": "9 February",
 		"endDate": "25 February"
@@ -632,7 +632,7 @@
 		"season": "winter",
 		"numAthletes": 2871,
 		"title": "XXIV Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/2022_Winter_Olympics_official_logo-en.svg/202px-2022_Winter_Olympics_official_logo-en.svg.png",
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/5e/2022_Winter_Olympics_official_logo-en.svg",
 		"host": "Beijing, China",
 		"startDate": "4 February",
 		"endDate": "20 February"
