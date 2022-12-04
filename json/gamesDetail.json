@@ -127,7 +127,7 @@
 		"numAthletes": -1,
 		"title": "Games of the XII Olympiad",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Poster_Olympische_Sommerspiele_Tokio_1940.jpg",
-		"host": "Tokyo City, Empire of JapanHelsinki, Finland",
+		"host": "Tokyo City, Empire of Japan",
 		"startDate": "",
 		"endDate": ""
 	},
@@ -489,7 +489,7 @@
 		"season": "winter",
 		"numAthletes": 1006,
 		"title": "XI Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/6/6f/1972_Winter_Olympics.svg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/1972_Winter_Olympics.svg",
 		"host": "Sapporo, Hokkaidō, Japan",
 		"startDate": "",
 		"endDate": ""
@@ -577,7 +577,7 @@
 		"season": "winter",
 		"numAthletes": 2399,
 		"title": "XIX Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/4/47/2002_Winter_Olympics_logo.svg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/4/47/2002_Winter_Olympics_logo.svg",
 		"host": "Salt Lake City, Utah, United States",
 		"startDate": "",
 		"endDate": ""
@@ -588,7 +588,7 @@
 		"season": "winter",
 		"numAthletes": 2629,
 		"title": "XX Olympic Winter Games",
-		"image": "https://upload.wikimedia.org/wikipedia/en/c/ce/2006_Winter_Olympics_logo.svg",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2006_Winter_Olympics_logo.svg",
 		"host": "Turin, Piedmont, Italy",
 		"startDate": "10 February 2006",
 		"endDate": "26 February 2006"
