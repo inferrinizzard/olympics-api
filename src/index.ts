@@ -1,9 +1,9 @@
 import express from 'express';
 
-import routes from './routes/index.js';
+import routes from './routes/index';
 
-import { initDatabase } from './database/index.js';
-import { Olympics } from './scraper/olympics.js';
+import { initDatabase } from './database/index';
+import { Olympics } from './scraper/olympics';
 
 const port = process.env.PORT || 3000;
 
@@ -16,5 +16,5 @@ app.get('/', (req, res) => res.redirect('/api'));
 app.use('/api', routes);
 
 app.listen(port, () => {
-	console.log(`Listening on port: ${port}`);
+  console.log(`Listening on port: ${port}`);
 });

@@ -1,8 +1,8 @@
 import { JSDOM } from 'jsdom';
 
-import Wikipedia from './index.js';
+import Wikipedia from './index';
 
-import type { SportDetailRow } from '../types/index.js';
+import type { SportDetailRow } from '../types/index';
 
 const summerSportsUrl =
   'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Olympic_sports&prop=text&section=6&formatversion=2';

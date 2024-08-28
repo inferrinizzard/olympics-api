@@ -1,3 +1,3 @@
-import OlympicsCom from './olympicsCom.js';
+import OlympicsCom from './olympicsCom';
 
 export default OlympicsCom;

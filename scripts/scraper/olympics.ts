@@ -1,11 +1,11 @@
 import { JSDOM } from 'jsdom';
 
-import { pgp, db } from '../../src/db.js';
+import { pgp, db } from '../../src/db';
 
 import { readFileSync, writeFileSync } from 'fs';
 
-import OlympicsCom from './olympics-com/index.js';
-import Wikipedia from './wikipedia/old/index.js';
+import OlympicsCom from './olympics-com/index';
+import Wikipedia from './wikipedia/old/index';
 
 import type {
   GamesKeyLookup,
@@ -15,14 +15,14 @@ import type {
   CountryMedalRow,
   MedalTotalsRow,
   CountryAttendanceRow,
-} from './types/index.js';
+} from './types/index';
 
-import { readCountryDetail } from './wikipedia/old/countryDetailReader.js';
-import { readGamesDetail } from './wikipedia/old/gamesDetailReader.js';
-import { readSportsDetail } from './wikipedia/old/sportsDetailReader.js';
-import { readCountryAttendance } from './wikipedia/old/countryAttendanceReader.js';
-import { readCountryMedals } from './wikipedia/old/countryMedalsReader.js';
-import { readMedalTotals } from './wikipedia/old/medalTotalsReader.js';
+import { readCountryDetail } from './wikipedia/old/countryDetailReader';
+import { readGamesDetail } from './wikipedia/old/gamesDetailReader';
+import { readSportsDetail } from './wikipedia/old/sportsDetailReader';
+import { readCountryAttendance } from './wikipedia/old/countryAttendanceReader';
+import { readCountryMedals } from './wikipedia/old/countryMedalsReader';
+import { readMedalTotals } from './wikipedia/old/medalTotalsReader';
 
 export class Olympics {
   private olympicsCom!: OlympicsCom;

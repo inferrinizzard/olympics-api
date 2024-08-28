@@ -1,8 +1,8 @@
 import { JSDOM } from 'jsdom';
 
-import Wikipedia from './index.js';
+import Wikipedia from './index';
 
-import type { GamesKeyLookup, GamesDetailRow } from '../types/index.js';
+import type { GamesKeyLookup, GamesDetailRow } from '../../types';
 
 const getInfobox = (html: string) => {
   const dom = new JSDOM(html);

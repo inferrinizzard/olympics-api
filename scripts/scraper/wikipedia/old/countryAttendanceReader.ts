@@ -1,8 +1,8 @@
 import { JSDOM } from 'jsdom';
 
-import Wikipedia from './index.js';
+import Wikipedia from './index';
 
-import type { GamesKey } from '../types/index.js';
+import type { GamesKey } from '../../types';
 
 const summerCountriesUrl =
   'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=List_of_participating_nations_at_the_Summer_Olympic_Games&prop=text&section=11&formatversion=2';
