@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-import Wikipedia from './index';
+import Wikipedia from '../wikipedia-api';
 
 import type { SportDetailRow } from '../types/index';
 

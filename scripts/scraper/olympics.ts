@@ -5,7 +5,7 @@ import { pgp, db } from '../../src/db';
 import { readFileSync, writeFileSync } from 'fs';
 
 import OlympicsCom from './olympics-com/index';
-import Wikipedia from './wikipedia/old/index';
+import Wikipedia from './wikipedia/wikipedia-api';
 
 import type {
   GamesKeyLookup,
