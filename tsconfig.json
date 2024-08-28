@@ -1,17 +1,18 @@
 {
-	"compilerOptions": {
-		"experimentalDecorators": true,
-		"resolveJsonModule": true,
-		"module": "esnext",
-		"target": "esnext",
-		"rootDir": "src",
-		"outDir": "dist",
-		"sourceMap": true,
-		"declaration": true,
-		"esModuleInterop": true,
-		"moduleResolution": "node",
-		"strict": true /* enable all strict type-checking options */,
-		/* Additional Checks */
-		"noImplicitReturns": true /* Report error when not all code paths in function return a value. */
-	}
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "target": "esnext",
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true /* enable all strict type-checking options */,
+    /* Additional Checks */
+    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */
+  },
+  "include": ["src", "scripts"]
 }
