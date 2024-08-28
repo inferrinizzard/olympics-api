@@ -5,7 +5,7 @@ import { pgp, db } from '../../src/db.js';
 import { readFileSync, writeFileSync } from 'fs';
 
 import OlympicsCom from './olympics-com/index.js';
-import Wikipedia from './wikipedia/index.js';
+import Wikipedia from './wikipedia/old/index.js';
 
 import type {
   GamesKeyLookup,
@@ -17,12 +17,12 @@ import type {
   CountryAttendanceRow,
 } from './types/index.js';
 
-import { readCountryDetail } from './wikipedia/countryDetailReader.js';
-import { readGamesDetail } from './wikipedia/gamesDetailReader.js';
-import { readSportsDetail } from './wikipedia/sportsDetailReader.js';
-import { readCountryAttendance } from './wikipedia/countryAttendanceReader.js';
-import { readCountryMedals } from './wikipedia/countryMedalsReader.js';
-import { readMedalTotals } from './wikipedia/medalTotalsReader.js';
+import { readCountryDetail } from './wikipedia/old/countryDetailReader.js';
+import { readGamesDetail } from './wikipedia/old/gamesDetailReader.js';
+import { readSportsDetail } from './wikipedia/old/sportsDetailReader.js';
+import { readCountryAttendance } from './wikipedia/old/countryAttendanceReader.js';
+import { readCountryMedals } from './wikipedia/old/countryMedalsReader.js';
+import { readMedalTotals } from './wikipedia/old/medalTotalsReader.js';
 
 export class Olympics {
   private olympicsCom!: OlympicsCom;
