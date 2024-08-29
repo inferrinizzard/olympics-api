@@ -126,8 +126,8 @@ const processRows = (...rowElements: HTMLTableRowElement[]) => {
         .toLowerCase()
         .replaceAll(/\p{Dash}/gu, '=')
         .replaceAll(/\s?[/]\s?/g, '+')
-        .replaceAll(/[^+=\s\d\w]/g, '')
-        .replaceAll(/\s/g, '-');
+        .replaceAll(/[^'+=\s\d\w]/g, '')
+        .replaceAll(/[\s']/g, '-');
       const code = `${year}_${cleanHost}`;
 
       gamesList.push({ code, year, host, season, edition, pageName });

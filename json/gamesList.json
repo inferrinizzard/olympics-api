@@ -1,0 +1,866 @@
+[
+  {
+    "code": "1896_athens",
+    "year": "1896",
+    "host": "Athens",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1896_Summer_Olympics"
+  },
+  {
+    "code": "1900_paris",
+    "year": "1900",
+    "host": "Paris",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1900_Summer_Olympics"
+  },
+  {
+    "code": "1904_st-louis",
+    "year": "1904",
+    "host": "St. Louis",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1904_Summer_Olympics"
+  },
+  {
+    "code": "1908_london",
+    "year": "1908",
+    "host": "London",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1908_Summer_Olympics"
+  },
+  {
+    "code": "1912_stockholm",
+    "year": "1912",
+    "host": "Stockholm",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1912_Summer_Olympics"
+  },
+  {
+    "code": "1916_berlin",
+    "year": "1916",
+    "host": "Berlin",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1916_Summer_Olympics"
+  },
+  {
+    "code": "1920_antwerp",
+    "year": "1920",
+    "host": "Antwerp",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1920_Summer_Olympics"
+  },
+  {
+    "code": "1924_paris",
+    "year": "1924",
+    "host": "Paris",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1924_Summer_Olympics"
+  },
+  {
+    "code": "1928_amsterdam",
+    "year": "1928",
+    "host": "Amsterdam",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1928_Summer_Olympics"
+  },
+  {
+    "code": "1932_los-angeles",
+    "year": "1932",
+    "host": "Los Angeles",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1932_Summer_Olympics"
+  },
+  {
+    "code": "1936_berlin",
+    "year": "1936",
+    "host": "Berlin",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1936_Summer_Olympics"
+  },
+  {
+    "code": "1940_tokyo",
+    "year": "1940",
+    "host": "Tokyo",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1940_Summer_Olympics"
+  },
+  {
+    "code": "1944_london",
+    "year": "1944",
+    "host": "London",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1944_Summer_Olympics"
+  },
+  {
+    "code": "1948_london",
+    "year": "1948",
+    "host": "London",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1948_Summer_Olympics"
+  },
+  {
+    "code": "1952_helsinki",
+    "year": "1952",
+    "host": "Helsinki",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1952_Summer_Olympics"
+  },
+  {
+    "code": "1956_melbourne",
+    "year": "1956",
+    "host": "Melbourne",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1956_Summer_Olympics"
+  },
+  {
+    "code": "1960_rome",
+    "year": "1960",
+    "host": "Rome",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1960_Summer_Olympics"
+  },
+  {
+    "code": "1964_tokyo",
+    "year": "1964",
+    "host": "Tokyo",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1964_Summer_Olympics"
+  },
+  {
+    "code": "1968_mexico-city",
+    "year": "1968",
+    "host": "Mexico City",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1968_Summer_Olympics"
+  },
+  {
+    "code": "1972_munich",
+    "year": "1972",
+    "host": "Munich",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1972_Summer_Olympics"
+  },
+  {
+    "code": "1976_montreal",
+    "year": "1976",
+    "host": "Montreal",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1976_Summer_Olympics"
+  },
+  {
+    "code": "1980_moscow",
+    "year": "1980",
+    "host": "Moscow",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1980_Summer_Olympics"
+  },
+  {
+    "code": "1984_los-angeles",
+    "year": "1984",
+    "host": "Los Angeles",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1984_Summer_Olympics"
+  },
+  {
+    "code": "1988_seoul",
+    "year": "1988",
+    "host": "Seoul",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1988_Summer_Olympics"
+  },
+  {
+    "code": "1992_barcelona",
+    "year": "1992",
+    "host": "Barcelona",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1992_Summer_Olympics"
+  },
+  {
+    "code": "1996_atlanta",
+    "year": "1996",
+    "host": "Atlanta",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "1996_Summer_Olympics"
+  },
+  {
+    "code": "2000_sydney",
+    "year": "2000",
+    "host": "Sydney",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2000_Summer_Olympics"
+  },
+  {
+    "code": "2004_athens",
+    "year": "2004",
+    "host": "Athens",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2004_Summer_Olympics"
+  },
+  {
+    "code": "2008_beijing",
+    "year": "2008",
+    "host": "Beijing",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2008_Summer_Olympics"
+  },
+  {
+    "code": "2012_london",
+    "year": "2012",
+    "host": "London",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2012_Summer_Olympics"
+  },
+  {
+    "code": "2016_rio-de-janeiro",
+    "year": "2016",
+    "host": "Rio de Janeiro",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2016_Summer_Olympics"
+  },
+  {
+    "code": "2020_tokyo",
+    "year": "2020",
+    "host": "Tokyo",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2020_Summer_Olympics"
+  },
+  {
+    "code": "2024_paris",
+    "year": "2024",
+    "host": "Paris",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2024_Summer_Olympics"
+  },
+  {
+    "code": "2028_los-angeles",
+    "year": "2028",
+    "host": "Los Angeles",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2028_Summer_Olympics"
+  },
+  {
+    "code": "2032_brisbane",
+    "year": "2032",
+    "host": "Brisbane",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2032_Summer_Olympics"
+  },
+  {
+    "code": "2036_tbd",
+    "year": "2036",
+    "host": "TBD",
+    "season": "summer",
+    "edition": "olympics",
+    "pageName": "2036_Summer_Olympics"
+  },
+  {
+    "code": "1924_chamonix",
+    "year": "1924",
+    "host": "Chamonix",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1924_Winter_Olympics"
+  },
+  {
+    "code": "1928_st-moritz",
+    "year": "1928",
+    "host": "St. Moritz",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1928_Winter_Olympics"
+  },
+  {
+    "code": "1932_lake-placid",
+    "year": "1932",
+    "host": "Lake Placid",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1932_Winter_Olympics"
+  },
+  {
+    "code": "1936_garmisch=partenkirchen",
+    "year": "1936",
+    "host": "Garmisch-Partenkirchen",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1936_Winter_Olympics"
+  },
+  {
+    "code": "1940_sapporo",
+    "year": "1940",
+    "host": "Sapporo",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1940_Winter_Olympics"
+  },
+  {
+    "code": "1944_cortina-d-ampezzo",
+    "year": "1944",
+    "host": "Cortina d'Ampezzo",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1944_Winter_Olympics"
+  },
+  {
+    "code": "1948_st-moritz",
+    "year": "1948",
+    "host": "St. Moritz",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1948_Winter_Olympics"
+  },
+  {
+    "code": "1952_oslo",
+    "year": "1952",
+    "host": "Oslo",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1952_Winter_Olympics"
+  },
+  {
+    "code": "1956_cortina-dampezzo",
+    "year": "1956",
+    "host": "Cortina d'Ampezzo",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1956_Winter_Olympics"
+  },
+  {
+    "code": "1960_squaw-valley",
+    "year": "1960",
+    "host": "Squaw Valley",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1960_Winter_Olympics"
+  },
+  {
+    "code": "1964_innsbruck",
+    "year": "1964",
+    "host": "Innsbruck",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1964_Winter_Olympics"
+  },
+  {
+    "code": "1968_grenoble",
+    "year": "1968",
+    "host": "Grenoble",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1968_Winter_Olympics"
+  },
+  {
+    "code": "1972_sapporo",
+    "year": "1972",
+    "host": "Sapporo",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1972_Winter_Olympics"
+  },
+  {
+    "code": "1976_innsbruck",
+    "year": "1976",
+    "host": "Innsbruck",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1976_Winter_Olympics"
+  },
+  {
+    "code": "1980_lake-placid",
+    "year": "1980",
+    "host": "Lake Placid",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1980_Winter_Olympics"
+  },
+  {
+    "code": "1984_sarajevo",
+    "year": "1984",
+    "host": "Sarajevo",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1984_Winter_Olympics"
+  },
+  {
+    "code": "1988_calgary",
+    "year": "1988",
+    "host": "Calgary",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1988_Winter_Olympics"
+  },
+  {
+    "code": "1992_albertville",
+    "year": "1992",
+    "host": "Albertville",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1992_Winter_Olympics"
+  },
+  {
+    "code": "1994_lillehammer",
+    "year": "1994",
+    "host": "Lillehammer",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1994_Winter_Olympics"
+  },
+  {
+    "code": "1998_nagano",
+    "year": "1998",
+    "host": "Nagano",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "1998_Winter_Olympics"
+  },
+  {
+    "code": "2002_salt-lake",
+    "year": "2002",
+    "host": "Salt Lake",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2002_Winter_Olympics"
+  },
+  {
+    "code": "2006_torino",
+    "year": "2006",
+    "host": "Torino",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2006_Winter_Olympics"
+  },
+  {
+    "code": "2010_vancouver",
+    "year": "2010",
+    "host": "Vancouver",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2010_Winter_Olympics"
+  },
+  {
+    "code": "2014_sochi",
+    "year": "2014",
+    "host": "Sochi",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2014_Winter_Olympics"
+  },
+  {
+    "code": "2018_pyeongchang",
+    "year": "2018",
+    "host": "PyeongChang",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2018_Winter_Olympics"
+  },
+  {
+    "code": "2022_beijing",
+    "year": "2022",
+    "host": "Beijing",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2022_Winter_Olympics"
+  },
+  {
+    "code": "2026_milano-cortina",
+    "year": "2026",
+    "host": "Milano Cortina",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2026_Winter_Olympics"
+  },
+  {
+    "code": "2030_french-alps",
+    "year": "2030",
+    "host": "French Alps",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2030_Winter_Olympics"
+  },
+  {
+    "code": "2034_salt-lake-city=utah",
+    "year": "2034",
+    "host": "Salt Lake City–Utah",
+    "season": "winter",
+    "edition": "olympics",
+    "pageName": "2034_Winter_Olympics"
+  },
+  {
+    "code": "2010_singapore",
+    "year": "2010",
+    "host": "Singapore",
+    "season": "summer",
+    "edition": "youth",
+    "pageName": "2010_Summer_Youth_Olympics"
+  },
+  {
+    "code": "2014_nanjing",
+    "year": "2014",
+    "host": "Nanjing",
+    "season": "summer",
+    "edition": "youth",
+    "pageName": "2014_Summer_Youth_Olympics"
+  },
+  {
+    "code": "2018_buenos-aires",
+    "year": "2018",
+    "host": "Buenos Aires",
+    "season": "summer",
+    "edition": "youth",
+    "pageName": "2018_Summer_Youth_Olympics"
+  },
+  {
+    "code": "2026_dakar",
+    "year": "2026",
+    "host": "Dakar",
+    "season": "summer",
+    "edition": "youth",
+    "pageName": "2026_Summer_Youth_Olympics"
+  },
+  {
+    "code": "2012_innsbruck",
+    "year": "2012",
+    "host": "Innsbruck",
+    "season": "winter",
+    "edition": "youth",
+    "pageName": "2012_Winter_Youth_Olympics"
+  },
+  {
+    "code": "2016_lillehammer",
+    "year": "2016",
+    "host": "Lillehammer",
+    "season": "winter",
+    "edition": "youth",
+    "pageName": "2016_Winter_Youth_Olympics"
+  },
+  {
+    "code": "2020_lausanne",
+    "year": "2020",
+    "host": "Lausanne",
+    "season": "winter",
+    "edition": "youth",
+    "pageName": "2020_Winter_Youth_Olympics"
+  },
+  {
+    "code": "2024_gangwon",
+    "year": "2024",
+    "host": "Gangwon",
+    "season": "winter",
+    "edition": "youth",
+    "pageName": "2024_Winter_Youth_Olympics"
+  },
+  {
+    "code": "1960_rome",
+    "year": "1960",
+    "host": "Rome",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1960_Summer_Paralympics"
+  },
+  {
+    "code": "1964_tokyo",
+    "year": "1964",
+    "host": "Tokyo",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1964_Summer_Paralympics"
+  },
+  {
+    "code": "1968_tel-aviv",
+    "year": "1968",
+    "host": "Tel Aviv",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1968_Summer_Paralympics"
+  },
+  {
+    "code": "1972_heidelberg",
+    "year": "1972",
+    "host": "Heidelberg",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1972_Summer_Paralympics"
+  },
+  {
+    "code": "1976_toronto",
+    "year": "1976",
+    "host": "Toronto",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1976_Summer_Paralympics"
+  },
+  {
+    "code": "1980_arnhem",
+    "year": "1980",
+    "host": "Arnhem",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1980_Summer_Paralympics"
+  },
+  {
+    "code": "1984_new-york+stoke-mandeville",
+    "year": "1984",
+    "host": "New York / Stoke Mandeville",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1984_Summer_Paralympics"
+  },
+  {
+    "code": "1988_seoul",
+    "year": "1988",
+    "host": "Seoul",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1988_Summer_Paralympics"
+  },
+  {
+    "code": "1992_barcelona+madrid",
+    "year": "1992",
+    "host": "Barcelona / Madrid",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1992_Summer_Paralympics"
+  },
+  {
+    "code": "1996_atlanta",
+    "year": "1996",
+    "host": "Atlanta",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "1996_Summer_Paralympics"
+  },
+  {
+    "code": "2000_sydney",
+    "year": "2000",
+    "host": "Sydney",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2000_Summer_Paralympics"
+  },
+  {
+    "code": "2004_athens",
+    "year": "2004",
+    "host": "Athens",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2004_Summer_Paralympics"
+  },
+  {
+    "code": "2008_beijing",
+    "year": "2008",
+    "host": "Beijing",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2008_Summer_Paralympics"
+  },
+  {
+    "code": "2012_london",
+    "year": "2012",
+    "host": "London",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2012_Summer_Paralympics"
+  },
+  {
+    "code": "2016_rio-de-janeiro",
+    "year": "2016",
+    "host": "Rio de Janeiro",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2016_Summer_Paralympics"
+  },
+  {
+    "code": "2020_tokyo",
+    "year": "2020",
+    "host": "Tokyo",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2020_Summer_Paralympics"
+  },
+  {
+    "code": "2024_paris",
+    "year": "2024",
+    "host": "Paris",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2024_Summer_Paralympics"
+  },
+  {
+    "code": "2028_los-angeles",
+    "year": "2028",
+    "host": "Los Angeles",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2028_Summer_Paralympics"
+  },
+  {
+    "code": "2032_brisbane",
+    "year": "2032",
+    "host": "Brisbane",
+    "season": "summer",
+    "edition": "paralympics",
+    "pageName": "2032_Summer_Paralympics"
+  },
+  {
+    "code": "1976_ornskoldsvik",
+    "year": "1976",
+    "host": "Örnsköldsvik",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "1976_Winter_Paralympics"
+  },
+  {
+    "code": "1980_geilo",
+    "year": "1980",
+    "host": "Geilo",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "1980_Winter_Paralympics"
+  },
+  {
+    "code": "1984_innsbruck",
+    "year": "1984",
+    "host": "Innsbruck",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "1984_Winter_Paralympics"
+  },
+  {
+    "code": "1988_innsbruck",
+    "year": "1988",
+    "host": "Innsbruck",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "1988_Winter_Paralympics"
+  },
+  {
+    "code": "1992_tignes+albertville",
+    "year": "1992",
+    "host": "Tignes / Albertville",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "1992_Winter_Paralympics"
+  },
+  {
+    "code": "1994_lillehammer",
+    "year": "1994",
+    "host": "Lillehammer",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "1994_Winter_Paralympics"
+  },
+  {
+    "code": "1998_nagano",
+    "year": "1998",
+    "host": "Nagano",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "1998_Winter_Paralympics"
+  },
+  {
+    "code": "2002_salt-lake-city",
+    "year": "2002",
+    "host": "Salt Lake City",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2002_Winter_Paralympics"
+  },
+  {
+    "code": "2006_turin",
+    "year": "2006",
+    "host": "Turin",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2006_Winter_Paralympics"
+  },
+  {
+    "code": "2010_vancouver",
+    "year": "2010",
+    "host": "Vancouver",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2010_Winter_Paralympics"
+  },
+  {
+    "code": "2014_sochi",
+    "year": "2014",
+    "host": "Sochi",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2014_Winter_Paralympics"
+  },
+  {
+    "code": "2018_pyeongchang",
+    "year": "2018",
+    "host": "PyeongChang",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2018_Winter_Paralympics"
+  },
+  {
+    "code": "2022_beijing",
+    "year": "2022",
+    "host": "Beijing",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2022_Winter_Paralympics"
+  },
+  {
+    "code": "2026_milano-cortina",
+    "year": "2026",
+    "host": "Milano Cortina",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2026_Winter_Paralympics"
+  },
+  {
+    "code": "2030_french-alps",
+    "year": "2030",
+    "host": "French Alps",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2030_Winter_Paralympics"
+  },
+  {
+    "code": "2034_salt-lake-city=utah",
+    "year": "2034",
+    "host": "Salt Lake City–Utah",
+    "season": "winter",
+    "edition": "paralympics",
+    "pageName": "2034_Winter_Paralympics"
+  }
+]
