@@ -402,6 +402,12 @@
     "status": "active"
   },
   {
+    "code": "FRO",
+    "name": "The Faroe Islands",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg",
+    "status": "active"
+  },
+  {
     "code": "GAB",
     "name": "Gabon",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg",
@@ -657,6 +663,12 @@
     "code": "LUX",
     "name": "Luxembourg",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg",
+    "status": "active"
+  },
+  {
+    "code": "MAC",
+    "name": "MAcau",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/6/63/Flag_of_Macau.svg",
     "status": "active"
   },
   {
@@ -1242,9 +1254,27 @@
     "status": "special"
   },
   {
+    "code": "HNL",
+    "name": "Haudenosaunee",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_the_Iroquois_Confederacy.svg",
+    "status": "special"
+  },
+  {
     "code": "IOA",
     "name": "Independent Olympic Athletes",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
+    "status": "special"
+  },
+  {
+    "code": "IPA",
+    "name": "Independent Paralympic Athletes",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
+    "status": "special"
+  },
+  {
+    "code": "IPP",
+    "name": "Independent Paralympic Participants",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Paralympic_flag_%281988-1994%29.svg",
     "status": "special"
   },
   {
@@ -1256,7 +1286,7 @@
   {
     "code": "AIN",
     "name": "Individual Neutral Athletes",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Flag_of_the_Individual_Neutral_Athletes_at_the_2024_Summer_Olympics.svg",
     "status": "special"
   },
   {
@@ -1272,9 +1302,21 @@
     "status": "special"
   },
   {
+    "code": "XXB",
+    "name": "Mixed team",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
+    "status": "special"
+  },
+  {
     "code": "MIX",
     "name": "Mixed-NOCs",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
+    "status": "special"
+  },
+  {
+    "code": "NPA",
+    "name": "Neutral Paralympic Athletes",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Paralympic_flag_%282019%29.svg",
     "status": "special"
   },
   {
@@ -1284,9 +1326,21 @@
     "status": "special"
   },
   {
-    "code": "ROC",
-    "name": "ROC",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg",
+    "code": "PNA",
+    "name": "Paralympic Athletes",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Paralympic_flag_%282019%29.svg",
+    "status": "special"
+  },
+  {
+    "code": "ROC2",
+    "name": "Russian Olympic Committee",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/0/02/Russian_Olympic_Committee_flag.png",
+    "status": "special"
+  },
+  {
+    "code": "RPC",
+    "name": "Russian Paralympic Committee",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Russian_Paralympic_Committee_special_emblem_%28Tokyo_2020%2C_Beijing_2022%29.jpg",
     "status": "special"
   },
   {
@@ -1299,6 +1353,12 @@
     "code": "ROT",
     "name": "Refugee Olympic Team",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
+    "status": "special"
+  },
+  {
+    "code": "RPT",
+    "name": "Refugee Paralympic Team",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Paralympic_flag_%282019%29.svg",
     "status": "special"
   },
   {
@@ -1353,6 +1413,12 @@
     "code": "YAR",
     "name": "North Yemen",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_North_Yemen.svg",
+    "status": "historic"
+  },
+  {
+    "code": "ROC",
+    "name": "Republic of China",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg",
     "status": "historic"
   },
   {
