@@ -1,7 +1,7 @@
 import { JSDOM } from 'jsdom';
+import latinize from 'latinize';
 
 import Wikipedia from './wikipedia-api';
-import { GamesKeyLookup } from '../types';
 
 const parseUtils = {
   findColThWithText: (text: RegExp | string) => (node: HTMLElement) =>
@@ -122,7 +122,15 @@ const processRows = (...rowElements: HTMLTableRowElement[]) => {
         .replace(/wiki/, '')
         .replace(/[/]/g, '');
 
-      gamesList.push({ year, host, season, edition, pageName });
+      const cleanHost = latinize(host)
+        .toLowerCase()
+        .replaceAll(/\p{Dash}/gu, '=')
+        .replaceAll(/\s?[/]\s?/g, '+')
+        .replaceAll(/[^+=\s\d\w]/g, '')
+        .replaceAll(/\s/g, '-');
+      const code = `${year}_${cleanHost}`;
+
+      gamesList.push({ code, year, host, season, edition, pageName });
     }
   }
 
