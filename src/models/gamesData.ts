@@ -1,15 +1,19 @@
-export type GamesId = GamesDetailRow['game'];
+export type GamesId = GamesDetailRow['code'];
 
-export interface GamesDetailRow extends Record<string, string | number> {
-	game: string;
-	year: number;
-	season: string;
-	title: string;
-	emblem: string;
-	host: string;
-	numAthletes: number;
-	startDate: string;
-	endDate: string;
+type PartialGamesList = {
+  code: string;
+  year: number;
+  host: string;
+  season: string;
+  edition: string;
+  pageName: string;
+};
+
+export interface GamesDetailRow extends PartialGamesList {
+  title: string;
+  numAthletes: number;
+  startDate: string;
+  endDate: string;
 }
 
-export type GamesEmblemMap = Record<GamesId, GamesDetailRow['emblem']>;
+export type GamesEmblemMap = Record<GamesId, string>;
