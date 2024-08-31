@@ -1,23 +1,46 @@
 import type { GamesId } from './gamesData';
 
-export type SportId = SportDetailRow['sport'];
+import type SportsList from '../../json/sportsDetail2.json';
 
-export interface SportDetailRow extends Record<string, string> {
-	sport: string;
-	name: string;
-	icon: string;
+export type SportId = SportDetailRow['code'];
+
+type BaseSport = {
+  code: (typeof SportsList)[number]['code'];
+  name: string;
+};
+
+interface SportDiscipline extends BaseSport {
+  category: 'discipline';
+  parent: string;
+  status: string;
+  season?: string;
 }
 
-export interface SportsEventRow extends Record<string, string | Partial<SportsEventWinners>> {
-	game: GamesId;
-	sport: SportId;
-	events: Partial<SportsEventWinners>;
+interface SportParentSport extends BaseSport {
+  category: 'sport';
+  status: string;
+  season?: string;
+}
+
+interface SportGeneral extends BaseSport {
+  category: 'general';
+}
+
+type Sport = SportDiscipline | SportParentSport | SportGeneral;
+
+export type SportDetailRow = Sport;
+
+export interface SportsEventRow
+  extends Record<string, string | Partial<SportsEventWinners>> {
+  game: GamesId;
+  sport: SportId;
+  events: Partial<SportsEventWinners>;
 }
 
 interface SportsEventWinners extends Record<string, string[]> {
-	gold: string[];
-	silver: string[];
-	bronze: string[];
+  gold: string[];
+  silver: string[];
+  bronze: string[];
 }
 
-export type SportsIconMap = Record<SportId, SportDetailRow['icon']>;
+export type SportsIconMap = Record<SportId, string>;
