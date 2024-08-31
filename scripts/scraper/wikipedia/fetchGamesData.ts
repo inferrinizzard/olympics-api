@@ -1,14 +1,7 @@
-import { JSDOM } from 'jsdom';
+import wiki from 'wikipedia';
 import anyDateParser from 'any-date-parser';
 
 import type { PartialGamesList } from '../../../src/models';
-import Wikipedia from './wikipedia-api';
-
-const getInfobox = (html: string) => {
-  const dom = new JSDOM(html);
-  const infobox = dom.window.document.querySelector('table.infobox');
-  return infobox as HTMLTableElement;
-};
 
 const extractValue = (
   infoboxMap: Record<string, string>,
@@ -25,40 +18,15 @@ const extractValue = (
   };
 };
 
-const extractGamesTitle = (infobox: HTMLTableElement) =>
-  infobox.querySelector('caption')?.textContent ?? '';
-const extractGamesImageUrl = (infobox: HTMLTableElement) =>
-  infobox
-    .querySelector('td.infobox-image')
-    ?.getElementsByTagName('a')
-    .item(0)
-    ?.getAttribute('href') ?? '';
-
-const extractInfoboxRowsMap = (infobox: HTMLTableElement) =>
-  [...infobox.rows].reduce((map, row) => {
-    const key = row.cells[0].textContent?.toLowerCase();
-    const value = row.cells[1]?.textContent ?? '';
-
-    if (!key) {
-      return map;
-    }
-
-    map[key] = value;
-    return map;
-  }, {} as Record<string, string>);
-
 export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
-  const gamesPageUrl = Wikipedia.getPageUrl(games.pageName);
+  const gamesPage = await wiki.page(games.pageName);
+  const gamesInfobox = await gamesPage.infobox();
 
-  const gamesPageHtml = await Wikipedia.getPageHtml(gamesPageUrl);
-  const infoboxElement = getInfobox(gamesPageHtml);
-  const infoboxMap = extractInfoboxRowsMap(infoboxElement);
-
-  const title = extractGamesTitle(infoboxElement);
-  const image = extractGamesImageUrl(infoboxElement);
+  const image = gamesInfobox.image;
+  const motto = gamesInfobox.motto;
 
   const numAthletes = extractValue(
-    infoboxMap,
+    gamesInfobox,
     'athletes',
     'numAthletes',
     (value: string) =>
@@ -66,7 +34,7 @@ export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
       Number.parseInt(value.replaceAll(/,/g, '')).toString()
   );
   const startDate = extractValue(
-    infoboxMap,
+    gamesInfobox,
     'opening',
     'startDate',
     (value: string) => {
@@ -77,7 +45,7 @@ export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
     }
   );
   const endDate = extractValue(
-    infoboxMap,
+    gamesInfobox,
     'closing',
     'endDate',
     (value: string) => {
@@ -88,5 +56,12 @@ export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
     }
   );
 
-  return { ...games, title, image, ...numAthletes, ...startDate, ...endDate };
+  return {
+    ...games,
+    image,
+    motto,
+    ...numAthletes,
+    ...startDate,
+    ...endDate,
+  };
 };

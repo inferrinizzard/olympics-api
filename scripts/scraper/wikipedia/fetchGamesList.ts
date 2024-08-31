@@ -1,7 +1,6 @@
+import wiki from 'wikipedia';
 import { JSDOM } from 'jsdom';
 import latinize from 'latinize';
-
-import Wikipedia from './wikipedia-api';
 
 const parseUtils = {
   findColThWithText: (text: RegExp | string) => (node: HTMLElement) =>
@@ -16,12 +15,10 @@ const parseUtils = {
 const extractOlympicsTemplateTableRows = async (): Promise<
   HTMLTableRowElement[]
 > => {
-  const olympicsTemplateUrl =
-    'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Template%3AOlympic_Games&prop=text&disabletoc=1&formatversion=2';
+  const olympicsTemplatePage = await wiki.page('Template:Olympic_Games');
+  const olympicsTemplateHtml = await olympicsTemplatePage.html();
 
-  const olympicsResponse = await Wikipedia.getPageHtml(olympicsTemplateUrl);
-
-  const document = new JSDOM(olympicsResponse).window.document;
+  const document = new JSDOM(olympicsTemplateHtml).window.document;
 
   const allRows = [...document.getElementsByTagName('tr')];
   const subTables = allRows.filter(
@@ -70,14 +67,10 @@ const extractOlympicsTemplateTableRows = async (): Promise<
 const extractParalympicsTemplateTableRows = async (): Promise<
   HTMLTableRowElement[]
 > => {
-  const paralympicsTemplateUrl =
-    'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=Template%3AParalympic_Games&prop=text&disabletoc=1&formatversion=2';
+  const paralympicsTemplatePage = await wiki.page('Template:Paralympic_Games');
+  const paralympicsTemplateHtml = await paralympicsTemplatePage.html();
 
-  const paralympicsResponse = await Wikipedia.getPageHtml(
-    paralympicsTemplateUrl
-  );
-
-  const document = new JSDOM(paralympicsResponse).window.document;
+  const document = new JSDOM(paralympicsTemplateHtml).window.document;
 
   const allTables = [...document.getElementsByTagName('table')];
 
