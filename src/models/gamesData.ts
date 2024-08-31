@@ -1,6 +1,6 @@
 export type GamesId = GamesDetailRow['code'];
 
-type PartialGamesList = {
+export type PartialGamesList = {
   code: string;
   year: number;
   host: string;
