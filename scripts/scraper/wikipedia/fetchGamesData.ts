@@ -25,7 +25,9 @@ export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
   });
   const gamesInfobox = gamesPage._infobox;
 
-  const image = gamesInfobox.image;
+  const image = gamesPage._images.find(
+    (image) => image.title.includes('logo') || image.title.includes('poster')
+  )?.url;
   const motto = gamesInfobox.motto;
 
   const numAthletes = extractValue(
