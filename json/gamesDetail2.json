@@ -6,9 +6,10 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1896_Summer_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Athens_1896_report_cover.jpg",
     "numAthletes": "NaN",
-    "startDate": "Gregorian Calendar",
-    "endDate": "Gregorian Calendar"
+    "startDate": "FIX:\"Gregorian Calendar\"",
+    "endDate": "FIX:\"Gregorian Calendar\""
   },
   {
     "code": "1900_paris",
@@ -17,6 +18,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1900_Summer_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/1900_Olympic_Games_Poster_Paris.jpg",
     "numAthletes": "NaN",
     "startDate": "1900-06-14",
     "endDate": "1900-11-28"
@@ -40,6 +42,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1908_Summer_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Olympic_games_1908_London.jpg",
     "numAthletes": "2008",
     "startDate": "1908-05-27",
     "endDate": "1908-12-01"
@@ -51,6 +54,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1912_Summer_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/1912_Summer_Olympics_poster.jpg",
     "numAthletes": "2406",
     "startDate": "1912-08-06",
     "endDate": "1912-08-22"
@@ -62,7 +66,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1916_Summer_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Poster_for_Amsterdam%27s_Summer_Olympics_bid_in_1916.jpg"
   },
   {
     "code": "1920_antwerp",
@@ -95,7 +99,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1928_Summer_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/49/1928-summer-oympics-poster.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/1928_Olympics_poster.jpg",
     "numAthletes": "2883",
     "startDate": "1928-08-28",
     "endDate": "1928-09-12"
@@ -120,7 +124,7 @@
     "edition": "olympics",
     "pageName": "1936_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/1936_Summer_Olympics_logo.svg",
-    "motto": "pb}}({{lang-de",
+    "motto": "I Call the Youth of the World!(German: Ich rufe die Jugend der Welt!)",
     "numAthletes": "3963",
     "startDate": "1936-09-01",
     "endDate": "1936-09-16"
@@ -132,7 +136,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1940_Summer_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Poster_Olympische_Sommerspiele_Tokio_1940.jpg"
   },
   {
     "code": "1944_london",
@@ -141,7 +145,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1944_Summer_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": ""
   },
   {
     "code": "1948_london",
@@ -198,6 +202,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1964_Summer_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tokyo_1964_Summer_Olympics_logo.svg",
     "numAthletes": "5137",
     "startDate": "1964-11-10",
     "endDate": "1964-11-24"
@@ -209,6 +214,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1968_Summer_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/1968_Mexico_emblem.svg",
     "numAthletes": "5516",
     "startDate": "1968-11-12",
     "endDate": "1968-11-27"
@@ -221,7 +227,7 @@
     "edition": "olympics",
     "pageName": "1972_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/1972_Summer_Olympics_logo.svg",
-    "motto": "German language",
+    "motto": "The Cheerful Games(German: Heitere Spiele)",
     "numAthletes": "7134",
     "startDate": "1972-09-26",
     "endDate": "1972-10-11"
@@ -245,6 +251,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "1980_Summer_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Emblem_of_the_1980_Summer_Olympics.svg",
     "numAthletes": "5256",
     "startDate": "1980-08-19",
     "endDate": "1980-09-03"
@@ -270,7 +277,7 @@
     "edition": "olympics",
     "pageName": "1988_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/1988_Summer_Olympics_logo.svg",
-    "motto": "korean",
+    "motto": "Harmony and Progress(화합과 전진)",
     "numAthletes": "8453",
     "startDate": "1988-10-17",
     "endDate": "1988-11-02"
@@ -283,7 +290,7 @@
     "edition": "olympics",
     "pageName": "1992_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/1992_Summer_Olympics_logo.svg",
-    "motto": "Spanish language",
+    "motto": "Friends for Life(Spanish: Amigos para siempre, Catalan: Amics per sempre)",
     "numAthletes": "9386",
     "startDate": "1992-08-25",
     "endDate": "1992-09-09"
@@ -321,7 +328,8 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "2004_Summer_Olympics",
-    "motto": "lang-el",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e0/Athens_2004_logo.svg",
+    "motto": "Welcome Home(Greek: Καλώς ήρθατε σπίτι, romanized: Kalós írthate spíti)",
     "numAthletes": "10557",
     "startDate": "2004-09-13",
     "endDate": "2004-09-29"
@@ -334,7 +342,7 @@
     "edition": "olympics",
     "pageName": "2008_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/87/2008_Summer_Olympics_logo.svg",
-    "motto": "zh",
+    "motto": "One World, One Dream(同一个世界 同一个梦想; Tóng yīge shìjìe tóng yīge mèngxiǎng)",
     "numAthletes": "10899",
     "startDate": "2008-09-08",
     "endDate": "2008-09-24"
@@ -360,7 +368,7 @@
     "edition": "olympics",
     "pageName": "2016_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/d/df/2016_Summer_Olympics_logo.svg",
-    "motto": "lang-pt",
+    "motto": "A New World(Portuguese: Um mundo novo)",
     "numAthletes": "11180",
     "startDate": "2016-09-05",
     "endDate": "2016-09-21"
@@ -373,10 +381,10 @@
     "edition": "olympics",
     "pageName": "2020_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/2020_Summer_Olympics_logo_new.svg",
-    "motto": "United by Emotion",
+    "motto": "United by Emotion[b]",
     "numAthletes": "11319",
-    "startDate": "date",
-    "endDate": "date"
+    "startDate": "FIX:\"date\"",
+    "endDate": "FIX:\"date\""
   },
   {
     "code": "2024_paris",
@@ -386,7 +394,7 @@
     "edition": "olympics",
     "pageName": "2024_Summer_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/2024_Summer_Olympics_logo.svg",
-    "motto": "lang-fr",
+    "motto": "Games Wide Open (French: Ouvrons Grand les Jeux)[1][2]",
     "numAthletes": "10714",
     "startDate": "2024-08-26",
     "endDate": "2024-09-11"
@@ -398,9 +406,8 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "2028_Summer_Olympics",
-    "startDate": {
-      "date": "2028-07-14T00:00:00.000Z"
-    },
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/2028_Summer_Olympics_Logo.svg",
+    "startDate": "2028-07-14",
     "endDate": "2028-08-30"
   },
   {
@@ -410,10 +417,8 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "2032_Summer_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "startDate": {
-      "date": "2032-07-23T00:00:00.000Z"
-    },
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/2032_Summer_Olympics_Placeholder_Logo.svg",
+    "startDate": "2032-07-23",
     "endDate": "2032-09-08"
   },
   {
@@ -423,7 +428,7 @@
     "season": "summer",
     "edition": "olympics",
     "pageName": "2036_Summer_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Olympics.svg"
   },
   {
     "code": "1924_chamonix",
@@ -432,7 +437,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "1924_Winter_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/1924WOlympicPoster.jpg",
     "numAthletes": "258",
     "startDate": "1924-02-25",
     "endDate": "1924-03-05"
@@ -456,7 +461,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "1932_Winter_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/1932_Winter_Olympics.svg",
     "numAthletes": "252",
     "startDate": "1932-03-04",
     "endDate": "1932-03-13"
@@ -468,6 +473,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "1936_Winter_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/1936_Winter_Olympics.svg",
     "numAthletes": "646",
     "startDate": "1936-03-06",
     "endDate": "1936-03-16"
@@ -479,7 +485,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "1940_Winter_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": ""
   },
   {
     "code": "1944_cortina-d-ampezzo",
@@ -488,7 +494,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "1944_Winter_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": ""
   },
   {
     "code": "1948_st-moritz",
@@ -509,6 +515,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "1952_Winter_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/65/1952_Winter_Olympics.svg",
     "numAthletes": "694",
     "startDate": "1952-03-14",
     "endDate": "1952-03-25"
@@ -568,7 +575,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "1972_Winter_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/1972_Winter_Olympics.svg",
     "numAthletes": "1006",
     "startDate": "1972-03-03",
     "endDate": "1972-03-13"
@@ -617,7 +624,7 @@
     "edition": "olympics",
     "pageName": "1988_Winter_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/6/64/1988_Winter_Olympics_logo.svg",
-    "motto": "lang-fr",
+    "motto": "Come Together in Calgary(French: Rassemblez-vous à Calgary)",
     "numAthletes": "1423",
     "startDate": "1988-03-13",
     "endDate": "1988-03-28"
@@ -630,7 +637,7 @@
     "edition": "olympics",
     "pageName": "1992_Winter_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/1992_Winter_Olympics_logo.svg",
-    "motto": "lang-en",
+    "motto": "Savoie en Fête(English: Party in Savoie)[1]",
     "numAthletes": "1801",
     "startDate": "1992-03-08",
     "endDate": "1992-03-23"
@@ -643,7 +650,7 @@
     "edition": "olympics",
     "pageName": "1994_Winter_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/9/96/1994_Winter_Olympics_logo.svg",
-    "motto": "Norwegian language",
+    "motto": "Fire in your heart(Norwegian: Se ilden lyse)",
     "numAthletes": "1737",
     "startDate": "1994-03-12",
     "endDate": "1994-03-27"
@@ -656,7 +663,7 @@
     "edition": "olympics",
     "pageName": "1998_Winter_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/1998_Winter_Olympics_logo.svg",
-    "motto": "Japanese language",
+    "motto": "Coexistence with Nature(Japanese: 自然との共存, Shizen to no Kyōzon)",
     "numAthletes": "2176",
     "startDate": "1998-03-07",
     "endDate": "1998-03-22"
@@ -668,6 +675,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "2002_Winter_Olympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/2002_Winter_Olympics_logo.svg",
     "motto": "Light the Fire Within",
     "numAthletes": "2399",
     "startDate": "2002-03-08",
@@ -680,7 +688,8 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "2006_Winter_Olympics",
-    "motto": "Italian language",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Torino_2006_logo.svg",
+    "motto": "Passion Lives Here(Italian: La passione vive qui)",
     "numAthletes": "2494",
     "startDate": "2006-03-10",
     "endDate": "2006-03-26"
@@ -693,7 +702,7 @@
     "edition": "olympics",
     "pageName": "2010_Winter_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/2010_Winter_Olympics_logo.svg",
-    "motto": "O Canada",
+    "motto": "With Glowing Hearts(French: Des plus brillants exploits)",
     "numAthletes": "2626",
     "startDate": "2010-03-12",
     "endDate": "2010-03-28"
@@ -705,7 +714,8 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "2014_Winter_Olympics",
-    "motto": "lang-ru",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sochi_2014_%28Emblem%29.svg",
+    "motto": "Hot. Cool. Yours.(Russian: Жаркие. Зимние. Твои., Zharkie. Zimnie. Tvoi)",
     "numAthletes": "2873",
     "startDate": "2014-03-07",
     "endDate": "2014-03-23"
@@ -717,11 +727,8 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "2018_Winter_Olympics",
-    "motto": [
-      "Passion. Connected.",
-      "({{lang-ko",
-      "하나된 열정"
-    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/PyeongChang_2018_Winter_Olympics.svg",
+    "motto": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}Passion. Connected.(Korean: 하나된 열정; Hanadoen Yeoljeong)",
     "numAthletes": "2922",
     "startDate": "2018-03-09",
     "endDate": "2018-03-25"
@@ -734,13 +741,7 @@
     "edition": "olympics",
     "pageName": "2022_Winter_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/2022_Winter_Olympics_official_logo-en.svg",
-    "motto": [
-      "Together for a Shared Future",
-      "({{zh",
-      "s=一起向未来",
-      "p=Yīqǐ xiàng wèilái",
-      "labels=no"
-    ],
+    "motto": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}Together for a Shared Future(一起向未来; Yīqǐ xiàng wèilái)",
     "numAthletes": "2871",
     "startDate": "2022-03-04",
     "endDate": "2022-03-20"
@@ -753,12 +754,8 @@
     "edition": "olympics",
     "pageName": "2026_Winter_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/2026_Winter_Olympics_logo.svg",
-    "motto": [
-      "lang"
-    ],
-    "startDate": {
-      "date": "2026-02-06T00:00:00.000Z"
-    },
+    "motto": "Sognando insieme[citation needed] (English: Dreaming together)",
+    "startDate": "2026-02-06",
     "endDate": "2026-03-22"
   },
   {
@@ -768,10 +765,8 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "2030_Winter_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "startDate": {
-      "date": "2030-02-01T00:00:00.000Z"
-    },
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/26/French_Alps_2030.png",
+    "startDate": "2030-02-01",
     "endDate": "2030-03-17"
   },
   {
@@ -781,7 +776,7 @@
     "season": "winter",
     "edition": "olympics",
     "pageName": "2034_Winter_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/Salt_Lake_City_Utah_2034.png",
     "startDate": "2034-03-10",
     "endDate": "2034-03-26"
   },
@@ -792,7 +787,8 @@
     "season": "summer",
     "edition": "youth",
     "pageName": "2010_Summer_Youth_Olympics",
-    "motto": "Blazing the Trail",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Singapore_Youth_Olympics_2010.svg",
+    "motto": "Blazing the Trail[1]",
     "numAthletes": "3524",
     "startDate": "2010-09-14",
     "endDate": "2010-09-26"
@@ -804,7 +800,8 @@
     "season": "summer",
     "edition": "youth",
     "pageName": "2014_Summer_Youth_Olympics",
-    "motto": "zh",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/Nanjing_Youth_Olympics_2014.svg",
+    "motto": "Share the Games, Share our dreams(Chinese: 分享青春, 共筑未来; pinyin: Fēnxiǎng qīngchūn, gòng zhù wèilái; lit. 'Share our youth', 'build our future together')",
     "numAthletes": "3579",
     "startDate": "2014-09-16",
     "endDate": "2014-09-28"
@@ -816,7 +813,8 @@
     "season": "summer",
     "edition": "youth",
     "pageName": "2018_Summer_Youth_Olympics",
-    "motto": "Spanish language",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/cd/Buenos_Aires_Youth_Olympics_2018.svg",
+    "motto": "Feel the future(Spanish: Viví el futuro)[1]",
     "numAthletes": "3997",
     "startDate": "2018-11-06",
     "endDate": "2018-11-18"
@@ -828,8 +826,9 @@
     "season": "summer",
     "edition": "youth",
     "pageName": "2026_Summer_Youth_Olympics",
-    "motto": "French language",
-    "numAthletes": "NaN",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Dakar_2026_Summer_Youth_Olympic_Games.svg",
+    "motto": "Africa welcomes, Dakar celebrates  (French: L'Afrique acceuille, Dakar célèbre)  (Wolof: Afrig dalal, Ndakaaru jëmël)",
+    "numAthletes": "4564",
     "startDate": "2026-12-01",
     "endDate": "2026-12-13"
   },
@@ -840,7 +839,8 @@
     "season": "winter",
     "edition": "youth",
     "pageName": "2012_Winter_Youth_Olympics",
-    "motto": "German language",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/93/2012_Summer_Youth_Olympics.svg",
+    "motto": "Be part of it(German: Teil sein ist alles)",
     "numAthletes": "1059",
     "startDate": "2012-02-13",
     "endDate": "2012-02-22"
@@ -853,8 +853,8 @@
     "edition": "youth",
     "pageName": "2016_Winter_Youth_Olympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/2016_Winter_Youth_Olympics_logo.svg",
-    "motto": "Norwegian language",
-    "numAthletes": "NaN",
+    "motto": "Go beyond. Create tomorrow.(Norwegian: Spreng grenser. Skap morgendagen.)",
+    "numAthletes": "1100",
     "startDate": "2016-03-12",
     "endDate": "2016-03-21"
   },
@@ -878,8 +878,8 @@
     "season": "winter",
     "edition": "youth",
     "pageName": "2024_Winter_Youth_Olympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "motto": "lang-ko",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/37/Gangwon_2024_Winter_Youth_Olympic_Games.svg",
+    "motto": "Grow Together, Shine Forever[1] (Korean: 함께할 때 빛나는 우리, Hamkkehal Ttae Bichnaneun Uli)",
     "numAthletes": "1803",
     "startDate": "2024-02-19",
     "endDate": "2024-03-01"
@@ -891,7 +891,8 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1960_Summer_Paralympics",
-    "numAthletes": "NaN",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/ISMG_1960_%26_1964.jpg",
+    "numAthletes": "400",
     "startDate": "1960-10-18",
     "endDate": "1960-10-25"
   },
@@ -902,6 +903,7 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1964_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Paralympic_Tokyo_1964.gif",
     "numAthletes": "375",
     "startDate": "1964-12-03",
     "endDate": "1964-12-12"
@@ -913,6 +915,7 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1968_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/90/Tel_Aviv_1968_Paralympics.jpg",
     "numAthletes": "750",
     "startDate": "1968-12-04",
     "endDate": "1968-12-13"
@@ -924,6 +927,7 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1972_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Heidelberg_Paralympic_Games_in_1972_1970_%28JOKAJUK3B_A-1%29.tif",
     "numAthletes": "1004",
     "startDate": "1972-09-02",
     "endDate": "1972-09-11"
@@ -935,6 +939,7 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1976_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/98/1976_Paralympics_Toronto.jpg",
     "numAthletes": "1657",
     "startDate": "1976-09-03",
     "endDate": "1976-09-11"
@@ -958,9 +963,10 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1984_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/45/New_York_1984_Paralympics.jpg",
     "numAthletes": "1800",
-    "startDate": "17 June (USA),22 July (GBR)",
-    "endDate": "30 June (USA),1 August (GBR)"
+    "startDate": "FIX:\"17 June (USA),22 July (GBR)\"",
+    "endDate": "FIX:\"30 June (USA),1 August (GBR)\""
   },
   {
     "code": "1988_seoul",
@@ -969,7 +975,8 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1988_Summer_Paralympics",
-    "motto": "korean",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/1988_Summer_Paralympics.jpg",
+    "motto": "United for the Challenge(Korean: 도전을 위한 화합; RR: Dojeon-eul Wihan Hwahab)",
     "numAthletes": "3057",
     "startDate": "1988-11-15",
     "endDate": "1988-11-24"
@@ -981,11 +988,11 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "1992_Summer_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "motto": "lang-ca",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/59/1992_Summer_Paralympics_logo.png",
+    "motto": "Sport Without Limits(Catalan: Esport Sense Límits)(Spanish: Deporte Sin Límites)",
     "numAthletes": "3020",
-    "startDate": "3 September (BCN),15 September (MAD)",
-    "endDate": "14 September (BCN),22 September (MAD)"
+    "startDate": "FIX:\"3 September (BCN),15 September (MAD)\"",
+    "endDate": "FIX:\"14 September (BCN),22 September (MAD)\""
   },
   {
     "code": "1996_atlanta",
@@ -1020,8 +1027,8 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "2004_Summer_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "motto": "lang-el",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/07/2004_Summer_Paralympics_logo.png",
+    "motto": "Great Athletes. Great Performances.(Greek: Μεγάλοι Αθλητές. Μεγάλες Επιδόσεις.)",
     "numAthletes": "3806",
     "startDate": "2004-10-17",
     "endDate": "2004-10-28"
@@ -1034,7 +1041,7 @@
     "edition": "paralympics",
     "pageName": "2008_Summer_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Beijing_2008_Paralympics_logo.svg",
-    "motto": "Chinese language",
+    "motto": "One World, One Dream(Chinese: 同一个世界 同一个梦想 pinyin: Tóng yīge shìjìe tóng yīge mèngxiǎng)",
     "numAthletes": "3951",
     "startDate": "2008-10-06",
     "endDate": "2008-10-17"
@@ -1046,6 +1053,7 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "2012_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/London_Paralympics_2012.svg",
     "motto": "Inspire a Generation",
     "numAthletes": "4302",
     "startDate": "2012-09-29",
@@ -1059,7 +1067,7 @@
     "edition": "paralympics",
     "pageName": "2016_Summer_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/2016_Summer_Paralympics_logo.svg",
-    "motto": "lang-pt",
+    "motto": "A new world(Portuguese: Um mundo novo)",
     "numAthletes": "4342",
     "startDate": "2016-10-07",
     "endDate": "2016-10-18"
@@ -1072,7 +1080,7 @@
     "edition": "paralympics",
     "pageName": "2020_Summer_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/b/b5/2020_Summer_Paralympics_logo_new.svg",
-    "motto": "United by Emotion",
+    "motto": "United by Emotion[a]",
     "numAthletes": "4403",
     "startDate": "2020-09-24",
     "endDate": "2020-10-05"
@@ -1085,7 +1093,7 @@
     "edition": "paralympics",
     "pageName": "2024_Summer_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/c/ce/2024_Summer_Paralympics_logo.svg",
-    "motto": "lang-fr",
+    "motto": "Games Wide Open To Shock Content (French: Ouvrons Grand les Jeux)[1][2]",
     "numAthletes": "4463",
     "startDate": "2024-09-28",
     "endDate": "2024-10-08"
@@ -1097,6 +1105,7 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "2028_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/LA_2028_Paralympic_logo.svg",
     "startDate": "2028-09-15",
     "endDate": "2028-09-27"
   },
@@ -1107,6 +1116,7 @@
     "season": "summer",
     "edition": "paralympics",
     "pageName": "2032_Summer_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/2032_Summer_Olympics_Placeholder_Logo.svg",
     "startDate": "2032-09-24",
     "endDate": "2032-10-05"
   },
@@ -1117,6 +1127,7 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "1976_Winter_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/%C3%96rnsk%C3%B6ldsvik_1976_Paralympics_logo.png",
     "numAthletes": "196",
     "startDate": "1976-03-21",
     "endDate": "1976-03-28"
@@ -1128,6 +1139,7 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "1980_Winter_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Geilo_1980_Paralympics_logo.png",
     "numAthletes": "299",
     "startDate": "1980-03-01",
     "endDate": "1980-03-07"
@@ -1139,6 +1151,7 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "1984_Winter_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/IPC_logo_%282019%29.svg",
     "numAthletes": "419",
     "startDate": "1984-02-14",
     "endDate": "1984-02-20"
@@ -1150,7 +1163,7 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "1988_Winter_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Paralympics_logo_1988-94.svg",
     "numAthletes": "377",
     "startDate": "1988-02-17",
     "endDate": "1988-02-24"
@@ -1162,6 +1175,7 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "1992_Winter_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Paralympics_logo_1988-94.svg",
     "numAthletes": "365",
     "startDate": "1992-04-25",
     "endDate": "1992-05-01"
@@ -1174,7 +1188,7 @@
     "edition": "paralympics",
     "pageName": "1994_Winter_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/89/1994_Winter_Paralympics_logo.svg",
-    "motto": "Norwegian language",
+    "motto": "No Limits(Norwegian: Ingen Grenser)",
     "numAthletes": "471",
     "startDate": "1994-04-10",
     "endDate": "1994-04-19"
@@ -1187,7 +1201,7 @@
     "edition": "paralympics",
     "pageName": "1998_Winter_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/1/19/1998_Winter_Paralympics_logo.svg",
-    "motto": "Fureai",
+    "motto": "Fureai and Inspiration(Japanese: ふれあいと感)",
     "numAthletes": "571",
     "startDate": "1998-04-05",
     "endDate": "1998-04-14"
@@ -1199,6 +1213,7 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2002_Winter_Paralympics",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/cd/2002_Winter_Paralympics_Logo.svg",
     "motto": "Mind, Body, Spirit",
     "numAthletes": "416",
     "startDate": "2002-04-07",
@@ -1211,7 +1226,8 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2006_Winter_Paralympics",
-    "motto": "Italian language",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Paralympics_Torino_2006_logo.svg",
+    "motto": "Passion lives here(Italian: La passione vive qui)",
     "numAthletes": "486",
     "startDate": "2006-04-10",
     "endDate": "2006-04-19"
@@ -1223,8 +1239,8 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2010_Winter_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "motto": "O Canada",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Vancouver_2010_Paralympics_logo.svg",
+    "motto": "With Glowing Hearts(French: Des plus brillants exploits)",
     "numAthletes": "506",
     "startDate": "2010-04-12",
     "endDate": "2010-04-21"
@@ -1236,8 +1252,8 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2014_Winter_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "motto": "Russian language",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f4/2014_Sochi_Paralympics.svg",
+    "motto": "Hot. Cool. Yours.(Russian: Жаркие. Зимние. Твои.)",
     "numAthletes": "550",
     "startDate": "2014-04-07",
     "endDate": "2014-04-16"
@@ -1249,8 +1265,8 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2018_Winter_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg",
-    "motto": "lang-ko",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/PyeongChang_2018_Winter_Paralympics.svg",
+    "motto": "Passion. Connected.(Korean: 하나된 열정.)",
     "numAthletes": "569",
     "startDate": "2018-04-09",
     "endDate": "2018-04-18"
@@ -1263,11 +1279,7 @@
     "edition": "paralympics",
     "pageName": "2022_Winter_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/2022_Winter_Paralympics_logo_%28Full_art%29.svg",
-    "motto": [
-      "Together for a Shared Future",
-      "({{zh",
-      "s=一起向未来"
-    ],
+    "motto": ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}Together for a Shared Future(Chinese: 一起向未来)",
     "numAthletes": "564",
     "startDate": "2022-04-04",
     "endDate": "2022-04-13"
@@ -1280,7 +1292,7 @@
     "edition": "paralympics",
     "pageName": "2026_Winter_Paralympics",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/83/2026_Winter_Paralympics_logo.svg",
-    "motto": "lang-it",
+    "motto": "Dreaming Together (Italian: Sognando insieme)",
     "startDate": "2026-04-06",
     "endDate": "2026-04-15"
   },
@@ -1291,7 +1303,7 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2030_Winter_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/IPC_logo_%282019%29.svg"
   },
   {
     "code": "2034_salt-lake-city=utah",
@@ -1300,6 +1312,6 @@
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2034_Winter_Paralympics",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/IPC_logo_%282019%29.svg"
   }
 ]

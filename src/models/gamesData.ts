@@ -10,7 +10,7 @@ export type PartialGamesList = {
 };
 
 export interface GamesDetailRow extends PartialGamesList {
-  title: string;
+  motto?: string[];
   numAthletes: number;
   startDate: string;
   endDate: string;

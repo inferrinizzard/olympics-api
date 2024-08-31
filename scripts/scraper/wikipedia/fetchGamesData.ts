@@ -25,14 +25,23 @@ const extractValue = (
   };
 };
 
-const dateProcessor = (value: string, year: number) => {
+const dateProcessor = (value: string | { date: Date }, year: number) => {
+  let date: Date;
+  if (typeof value !== 'string' && 'date' in value) {
+    date = value.date;
+  } else {
+    try {
+      const parsedDate = anyDateParser.attempt(value);
+      date = new Date();
+      date.setFullYear(year, parsedDate.month, parsedDate.day);
+    } catch {
+      return `FIX:${value}`;
+    }
+  }
   try {
-    const parsedDate = anyDateParser.attempt(value);
-    const date = new Date();
-    date.setFullYear(year, parsedDate.month, parsedDate.day);
     return date.toISOString().split('T')[0];
   } catch {
-    return value;
+    return `FIX:${JSON.stringify(value)}`;
   }
 };
 
@@ -41,26 +50,37 @@ const extractMottoFromInfoBox = (infobox: HTMLTableElement) => {
     (row) => row.cells[0].textContent?.toLowerCase() === 'motto'
   );
 
-  const mottoValueCell = mottoRow?.cells[1];
-  const mottoText = [
-    ...(mottoValueCell?.querySelectorAll('span[lang]') || []),
-    ...(mottoValueCell?.getElementsByTagName('i') || []),
-  ].flatMap((element) => element.textContent ?? []);
+  const mottoText = mottoRow?.cells[1].textContent;
 
-  return mottoText.length ? mottoText : undefined;
+  return mottoText;
+};
+
+const extractImageFromInfobox = (infobox: HTMLTableElement) => {
+  const imageElement = infobox.querySelector('img');
+  const src =
+    imageElement?.getAttribute('src')?.replace(/^[/]{2}/, 'https://') ?? '';
+
+  if (!src.includes('thumb')) {
+    return src;
+  }
+
+  const imageUrl = src
+    .replace(/[/]thumb[/]/, '/')
+    .split('/')
+    .slice(0, -1) // remove last segment after '/'
+    .join('/');
+  return imageUrl;
 };
 
 export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
   const gamesPage = await wiki.page(games.pageName, {
     preload: true,
-    fields: ['infobox', 'images', 'html'],
+    fields: ['infobox', 'html'],
   });
   const gamesInfobox = gamesPage._infobox;
   const gamesInfoBoxElement = getInfoboxElement(gamesPage._html);
 
-  const image = gamesPage._images.find(
-    (image) => image.title.includes('logo') || image.title.includes('poster')
-  )?.url;
+  const image = extractImageFromInfobox(gamesInfoBoxElement);
   const motto = extractMottoFromInfoBox(gamesInfoBoxElement);
 
   const numAthletes = extractValue(
@@ -68,7 +88,7 @@ export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
     'athletes',
     'numAthletes',
     (value: string) =>
-      value.match(/^([0-9]|(?:,))+/)?.[0]?.replaceAll(/,/g, '') ??
+      value.match(/([0-9,])+/)?.[0]?.replaceAll(/,/g, '') ??
       Number.parseInt(value.replaceAll(/,/g, '')).toString()
   );
   const startDate = extractValue(
