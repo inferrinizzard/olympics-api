@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
+import anyDateParser from 'any-date-parser';
 
-import gamesList from '../../../json/gamesList.json';
 import type { PartialGamesList } from '../../../src/models';
 import Wikipedia from './wikipedia-api';
 
@@ -47,7 +47,7 @@ const extractInfoboxRowsMap = (infobox: HTMLTableElement) =>
     return map;
   }, {} as Record<string, string>);
 
-const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
+export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
   const gamesPageUrl = Wikipedia.getPageUrl(games.pageName);
 
   const gamesPageHtml = await Wikipedia.getPageHtml(gamesPageUrl);
@@ -69,18 +69,24 @@ const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
     infoboxMap,
     'opening',
     'startDate',
-    (value: string) => value
+    (value: string) => {
+      const parsedDate = anyDateParser.attempt(value);
+      const date = new Date();
+      date.setFullYear(games.year, parsedDate.month, parsedDate.day);
+      return date.toISOString().split('T')[0];
+    }
   );
   const endDate = extractValue(
     infoboxMap,
     'closing',
     'endDate',
-    (value: string) => value
+    (value: string) => {
+      const parsedDate = anyDateParser.attempt(value);
+      const date = new Date();
+      date.setFullYear(games.year, parsedDate.month, parsedDate.day);
+      return date.toISOString().split('T')[0];
+    }
   );
 
   return { ...games, title, image, ...numAthletes, ...startDate, ...endDate };
 };
-
-//@ts-expect-error
-const out = await readGamesInfoBoxFromPage(gamesList[20]);
-console.log(out);
