@@ -2,7 +2,7 @@ export type GamesId = GamesDetailRow['code'];
 
 export type PartialGamesList = {
   code: string;
-  year: number;
+  year: number | string;
   host: string;
   season: string;
   edition: string;

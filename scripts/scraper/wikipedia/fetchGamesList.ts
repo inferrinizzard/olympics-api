@@ -107,18 +107,18 @@ const processRows = (...rowElements: HTMLTableRowElement[]) => {
     );
 
     for (const anchor of gamesAnchors) {
-      const currentText = anchor.textContent!;
+      const currentText = anchor.textContent ?? '';
 
       // const year = currentText.match(/^[0-9]{4}/)?.[0];
       const host = currentText.slice(4).trim();
 
-      const title = anchor.getAttribute('title')!;
+      const title = anchor.getAttribute('title') ?? '';
 
       const [year, season, edition, ...rest] = title.toLowerCase().split(' ');
 
       const pageName = anchor
-        .getAttribute('href')!
-        .replace(/wiki/, '')
+        .getAttribute('href')
+        ?.replace(/wiki/, '')
         .replace(/[/]/g, '');
 
       const cleanHost = latinize(host)

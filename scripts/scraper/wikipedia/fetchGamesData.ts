@@ -18,6 +18,17 @@ const extractValue = (
   };
 };
 
+const dateProcessor = (value: string, year: number) => {
+  try {
+    const parsedDate = anyDateParser.attempt(value);
+    const date = new Date();
+    date.setFullYear(year, parsedDate.month, parsedDate.day);
+    return date.toISOString().split('T')[0];
+  } catch {
+    return value;
+  }
+};
+
 export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
   const gamesPage = await wiki.page(games.pageName, {
     preload: true,
@@ -42,23 +53,13 @@ export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
     gamesInfobox,
     'opening',
     'startDate',
-    (value: string) => {
-      const parsedDate = anyDateParser.attempt(value);
-      const date = new Date();
-      date.setFullYear(games.year, parsedDate.month, parsedDate.day);
-      return date.toISOString().split('T')[0];
-    }
+    (value: string) => dateProcessor(value, +games.year)
   );
   const endDate = extractValue(
     gamesInfobox,
     'closing',
     'endDate',
-    (value: string) => {
-      const parsedDate = anyDateParser.attempt(value);
-      const date = new Date();
-      date.setFullYear(games.year, parsedDate.month, parsedDate.day);
-      return date.toISOString().split('T')[0];
-    }
+    (value: string) => dateProcessor(value, +games.year)
   );
 
   return {
