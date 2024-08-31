@@ -15,8 +15,11 @@ const parseUtils = {
 const extractOlympicsTemplateTableRows = async (): Promise<
   HTMLTableRowElement[]
 > => {
-  const olympicsTemplatePage = await wiki.page('Template:Olympic_Games');
-  const olympicsTemplateHtml = await olympicsTemplatePage.html();
+  const olympicsTemplatePage = await wiki.page('Template:Olympic_Games', {
+    preload: true,
+    fields: ['html'],
+  });
+  const olympicsTemplateHtml = olympicsTemplatePage._html;
 
   const document = new JSDOM(olympicsTemplateHtml).window.document;
 
@@ -67,8 +70,11 @@ const extractOlympicsTemplateTableRows = async (): Promise<
 const extractParalympicsTemplateTableRows = async (): Promise<
   HTMLTableRowElement[]
 > => {
-  const paralympicsTemplatePage = await wiki.page('Template:Paralympic_Games');
-  const paralympicsTemplateHtml = await paralympicsTemplatePage.html();
+  const paralympicsTemplatePage = await wiki.page('Template:Paralympic_Games', {
+    preload: true,
+    fields: ['html'],
+  });
+  const paralympicsTemplateHtml = paralympicsTemplatePage._html;
 
   const document = new JSDOM(paralympicsTemplateHtml).window.document;
 

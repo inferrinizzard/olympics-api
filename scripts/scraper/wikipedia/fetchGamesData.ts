@@ -19,8 +19,11 @@ const extractValue = (
 };
 
 export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {
-  const gamesPage = await wiki.page(games.pageName);
-  const gamesInfobox = await gamesPage.infobox();
+  const gamesPage = await wiki.page(games.pageName, {
+    preload: true,
+    fields: ['infobox', 'images'],
+  });
+  const gamesInfobox = gamesPage._infobox;
 
   const image = gamesInfobox.image;
   const motto = gamesInfobox.motto;
