@@ -62,7 +62,7 @@
   {
     "code": "AUS",
     "name": "Australia",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Flag_of_Australia.svg/320px-Flag_of_Australia.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
     "status": "active"
   },
   {
@@ -158,7 +158,7 @@
   {
     "code": "BRA",
     "name": "Brazil",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/320px-Flag_of_Brazil.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg",
     "status": "active"
   },
   {
@@ -398,7 +398,7 @@
   {
     "code": "FRA",
     "name": "France",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
     "status": "active"
   },
   {
@@ -422,7 +422,7 @@
   {
     "code": "GER",
     "name": "Germany",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
     "status": "active"
   },
   {
@@ -434,7 +434,7 @@
   {
     "code": "GBR",
     "name": "Great Britain",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
     "status": "active"
   },
   {
@@ -512,7 +512,7 @@
   {
     "code": "IND",
     "name": "India",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/320px-Flag_of_India.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
     "status": "active"
   },
   {
@@ -548,7 +548,7 @@
   {
     "code": "ITA",
     "name": "Italy",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
     "status": "active"
   },
   {
@@ -566,7 +566,7 @@
   {
     "code": "JPN",
     "name": "Japan",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
     "status": "active"
   },
   {
@@ -896,7 +896,7 @@
   {
     "code": "POL",
     "name": "Poland",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/320px-Flag_of_Poland.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
     "status": "active"
   },
   {
@@ -932,7 +932,7 @@
   {
     "code": "RUS",
     "name": "Russia",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/320px-Flag_of_Russia.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
     "status": "active"
   },
   {
@@ -1052,7 +1052,7 @@
   {
     "code": "ESP",
     "name": "Spain",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
     "status": "active"
   },
   {
@@ -1076,7 +1076,7 @@
   {
     "code": "SWE",
     "name": "Sweden",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/320px-Flag_of_Sweden.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
     "status": "active"
   },
   {
@@ -1190,7 +1190,7 @@
   {
     "code": "USA",
     "name": "United States",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "status": "active"
   },
   {
@@ -1268,7 +1268,7 @@
   {
     "code": "IPA",
     "name": "Independent Paralympic Athletes",
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/1/18/Paralympic_flag_%281994-2004%29.svg",
     "status": "special"
   },
   {
@@ -1430,7 +1430,7 @@
   {
     "code": "RU1",
     "name": "Russian Empire",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/320px-Flag_of_Russia.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
     "status": "historic"
   },
   {
@@ -1484,7 +1484,7 @@
   {
     "code": "FRG",
     "name": "West Germany",
-    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
     "status": "historic"
   },
   {
