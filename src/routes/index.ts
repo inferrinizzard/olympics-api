@@ -1,8 +1,8 @@
 import express from 'express';
 
-import { RegisterRoutes } from './routes.js';
+import { RegisterRoutes } from './routes';
 
-import swaggerRouter from './swagger.js';
+import swaggerRouter from './swagger';
 
 const router = express.Router();
 
