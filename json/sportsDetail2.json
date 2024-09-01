@@ -216,7 +216,7 @@
   },
   {
     "code": "DAN",
-    "name": "DanceSport",
+    "name": "Dance Sport",
     "category": "sport",
     "status": "active",
     "season": "summer"
@@ -874,7 +874,7 @@
   {
     "code": "SMT",
     "name": "Ski Mountaineering",
-    "sport": "sport",
+    "category": "sport",
     "status": "active",
     "season": "winter"
   },
