@@ -1,15 +1,8 @@
 import wiki from 'wikipedia';
-import { JSDOM } from 'jsdom';
 import anyDateParser from 'any-date-parser';
 
 import type { PartialGamesList } from '../../../src/models';
-import { extractImageFromInfobox } from './infobox';
-
-const getInfoboxElement = (html: string) => {
-  const dom = new JSDOM(html);
-  const infobox = dom.window.document.querySelector('table.infobox');
-  return infobox as HTMLTableElement;
-};
+import { extractImageFromInfobox, getInfoboxElement } from './infobox';
 
 const extractValue = (
   infoboxMap: Record<string, string>,
