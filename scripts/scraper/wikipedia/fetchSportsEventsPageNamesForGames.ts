@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import wiki from 'wikipedia';
 
-import gamesList from '../../../json/gamesList.json';
+import gamesDetail from '../../../json/gamesDetail2.json';
 
 const capitalize = (str: string) =>
   str.slice(0, 1).toUpperCase() + str.slice(1);
@@ -9,7 +9,7 @@ const capitalize = (str: string) =>
 export const fetchSportsEventsPageNamesForGames = async () => {
   const gamesSportsLinksMap = {} as Record<string, unknown>;
 
-  for (const games of gamesList) {
+  for (const games of gamesDetail) {
     const edition =
       games.edition === 'youth' ? 'Youth Olympics' : capitalize(games.edition);
 
