@@ -1332,7 +1332,7 @@
     "status": "special"
   },
   {
-    "code": "ROC2",
+    "code": "ROC",
     "name": "Russian Olympic Committee",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/0/02/Russian_Olympic_Committee_flag.png",
     "status": "special"
@@ -1416,7 +1416,7 @@
     "status": "historic"
   },
   {
-    "code": "ROC",
+    "code": "KMT",
     "name": "Republic of China",
     "flag": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg",
     "status": "historic"
