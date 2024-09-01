@@ -11,12 +11,17 @@ all_existing = ' '.join(existing)
 with open('./json/gamesDetail2.json') as f:
     games = json.load(f)
 
+print(existing)
 for game in games:
-    os.mkdir(f'./images/games/{game["code"]}')
-    old_image = next((g for g in existing if game['year'] in g and game['season'] in g), None)
+    code = game['code']
 
-    if not old_image is None:
-        shutil.move(f'./images/games/{old_image}', f'./images/games/{game["code"]}/emblem{old_image[-4:]}')
+    if not os.path.exists(f'./images/games/{code}'):
+        os.mkdir(f'./images/games/{code}')
+
+    existing_images_for_game = ' '.join(os.listdir(f'./images/games/{code}'))
+    if not 'emblem' in existing_images_for_game:
+        subprocess.run(['curl', game['image'], '--output', f'./images/games/{code}/emblem{game["image"][-4:]}'])
+    
 
 
 
