@@ -15,12 +15,18 @@ print(existing)
 for game in games:
     code = game['code']
 
-    if not os.path.exists(f'./images/games/{code}'):
-        os.mkdir(f'./images/games/{code}')
+    existing_images_for_game = os.listdir(f'./images/games/{code}')
+    emblem = next((image for image in existing_images_for_game if 'emblem' in image), None)
 
-    existing_images_for_game = ' '.join(os.listdir(f'./images/games/{code}'))
-    if not 'emblem' in existing_images_for_game:
-        subprocess.run(['curl', game['image'], '--output', f'./images/games/{code}/emblem{game["image"][-4:]}'])
+    if not emblem:
+        print('MISSING', code)
+        continue
+
+    if not emblem.endswith('svg'):
+        if(game['image'].endswith('svg')):
+            subprocess.run(['curl', game['image'], '--output', f'./images/games/{code}/emblem.svg'])
+        else:
+            print(code)
     
 
 
