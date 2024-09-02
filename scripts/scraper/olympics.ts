@@ -17,12 +17,12 @@ import type {
   CountryAttendanceRow,
 } from './types/index';
 
-import { readCountryDetail } from './wikipedia/old/countryDetailReader';
-import { readGamesDetail } from './wikipedia/old/gamesDetailReader';
-import { readSportsDetail } from './wikipedia/old/sportsDetailReader';
-import { readCountryAttendance } from './wikipedia/old/countryAttendanceReader';
-import { readCountryMedals } from './wikipedia/old/countryMedalsReader';
-import { readMedalTotals } from './wikipedia/old/medalTotalsReader';
+import { readCountryDetail } from './wikipedia/_old/countryDetailReader';
+import { readGamesDetail } from './wikipedia/_old/gamesDetailReader';
+import { readSportsDetail } from './wikipedia/_old/sportsDetailReader';
+import { readCountryAttendance } from './wikipedia/_old/countryAttendanceReader';
+import { readCountryMedals } from './wikipedia/_old/countryMedalsReader';
+import { readMedalTotals } from './wikipedia/_old/medalTotalsReader';
 
 export class Olympics {
   private olympicsCom!: OlympicsCom;

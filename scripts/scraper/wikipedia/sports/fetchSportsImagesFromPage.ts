@@ -1,10 +1,10 @@
-import { createWriteStream, writeFileSync } from 'fs';
+import { createWriteStream } from 'node:fs';
 import wiki from 'wikipedia';
 
 import sportsList from '@/json/final/sportsDetail.json';
 import sportsPages from '@/json/partial/gamesSportsLinksMap.json';
 
-import { extractImageFromInfobox, getInfoboxElement } from './infobox';
+import { extractImageFromInfobox, getInfoboxElement } from '../utils/infobox';
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
