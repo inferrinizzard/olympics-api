@@ -1,0 +1,626 @@
+{
+  "motto": [
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=666x10000:format=png/path/s293f5a94d3403280/image/i0d9f9932383d2d02/version/1677053429/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=642x10000:format=png/path/s293f5a94d3403280/image/iee78b0c22a883071/version/1677053321/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=642x10000:format=png/path/s293f5a94d3403280/image/ic689a73d4853da8f/version/1677053253/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=609x10000:format=png/path/s293f5a94d3403280/image/i4bd6e282a859b265/version/1568873883/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=684x10000:format=png/path/s293f5a94d3403280/image/i67326371da2f9644/version/1568873618/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=623x10000:format=png/path/s293f5a94d3403280/image/i74b62c6518e4d153/version/1568873905/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=745x10000:format=png/path/s293f5a94d3403280/image/i0bd64a8e4bbd1013/version/1568873195/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=706x10000:format=png/path/s293f5a94d3403280/image/id86d1d14c8b89b51/version/1568873190/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=628x10000:format=png/path/s293f5a94d3403280/image/id15d6edd8e75a8fc/version/1568873483/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=703x10000:format=png/path/s293f5a94d3403280/image/i00b285f6bff5a6d0/version/1568873184/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=674x10000:format=png/path/s293f5a94d3403280/image/i0db0f13b82d65c0a/version/1568873177/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=663x10000:format=png/path/s293f5a94d3403280/image/i9abf0e7e678c08f1/version/1568873469/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=741x10000:format=png/path/s293f5a94d3403280/image/i989e6a1127467fa5/version/1568874433/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=741x10000:format=png/path/s293f5a94d3403280/image/id13eb7b2ea945dc7/version/1568873162/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=png/path/s293f5a94d3403280/image/iaa99d8fb96e5d849/version/1568871854/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=715x10000:format=png/path/s293f5a94d3403280/image/i981c8ce06ac49cf9/version/1568873145/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=740x10000:format=png/path/s293f5a94d3403280/image/ic3ef0ab7ba953280/version/1568873140/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=778x10000:format=png/path/s293f5a94d3403280/image/i1f0b33c3fb5cdbdd/version/1568873134/image.png"
+    },
+    {
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=544x10000:format=png/path/s293f5a94d3403280/image/ifcb0a6e4ac27b51d/version/1569073322/image.png"
+    }
+  ],
+
+  "emblem": [
+    {
+      "href": "https://www.theolympicdesign.com/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=950x10000:format=png/path/s293f5a94d3403280/image/ic4e9ca1cda9ca9ae/version/1639598324/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/athens-1896/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=145x10000:format=png/path/s293f5a94d3403280/image/i048ffdda5af85a56/version/1568140604/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/paris-1900/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=145x10000:format=png/path/s293f5a94d3403280/image/i055661e6eb2fe07a/version/1568140620/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/st-louis-1904/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i9f4386e09db98b7d/version/1568140513/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/athens-1906/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=145x10000:format=png/path/s293f5a94d3403280/image/i80e8b6404a6e8965/version/1568129722/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/london-1908/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/i1a8a65fc096a4da0/version/1461918742/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/stockholm-1912/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=155x10000:format=png/path/s293f5a94d3403280/image/ic25bfca26f21174e/version/1568140546/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/berlin-1916/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/iccf9d62505854da6/version/1568131905/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/anvers-1920/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/i503041469cff5836/version/1461918767/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/chamonix-1924/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/i63f727cfb1c5c029/version/1461918771/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/paris-1924/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i3c3ac6e1954f0bb1/version/1568140664/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/st-moritz-1928/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/i42721820763e579e/version/1461918784/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/amsterdam-1928/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/i31c496c481c3f7e9/version/1461918789/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/lake-placid-1932/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/ia59c262e7d6c1d5a/version/1461918794/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/los-angeles-1932/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=159x10000:format=png/path/s293f5a94d3403280/image/i1dd4fe83b3844ff8/version/1461918803/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/garmisch-p-1936/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=124x10000:format=png/path/s293f5a94d3403280/image/i013860b3119b6ee6/version/1568140911/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/berlin-1936/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/i040c870077ea524a/version/1461918818/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/1940-1944/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ica4cb8688569de10/version/1568141008/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/1940-1944/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=108x10000:format=png/path/s293f5a94d3403280/image/ibbdd067c6ef5c644/version/1568141221/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/st-moritz-1948/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ia70e150a8d3d98ba/version/1568176458/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/london-1948/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=102x10000:format=png/path/s293f5a94d3403280/image/i1243bc1e0c07a3a5/version/1568143682/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/oslo-1952/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i4a35c7dda17b0f0f/version/1568143697/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/helsinki-1952/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i154f71fd2230fb73/version/1568143840/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/cortina-d-ampezzo-1956/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/iab639f9116e6ade9/version/1461918842/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/stockholm-1956/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=129x10000:format=png/path/s293f5a94d3403280/image/ia0bc6301148fffa8/version/1461918850/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/melbourne-1956/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i8300e829458356b1/version/1438784182/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/squaw-valley-1960/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=138x10000:format=png/path/s293f5a94d3403280/image/ibb933129db48d436/version/1568176877/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/rome-1960/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=150x10000:format=png/path/s293f5a94d3403280/image/i5614363a89832003/version/1438784201/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/innsbruck-1964/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i72e5acd8b07d6f2e/version/1460118675/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/tokyo-1964/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i00df48b809b1a140/version/1568178891/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/grenoble-1968/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i3124d8b558200fef/version/1438784262/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/mexico-1968/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=176x10000:format=png/path/s293f5a94d3403280/image/i68d480af917873dc/version/1461918865/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/sapporo-1972/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=54x10000:format=png/path/s293f5a94d3403280/image/i09c70687d5e5507c/version/1438784287/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/munich-1972/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i76fcf5f144211086/version/1699347012/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/innsbruck-1976/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i508f348d8a7f661c/version/1438784323/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/montreal-1976/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=140x10000:format=png/path/s293f5a94d3403280/image/i3f7cbe3160f2bb1a/version/1568181257/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/lake-placid-1980/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=141x10000:format=png/path/s293f5a94d3403280/image/i02f57fa02b44ac18/version/1568181642/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/moscow-1980/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i8d78683342f0901a/version/1568196152/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/sarajevo-1984/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i3a882de418050939/version/1568196139/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/los-angeles-1984/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i1fd7cae56bada962/version/1568196359/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/calgary-1988/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ie0c2f0cab24fa6bf/version/1568196423/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/seoul-1988/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=105x10000:format=png/path/s293f5a94d3403280/image/i85f29b94063accf8/version/1439916354/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/albertville-1992/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i463ff23f8901bf46/version/1699347033/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/barcelona-1992/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i028fa3b9acd2664c/version/1568127297/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/lillehammer-1994/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/if51d6dbedc8113a2/version/1568196118/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/atlanta-1996/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i60edff3e2a15708b/version/1568176676/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/nagano-1998/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=128x10000:format=png/path/s293f5a94d3403280/image/if3e924cb8010b3f7/version/1438784596/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/sydney-2000/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ib15db43a7047912c/version/1568196032/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/salt-lake-2002/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/iea5202aa24ea3a64/version/1568194669/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/athens-2004/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i0a5ed3dd191295b5/version/1568195938/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/torino-2006/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i77920119e11b0b18/version/1568195950/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/beijing-2008/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i4571d396f6e3e8eb/version/1568196573/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/vancouver-2010/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=131x10000:format=png/path/s293f5a94d3403280/image/i79679df5352d75cc/version/1439972003/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/london-2012/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ide3a318568db6c5a/version/1568226719/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/sochi-2014/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i274c784bd781e4ce/version/1568227361/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/rio-2016/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i5ba99e905dcbe7a9/version/1568228021/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/pyeongchang-2018/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i8c6cb6a70661b525/version/1460118632/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/tokyo-2020/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i3da8a9a3a96b7239/version/1544301219/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/beijing-2022/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i0d6bdd8e8f6850c0/version/1544301241/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/paris-2024/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i51f79a2b4ed2641c/version/1676992388/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/milano-cortina-2026/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ic2fc98f3165e1726/version/1677047519/image.png"
+    },
+    {
+      "href": "/olympic-games/emblems/los-angeles-2028/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/idf4c4cac103eaafb/version/1677047505/image.png"
+    },
+
+    {
+      "href": "https://www.theolympicdesign.com/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=950x10000:format=png/path/s293f5a94d3403280/image/ic4e9ca1cda9ca9ae/version/1639598324/image.png"
+    },
+    {
+      "href": "javascript:;",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=221x10000:format=png/path/s293f5a94d3403280/image/i5d9201501329a2af/version/1457619515/image.png"
+    },
+    {
+      "href": "javascript:;",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=220x10000:format=png/path/s293f5a94d3403280/image/i1d5550b38fcd773a/version/1457619553/image.png"
+    },
+    {
+      "href": "javascript:;",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=220x10000:format=png/path/s293f5a94d3403280/image/i71de4ef35435ba2e/version/1457619568/image.png"
+    },
+    {
+      "href": "javascript:;",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=221x10000:format=png/path/s293f5a94d3403280/image/icf1290931928d73c/version/1457619460/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/rome-1960/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/icb114ddd8ce9b554/version/1678297120/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/tokyo-1964/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i014d4f3f1043e263/version/1678297132/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/tel-aviv-1968/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i50fbd8b6d300667b/version/1678297166/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/heidelberg-1972/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i79b757e8366880c0/version/1678297179/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/örnsköldsvik-1976/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i8ea3402b09e489fe/version/1678297191/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/toronto-1976/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i23666975c174ea8d/version/1678297208/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/geilo-1980/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ib47e6f2985e42483/version/1678297223/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/arnhem-1980/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i90eb4c0233908f9c/version/1705391030/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/innsbruck-1984/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/iaed383a2cac2ca83/version/1678297249/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/new-york-1984/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/idaf617895e841538/version/1678297267/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/innsbruck-1988/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i3b5319cf8f57f579/version/1678297285/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/seoul-1988/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i48830c50801a6ddc/version/1678297297/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/tignes-albertville-1992/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i75b2d97aaf174f60/version/1678696375/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/barcelona-1992/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i21c7db13782f3b2a/version/1678297409/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/lillehammer-1994/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i2f1cd2582c2de903/version/1678297427/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/atlanta-1996/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ib731510cefde44ff/version/1678297443/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/nagano-1998/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i4c58db47ca603129/version/1678382894/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/sydney-2000/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/id4fb48ceed9aeb2d/version/1678297501/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/salt-lake-2002/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ib5236affd30b8026/version/1678297516/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/athens-2004/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i310f701e1cc2f2ec/version/1678297530/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/torino-2006/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i781b85a81dcf6cab/version/1678298772/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/beijing-2008/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i4789e5803c7ed171/version/1678298795/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/vancouver-2010/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/if0dbbf95b6ef5454/version/1678298817/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/london-2012/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=135x10000:format=png/path/s293f5a94d3403280/image/i43ca5e4f2139b3fb/version/1678298842/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/sochi-2014/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ie99a15d8b60b07f3/version/1678298864/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/rio-2016/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/iab1d3d363f910820/version/1678298882/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/pyeongchang-2018/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i855e02b3dc211911/version/1678298898/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/tokyo-2020/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/id100205626798a03/version/1678298917/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/beijing-2022/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/ib63a5b7a97d39dd5/version/1678299187/image.png"
+    },
+    {
+      "href": "/paralympics/emblems/paris-2024/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i9501a00795be906d/version/1678382988/image.png"
+    },
+    {
+      "href": "javascript:;",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i0b3c3c1c23ec596c/version/1639743979/image.png"
+    },
+    {
+      "href": "javascript:;",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i65d1b2bb0c7f55f5/version/1639743558/image.png"
+    },
+
+    {
+      "href": "singapore-2010",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i3adbed79a1a4c844/version/1678170594/image.jpg"
+    },
+
+    {
+      "href": "innsbruck-2012",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i46ee2410d1ea6d1b/version/1678172910/image.jpg"
+    },
+
+    {
+      "href": "nanjing-2014",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i00fdc1c8e34cfeb0/version/1678174410/image.jpg"
+    },
+
+    {
+      "href": "lillehammer-2016",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i3ff5123b5c083d23/version/1678175309/image.jpg"
+    },
+
+    {
+      "href": "buenos-aires-2018",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i91f7ff59fecb5c90/version/1678177313/image.jpg"
+    },
+
+    {
+      "href": "lausanne-2020",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i111dda0c203d0251/version/1678135455/image.jpg"
+    }
+  ],
+  "colourPalettes": [
+    {
+      "href": "https://www.theolympicdesign.com/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=950x10000:format=png/path/s293f5a94d3403280/image/ic4e9ca1cda9ca9ae/version/1639598324/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/mexico-1968/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/id60464074375c2bc/version/1437253427/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/munich-1972/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/ib25aeacfc988f2e3/version/1437244774/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/montreal-1976/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i54b9de44f8e0510e/version/1437244791/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/moscow-1980/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i9f1d919ffff802b3/version/1437393032/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/sarajevo-1984/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/ibf4bfbf6460e997e/version/1437244827/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/los-angeles-1984/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i26f2934a8bdad00f/version/1437244844/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/calgary-1988/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i10b636ea35c1719a/version/1437244859/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/seoul-1988/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/ied2175f6bf1af9e1/version/1437244878/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/albertville-1992/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/ib04ee9064e01f30b/version/1437244891/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/barcelona-1992/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i17ca7d6d417077ca/version/1437244901/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/lillehammer-1994/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i730f1a59c530f997/version/1437244920/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/atlanta-1996/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i0e7715d28e5e35cd/version/1437244935/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/nagano-1998/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i7e349ffde859f422/version/1437244948/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/sydney-2000/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i063f08830068a35d/version/1437244962/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/salt-lake-2002/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/iaa01e29cfdfc0b29/version/1437244973/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/athens-2004/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i0a6980189714bf54/version/1437245000/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/torino-2006/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i881de28b5b79801a/version/1437245019/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/beijing-2008/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i24e207af526b81c9/version/1437245035/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/vancouver-2010/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i175eaca681f7526a/version/1437245051/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/london-2012/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i0643953157ee4c38/version/1437245061/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/sochi-2014/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i43d26826b375914f/version/1437245078/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/rio-2016/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=163x10000:format=png/path/s293f5a94d3403280/image/i04dc9dab6d16cbf0/version/1437245091/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/pyeongchang-2018/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i034772eebcce1a83/version/1677228412/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/tokyo-2020/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i303da5c408e45274/version/1677228493/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/beijing-2022/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i88d9aeb23cebf40a/version/1677228533/image.png"
+    },
+    {
+      "href": "/olympic-games/colours/paris-2024/",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=156x10000:format=png/path/s293f5a94d3403280/image/i66464f25283884a6/version/1677228618/image.png"
+    },
+
+    {
+      "href": "singapore-2010",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/id4d14218a27c2fa8/version/1678170701/image.jpg"
+    },
+    {
+      "href": "innsbruck-2012",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i753e00093c60f24c/version/1678172565/image.jpg"
+    },
+    {
+      "href": "nanjing-2014",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i20cbef62a55e06f3/version/1678173580/image.jpg"
+    },
+    {
+      "href": "lillehammer-2016",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/ib9db69b4408f2bf7/version/1678176493/image.jpg"
+    },
+    {
+      "href": "buenos-aires-2018",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i3513dd9c61ca35c3/version/1678177628/image.jpg"
+    },
+    {
+      "href": "lausanne-2020",
+      "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=890x10000:format=jpg/path/s293f5a94d3403280/image/i20bbd1080138a979/version/1678135644/image.jpg"
+    }
+  ]
+}
