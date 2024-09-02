@@ -8,7 +8,11 @@
 
     a. Fetch data from Olympedia (`wikipedia/country/getCountryDataFromOlympedia.ts`)
 
-    b. adjust based on repeats + Olympedia, ie. (ROC -> KMT\*)
+    b. run `findDiff.ts`, check for extras
+
+    c. adjust based on repeats + Olympedia, ie. (ROC -> KMT\*)
+
+    d. run `clean2final.ts`, (sorts, removes imageUrl)
 
 2.  get images and remove `imageUrl` field (see below)
 3.  convert to csv
@@ -25,7 +29,19 @@
 
 #### Caveats
 
-- ROC is duplicated, China ROC -> KMT
+- Duplicated Codes:
+  - ROC, Republic of China -> KMT
+  - GUI, British Guiana -> BGU
+  - ZZX, Mixed Team -> XXB
+  - ANZ, Australasia -> special copy removed
+  - EUA, Unified Germany -> special copy removed
+  - EUN, Equipe Unifiee -> historic copy removed
+  - IPA, Individual Paralympic Athletes -> removed in favour of 'Independent Paralympic Athletes'
+- Countries that don't already include pageName:
+  - IHO -> Indonesia_at_the_1952_Summer_Olympics
+  - MAL -> Malaya_at_the_Olympics
+  - IPA, PNA -> Independent_Paralympians_at_the_Paralympic_Games
+  - VNM, ZAI, BIR, BGU -> append `'_at_the_Olympics'`
 
 ### Images
 
