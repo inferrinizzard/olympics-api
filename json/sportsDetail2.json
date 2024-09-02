@@ -937,10 +937,24 @@
     "season": "summer"
   },
   {
+    "code": "P-DS",
+    "name": "Para Dance Sport",
+    "category": "sport",
+    "status": "active",
+    "season": "summer"
+  },
+  {
     "code": "P-EQU",
     "name": "Para Equestrian",
     "category": "sport",
     "status": "active",
+    "season": "summer"
+  },
+  {
+    "code": "P-FB5",
+    "name": "Para Football 5-a-Side",
+    "category": "sport",
+    "status": "historic",
     "season": "summer"
   },
   {
@@ -1065,7 +1079,14 @@
   },
   {
     "code": "P-IHO",
-    "name": "Para Ice Hockey ",
+    "name": "Para Ice Hockey",
+    "category": "sport",
+    "status": "active",
+    "season": "winter"
+  },
+  {
+    "code": "P-NSK",
+    "name": "Para Nordic Skiing",
     "category": "sport",
     "status": "active",
     "season": "winter"
