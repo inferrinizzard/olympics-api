@@ -94,6 +94,9 @@ YOG: Copy from design and hand extract screenshots from group image
   - Olympics — https://www.theolympicdesign.com/olympics/pictograms/
   - Paralympics — https://www.theolympicdesign.com/paralympics/pictograms/
   - YOG — https://www.theolympicdesign.com/yog/
+- Official websites
+  - Olympics — https://olympics.com/en/sports/
+  - Paralympics (USOPC) — https://www.usopc.org/paralympic-sport-guide
 
 #### Caveats
 
