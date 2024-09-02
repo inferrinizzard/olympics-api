@@ -4,12 +4,19 @@
 
 #### Process
 
-- `wikipedia/getAllCountryData.ts`
-  - adjust based on repeats, ie. (ROC -> KMT\*)
+1.  `wikipedia/country/getAllCountryData.ts`
+
+    a. Fetch data from Olympedia (`wikipedia/country/getCountryDataFromOlympedia.ts`)
+
+    b. adjust based on repeats + Olympedia, ie. (ROC -> KMT\*)
+
+2.  get images and remove `imageUrl` field (see below)
+3.  convert to csv
 
 #### Sources
 
 - Wikipedia
+  - All IOC/IPC Codes — https://en.wikipedia.org/wiki/List_of_IOC_country_codes
   - Summer Olympic — https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Summer_Olympic_Games
   - Winter Olympic — https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Winter_Olympic_Games
   - Summer Paralympic — https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Summer_Paralympic_Games
@@ -18,7 +25,12 @@
 
 #### Caveats
 
+- ROC is duplicated, China ROC -> KMT
+
 ### Images
+
+- Provided with country data, fetch and remove `imageUrl`
+- Name each image with code under `/images/country/[CODE].svg`
 
 ## Games
 

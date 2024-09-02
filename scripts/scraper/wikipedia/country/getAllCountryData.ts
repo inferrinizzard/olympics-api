@@ -3,7 +3,7 @@ import wiki from 'wikipedia';
 
 import type { PartialCountry } from '@/src/models';
 
-const getCountryDataFromRow = (
+const extractCountryDataFromRow = (
   row: HTMLTableRowElement
 ): Omit<PartialCountry, 'status'> | undefined => {
   const code = row.cells[0].textContent;
@@ -50,13 +50,12 @@ export const getAllCountryData = async () => {
   tables.forEach((table, i) => {
     const status = statusHeaders[i];
 
-    const rows = [
-      ...(table.querySelector('tbody')?.querySelectorAll('tr') ?? []),
-    ];
-    const rowDataList = rows.flatMap((row) => {
-      const data = getCountryDataFromRow(row);
-      return data ? { ...data, status } : [];
-    });
+    const rowDataList = [...(table as HTMLTableElement).rows]
+      .slice(1) // Remove header
+      .flatMap((row) => {
+        const data = extractCountryDataFromRow(row);
+        return data ? { ...data, status } : [];
+      });
 
     countryData = [...countryData, ...rowDataList];
   });
