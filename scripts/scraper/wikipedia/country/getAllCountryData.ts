@@ -6,7 +6,7 @@ import type { PartialCountry } from '@/src/models';
 const extractCountryDataFromRow = (
   row: HTMLTableRowElement
 ): Omit<PartialCountry, 'status'> | undefined => {
-  const code = row.cells[0].textContent;
+  const code = row.cells[0].querySelector('span')?.textContent;
 
   const detailCell = row.cells[1];
 
@@ -15,8 +15,12 @@ const extractCountryDataFromRow = (
     return;
   }
 
-  const name = detailCell?.textContent ?? '';
-  const pageLink = detailCell.querySelector('a')?.getAttribute('href') ?? '';
+  const validAnchorElement =
+    [...detailCell.querySelectorAll('a')].find(
+      (a) => a.childElementCount === 0
+    ) ?? detailCell;
+  const name = validAnchorElement?.textContent?.trim() ?? '';
+  const pageLink = validAnchorElement?.getAttribute('href') ?? '';
   const pageName = pageLink.split('/').at(-1) ?? '';
   const rawImageUrl = detailCell.querySelector('img')?.getAttribute('src');
   const imageUrl =
@@ -31,7 +35,7 @@ const extractCountryDataFromRow = (
   };
 };
 
-export const getAllCountryData = async () => {
+const getAllCountryData = async () => {
   const iocCountryPageName = 'List_of_IOC_country_codes';
   const iocCountryPage = await wiki.page(iocCountryPageName, {
     preload: true,
@@ -44,6 +48,7 @@ export const getAllCountryData = async () => {
   const statusHeaders = [...document.getElementsByTagName('h2')]
     .map((h2) => h2.textContent?.toLowerCase().split(' ')[0] ?? '')
     .slice(1);
+  statusHeaders.splice(2, 0, statusHeaders[2]); // missing a 'historic' header
 
   let countryData: PartialCountry[] = [];
 
@@ -62,3 +67,7 @@ export const getAllCountryData = async () => {
 
   return countryData;
 };
+
+const countryData = await getAllCountryData();
+console.log(JSON.stringify(countryData));
+// tsx ./scripts/scraper/wikipedia/country/getAllCountryData.ts > ./json/partial/wikipediaCountryData.json

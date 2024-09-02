@@ -7,7 +7,7 @@ const extractCountryDataFromRow = (row: HTMLTableRowElement) => {
   return { code, name };
 };
 
-export const getCountryDataFromOlympedia = async () => {
+const getCountryDataFromOlympedia = async () => {
   const OLYMPEDIA_COUNTRIES_PAGE_URL = 'https://www.olympedia.org/countries';
   const olympediaPage = await fetch(OLYMPEDIA_COUNTRIES_PAGE_URL);
 
@@ -23,3 +23,7 @@ export const getCountryDataFromOlympedia = async () => {
 
   return countryData;
 };
+
+const countryData = await getCountryDataFromOlympedia();
+console.log(JSON.stringify(countryData));
+// tsx ./scripts/scraper/wikipedia/country/getCountryDataFromOlympedia.ts > ./json/partial/olympediaCountryData.json
