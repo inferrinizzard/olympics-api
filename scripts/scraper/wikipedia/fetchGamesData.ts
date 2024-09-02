@@ -1,14 +1,8 @@
 import wiki from 'wikipedia';
-import { JSDOM } from 'jsdom';
 import anyDateParser from 'any-date-parser';
 
-import type { PartialGamesList } from '../../../src/models';
-
-const getInfoboxElement = (html: string) => {
-  const dom = new JSDOM(html);
-  const infobox = dom.window.document.querySelector('table.infobox');
-  return infobox as HTMLTableElement;
-};
+import type { PartialGamesList } from '@/src/models';
+import { extractImageFromInfobox, getInfoboxElement } from './infobox';
 
 const extractValue = (
   infoboxMap: Record<string, string>,
@@ -53,23 +47,6 @@ const extractMottoFromInfoBox = (infobox: HTMLTableElement) => {
   const mottoText = mottoRow?.cells[1].textContent;
 
   return mottoText;
-};
-
-const extractImageFromInfobox = (infobox: HTMLTableElement) => {
-  const imageElement = infobox.querySelector('img');
-  const src =
-    imageElement?.getAttribute('src')?.replace(/^[/]{2}/, 'https://') ?? '';
-
-  if (!src.includes('thumb')) {
-    return src;
-  }
-
-  const imageUrl = src
-    .replace(/[/]thumb[/]/, '/')
-    .split('/')
-    .slice(0, -1) // remove last segment after '/'
-    .join('/');
-  return imageUrl;
 };
 
 export const readGamesInfoBoxFromPage = async (games: PartialGamesList) => {

@@ -1,0 +1,298 @@
+{
+  "gac": {
+    "name": "Acrobatic Gymnastics",
+    "url": "/images/static/sports/pictograms/v2/gac.svg"
+  },
+  "alp": {
+    "name": "Alpine Skiing",
+    "url": "/images/static/sports/pictograms/v2/alp.svg"
+  },
+  "arc": {
+    "name": "Archery",
+    "url": "/images/static/sports/pictograms/v2/arc.svg"
+  },
+  "gar": {
+    "name": "Artistic Gymnastics",
+    "url": "/images/static/sports/pictograms/v2/gar.svg"
+  },
+  "swa": {
+    "name": "Artistic Swimming",
+    "url": "/images/static/sports/pictograms/v2/swa.svg"
+  },
+  "ath": {
+    "name": "Athletics",
+    "url": "/images/static/sports/pictograms/v2/ath.svg"
+  },
+  "bdm": {
+    "name": "Badminton",
+    "url": "/images/static/sports/pictograms/v2/bdm.svg"
+  },
+  "bs5": {
+    "name": "Baseball 5",
+    "url": "/images/static/sports/pictograms/v2/bs5.svg"
+  },
+  "bsb": {
+    "name": "Baseball Softball",
+    "url": "/images/static/sports/pictograms/v2/bsb.svg"
+  },
+  "bkb": {
+    "name": "Basketball",
+    "url": "/images/static/sports/pictograms/v2/bkb.svg"
+  },
+  "bk3": {
+    "name": "Basketball 3x3",
+    "url": "/images/static/sports/pictograms/v2/bk3.svg"
+  },
+  "hbb": {
+    "name": "Beach Handball",
+    "url": "/images/static/sports/pictograms/v2/hbb.svg"
+  },
+  "vbv": {
+    "name": "Beach Volleyball",
+    "url": "/images/static/sports/pictograms/v2/vbv.svg"
+  },
+  "bth": {
+    "name": "Biathlon",
+    "url": "/images/static/sports/pictograms/v2/bth.svg"
+  },
+  "bob": {
+    "name": "Bobsleigh",
+    "url": "/images/static/sports/pictograms/v2/bob.svg"
+  },
+  "box": {
+    "name": "Boxing",
+    "url": "/images/static/sports/pictograms/v2/box.svg"
+  },
+  "bkg": {
+    "name": "Breaking",
+    "url": "/images/static/sports/pictograms/v2/bkg.svg"
+  },
+  "csl": {
+    "name": "Canoe Slalom",
+    "url": "/images/static/sports/pictograms/v2/csl.svg"
+  },
+  "csp": {
+    "name": "Canoe Sprint",
+    "url": "/images/static/sports/pictograms/v2/csp.svg"
+  },
+  "roc": {
+    "name": "Coastal Rowing",
+    "url": "/images/static/sports/pictograms/v2/roc.svg"
+  },
+  "ckt": {
+    "name": "Cricket",
+    "url": "/images/static/sports/pictograms/v2/ckt.svg"
+  },
+  "ccs": {
+    "name": "Cross-Country Skiing",
+    "url": "/images/static/sports/pictograms/v2/ccs.svg"
+  },
+  "cur": {
+    "name": "Curling",
+    "url": "/images/static/sports/pictograms/v2/cur.svg"
+  },
+  "bmf": {
+    "name": "Cycling BMX Freestyle",
+    "url": "/images/static/sports/pictograms/v2/bmf.svg"
+  },
+  "bmx": {
+    "name": "Cycling BMX Racing",
+    "url": "/images/static/sports/pictograms/v2/bmx.svg"
+  },
+  "mtb": {
+    "name": "Cycling Mountain Bike",
+    "url": "/images/static/sports/pictograms/v2/mtb.svg"
+  },
+  "crd": {
+    "name": "Cycling Road",
+    "url": "/images/static/sports/pictograms/v2/crd.svg"
+  },
+  "ctr": {
+    "name": "Cycling Track ",
+    "url": "/images/static/sports/pictograms/v2/ctr.svg"
+  },
+  "div": {
+    "name": "Diving",
+    "url": "/images/static/sports/pictograms/v2/div.svg"
+  },
+  "equ": {
+    "name": "Equestrian",
+    "url": "/images/static/sports/pictograms/v2/equ.svg"
+  },
+  "fen": {
+    "name": "Fencing",
+    "url": "/images/static/sports/pictograms/v2/fen.svg"
+  },
+  "fsk": {
+    "name": "Figure Skating",
+    "url": "/images/static/sports/pictograms/v2/fsk.svg"
+  },
+  "flf": {
+    "name": "Flag Football",
+    "url": "/images/static/sports/pictograms/v2/flf.svg"
+  },
+  "fbl": {
+    "name": "Football",
+    "url": "/images/static/sports/pictograms/v2/fbl.svg"
+  },
+  "frs": {
+    "name": "Freestyle Skiing",
+    "url": "/images/static/sports/pictograms/v2/frs.svg"
+  },
+  "fut": {
+    "name": "Futsal",
+    "url": "/images/static/sports/pictograms/v2/fut.svg"
+  },
+  "glf": {
+    "name": "Golf",
+    "url": "/images/static/sports/pictograms/v2/glf.svg"
+  },
+  "hbl": {
+    "name": "Handball",
+    "url": "/images/static/sports/pictograms/v2/hbl.svg"
+  },
+  "hoc": {
+    "name": "Hockey",
+    "url": "/images/static/sports/pictograms/v2/hoc.svg"
+  },
+  "iho": {
+    "name": "Ice Hockey",
+    "url": "/images/static/sports/pictograms/v2/iho.svg"
+  },
+  "jud": {
+    "name": "Judo",
+    "url": "/images/static/sports/pictograms/v2/jud.svg"
+  },
+  "kte": {
+    "name": "Karate",
+    "url": "/images/static/sports/pictograms/v2/kte.svg"
+  },
+  "lax": {
+    "name": "Lacrosse",
+    "url": "/images/static/sports/pictograms/v2/lax.svg"
+  },
+  "lug": {
+    "name": "Luge",
+    "url": "/images/static/sports/pictograms/v2/lug.svg"
+  },
+  "ows": {
+    "name": "Marathon Swimming",
+    "url": "/images/static/sports/pictograms/v2/ows.svg"
+  },
+  "mpn": {
+    "name": "Modern Pentathlon",
+    "url": "/images/static/sports/pictograms/v2/mpn.svg"
+  },
+  "ncb": {
+    "name": "Nordic Combined",
+    "url": "/images/static/sports/pictograms/v2/ncb.svg"
+  },
+  "gry": {
+    "name": "Rhythmic Gymnastics",
+    "url": "/images/static/sports/pictograms/v2/gry.svg"
+  },
+  "rol": {
+    "name": "Roller Speed Skating",
+    "url": "/images/static/sports/pictograms/v2/rol.svg"
+  },
+  "row": {
+    "name": "Rowing",
+    "url": "/images/static/sports/pictograms/v2/row.svg"
+  },
+  "ru7": {
+    "name": "Rugby Sevens",
+    "url": "/images/static/sports/pictograms/v2/ru7.svg"
+  },
+  "sal": {
+    "name": "Sailing",
+    "url": "/images/static/sports/pictograms/v2/sal.svg"
+  },
+  "sho": {
+    "name": "Shooting",
+    "url": "/images/static/sports/pictograms/v2/sho.svg"
+  },
+  "stk": {
+    "name": "Short Track Speed Skating",
+    "url": "/images/static/sports/pictograms/v2/stk.svg"
+  },
+  "skb": {
+    "name": "Skateboarding",
+    "url": "/images/static/sports/pictograms/v2/skb.svg"
+  },
+  "skn": {
+    "name": "Skeleton",
+    "url": "/images/static/sports/pictograms/v2/skn.svg"
+  },
+  "sjp": {
+    "name": "Ski Jumping",
+    "url": "/images/static/sports/pictograms/v2/sjp.svg"
+  },
+  "smt": {
+    "name": "Ski Mountaineering",
+    "url": "/images/static/sports/pictograms/v2/smt.svg"
+  },
+  "sbd": {
+    "name": "Snowboard",
+    "url": "/images/static/sports/pictograms/v2/sbd.svg"
+  },
+  "ssk": {
+    "name": "Speed Skating",
+    "url": "/images/static/sports/pictograms/v2/ssk.svg"
+  },
+  "clb": {
+    "name": "Sport Climbing",
+    "url": "/images/static/sports/pictograms/v2/clb.svg"
+  },
+  "squ": {
+    "name": "Squash",
+    "url": "/images/static/sports/pictograms/v2/squ.svg"
+  },
+  "srf": {
+    "name": "Surfing",
+    "url": "/images/static/sports/pictograms/v2/srf.svg"
+  },
+  "swm": {
+    "name": "Swimming",
+    "url": "/images/static/sports/pictograms/v2/swm.svg"
+  },
+  "tte": {
+    "name": "Table Tennis",
+    "url": "/images/static/sports/pictograms/v2/tte.svg"
+  },
+  "tkw": {
+    "name": "Taekwondo",
+    "url": "/images/static/sports/pictograms/v2/tkw.svg"
+  },
+  "ten": {
+    "name": "Tennis",
+    "url": "/images/static/sports/pictograms/v2/ten.svg"
+  },
+  "gtr": {
+    "name": "Trampoline",
+    "url": "/images/static/sports/pictograms/v2/gtr.svg"
+  },
+  "tri": {
+    "name": "Triathlon",
+    "url": "/images/static/sports/pictograms/v2/tri.svg"
+  },
+  "vvo": {
+    "name": "Volleyball",
+    "url": "/images/static/sports/pictograms/v2/vvo.svg"
+  },
+  "wpo": {
+    "name": "Water Polo",
+    "url": "/images/static/sports/pictograms/v2/wpo.svg"
+  },
+  "wlf": {
+    "name": "Weightlifting",
+    "url": "/images/static/sports/pictograms/v2/wlf.svg"
+  },
+  "wre": {
+    "name": "Wrestling",
+    "url": "/images/static/sports/pictograms/v2/wre.svg"
+  },
+  "wsu": {
+    "name": "Wushu",
+    "url": "/images/static/sports/pictograms/v2/wsu.svg"
+  }
+}

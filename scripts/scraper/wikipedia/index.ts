@@ -1,7 +1,7 @@
 import { writeFileSync, existsSync } from 'fs';
 import { fetchGamesList } from './fetchGamesList';
 
-import gamesList from '../../../json/gamesList.json';
+import gamesList from '@/json/partial/gamesList.json';
 import { readGamesInfoBoxFromPage } from './fetchGamesData';
 
 const GAMES_LIST_JSON_PATH = './json/gamesList.json';
