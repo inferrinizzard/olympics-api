@@ -1,18 +1,25 @@
 import type { GamesId } from './gamesData';
 
-export type CountryId = CountryDetailRow['country'];
+export type CountryId = CountryDetailRow['code'];
 
-export interface CountryDetailRow extends Record<string, string> {
-	country: string;
-	name: string;
-	flag: string;
+type Country = {
+  code: string;
+  name: string;
+  status: string;
+  pageName: string;
+};
+
+export interface PartialCountry extends Country {
+  imageUrl: string;
 }
 
-export type CountryFlagMap = Record<CountryId, CountryDetailRow['flag']>;
+export type CountryDetailRow = Country;
+
+export type CountryFlagMap = Record<CountryId, string>;
 
 export type CountryAthletes = Record<CountryId, number>;
 
 export interface CountryAttendanceRow {
-	game: GamesId;
-	countryAthletes: CountryAthletes;
+  game: GamesId;
+  countryAthletes: CountryAthletes;
 }
