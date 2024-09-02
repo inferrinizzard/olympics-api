@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs';
+import { writeFileSync } from 'node:fs';
 import wiki from 'wikipedia';
 
 import gamesDetail from '@/json/final/gamesDetail.json';

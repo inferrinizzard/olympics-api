@@ -1,8 +1,8 @@
-import { writeFileSync, existsSync } from 'fs';
-import { fetchGamesList } from './fetchGamesList';
+import { writeFileSync, existsSync } from 'node:fs';
 
 import gamesList from '@/json/partial/gamesList.json';
-import { readGamesInfoBoxFromPage } from './fetchGamesData';
+import { fetchGamesList } from './games/fetchGamesList';
+import { readGamesInfoBoxFromPage } from './games/fetchGamesData';
 
 const GAMES_LIST_JSON_PATH = './json/gamesList.json';
 const GAMES_DETAIL_JSON_PATH = './json/gamesDetail2.json';

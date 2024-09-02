@@ -4,6 +4,9 @@
 
 #### Process
 
+- `wikipedia/getAllCountryData.ts`
+  - adjust based on repeats, ie. (ROC -> KMT\*)
+
 #### Sources
 
 - Wikipedia
@@ -64,4 +67,6 @@ YOG: Copy from design and hand extract screenshots from group image
   - Paralympics — https://www.theolympicdesign.com/paralympics/pictograms/
   - YOG — https://www.theolympicdesign.com/yog/
 
-https://image.jimcdn.com/app/cms/image/transf/dimension=1000x1000:format=png/path/s293f5a94d3403280/image/ibc086eb94e4c765d/version/1678374075/image.png
+#### Caveats
+
+Sports pictograms for atlanta-1996_paralympics, nagano-1998_paralympics are missing
