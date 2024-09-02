@@ -47,6 +47,7 @@
 
 - Provided with country data, fetch and remove `imageUrl`
 - Name each image with code under `/images/country/[CODE].svg`
+- Run `wikipedia/country/dedupeAndFetchFlagsImages.ts`
 
 ## Games
 
