@@ -3,30 +3,36 @@ import os
 import subprocess
 import shutil
 
+official = ['alp.svg','arc.svg','ath.svg','bdm.svg','bk3.svg','bkb.svg','bkg.svg','bmf.svg','bmx.svg','bob.svg','box.svg','bs5.svg','bsb.svg','bth.svg','ccs.svg','ckt.svg','clb.svg','crd.svg','csl.svg','csp.svg','ctr.svg','cur.svg','div.svg','edr.svg','ejp.svg','equ.svg','eve.svg','fbl.svg','fen.svg','flf.svg','frs.svg','fsk.svg','fut.svg','gac.svg','gar.svg','glf.svg','gry.svg','gtr.svg','hbb.svg','hbl.svg','hoc.svg','iho.svg','jud.svg','kte.svg','lax.svg','lug.svg','mpn.svg','mtb.svg','ncb.svg','ows.svg','pel.svg','pol.svg','roc.svg','rol.svg','row.svg','rqt.svg','ru7.svg','sal.svg','sbd.svg','sho.svg','sjp.svg','skb.svg','skn.svg','smt.svg','squ.svg','srf.svg','ssk.svg','stk.svg','swa.svg','swm.svg','ten.svg','tkw.svg','tow.svg','tri.svg','tte.svg','vbv.svg','vvo.svg','wlf.svg','wpo.svg','wre.svg','wsu.svg',]
 
-existing = os.listdir('./images/games')
 
-all_existing = ' '.join(existing)
+existing = os.listdir('./images/sports')
 
-with open('./json/gamesDetail2.json') as f:
-    games = json.load(f)
+for image in existing:
+    if image.lower() in official:
+        shutil.move(f'./images/sports/{image}', f'./images/sports/official/{image}')
 
-print(existing)
-for game in games:
-    code = game['code']
+# all_existing = ' '.join(existing)
 
-    existing_images_for_game = os.listdir(f'./images/games/{code}')
-    emblem = next((image for image in existing_images_for_game if 'emblem' in image), None)
+# with open('./json/gamesDetail2.json') as f:
+#     games = json.load(f)
 
-    if not emblem:
-        print('MISSING', code)
-        continue
+# print(existing)
+# for game in games:
+#     code = game['code']
 
-    if not emblem.endswith('svg'):
-        if(game['image'].endswith('svg')):
-            subprocess.run(['curl', game['image'], '--output', f'./images/games/{code}/emblem.svg'])
-        else:
-            print(code)
+#     existing_images_for_game = os.listdir(f'./images/games/{code}')
+#     emblem = next((image for image in existing_images_for_game if 'emblem' in image), None)
+
+#     if not emblem:
+#         print('MISSING', code)
+#         continue
+
+#     if not emblem.endswith('svg'):
+#         if(game['image'].endswith('svg')):
+#             subprocess.run(['curl', game['image'], '--output', f'./images/games/{code}/emblem.svg'])
+#         else:
+#             print(code)
     
 
 
