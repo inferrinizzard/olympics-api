@@ -1,6 +1,6 @@
 import type { GamesId } from './gamesData';
 
-import type SportsList from '../../json/sportsDetail2.json';
+import type SportsList from '@/json/final/sportsDetail.json';
 
 export type SportId = SportDetailRow['code'];
 

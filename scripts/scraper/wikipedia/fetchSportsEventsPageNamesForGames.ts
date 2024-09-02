@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import wiki from 'wikipedia';
 
-import gamesDetail from '../../../json/gamesDetail2.json';
+import gamesDetail from '@/json/final/gamesDetail.json';
 
 const capitalize = (str: string) =>
   str.slice(0, 1).toUpperCase() + str.slice(1);

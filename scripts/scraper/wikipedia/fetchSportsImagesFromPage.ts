@@ -1,8 +1,8 @@
 import { createWriteStream, writeFileSync } from 'fs';
 import wiki from 'wikipedia';
 
-import sportsList from '../../../json/sportsDetail2.json';
-import sportsPages from '../../../json/gamesSportsLinksMap.json';
+import sportsList from '@/json/final/sportsDetail.json';
+import sportsPages from '@/json/partial/gamesSportsLinksMap.json';
 
 import { extractImageFromInfobox, getInfoboxElement } from './infobox';
 

@@ -1,7 +1,7 @@
 import wiki from 'wikipedia';
 import anyDateParser from 'any-date-parser';
 
-import type { PartialGamesList } from '../../../src/models';
+import type { PartialGamesList } from '@/src/models';
 import { extractImageFromInfobox, getInfoboxElement } from './infobox';
 
 const extractValue = (
