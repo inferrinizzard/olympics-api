@@ -26,6 +26,7 @@
   - Summer Paralympic — https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Summer_Paralympic_Games
   - Winter Paralympic — https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Winter_Paralympic_Games
 - Olympedia — https://www.olympedia.org/countries
+- Paralympics Database — https://db.ipc-services.org/hira/paralympics
 
 #### Caveats
 
