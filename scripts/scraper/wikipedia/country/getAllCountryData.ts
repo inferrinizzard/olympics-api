@@ -23,9 +23,19 @@ const extractCountryDataFromRow = (
   const pageLink = validAnchorElement?.getAttribute('href') ?? '';
   const pageName = pageLink.split('/').at(-1) ?? '';
   const rawImageUrl = detailCell.querySelector('img')?.getAttribute('src');
-  const imageUrl =
-    // biome-ignore lint/style/useTemplate: <explanation>
-    rawImageUrl?.replace(/[/]thumb[/]/, '/').split('.svg')[0] + '.svg';
+
+  const extractFirstImageSlug = (url: string, exts: string[]) => {
+    for (const ext of exts) {
+      if (url.includes(ext)) {
+        return url.split(ext)[0] + ext;
+      }
+    }
+    return url;
+  };
+  const imageUrl = extractFirstImageSlug(
+    rawImageUrl?.replace(/[/]thumb[/]/, '/') ?? '',
+    ['svg', 'jpg', 'png']
+  );
 
   return {
     code,

@@ -76,15 +76,16 @@ const statusMap: Record<string, number> = {
 const replaced = countryData
   .flatMap(replaceDuplicateCodes)
   .map(replacePageName);
-const processed = replaced
-  .sort(
-    (a, b) =>
-      statusMap[a.status] - statusMap[b.status] + (b.name < a.name ? 1 : -1)
-  )
-  .map(({ imageUrl, ...obj }) => obj);
+const processed = replaced.sort(
+  (a, b) =>
+    statusMap[a.status] - statusMap[b.status] + (b.name < a.name ? 1 : -1)
+);
 
 writeFileSync(
   './json/final/countryDetail.json',
   JSON.stringify(processed, null, 2)
 );
-json2csv(processed, './csv/countryDetail.csv');
+json2csv(
+  processed.map(({ imageUrl, ...obj }) => obj),
+  './csv/countryDetail.csv'
+);

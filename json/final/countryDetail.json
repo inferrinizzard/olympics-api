@@ -3,1566 +3,1827 @@
     "code": "AFG",
     "name": "Afghanistan",
     "pageName": "Afghanistan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg",
     "status": "current"
   },
   {
     "code": "ALB",
     "name": "Albania",
     "pageName": "Albania_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
     "status": "current"
   },
   {
     "code": "ALG",
     "name": "Algeria",
     "pageName": "Algeria_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg",
     "status": "current"
   },
   {
     "code": "ASA",
     "name": "American Samoa",
     "pageName": "American_Samoa_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Flag_of_American_Samoa.svg",
     "status": "current"
   },
   {
     "code": "AND",
     "name": "Andorra",
     "pageName": "Andorra_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg",
     "status": "current"
   },
   {
     "code": "ANG",
     "name": "Angola",
     "pageName": "Angola_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg",
     "status": "current"
   },
   {
     "code": "ANT",
     "name": "Antigua and Barbuda",
     "pageName": "Antigua_and_Barbuda_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Antigua_and_Barbuda.svg",
     "status": "current"
   },
   {
     "code": "ARG",
     "name": "Argentina",
     "pageName": "Argentina_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
     "status": "current"
   },
   {
     "code": "ARM",
     "name": "Armenia",
     "pageName": "Armenia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg",
     "status": "current"
   },
   {
     "code": "ARU",
     "name": "Aruba",
     "pageName": "Aruba_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Aruba.svg",
     "status": "current"
   },
   {
     "code": "AUS",
     "name": "Australia",
     "pageName": "Australia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
     "status": "current"
   },
   {
     "code": "AUT",
     "name": "Austria",
     "pageName": "Austria_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
     "status": "current"
   },
   {
     "code": "AZE",
     "name": "Azerbaijan",
     "pageName": "Azerbaijan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
     "status": "current"
   },
   {
     "code": "BAH",
     "name": "Bahamas",
     "pageName": "Bahamas_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_the_Bahamas.svg",
     "status": "current"
   },
   {
     "code": "BRN",
     "name": "Bahrain",
     "pageName": "Bahrain_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg",
     "status": "current"
   },
   {
     "code": "BAN",
     "name": "Bangladesh",
     "pageName": "Bangladesh_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg",
     "status": "current"
   },
   {
     "code": "BAR",
     "name": "Barbados",
     "pageName": "Barbados_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Barbados.svg",
     "status": "current"
   },
   {
     "code": "BLR",
     "name": "Belarus",
     "pageName": "Belarus_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg",
     "status": "current"
   },
   {
     "code": "BEL",
     "name": "Belgium",
     "pageName": "Belgium_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Belgium_%28civil%29.svg",
     "status": "current"
   },
   {
     "code": "BIZ",
     "name": "Belize",
     "pageName": "Belize_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_Belize.svg",
     "status": "current"
   },
   {
     "code": "BEN",
     "name": "Benin",
     "pageName": "Benin_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg",
     "status": "current"
   },
   {
     "code": "BER",
     "name": "Bermuda",
     "pageName": "Bermuda_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg",
     "status": "current"
   },
   {
     "code": "BHU",
     "name": "Bhutan",
     "pageName": "Bhutan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg",
     "status": "current"
   },
   {
     "code": "BOL",
     "name": "Bolivia",
     "pageName": "Bolivia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Bolivia.svg",
     "status": "current"
   },
   {
     "code": "BIH",
     "name": "Bosnia and Herzegovina",
     "pageName": "Bosnia_and_Herzegovina_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg",
     "status": "current"
   },
   {
     "code": "BOT",
     "name": "Botswana",
     "pageName": "Botswana_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Botswana.svg",
     "status": "current"
   },
   {
     "code": "BRA",
     "name": "Brazil",
     "pageName": "Brazil_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg",
     "status": "current"
   },
   {
     "code": "IVB",
     "name": "British Virgin Islands",
     "pageName": "British_Virgin_Islands_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_British_Virgin_Islands.svg",
     "status": "current"
   },
   {
     "code": "BRU",
     "name": "Brunei",
     "pageName": "Brunei_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg",
     "status": "current"
   },
   {
     "code": "BUL",
     "name": "Bulgaria",
     "pageName": "Bulgaria_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg",
     "status": "current"
   },
   {
     "code": "BUR",
     "name": "Burkina Faso",
     "pageName": "Burkina_Faso_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg",
     "status": "current"
   },
   {
     "code": "BDI",
     "name": "Burundi",
     "pageName": "Burundi_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg",
     "status": "current"
   },
   {
     "code": "CAM",
     "name": "Cambodia",
     "pageName": "Cambodia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg",
     "status": "current"
   },
   {
     "code": "CMR",
     "name": "Cameroon",
     "pageName": "Cameroon_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg",
     "status": "current"
   },
   {
     "code": "CAN",
     "name": "Canada",
     "pageName": "Canada_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
     "status": "current"
   },
   {
     "code": "CPV",
     "name": "Cape Verde",
     "pageName": "Cape_Verde_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
     "status": "current"
   },
   {
     "code": "CAY",
     "name": "Cayman Islands",
     "pageName": "Cayman_Islands_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_the_Cayman_Islands.svg",
     "status": "current"
   },
   {
     "code": "CAF",
     "name": "Central African Republic",
     "pageName": "Central_African_Republic_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg",
     "status": "current"
   },
   {
     "code": "CHA",
     "name": "Chad",
     "pageName": "Chad_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Chad.svg",
     "status": "current"
   },
   {
     "code": "CHI",
     "name": "Chile",
     "pageName": "Chile_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
     "status": "current"
   },
   {
     "code": "CHN",
     "name": "China",
     "pageName": "China_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
     "status": "current"
   },
   {
     "code": "TPE",
     "name": "Chinese Taipei",
     "pageName": "Chinese_Taipei_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_Chinese_Taipei_for_Olympic_games.svg",
     "status": "current"
   },
   {
     "code": "COL",
     "name": "Colombia",
     "pageName": "Colombia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
     "status": "current"
   },
   {
     "code": "COM",
     "name": "Comoros",
     "pageName": "Comoros_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg",
     "status": "current"
   },
   {
     "code": "COK",
     "name": "Cook Islands",
     "pageName": "Cook_Islands_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_the_Cook_Islands.svg",
     "status": "current"
   },
   {
     "code": "CRC",
     "name": "Costa Rica",
     "pageName": "Costa_Rica_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg",
     "status": "current"
   },
   {
     "code": "CRO",
     "name": "Croatia",
     "pageName": "Croatia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
     "status": "current"
   },
   {
     "code": "CUB",
     "name": "Cuba",
     "pageName": "Cuba_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
     "status": "current"
   },
   {
     "code": "CYP",
     "name": "Cyprus",
     "pageName": "Cyprus_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Cyprus.svg",
     "status": "current"
   },
   {
     "code": "CZE",
     "name": "Czechia",
     "pageName": "Czechia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
     "status": "current"
   },
   {
     "code": "COD",
     "name": "Democratic Republic of the Congo",
     "pageName": "Democratic_Republic_of_the_Congo_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg",
     "status": "current"
   },
   {
     "code": "DEN",
     "name": "Denmark",
     "pageName": "Denmark_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
     "status": "current"
   },
   {
     "code": "DJI",
     "name": "Djibouti",
     "pageName": "Djibouti_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg",
     "status": "current"
   },
   {
     "code": "DMA",
     "name": "Dominica",
     "pageName": "Dominica_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Dominica.svg",
     "status": "current"
   },
   {
     "code": "DOM",
     "name": "Dominican Republic",
     "pageName": "Dominican_Republic_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
     "status": "current"
   },
   {
     "code": "TLS",
     "name": "East Timor",
     "pageName": "East_Timor_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_East_Timor.svg",
     "status": "current"
   },
   {
     "code": "ECU",
     "name": "Ecuador",
     "pageName": "Ecuador_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg",
     "status": "current"
   },
   {
     "code": "EGY",
     "name": "Egypt",
     "pageName": "Egypt_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
     "status": "current"
   },
   {
     "code": "ESA",
     "name": "El Salvador",
     "pageName": "El_Salvador_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_El_Salvador.svg",
     "status": "current"
   },
   {
     "code": "GEQ",
     "name": "Equatorial Guinea",
     "pageName": "Equatorial_Guinea_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Equatorial_Guinea.svg",
     "status": "current"
   },
   {
     "code": "ERI",
     "name": "Eritrea",
     "pageName": "Eritrea_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg",
     "status": "current"
   },
   {
     "code": "EST",
     "name": "Estonia",
     "pageName": "Estonia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg",
     "status": "current"
   },
   {
     "code": "SWZ",
     "name": "Eswatini",
     "pageName": "Eswatini_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Eswatini.svg",
     "status": "current"
   },
   {
     "code": "ETH",
     "name": "Ethiopia",
     "pageName": "Ethiopia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg",
     "status": "current"
   },
   {
     "code": "FRO",
     "name": "Faroe Islands",
     "pageName": "Faroe_Islands_at_the_Paralympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg",
     "status": "current"
   },
   {
     "code": "FSM",
     "name": "Federated States of Micronesia",
     "pageName": "Federated_States_of_Micronesia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg",
     "status": "current"
   },
   {
     "code": "FIJ",
     "name": "Fiji",
     "pageName": "Fiji_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg",
     "status": "current"
   },
   {
     "code": "FIN",
     "name": "Finland",
     "pageName": "Finland_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
     "status": "current"
   },
   {
     "code": "FRA",
     "name": "France",
     "pageName": "France_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
     "status": "current"
   },
   {
     "code": "GAB",
     "name": "Gabon",
     "pageName": "Gabon_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg",
     "status": "current"
   },
   {
     "code": "GEO",
     "name": "Georgia",
     "pageName": "Georgia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg",
     "status": "current"
   },
   {
     "code": "GER",
     "name": "Germany",
     "pageName": "Germany_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
     "status": "current"
   },
   {
     "code": "GHA",
     "name": "Ghana",
     "pageName": "Ghana_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
     "status": "current"
   },
   {
     "code": "GBR",
     "name": "Great Britain",
     "pageName": "Great_Britain_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
     "status": "current"
   },
   {
     "code": "GRE",
     "name": "Greece",
     "pageName": "Greece_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg",
     "status": "current"
   },
   {
     "code": "GRN",
     "name": "Grenada",
     "pageName": "Grenada_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Grenada.svg",
     "status": "current"
   },
   {
     "code": "GUM",
     "name": "Guam",
     "pageName": "Guam_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Guam.svg",
     "status": "current"
   },
   {
     "code": "GUA",
     "name": "Guatemala",
     "pageName": "Guatemala_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Guatemala.svg",
     "status": "current"
   },
   {
     "code": "GUI",
     "name": "Guinea",
     "pageName": "Guinea_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Guinea.svg",
     "status": "current"
   },
   {
     "code": "GBS",
     "name": "Guinea-Bissau",
     "pageName": "Guinea-Bissau_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg",
     "status": "current"
   },
   {
     "code": "GUY",
     "name": "Guyana",
     "pageName": "Guyana_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Guyana.svg",
     "status": "current"
   },
   {
     "code": "HAI",
     "name": "Haiti",
     "pageName": "Haiti_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Haiti.svg",
     "status": "current"
   },
   {
     "code": "HON",
     "name": "Honduras",
     "pageName": "Honduras_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Flag_of_Honduras.svg",
     "status": "current"
   },
   {
     "code": "HKG",
     "name": "Hong Kong",
     "pageName": "Hong_Kong_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
     "status": "current"
   },
   {
     "code": "HUN",
     "name": "Hungary",
     "pageName": "Hungary_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg",
     "status": "current"
   },
   {
     "code": "ISL",
     "name": "Iceland",
     "pageName": "Iceland_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg",
     "status": "current"
   },
   {
     "code": "IND",
     "name": "India",
     "pageName": "India_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
     "status": "current"
   },
   {
     "code": "INA",
     "name": "Indonesia",
     "pageName": "Indonesia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
     "status": "current"
   },
   {
     "code": "IRI",
     "name": "Iran",
     "pageName": "Iran_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
     "status": "current"
   },
   {
     "code": "IRQ",
     "name": "Iraq",
     "pageName": "Iraq_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
     "status": "current"
   },
   {
     "code": "IRL",
     "name": "Ireland",
     "pageName": "Ireland_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
     "status": "current"
   },
   {
     "code": "ISR",
     "name": "Israel",
     "pageName": "Israel_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg",
     "status": "current"
   },
   {
     "code": "ITA",
     "name": "Italy",
     "pageName": "Italy_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
     "status": "current"
   },
   {
     "code": "CIV",
     "name": "Ivory Coast",
     "pageName": "Ivory_Coast_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
     "status": "current"
   },
   {
     "code": "JAM",
     "name": "Jamaica",
     "pageName": "Jamaica_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Jamaica.svg",
     "status": "current"
   },
   {
     "code": "JPN",
     "name": "Japan",
     "pageName": "Japan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
     "status": "current"
   },
   {
     "code": "JOR",
     "name": "Jordan",
     "pageName": "Jordan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
     "status": "current"
   },
   {
     "code": "KAZ",
     "name": "Kazakhstan",
     "pageName": "Kazakhstan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
     "status": "current"
   },
   {
     "code": "KEN",
     "name": "Kenya",
     "pageName": "Kenya_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg",
     "status": "current"
   },
   {
     "code": "KIR",
     "name": "Kiribati",
     "pageName": "Kiribati_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg",
     "status": "current"
   },
   {
     "code": "KOS",
     "name": "Kosovo",
     "pageName": "Kosovo_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg",
     "status": "current"
   },
   {
     "code": "KUW",
     "name": "Kuwait",
     "pageName": "Kuwait_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Kuwait.svg",
     "status": "current"
   },
   {
     "code": "KGZ",
     "name": "Kyrgyzstan",
     "pageName": "Kyrgyzstan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg",
     "status": "current"
   },
   {
     "code": "LAO",
     "name": "Laos",
     "pageName": "Laos_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg",
     "status": "current"
   },
   {
     "code": "LAT",
     "name": "Latvia",
     "pageName": "Latvia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg",
     "status": "current"
   },
   {
     "code": "LBN",
     "name": "Lebanon",
     "pageName": "Lebanon_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg",
     "status": "current"
   },
   {
     "code": "LES",
     "name": "Lesotho",
     "pageName": "Lesotho_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg",
     "status": "current"
   },
   {
     "code": "LBR",
     "name": "Liberia",
     "pageName": "Liberia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Liberia.svg",
     "status": "current"
   },
   {
     "code": "LBA",
     "name": "Libya",
     "pageName": "Libya_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg",
     "status": "current"
   },
   {
     "code": "LIE",
     "name": "Liechtenstein",
     "pageName": "Liechtenstein_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Liechtenstein.svg",
     "status": "current"
   },
   {
     "code": "LTU",
     "name": "Lithuania",
     "pageName": "Lithuania_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg",
     "status": "current"
   },
   {
     "code": "LUX",
     "name": "Luxembourg",
     "pageName": "Luxembourg_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg",
     "status": "current"
   },
   {
     "code": "MAC",
     "name": "Macau",
     "pageName": "Macau_at_the_Paralympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Flag_of_Macau.svg",
     "status": "current"
   },
   {
     "code": "MAD",
     "name": "Madagascar",
     "pageName": "Madagascar_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg",
     "status": "current"
   },
   {
     "code": "MAW",
     "name": "Malawi",
     "pageName": "Malawi_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Malawi.svg",
     "status": "current"
   },
   {
     "code": "MAS",
     "name": "Malaysia",
     "pageName": "Malaysia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg",
     "status": "current"
   },
   {
     "code": "MDV",
     "name": "Maldives",
     "pageName": "Maldives_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg",
     "status": "current"
   },
   {
     "code": "MLI",
     "name": "Mali",
     "pageName": "Mali_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg",
     "status": "current"
   },
   {
     "code": "MLT",
     "name": "Malta",
     "pageName": "Malta_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Malta.svg",
     "status": "current"
   },
   {
     "code": "MHL",
     "name": "Marshall Islands",
     "pageName": "Marshall_Islands_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_Marshall_Islands.svg",
     "status": "current"
   },
   {
     "code": "MTN",
     "name": "Mauritania",
     "pageName": "Mauritania_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg",
     "status": "current"
   },
   {
     "code": "MRI",
     "name": "Mauritius",
     "pageName": "Mauritius_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg",
     "status": "current"
   },
   {
     "code": "MEX",
     "name": "Mexico",
     "pageName": "Mexico_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
     "status": "current"
   },
   {
     "code": "MDA",
     "name": "Moldova",
     "pageName": "Moldova_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg",
     "status": "current"
   },
   {
     "code": "MON",
     "name": "Monaco",
     "pageName": "Monaco_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg",
     "status": "current"
   },
   {
     "code": "MGL",
     "name": "Mongolia",
     "pageName": "Mongolia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg",
     "status": "current"
   },
   {
     "code": "MNE",
     "name": "Montenegro",
     "pageName": "Montenegro_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg",
     "status": "current"
   },
   {
     "code": "MAR",
     "name": "Morocco",
     "pageName": "Morocco_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
     "status": "current"
   },
   {
     "code": "MOZ",
     "name": "Mozambique",
     "pageName": "Mozambique_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg",
     "status": "current"
   },
   {
     "code": "MYA",
     "name": "Myanmar",
     "pageName": "Myanmar_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg",
     "status": "current"
   },
   {
     "code": "NAM",
     "name": "Namibia",
     "pageName": "Namibia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Namibia.svg",
     "status": "current"
   },
   {
     "code": "NRU",
     "name": "Nauru",
     "pageName": "Nauru_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg",
     "status": "current"
   },
   {
     "code": "NEP",
     "name": "Nepal",
     "pageName": "Nepal_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg",
     "status": "current"
   },
   {
     "code": "NED",
     "name": "Netherlands",
     "pageName": "Netherlands_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
     "status": "current"
   },
   {
     "code": "NZL",
     "name": "New Zealand",
     "pageName": "New_Zealand_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
     "status": "current"
   },
   {
     "code": "NCA",
     "name": "Nicaragua",
     "pageName": "Nicaragua_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Nicaragua.svg",
     "status": "current"
   },
   {
     "code": "NIG",
     "name": "Niger",
     "pageName": "Niger_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg",
     "status": "current"
   },
   {
     "code": "NGR",
     "name": "Nigeria",
     "pageName": "Nigeria_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg",
     "status": "current"
   },
   {
     "code": "PRK",
     "name": "North Korea",
     "pageName": "North_Korea_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.svg",
     "status": "current"
   },
   {
     "code": "MKD",
     "name": "North Macedonia",
     "pageName": "North_Macedonia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg",
     "status": "current"
   },
   {
     "code": "NOR",
     "name": "Norway",
     "pageName": "Norway_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
     "status": "current"
   },
   {
     "code": "OMA",
     "name": "Oman",
     "pageName": "Oman_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg",
     "status": "current"
   },
   {
     "code": "PAK",
     "name": "Pakistan",
     "pageName": "Pakistan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
     "status": "current"
   },
   {
     "code": "PLW",
     "name": "Palau",
     "pageName": "Palau_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg",
     "status": "current"
   },
   {
     "code": "PLE",
     "name": "Palestine",
     "pageName": "Palestine_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg",
     "status": "current"
   },
   {
     "code": "PAN",
     "name": "Panama",
     "pageName": "Panama_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Panama.svg",
     "status": "current"
   },
   {
     "code": "PNG",
     "name": "Papua New Guinea",
     "pageName": "Papua_New_Guinea_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg",
     "status": "current"
   },
   {
     "code": "PAR",
     "name": "Paraguay",
     "pageName": "Paraguay_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg",
     "status": "current"
   },
   {
     "code": "PER",
     "name": "Peru",
     "pageName": "Peru_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg",
     "status": "current"
   },
   {
     "code": "PHI",
     "name": "Philippines",
     "pageName": "Philippines_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
     "status": "current"
   },
   {
     "code": "POL",
     "name": "Poland",
     "pageName": "Poland_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
     "status": "current"
   },
   {
     "code": "POR",
     "name": "Portugal",
     "pageName": "Portugal_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
     "status": "current"
   },
   {
     "code": "PUR",
     "name": "Puerto Rico",
     "pageName": "Puerto_Rico_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg",
     "status": "current"
   },
   {
     "code": "QAT",
     "name": "Qatar",
     "pageName": "Qatar_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
     "status": "current"
   },
   {
     "code": "CGO",
     "name": "Republic of the Congo",
     "pageName": "Republic_of_the_Congo_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg",
     "status": "current"
   },
   {
     "code": "ROU",
     "name": "Romania",
     "pageName": "Romania_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg",
     "status": "current"
   },
   {
     "code": "RUS",
     "name": "Russia",
     "pageName": "Russia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
     "status": "current"
   },
   {
     "code": "RWA",
     "name": "Rwanda",
     "pageName": "Rwanda_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg",
     "status": "current"
   },
   {
     "code": "SKN",
     "name": "Saint Kitts and Nevis",
     "pageName": "Saint_Kitts_and_Nevis_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg",
     "status": "current"
   },
   {
     "code": "LCA",
     "name": "Saint Lucia",
     "pageName": "Saint_Lucia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg",
     "status": "current"
   },
   {
     "code": "VIN",
     "name": "Saint Vincent and the Grenadines",
     "pageName": "Saint_Vincent_and_the_Grenadines_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg",
     "status": "current"
   },
   {
     "code": "SAM",
     "name": "Samoa",
     "pageName": "Samoa_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg",
     "status": "current"
   },
   {
     "code": "SMR",
     "name": "San Marino",
     "pageName": "San_Marino_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg",
     "status": "current"
   },
   {
     "code": "KSA",
     "name": "Saudi Arabia",
     "pageName": "Saudi_Arabia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
     "status": "current"
   },
   {
     "code": "SEN",
     "name": "Senegal",
     "pageName": "Senegal_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
     "status": "current"
   },
   {
     "code": "SRB",
     "name": "Serbia",
     "pageName": "Serbia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
     "status": "current"
   },
   {
     "code": "SEY",
     "name": "Seychelles",
     "pageName": "Seychelles_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg",
     "status": "current"
   },
   {
     "code": "SLE",
     "name": "Sierra Leone",
     "pageName": "Sierra_Leone_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Sierra_Leone.svg",
     "status": "current"
   },
   {
     "code": "SGP",
     "name": "Singapore",
     "pageName": "Singapore_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg",
     "status": "current"
   },
   {
     "code": "SVK",
     "name": "Slovakia",
     "pageName": "Slovakia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg",
     "status": "current"
   },
   {
     "code": "SLO",
     "name": "Slovenia",
     "pageName": "Slovenia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
     "status": "current"
   },
   {
     "code": "SOL",
     "name": "Solomon Islands",
     "pageName": "Solomon_Islands_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg",
     "status": "current"
   },
   {
     "code": "SOM",
     "name": "Somalia",
     "pageName": "Somalia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg",
     "status": "current"
   },
   {
     "code": "RSA",
     "name": "South Africa",
     "pageName": "South_Africa_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
     "status": "current"
   },
   {
     "code": "KOR",
     "name": "South Korea",
     "pageName": "South_Korea_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
     "status": "current"
   },
   {
     "code": "SSD",
     "name": "South Sudan",
     "pageName": "South_Sudan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg",
     "status": "current"
   },
   {
     "code": "ESP",
     "name": "Spain",
     "pageName": "Spain_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
     "status": "current"
   },
   {
     "code": "SRI",
     "name": "Sri Lanka",
     "pageName": "Sri_Lanka_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg",
     "status": "current"
   },
   {
     "code": "SUD",
     "name": "Sudan",
     "pageName": "Sudan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg",
     "status": "current"
   },
   {
     "code": "SUR",
     "name": "Suriname",
     "pageName": "Suriname_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg",
     "status": "current"
   },
   {
     "code": "SWE",
     "name": "Sweden",
     "pageName": "Sweden_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
     "status": "current"
   },
   {
     "code": "SUI",
     "name": "Switzerland",
     "pageName": "Switzerland_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
     "status": "current"
   },
   {
     "code": "SYR",
     "name": "Syria",
     "pageName": "Syria_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Flag_of_Syria.svg",
     "status": "current"
   },
   {
     "code": "STP",
     "name": "São Tomé and Príncipe",
     "pageName": "S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
     "status": "current"
   },
   {
     "code": "TJK",
     "name": "Tajikistan",
     "pageName": "Tajikistan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg",
     "status": "current"
   },
   {
     "code": "TAN",
     "name": "Tanzania",
     "pageName": "Tanzania_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg",
     "status": "current"
   },
   {
     "code": "THA",
     "name": "Thailand",
     "pageName": "Thailand_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
     "status": "current"
   },
   {
     "code": "GAM",
     "name": "The Gambia",
     "pageName": "The_Gambia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_The_Gambia.svg",
     "status": "current"
   },
   {
     "code": "TOG",
     "name": "Togo",
     "pageName": "Togo_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg",
     "status": "current"
   },
   {
     "code": "TGA",
     "name": "Tonga",
     "pageName": "Tonga_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg",
     "status": "current"
   },
   {
     "code": "TTO",
     "name": "Trinidad and Tobago",
     "pageName": "Trinidad_and_Tobago_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg",
     "status": "current"
   },
   {
     "code": "TUN",
     "name": "Tunisia",
     "pageName": "Tunisia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg",
     "status": "current"
   },
   {
     "code": "TUR",
     "name": "Turkey",
     "pageName": "Turkey_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
     "status": "current"
   },
   {
     "code": "TKM",
     "name": "Turkmenistan",
     "pageName": "Turkmenistan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg",
     "status": "current"
   },
   {
     "code": "TUV",
     "name": "Tuvalu",
     "pageName": "Tuvalu_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tuvalu.svg",
     "status": "current"
   },
   {
     "code": "UGA",
     "name": "Uganda",
     "pageName": "Uganda_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg",
     "status": "current"
   },
   {
     "code": "UKR",
     "name": "Ukraine",
     "pageName": "Ukraine_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
     "status": "current"
   },
   {
     "code": "UAE",
     "name": "United Arab Emirates",
     "pageName": "United_Arab_Emirates_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",
     "status": "current"
   },
   {
     "code": "USA",
     "name": "United States",
     "pageName": "United_States_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "status": "current"
   },
   {
     "code": "URU",
     "name": "Uruguay",
     "pageName": "Uruguay_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
     "status": "current"
   },
   {
     "code": "UZB",
     "name": "Uzbekistan",
     "pageName": "Uzbekistan_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
     "status": "current"
   },
   {
     "code": "VAN",
     "name": "Vanuatu",
     "pageName": "Vanuatu_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg",
     "status": "current"
   },
   {
     "code": "VEN",
     "name": "Venezuela",
     "pageName": "Venezuela_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg",
     "status": "current"
   },
   {
     "code": "VIE",
     "name": "Vietnam",
     "pageName": "Vietnam_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg",
     "status": "current"
   },
   {
     "code": "ISV",
     "name": "Virgin Islands",
     "pageName": "Virgin_Islands_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_the_United_States_Virgin_Islands.svg",
     "status": "current"
   },
   {
     "code": "YEM",
     "name": "Yemen",
     "pageName": "Yemen_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg",
     "status": "current"
   },
   {
     "code": "ZAM",
     "name": "Zambia",
     "pageName": "Zambia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg",
     "status": "current"
   },
   {
     "code": "ZIM",
     "name": "Zimbabwe",
     "pageName": "Zimbabwe_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg",
     "status": "current"
   },
   {
     "code": "IOC",
     "name": "Athletes from Kuwait",
     "pageName": "Athletes_from_Kuwait_at_the_2010_Asian_Games",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "HNL",
     "name": "Haudenosaunee",
     "pageName": "Haudenosaunee_at_the_2022_World_Games",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_the_Iroquois_Confederacy.svg",
     "status": "special"
   },
   {
     "code": "IOA",
     "name": "Independent Olympic Athletes",
     "pageName": "Independent_Olympic_Athletes_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "IOP",
     "name": "Independent Olympic Participants",
     "pageName": "Independent_Olympic_Participants_at_the_1992_Summer_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "IPA",
     "name": "Independent Paralympic Athletes",
     "pageName": "Independent_Paralympians_at_the_Paralympic_Games",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Paralympic_flag_%282010-2019%29.svg",
     "status": "special"
   },
   {
     "code": "IPP",
     "name": "Independent Paralympic Participants",
     "pageName": "Independent_Paralympic_Participants_at_the_Paralympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Paralympic_flag_%281988-1994%29.svg",
     "status": "special"
   },
   {
     "code": "AIN",
     "name": "Individual Neutral Athletes",
     "pageName": "Individual_Neutral_Athletes_at_the_2024_Summer_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Flag_of_the_Individual_Neutral_Athletes_at_the_2024_Summer_Olympics.svg",
     "status": "special"
   },
   {
     "code": "COR",
     "name": "Korea",
     "pageName": "Korea_at_the_2018_Winter_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Unification_flag_of_Korea_%28pre_2006%29.svg",
     "status": "special"
   },
   {
     "code": "XXB",
     "name": "Mixed team",
     "pageName": "Mixed_team_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "MIX",
     "name": "Mixed-NOCs",
     "pageName": "Mixed-NOCs_at_the_Youth_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "NPA",
     "name": "Neutral Paralympic Athletes",
     "pageName": "Neutral_Paralympic_Athletes_at_the_Winter_Paralympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Paralympic_flag_%282010-2019%29.svg",
     "status": "special"
   },
   {
     "code": "OAR",
     "name": "Olympic Athletes from Russia",
     "pageName": "Olympic_Athletes_from_Russia_at_the_2018_Winter_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "PNA",
     "name": "Paralympic Neutral Athletes",
     "pageName": "Independent_Paralympians_at_the_Paralympic_Games",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Paralympic_flag_%282019%29.svg",
     "status": "special"
   },
   {
     "code": "ROC",
     "name": "ROC",
     "pageName": "Russian_Olympic_Committee_athletes_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Russian_Olympic_Committee_flag.png",
     "status": "special"
   },
   {
     "code": "RPC",
     "name": "RPC",
     "pageName": "Russian_Paralympic_Committee_athletes_at_the_2020_Summer_Paralympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Russian_Paralympic_Committee_special_emblem_%28Tokyo_2020%2C_Beijing_2022%29.jpg",
     "status": "special"
   },
   {
     "code": "ROT",
     "name": "Refugee Olympic Team",
     "pageName": "Refugee_Olympic_Team_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "EOR",
     "name": "Refugee Olympic Team",
     "pageName": "Refugee_Olympic_Team_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "RPT",
     "name": "Refugee Paralympic Team",
     "pageName": "Refugee_Paralympic_Team_at_the_2020_Summer_Paralympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Paralympic_flag_%282019%29.svg",
     "status": "special"
   },
   {
     "code": "EUN",
     "name": "Unified Team",
     "pageName": "Unified_Team_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "special"
   },
   {
     "code": "ANZ",
     "name": "Australasia",
     "pageName": "Australasia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_Australasian_team_for_Olympic_games.svg",
     "status": "historic"
   },
   {
     "code": "BOH",
     "name": "Bohemia",
     "pageName": "Bohemia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Bohemia.svg",
     "status": "historic"
   },
   {
     "code": "BGU",
     "name": "British Guiana",
     "pageName": "British_Guiana_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Flag_of_British_Guiana_%281955%E2%80%931966%29.svg",
     "status": "historic"
   },
   {
     "code": "HBR",
     "name": "British Honduras",
     "pageName": "British_Honduras_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_British_Honduras_%281919%E2%80%931981%29.svg",
     "status": "historic"
   },
   {
     "code": "BWI",
     "name": "British West Indies",
     "pageName": "British_West_Indies_at_the_1960_Summer_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Flag_of_the_West_Indies_Federation_%281958%E2%80%931962%29.svg",
     "status": "historic"
   },
   {
     "code": "BIR",
     "name": "Burma",
     "pageName": "Myanmar_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Myanmar_%281974%E2%80%932010%29.svg",
     "status": "historic"
   },
   {
     "code": "CEY",
     "name": "Ceylon",
     "pageName": "Ceylon_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg",
     "status": "historic"
   },
   {
     "code": "TCH",
     "name": "Czechoslovakia",
     "pageName": "Czechoslovakia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
     "status": "historic"
   },
   {
     "code": "DAH",
     "name": "Dahomey",
     "pageName": "Dahomey_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg",
     "status": "historic"
   },
   {
     "code": "IHO",
     "name": "Dutch East Indies",
     "pageName": "Indonesia_at_the_1952_Summer_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
     "status": "historic"
   },
   {
     "code": "GDR",
     "name": "East Germany",
     "pageName": "East_Germany_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Flag_of_East_Germany.svg",
     "status": "historic"
   },
   {
     "code": "KHM",
     "name": "Khmer Republic",
     "pageName": "Khmer_Republic_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_the_Khmer_Republic.svg",
     "status": "historic"
   },
   {
     "code": "MAL",
     "name": "Malaya",
     "pageName": "Malaya_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Malaya.svg",
     "status": "historic"
   },
   {
     "code": "ZZX",
     "name": "Mixed team",
     "pageName": "Mixed_team_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Olympic_flag.svg",
     "status": "historic"
   },
   {
     "code": "AHO",
     "name": "Netherlands Antilles",
     "pageName": "Netherlands_Antilles_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_Netherlands_Antilles_%281986%E2%80%932010%29.svg",
     "status": "historic"
   },
   {
     "code": "NBO",
     "name": "North Borneo",
     "pageName": "North_Borneo_at_the_1956_Summer_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Flag_of_North_Borneo_%281948%E2%80%931963%29.svg",
     "status": "historic"
   },
   {
     "code": "YAR",
     "name": "North Yemen",
     "pageName": "North_Yemen_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_North_Yemen.svg",
     "status": "historic"
   },
   {
     "code": "NRH",
     "name": "Northern Rhodesia",
     "pageName": "Northern_Rhodesia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Northern_Rhodesia_%281939%E2%80%931964%29.svg",
     "status": "historic"
   },
   {
     "code": "KMT",
     "name": "Republic of China",
     "pageName": "Republic_of_China_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg",
     "status": "historic"
   },
   {
     "code": "RHO",
     "name": "Rhodesia",
     "pageName": "Rhodesia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Rhodesia_%281968%E2%80%931979%29.svg",
     "status": "historic"
   },
   {
     "code": "RU1",
     "name": "Russian Empire",
     "pageName": "Russian_Empire_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
     "status": "historic"
   },
   {
     "code": "SAA",
     "name": "Saar",
     "pageName": "Saar_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Flag_of_Saar_%281947%E2%80%931956%29.svg",
     "status": "historic"
   },
   {
     "code": "SCG",
     "name": "Serbia and Montenegro",
     "pageName": "Serbia_and_Montenegro_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg",
     "status": "historic"
   },
   {
     "code": "VNM",
     "name": "South Vietnam",
     "pageName": "South_Vietnam_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Flag_of_South_Vietnam.svg",
     "status": "historic"
   },
   {
     "code": "YMD",
     "name": "South Yemen",
     "pageName": "South_Yemen_at_the_1988_Summer_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_South_Yemen.svg",
     "status": "historic"
   },
   {
     "code": "URS",
     "name": "Soviet Union",
     "pageName": "Soviet_Union_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg",
     "status": "historic"
   },
   {
     "code": "UAR",
     "name": "United Arab Republic",
     "pageName": "United_Arab_Republic_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_the_United_Arab_Republic_%281958%E2%80%931971%29.svg",
     "status": "historic"
   },
   {
     "code": "RAU",
     "name": "United Arab Republic",
     "pageName": "United_Arab_Republic_at_the_1960_Summer_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_the_United_Arab_Republic_%281958%E2%80%931971%29.svg",
     "status": "historic"
   },
   {
     "code": "EUA",
     "name": "United Team of Germany",
     "pageName": "United_Team_of_Germany_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/German_Olympic_flag_%281959-1968%29.svg",
     "status": "historic"
   },
   {
     "code": "VOL",
     "name": "Upper Volta",
     "pageName": "Upper_Volta_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Upper_Volta.svg",
     "status": "historic"
   },
   {
     "code": "FRG",
     "name": "West Germany",
     "pageName": "West_Germany_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
     "status": "historic"
   },
   {
     "code": "WSM",
     "name": "Western Samoa",
     "pageName": "Western_Samoa_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg",
     "status": "historic"
   },
   {
     "code": "YUG",
     "name": "Yugoslavia",
     "pageName": "Yugoslavia_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg",
     "status": "historic"
   },
   {
     "code": "ZAI",
     "name": "Zaire",
     "pageName": "Zaire_at_the_Olympics",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Zaire_%281971%E2%80%931997%29.svg",
     "status": "historic"
   }
 ]
