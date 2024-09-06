@@ -4,11 +4,11 @@ CREATE TABLE IF NOT EXISTS games_detail (
     host            VARCHAR(50) NOT NULL,
     season          VARCHAR(6) NOT NULL,
     edition         VARCHAR(20) NOT NULL,
-    page_name       TEXT NOT NULL,
     motto           TEXT NOT NULL,
     num_athletes    INT NOT NULL,
     start_date      DATE NOT NULL,
-    end_date        DATE NOT NULL
+    end_date        DATE NOT NULL,
+    page_name       TEXT NOT NULL,
 );
 
 COMMENT ON TABLE games_detail IS 'Main Games table, holds all games details';
@@ -18,7 +18,7 @@ COMMENT ON COLUMN games_detail.host IS 'Game Host Cities';
 COMMENT ON COLUMN games_detail.season IS 'Season of games (summer|winter)';
 COMMENT ON COLUMN games_detail.motto IS 'Game Motto';
 COMMENT ON COLUMN games_detail.edition IS 'Type of games (olympics|youth|paralympics)';
-COMMENT ON COLUMN games_detail.page_name IS 'Game Emblem URL';
 COMMENT ON COLUMN games_detail.num_athletes IS 'Total number of athletes';
-COMMENT ON COLUMN games_detail.start_date IS 'Game Start Date';
-COMMENT ON COLUMN games_detail.end_date IS 'Game End Date';
+COMMENT ON COLUMN games_detail.start_date IS 'Game start date';
+COMMENT ON COLUMN games_detail.end_date IS 'Game end date';
+COMMENT ON COLUMN games_detail.page_name IS 'Wikipedia page name';

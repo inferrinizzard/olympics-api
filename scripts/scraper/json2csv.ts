@@ -1,15 +1,15 @@
 import { createWriteStream, write } from 'node:fs';
 
 export const json2csv = (objRows: Record<string, unknown>[], path: string) => {
-  const keyMap: Record<string, boolean> = {};
+  const keyMap: Record<string, string> = {};
 
   for (const obj of objRows) {
     for (const key of Object.keys(obj)) {
-      keyMap[key] = true;
+      keyMap[key] = key.replace(/([A-Z])/g, (char) => '_' + char.toLowerCase());
     }
   }
 
-  const finalKeys = Object.keys(keyMap);
+  const finalKeys = Object.values(keyMap);
 
   const writeStream = createWriteStream(path);
 
