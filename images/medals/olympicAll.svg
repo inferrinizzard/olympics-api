@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="463" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <circle cx="668.5" cy="231.5" r="225" fill="#cd7f32" stroke="#a05a2c" stroke-width="13"/>
+ <g fill="none" stroke="#784414" stroke-width="13">
+  <circle cx="804.3" cy="218.1" r="55"/>
+  <circle cx="670" cy="218.1" r="55"/>
+  <circle cx="532.7" cy="218.1" r="55"/>
+  <circle cx="601.3" cy="274" r="55"/>
+  <circle cx="735.7" cy="274" r="55"/>
+ </g>
+ <circle cx="450" cy="231.5" r="225" fill="#ccc" stroke="#999" stroke-width="13"/>
+ <g fill="none" stroke="#666" stroke-width="13">
+  <circle cx="585.8" cy="218.12" r="55"/>
+  <circle cx="451.5" cy="218.12" r="55"/>
+  <circle cx="314.2" cy="218.12" r="55"/>
+  <circle cx="382.8" cy="274.01" r="55"/>
+  <circle cx="517.2" cy="274.01" r="55"/>
+ </g>
+ <circle cx="231.5" cy="231.5" r="225" fill="#ffcd00" stroke="#ffb72a" stroke-width="13"/>
+ <g fill="none" stroke="#d29a02" stroke-width="13">
+  <circle cx="367.4" cy="218.12" r="55"/>
+  <circle cx="233" cy="218.12" r="55"/>
+  <circle cx="95.7" cy="218.12" r="55"/>
+  <circle cx="164.4" cy="274.01" r="55"/>
+  <circle cx="298.7" cy="274.01" r="55"/>
+ </g>
+</svg>
