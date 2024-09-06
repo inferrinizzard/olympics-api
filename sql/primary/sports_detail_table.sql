@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS sports_detail (
     parent      VARCHAR(5),
     status      VARCHAR(15),
     season      VARCHAR(6),
-    page_name   TEXT NOT NULL
+    page_name   TEXT
 );
 
 COMMENT ON TABLE sports_detail IS 'Main Sports table, holds all sports details';
