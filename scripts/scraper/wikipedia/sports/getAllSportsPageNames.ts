@@ -1,8 +1,9 @@
+import { writeFileSync } from 'node:fs';
+
 import wiki from 'wikipedia';
 import { JSDOM } from 'jsdom';
 
-import { matchSportNameToCode } from './matchSportNameToCode';
-import { writeFileSync } from 'fs';
+import { matchSportNameToCode } from '../../utils/matchSportNameToCode';
 
 const getOlympicsSportsPageNames = async () => {
   const OLYMPICS_SPORTS_PAGE_NAME = 'Olympic_sports';
