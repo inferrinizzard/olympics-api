@@ -93,6 +93,11 @@ https://en.wikipedia.org/wiki/Paralympic_results_index
 
 #### Process
 
+1. Run `scraper/olympics-design/extractImageLinks.ts` to collect image urls and link to sports if possible
+2. Download image links to respective games dirs
+3. Manually match any unknown
+
+Misc:
 Extract svg from wikipedia infobox for each sport page (ie. _SPORT_ at the _YEAR_ _SEASON_ games) if exists
 Rely on Olympic designs for png if not
 Convert rasters to avif
@@ -108,6 +113,7 @@ YOG: Copy from design and hand extract screenshots from group image
 - Official websites
   - Olympics — https://olympics.com/en/sports/
   - Paralympics (USOPC) — https://www.usopc.org/paralympic-sport-guide
+- 1996 Atlanta Paralympics — https://www.atlantahistorycenter.com/app/uploads/2020/11/Paralympic_GraphicStandardManual_Optmized.pdf
 
 #### Caveats
 

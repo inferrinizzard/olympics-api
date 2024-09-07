@@ -13,4 +13,5 @@ export async function downloadFile(url: string, filepath: string) {
   const body = Readable.fromWeb(response.body);
   const download_write_stream = createWriteStream(filepath);
   await finished(body.pipe(download_write_stream));
+  download_write_stream.close();
 }
