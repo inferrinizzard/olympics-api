@@ -2,6 +2,7 @@ import wiki from 'wikipedia';
 import { JSDOM } from 'jsdom';
 
 import { matchSportNameToCode } from './matchSportNameToCode';
+import { writeFileSync } from 'fs';
 
 const getOlympicsSportsPageNames = async () => {
   const OLYMPICS_SPORTS_PAGE_NAME = 'Olympic_sports';
@@ -30,9 +31,9 @@ const getOlympicsSportsPageNames = async () => {
     pageMap[noYear] = link;
   }
 
-  return Object.values(pageMap).filter(
-    (link) => !(link.includes(':') || link.includes('List'))
-  );
+  return Object.values(pageMap)
+    .filter((link) => !(link.includes(':') || link.includes('List')))
+    .toSorted();
 };
 
 const getParalympicsSportsPageNames = async () => {
@@ -52,15 +53,34 @@ const getParalympicsSportsPageNames = async () => {
     )
     .flatMap((a) => a.getAttribute('href')?.replace(/^[/]\w+[/]/, '') ?? []);
 
-  return sportsLinks.filter((link) => !link.includes('redlink=1'));
+  return sportsLinks.filter((link) => !link.includes('redlink=1')).toSorted();
 };
 
+// Unused
 const matchLinksToSports = (sportsLinks: string[]) => {
-  const sportsNames = sportsLinks.map((link) => link.split('at_the')[0]);
+  const linkMap: Record<string, string> = {};
+  const sportsNames = sportsLinks.map((link) =>
+    link.split('at_the')[0].replace(/_$/, '')
+  );
 
-  return sportsNames.reduce((acc, sport, i) => {
-    const sportCode = matchSportNameToCode(sport);
-    acc[sportCode] = sportsLinks[i];
-    return acc;
-  }, {} as Record<string, string>);
+  sportsNames.forEach((name, i) => {
+    const sportCode = matchSportNameToCode(name);
+
+    if (!sportCode) {
+      console.log('NO MATCH:', name);
+      return;
+    }
+
+    linkMap[sportCode] = sportsLinks[i];
+  });
+
+  return linkMap;
 };
+
+const olympic = await getOlympicsSportsPageNames();
+const paralympic = await getParalympicsSportsPageNames();
+
+writeFileSync(
+  './json/partial/sportsPageNames.json',
+  JSON.stringify({ olympic, paralympic }, null, 2)
+);
