@@ -4,10 +4,10 @@ CREATE TABLE IF NOT EXISTS games_detail (
     host            VARCHAR(50) NOT NULL,
     season          VARCHAR(6) NOT NULL,
     edition         VARCHAR(20) NOT NULL,
-    motto           TEXT NOT NULL,
-    num_athletes    INT NOT NULL,
-    start_date      DATE NOT NULL,
-    end_date        DATE NOT NULL,
+    motto           TEXT,
+    num_athletes    INT,
+    start_date      TEXT,
+    end_date        TEXT,
     page_name       TEXT NOT NULL
 );
 
