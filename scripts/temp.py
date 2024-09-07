@@ -2,32 +2,34 @@ import json
 import os
 import subprocess
 import shutil
-import urllib
 
 existing = os.listdir('./images/sports/official')
 all_existing = ' '.join(existing)
 
+with open('./json/partial/sportsPageNames.json') as f:
+    page_names = json.load(f)
+
 with open('./json/final/sportsDetail.json') as f:
-    sportsList = json.read(f)
+    sports_detail = json.load(f)
 
-sportsMap = {}
 
-for sport in sportsList:
-    if(sport['code'] in sportsMap or 'P-' in sport['code']):
+with open('./csv/sportsDetail.csv') as f:
+    sports_csv = f.read()
+
+
+for page in page_names['olympic']:
+    if 'Intercalated' in page:
         continue
-    sportsMap[sport['code']] = sport['name']
+    if page not in sports_csv:
+        print(page)
+print()
+for page in page_names['paralympic']:
+    if page not in sports_csv:
+        print(page)
 
-for code, name in sportsMap.items():
-    if code in all_existing:
-        print('Already have:', code)
-        continue
-
-    
-    url_name = name.replace(' ', '-').lower()
-    res = urllib.request.urlopen(f'https://olympics.com/en/sports/{url_name}/')
-
-
-
+for sport in sports_detail:
+    if not 'pageName' in sport:
+        print(sport['code'], sport['name'])
 
 # official = os.listdir('./images/sports/official')
 

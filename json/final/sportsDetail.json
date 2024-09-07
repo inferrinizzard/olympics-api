@@ -329,6 +329,14 @@
     "name": "Flag Football",
     "category": "sport",
     "status": "active",
+    "season": "summer"
+  },
+  {
+    "code": "FLF",
+    "name": "Flag Football",
+    "category": "sport",
+    "parent": "FLF",
+    "status": "active",
     "season": "summer",
     "pageName": "Flag_football_at_the_Summer_Olympics"
   },
@@ -610,6 +618,22 @@
     "status": "active",
     "season": "summer",
     "pageName": "Snowboarding_at_the_Winter_Olympics"
+  },
+  {
+    "code": "SQU",
+    "name": "Squash",
+    "category": "sport",
+    "status": "active",
+    "season": "summer"
+  },
+  {
+    "code": "SQU",
+    "name": "Squash",
+    "category": "discipline",
+    "parent": "SQU",
+    "status": "active",
+    "season": "summer",
+    "pageName": "Squash_at_the_Summer_Olympics"
   },
   {
     "code": "CLB",
@@ -1026,14 +1050,6 @@
     "pageName": "Badminton_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-FBB",
-    "name": "Blind Football",
-    "category": "sport",
-    "status": "active",
-    "season": "summer",
-    "pageName": "Football_5-a-Side_at_the_Summer_Paralympics"
-  },
-  {
     "code": "P-BOC",
     "name": "Boccia",
     "category": "sport",
@@ -1074,12 +1090,20 @@
     "pageName": "Equestrian_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-FB5",
-    "name": "Para Football 5-a-Side",
+    "code": "P-FBB",
+    "name": "Blind Football",
     "category": "sport",
     "status": "active",
     "season": "summer",
     "pageName": "Football_5-a-Side_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-FB7",
+    "name": "Para Football 7-a-Side",
+    "category": "sport",
+    "status": "active",
+    "season": "summer",
+    "pageName": "Football_7-a-side_at_the_Summer_Paralympics"
   },
   {
     "code": "P-GBL",
@@ -1526,7 +1550,8 @@
     "code": "AUT",
     "name": "Automobile Sports",
     "category": "sport",
-    "status": "other"
+    "status": "other",
+    "pageName": "Motor_racing_at_the_Summer_Olympics"
   },
   {
     "code": "BDY",
@@ -1650,13 +1675,12 @@
     "status": "other"
   },
   { "code": "SBO", "name": "Sambo", "category": "sport", "status": "other" },
-  { "code": "SLG", "name": "Sledge", "category": "sport", "status": "other" },
   {
-    "code": "SQU",
-    "name": "Squash",
+    "code": "SLG",
+    "name": "Sledge",
     "category": "sport",
     "status": "other",
-    "pageName": "Squash_at_the_Summer_Olympics"
+    "pageName": "Ice_sledge_speed_racing_at_the_Winter_Paralympics"
   },
   { "code": "SUM", "name": "Sumo", "category": "sport", "status": "other" },
   { "code": "TEQ", "name": "Teqball", "category": "sport", "status": "other" },
@@ -1686,6 +1710,13 @@
     "category": "sport",
     "status": "other",
     "pageName": "Wushu_at_the_Summer_Olympics"
+  },
+  {
+    "code": "P-LBO",
+    "name": "Lawn Bowls",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Lawn_bowls_at_the_Summer_Paralympics"
   },
 
   {
@@ -1725,13 +1756,6 @@
     "name": "Kurash",
     "category": "sport",
     "status": "unrecognised"
-  },
-  {
-    "code": "LBO",
-    "name": "Lawn Bowls",
-    "category": "sport",
-    "status": "unrecognised",
-    "pageName": "Lawn_bowls_at_the_Summer_Paralympics"
   },
   {
     "code": "APG",

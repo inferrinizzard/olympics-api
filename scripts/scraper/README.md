@@ -58,6 +58,9 @@
 
 #### Sources
 
+https://en.wikipedia.org/wiki/Olympic_results_index
+https://en.wikipedia.org/wiki/Paralympic_results_index
+
 #### Caveats
 
 ### Images

@@ -38,7 +38,8 @@ code    ,name                          ,category     ,status         ,season   ,
 "EJP"   ,"Equestrian Jumping"          ,"discipline" ,"active"       ,"summer" ,"EQU"   ,"Equestrian_events_at_the_Summer_Olympics"
 "FEN"   ,"Fencing"                     ,"sport"      ,"active"       ,"summer" ,        ,
 "FEN"   ,"Fencing"                     ,"discipline" ,"active"       ,"summer" ,"FEN"   ,"Fencing_at_the_Summer_Olympics"
-"FLF"   ,"Flag Football"               ,"sport"      ,"active"       ,"summer" ,        ,"Flag_football_at_the_Summer_Olympics"
+"FLF"   ,"Flag Football"               ,"sport"      ,"active"       ,"summer" ,        ,
+"FLF"   ,"Flag Football"               ,"sport"      ,"active"       ,"summer" ,"FLF"   ,"Flag_football_at_the_Summer_Olympics"
 "FBL"   ,"Football"                    ,"sport"      ,"active"       ,"summer" ,        ,
 "FBL"   ,"Football"                    ,"discipline" ,"active"       ,"summer" ,"FBL"   ,"Football_at_the_Summer_Olympics"
 "FBS"   ,"Futsal"                      ,"discipline" ,"active"       ,"summer" ,"FBL"   ,"Football_at_the_Summer_Youth_Olympics"
@@ -73,6 +74,8 @@ code    ,name                          ,category     ,status         ,season   ,
 "SHO"   ,"Shooting"                    ,"discipline" ,"active"       ,"summer" ,"SHO"   ,"Shooting_at_the_Summer_Olympics"
 "SKS"   ,"Skate Sport"                 ,"sport"      ,"active"       ,"summer" ,        ,
 "SKB"   ,"Skateboarding"               ,"discipline" ,"active"       ,"summer" ,"SKS"   ,"Snowboarding_at_the_Winter_Olympics"
+"SQU"   ,"Squash"                      ,"sport"      ,"active"       ,"summer" ,        ,
+"SQU"   ,"Squash"                      ,"discipline" ,"active"       ,"summer" ,"SQU"   ,"Squash_at_the_Summer_Olympics"
 "CLB"   ,"Sport Climbing"              ,"sport"      ,"active"       ,"summer" ,        ,
 "CLB"   ,"Sport Climbing"              ,"discipline" ,"active"       ,"summer" ,"CLB"   ,"Sport_climbing_at_the_Summer_Olympics"
 "SRF"   ,"Surfing"                     ,"sport"      ,"active"       ,"summer" ,        ,
@@ -123,13 +126,13 @@ code    ,name                          ,category     ,status         ,season   ,
 "P-ARC" ,"Para Archery"                ,"sport"      ,"active"       ,"summer" ,        ,"Archery_at_the_Summer_Paralympics"
 "P-ATH" ,"Para Athletics"              ,"sport"      ,"active"       ,"summer" ,        ,"Athletics_at_the_Summer_Paralympics"
 "P-BDM" ,"Para Badminton"              ,"sport"      ,"active"       ,"summer" ,        ,"Badminton_at_the_Summer_Paralympics"
-"P-FBB" ,"Blind Football"              ,"sport"      ,"active"       ,"summer" ,        ,"Football_5-a-Side_at_the_Summer_Paralympics"
 "P-BOC" ,"Boccia"                      ,"sport"      ,"active"       ,"summer" ,        ,"Boccia_at_the_Summer_Paralympics"
 "P-CAS" ,"Para Canoe"                  ,"sport"      ,"active"       ,"summer" ,        ,"Paracanoe_at_the_Summer_Paralympics"
 "P-CYC" ,"Para Cycling"                ,"sport"      ,"active"       ,"summer" ,        ,"Cycling_at_the_Summer_Paralympics"
 "P-DS"  ,"Para Dance Sport"            ,"sport"      ,"active"       ,"summer" ,        ,"Wheelchair_dancesport"
 "P-EQU" ,"Para Equestrian"             ,"sport"      ,"active"       ,"summer" ,        ,"Equestrian_at_the_Summer_Paralympics"
-"P-FB5" ,"Para Football 5-a-Side"      ,"sport"      ,"active"       ,"summer" ,        ,"Football_5-a-Side_at_the_Summer_Paralympics"
+"P-FBB" ,"Blind Football"              ,"sport"      ,"active"       ,"summer" ,        ,"Football_5-a-Side_at_the_Summer_Paralympics"
+"P-FB7" ,"Para Football 7-a-Side"      ,"sport"      ,"active"       ,"summer" ,        ,"Football_7-a-side_at_the_Summer_Paralympics"
 "P-GBL" ,"Goalball"                    ,"sport"      ,"active"       ,"summer" ,        ,"Goalball_at_the_Summer_Paralympics"
 "P-JUD" ,"Para Judo"                   ,"sport"      ,"active"       ,"summer" ,        ,"Judo_at_the_Summer_Paralympics"
 "P-PWL" ,"Para Powerlifting"           ,"sport"      ,"active"       ,"summer" ,        ,"Powerlifting_at_the_Summer_Paralympics"
@@ -189,7 +192,7 @@ code    ,name                          ,category     ,status         ,season   ,
 "WRT"   ,"Traditional Wrestling"       ,"discipline" ,"other"        ,         ,"WRS"   ,
 "AIR"   ,"Air Sports"                  ,"sport"      ,"other"        ,         ,        ,
 "AFB"   ,"American Football"           ,"sport"      ,"other"        ,         ,        ,"American_football_at_the_Summer_Olympics"
-"AUT"   ,"Automobile Sports"           ,"sport"      ,"other"        ,         ,        ,
+"AUT"   ,"Automobile Sports"           ,"sport"      ,"other"        ,         ,        ,"Motor_racing_at_the_Summer_Olympics"
 "BDY"   ,"Bandy"                       ,"sport"      ,"other"        ,         ,        ,"Bandy_at_the_1952_Winter_Olympics"
 "BLD"   ,"Billiards"                   ,"sport"      ,"other"        ,         ,        ,
 "BOU"   ,"Boules Sport"                ,"sport"      ,"other"        ,         ,        ,"Boules_at_the_1900_Summer_Olympics"
@@ -213,21 +216,20 @@ code    ,name                          ,category     ,status         ,season   ,
 "PBT"   ,"Powerboating"                ,"sport"      ,"other"        ,         ,        ,
 "RQL"   ,"Racquetball"                 ,"sport"      ,"other"        ,         ,        ,
 "SBO"   ,"Sambo"                       ,"sport"      ,"other"        ,         ,        ,
-"SLG"   ,"Sledge"                      ,"sport"      ,"other"        ,         ,        ,
-"SQU"   ,"Squash"                      ,"sport"      ,"other"        ,         ,        ,"Squash_at_the_Summer_Olympics"
+"SLG"   ,"Sledge"                      ,"sport"      ,"other"        ,         ,        ,"Ice_sledge_speed_racing_at_the_Winter_Paralympics"
 "SUM"   ,"Sumo"                        ,"sport"      ,"other"        ,         ,        ,
 "TEQ"   ,"Teqball"                     ,"sport"      ,"other"        ,         ,        ,
 "TOW"   ,"Tug of War"                  ,"sport"      ,"other"        ,         ,        ,"Tug_of_war_at_the_Summer_Olympics"
 "UWA"   ,"Underwater Sports"           ,"sport"      ,"other"        ,         ,        ,
 "WSK"   ,"Water Ski and Wakeboard"     ,"sport"      ,"other"        ,         ,        ,"Water_skiing_at_the_1972_Summer_Olympics"
 "WSU"   ,"Wushu"                       ,"sport"      ,"other"        ,         ,        ,"Wushu_at_the_Summer_Olympics"
+"P-LBO" ,"Lawn Bowls"                  ,"sport"      ,"other"        ,         ,        ,"Lawn_bowls_at_the_Summer_Paralympics"
 "AIK"   ,"Aikido"                      ,"sport"      ,"unrecognised" ,         ,        ,
 "CQT"   ,"Croquet"                     ,"sport"      ,"unrecognised" ,         ,        ,"Croquet_at_the_1900_Summer_Olympics"
 "JES"   ,"Jet Sport Boating"           ,"sport"      ,"unrecognised" ,         ,        ,
 "JJI"   ,"Ju-Jitsu"                    ,"sport"      ,"unrecognised" ,         ,        ,
 "KAB"   ,"Kabaddi"                     ,"sport"      ,"unrecognised" ,         ,        ,"Indian_sports_at_the_1936_Summer_Olympics"
 "KUR"   ,"Kurash"                      ,"sport"      ,"unrecognised" ,         ,        ,
-"LBO"   ,"Lawn Bowls"                  ,"sport"      ,"unrecognised" ,         ,        ,"Lawn_bowls_at_the_Summer_Paralympics"
 "APG"   ,"Paragliding"                 ,"sport"      ,"unrecognised" ,         ,        ,
 "PSI"   ,"Pencak Silat"                ,"sport"      ,"unrecognised" ,         ,        ,
 "RQT"   ,"Rackets"                     ,"sport"      ,"unrecognised" ,         ,        ,"Rackets_at_the_1908_Summer_Olympics"
