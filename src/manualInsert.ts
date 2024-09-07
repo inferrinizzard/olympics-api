@@ -33,23 +33,31 @@ const insertData = async <Row extends Record<string, any>>(
     .then(() => console.log(`Loaded table ${table} with ${data.length} rows`));
 };
 
-import gamesDetail from '@/json/final/gamesDetail.json';
-
-const keys = readFileSync('./csv/gamesDetail.csv')
-  .toString()
-  .split('\n')[0]
-  .split(',')
-  .map((key) => key.trim());
-
 const snake_case2camelCase = (str: string) =>
   str.replace(/_(\w)/g, (char) => char.toUpperCase().replace('_', ''));
 
-const data = gamesDetail.map(({ image, ...games }) => {
-  const entries = keys.map((key) => [
-    key,
-    games[snake_case2camelCase(key) as keyof typeof games] ?? null,
-  ]);
-  return Object.fromEntries(entries);
-});
+const insertTableData = async (
+  table: `${'country' | 'games' | 'sports'}_detail`
+) => {
+  const json = (
+    await import(`@/json/final/${snake_case2camelCase(table)}.json`)
+  ).default;
 
-await insertData('games_detail', data);
+  console.log(json);
+
+  const keys = readFileSync(`./csv/${snake_case2camelCase(table)}.csv`)
+    .toString()
+    .split('\n')[0]
+    .split(',')
+    .map((key) => key.trim());
+
+  const data = json.map((row: object) => {
+    const entries = keys.map((key) => [
+      key,
+      row[snake_case2camelCase(key) as keyof typeof row] ?? null,
+    ]);
+    return Object.fromEntries(entries);
+  });
+
+  await insertData(table, data);
+};
