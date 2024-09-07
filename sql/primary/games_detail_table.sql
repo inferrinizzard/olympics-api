@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS games_detail (
     num_athletes    INT NOT NULL,
     start_date      DATE NOT NULL,
     end_date        DATE NOT NULL,
-    page_name       TEXT NOT NULL,
+    page_name       TEXT NOT NULL
 );
 
 COMMENT ON TABLE games_detail IS 'Main Games table, holds all games details';
