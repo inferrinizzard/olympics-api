@@ -68,8 +68,14 @@
 
 #### Process
 
-Manual copy from PDF, identify parents for disciplines
-Repeat for paralympics and merge
+1. Manual copy from PDF, identify parents for disciplines
+
+   - Repeat for paralympics and merge
+
+2. Run `wikipedia/sports/getAllSportsPageNames.ts` to get list of pages from Wikipedia and manually match to json
+   Template:Sports_at_the_Olympics
+   Template:IPC-recognised_paralympic_sports
+   Template:Sports_at_the_Youth_Olympic_Games
 
 #### Sources
 

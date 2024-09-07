@@ -1,4 +1,6 @@
-import { createWriteStream, write } from 'node:fs';
+import sportsDetail from '@/json/final/sportsDetail.json';
+
+import { createWriteStream } from 'node:fs';
 
 export const json2csv = (objRows: Record<string, unknown>[], path: string) => {
   const keyMap: Record<string, string> = {};
@@ -9,11 +11,11 @@ export const json2csv = (objRows: Record<string, unknown>[], path: string) => {
     }
   }
 
-  const finalKeys = Object.values(keyMap);
+  const finalKeys = Object.keys(keyMap);
 
   const writeStream = createWriteStream(path);
 
-  writeStream.write(finalKeys.join(',') + '\n');
+  writeStream.write(Object.values(keyMap).join(',') + '\n');
 
   for (const obj of objRows) {
     const values = [];
@@ -26,3 +28,5 @@ export const json2csv = (objRows: Record<string, unknown>[], path: string) => {
 
   writeStream.close();
 };
+
+json2csv(sportsDetail, './csv/sportsDetail.csv');
