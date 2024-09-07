@@ -1,8 +1,7 @@
 import { readdirSync } from 'node:fs';
 
 import sportsDetail from '@/json/final/sportsDetail.json';
-
-const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+import { delay } from '../../utils/delay';
 
 const existing = readdirSync('./images/sports/official');
 const allExisting = existing.join(' ');

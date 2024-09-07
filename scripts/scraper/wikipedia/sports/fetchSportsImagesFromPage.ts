@@ -5,8 +5,7 @@ import sportsList from '@/json/final/sportsDetail.json';
 import sportsPages from '@/json/partial/gamesSportsLinksMap.json';
 
 import { extractImageFromInfobox, getInfoboxElement } from '../utils/infobox';
-
-const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+import { delay } from '../../utils/delay';
 
 const matchSportMap = sportsList.reduce((map, sport) => {
   const key = sport.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
