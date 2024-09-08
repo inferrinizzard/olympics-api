@@ -4,14 +4,16 @@ import gamesDetail from '@/json/final/gamesDetail.json';
 
 export const convertGamesKey = (rawGamesKey: string) => {
   const [host_year, edition] = rawGamesKey.split('_');
-  const [host, year] = host_year.split('-');
+  const host_year_slugs = host_year.split('-');
+  const year = host_year_slugs.pop();
+  const host = host_year_slugs.join('');
 
-  console.log({ host, year, edition });
+  // Turin <-> Torino
 
   return gamesDetail.find(
     (games) =>
       games.year === year &&
-      latinize(games.host).toLowerCase().includes(host) &&
+      latinize(games.host).toLowerCase().replace(/[^\w]/g, '').includes(host) &&
       games.edition.includes(edition.slice(0, -1))
   )?.code;
 };

@@ -9,6 +9,7 @@ import { convertGamesKey } from './utils/convertGamesKey';
 
 for (const [rawGames, map] of Object.entries(pictogramLinks)) {
   const games = convertGamesKey(rawGames);
+  console.log('STARTING:', games);
   if (!existsSync(`./images/games/${games}/sports`)) {
     mkdirSync(`./images/games/${games}/sports`);
   }
@@ -20,20 +21,37 @@ for (const [rawGames, map] of Object.entries(pictogramLinks)) {
       ? `${sportCode}.png`
       : `${rawSport.replace(/[^\w]/g, '_')}.png`;
 
-    if (!sportCode) {
-      console.log('UNKNOWN KEY:', `${games}.${rawSport}`);
+    // if (!sportCode) {
+    //   console.log('UNKNOWN KEY:', `${games}.${rawSport}`);
+    // }
+
+    if (existsSync(`./images/games/${games}/sports/${name}`)) {
+      continue;
     }
 
-    const link = rawLink.replace(/dimension=\d+/, 'dimension=1000');
-    downloadFile(link, `./images/games/${games}/sports/${name}`);
+    try {
+      if (!rawLink) {
+        console.log('SKIPPING', rawGames, rawSport);
+        continue;
+      }
+      const link = rawLink.replace(/dimension=\d+/, 'dimension=1000');
+      downloadFile(link, `./images/games/${games}/sports/${name}`);
+    } catch {
+      console.log('FAILED', rawGames, rawSport);
+      continue;
+    }
 
     await delay(1000);
   }
 
-  map.unknown.forEach((link, i) =>
-    downloadFile(
-      link.replace(/dimension=\d+/, 'dimension=1000'),
-      `./images/games/${games}/sports/UNKNOWN-${i}.png`
-    )
-  );
+  map.unknown.forEach((link, i) => {
+    try {
+      downloadFile(
+        link.replace(/dimension=\d+/, 'dimension=1000'),
+        `./images/games/${games}/sports/UNKNOWN-${i}.png`
+      );
+    } catch {
+      console.log('FAILED', games, link);
+    }
+  });
 }
