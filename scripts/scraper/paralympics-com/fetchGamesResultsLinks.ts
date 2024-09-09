@@ -1,14 +1,9 @@
-import { writeFileSync } from 'fs';
-import { JSDOM } from 'jsdom';
+import { writeFileSync } from 'node:fs';
+
+import { getDocument } from '../utils/getDocument';
 
 const PARALYMPICS_GAMES_MAIN_URL =
   'https://www.paralympic.org/paralympic-games';
-
-const getDocument = async (url: string) => {
-  const response = await fetch(url);
-  const document = new JSDOM(await response.text()).window.document;
-  return document;
-};
 
 const getGamesLinks = (document: Document) => {
   const anchors = [...document.querySelectorAll('a.event')];

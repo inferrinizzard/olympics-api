@@ -1,7 +1,8 @@
 import { writeFileSync } from 'node:fs';
-import { JSDOM } from 'jsdom';
 
 import olympicsDesignLinks from '@/json/partial/olympicDesignLinks.json';
+
+import { getDocument } from '../utils/getDocument';
 
 const OLYMPIC_DESIGN_SPORTS_PICTOGRAMS_LINKS_JSON_PATH =
   './json/partial/olympicDesignSportsPictograms.json';
@@ -9,8 +10,7 @@ const OLYMPIC_DESIGN_SPORTS_PICTOGRAMS_LINKS_JSON_PATH =
 const gamesSportsPictogramsLinks: Record<string, unknown> = {};
 
 const getImageLinksForPage = async (link: string) => {
-  const response = await fetch(link);
-  const document = new JSDOM(await response.text()).window.document;
+  const document = await getDocument(link);
 
   const imageBlocks = [
     ...document.getElementsByClassName('cc-m-hgrid-column'),
