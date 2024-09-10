@@ -61,6 +61,13 @@
 https://en.wikipedia.org/wiki/Olympic_results_index
 https://en.wikipedia.org/wiki/Paralympic_results_index
 
+Attendance:
+
+- https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Summer_Olympic_Games
+- https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Winter_Olympic_Games
+- https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Summer_Paralympic_Games
+- https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Winter_Paralympic_Games
+
 #### Caveats
 
 ### Images
@@ -118,3 +125,11 @@ YOG: Copy from design and hand extract screenshots from group image
 #### Caveats
 
 Sports pictograms for atlanta-1996_paralympics, nagano-1998_paralympics are missing
+
+## Event Data and Medals
+
+### Sources
+
+- IOC Records — https://olympics.com/en/olympic-games/seoul-1988/results/archery
+- IPC Records — https://db.ipc-services.org/hira/paralympics/competition/code/PG2012/discipline/WT
+- Olympedia — https://www.olympedia.org/statistics/medal/country
