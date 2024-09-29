@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS games_records {
     id          SERIAL PRIMARY KEY,
-    games       VARCHAR(50 NOT NULL),
+    games       VARCHAR(50) NOT NULL,
     country     VARCHAR(3) NOT NULL,
     sport       VARCHAR(5) NOT NULL,
     gold        INT NOT NULL,

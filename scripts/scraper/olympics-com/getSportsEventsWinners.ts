@@ -8,6 +8,7 @@ import resultsLinks from './resultsLinks.json';
 let queue: string[] = [];
 
 for (const link of resultsLinks) {
+  delay(5000);
   const document = await getDocument(`${link}/results`);
 
   if (Number.isInteger(document) || typeof document === 'number') {
@@ -21,7 +22,7 @@ for (const link of resultsLinks) {
 
   queue = queue.concat(sports);
 
-  delay(5000);
+  break;
 }
 
 for (const sportsLink in queue) {
@@ -102,5 +103,6 @@ for (const sportsLink in queue) {
 
   writeFileSync(jsonPath, JSON.stringify(eventsData, null, 2));
 
+  break;
   delay(5000);
 }
