@@ -142,6 +142,7 @@ Sports pictograms for atlanta-1996_paralympics, nagano-1998_paralympics are miss
 
 1. `scripts/scraper/olympedia/getAthleteCounts.ts`
 2. `scripts/scraper/olympedia/getMedalCounts.ts`
+3. `scripts/scraper/olympedia/convertCountsJson2csv.ts`
 
 #### Sources
 
