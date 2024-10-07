@@ -47,3 +47,5 @@ const convertCountsJson2csv = () => {
 
   writeStream.close();
 };
+
+convertCountsJson2csv();
