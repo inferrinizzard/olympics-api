@@ -4,10 +4,7 @@ import { findGamesCode } from '../utils/findGamesCode';
 import { getDocument } from '../utils/getDocument';
 import { delay } from '../utils/delay';
 
-const tryParseInt = (str: string) => {
-  const numOrNan = Number.parseInt(str ?? '');
-  return Number.isNaN(numOrNan) ? 0 : numOrNan;
-};
+import { tryParseInt } from './utils';
 
 /**
  * Gets number of athletes, male and female for each sport from each NOC for each games
@@ -118,8 +115,7 @@ const getGamesPages = async () => {
   return countsData;
 };
 
-const OLYMPEDIA_COUNTS_TEMP_PATH =
-  './json/partial/olympedia/counts.json';
+const OLYMPEDIA_COUNTS_TEMP_PATH = './json/partial/olympedia/counts.json';
 
 const data = await getGamesPages();
 writeFileSync(OLYMPEDIA_COUNTS_TEMP_PATH, JSON.stringify(data, null, 2));
