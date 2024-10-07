@@ -4,7 +4,7 @@ import countsJson from '@/json/partial/olympedia/counts.json';
 
 import { delay } from '../utils/delay';
 import { getDocument } from '../utils/getDocument';
-import { tryParseInt } from './utils';
+import { tryParseInt } from '../utils/tryParseInt';
 
 const MEDAL_COUNT_PAGE_TEMPLATE =
   'https://www.olympedia.org/editions/${i}/sports/${sport}';

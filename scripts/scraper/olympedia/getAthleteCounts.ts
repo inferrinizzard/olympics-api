@@ -4,7 +4,7 @@ import { findGamesCode } from '../utils/findGamesCode';
 import { getDocument } from '../utils/getDocument';
 import { delay } from '../utils/delay';
 
-import { tryParseInt } from './utils';
+import { tryParseInt } from '../utils/tryParseInt';
 
 /**
  * Gets number of athletes, male and female for each sport from each NOC for each games
