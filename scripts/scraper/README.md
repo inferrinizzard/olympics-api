@@ -136,7 +136,14 @@ Sports pictograms for atlanta-1996_paralympics, nagano-1998_paralympics are miss
 
 ## Records of number of athletes and medals
 
-### Sources
+### Data
+
+#### Process
+
+1. `scripts/scraper/olympedia/getAthleteCounts.ts`
+2. `scripts/scraper/olympedia/getMedalCounts.ts`
+
+#### Sources
 
 - Olympics:
   - Athletes: https://www.olympedia.org/counts/edition/2

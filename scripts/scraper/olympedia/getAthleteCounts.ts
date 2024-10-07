@@ -63,7 +63,7 @@ const getAthleteCountsForGamesPage = (document: Document) => {
       });
   }
 
-  return { sportsList, countryList, athleteCounts };
+  return { sportsList, countryList, counts: athleteCounts };
 };
 
 const GAMES_COUNT_PAGE_TEMPLATE =
@@ -95,7 +95,7 @@ const getGamesPages = async () => {
       continue;
     }
 
-    if (topHeader.textContent?.toLowerCase()?.includes('ancient')) {
+    if (topHeader.textContent?.toLowerCase()?.match(/ancient|zappas/)) {
       break;
     }
 
@@ -119,7 +119,7 @@ const getGamesPages = async () => {
 };
 
 const OLYMPEDIA_COUNTS_TEMP_PATH =
-  './json/partial/olympedia/athleteCounts.json';
+  './json/partial/olympedia/counts.json';
 
 const data = await getGamesPages();
 writeFileSync(OLYMPEDIA_COUNTS_TEMP_PATH, JSON.stringify(data, null, 2));
