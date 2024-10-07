@@ -1,10 +1,18 @@
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 import { delay } from '../utils/delay';
 import { getDocument } from '../utils/getDocument';
 import { tryParseInt } from '../utils/tryParseInt';
 
+const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
+const __dirname = path.dirname(__filename); // get the name of the directory
+const pemPath = path.resolve(__dirname, './db.ipc-services.org.pem');
+
 const getGamesHiraKeys = async () => {
   const document = await getDocument(
-    'https://db.ipc-services.org/hira/paralympics/index'
+    'https://db.ipc-services.org/hira/paralympics/index',
+    pemPath
   );
 
   if (typeof document === 'number') {
@@ -28,7 +36,7 @@ const HIRA_GAMES_PAGE_TEMPLATE =
 
 const getGamesDisciplines = async (gamesHiraKey: string) => {
   const url = HIRA_GAMES_PAGE_TEMPLATE.replace('${games', gamesHiraKey);
-  const document = await getDocument(url);
+  const document = await getDocument(url, pemPath);
 
   if (typeof document === 'number') {
     return [];
@@ -59,7 +67,7 @@ const getAthleteCounts = async (games: string, discipline: string) => {
     games
   ).replace('${discipline}', discipline);
 
-  const document = await getDocument(url);
+  const document = await getDocument(url, pemPath);
 
   if (typeof document === 'number') {
     console.log(
@@ -106,7 +114,7 @@ const getMedalCounts = async (games: string, discipline: string) => {
     games
   ).replace('${discipline}', discipline);
 
-  const document = await getDocument(url);
+  const document = await getDocument(url, pemPath);
 
   if (typeof document === 'number') {
     console.log(
@@ -184,6 +192,11 @@ const getCounts = async () => {
   return counts;
 };
 
-const counts = await getCounts();
+await getDocument(
+  'https://db.ipc-services.org/hira/paralympics/index',
+  pemPath
+);
 
-console.log(JSON.stringify(counts));
+// const counts = await getCounts();
+
+// console.log(JSON.stringify(counts));
