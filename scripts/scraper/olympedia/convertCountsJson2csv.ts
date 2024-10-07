@@ -1,6 +1,6 @@
 import { createWriteStream } from 'node:fs';
 
-import countsData from '@/json/final/medalAthleteCounts.json';
+import countsData from '@/json/final/participationRecords.json';
 
 const keys = [
   'games',
@@ -13,10 +13,10 @@ const keys = [
   'women',
 ];
 
-const GAMES_RECORDS_CSV_PATH = './csv/countsRecords.csv';
+const PARTICIPATION_RECORDS_CSV_PATH = './csv/participationRecords.csv';
 
 const convertCountsJson2csv = () => {
-  const writeStream = createWriteStream(GAMES_RECORDS_CSV_PATH);
+  const writeStream = createWriteStream(PARTICIPATION_RECORDS_CSV_PATH);
 
   writeStream.write(keys.join(',') + '\n');
 

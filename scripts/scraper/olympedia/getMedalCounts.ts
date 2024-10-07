@@ -93,7 +93,7 @@ const getGamesMedalsPages = async () => {
   return data;
 };
 
-const OLYMPEDIA_COUNTS_FINAL_PATH = './json/final/medalAthleteCounts.json';
+const OLYMPEDIA_COUNTS_FINAL_PATH = './json/final/participationRecords.json';
 
 const totalCountData = await getGamesMedalsPages();
 writeFileSync(
