@@ -1026,7 +1026,7 @@
   },
 
   {
-    "code": "P-ARC",
+    "code": "P-AR",
     "name": "Para Archery",
     "category": "sport",
     "status": "active",
@@ -1034,7 +1034,7 @@
     "pageName": "Archery_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-ATH",
+    "code": "P-AT",
     "name": "Para Athletics",
     "category": "sport",
     "status": "active",
@@ -1042,7 +1042,7 @@
     "pageName": "Athletics_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-BDM",
+    "code": "P-BD",
     "name": "Para Badminton",
     "category": "sport",
     "status": "active",
@@ -1050,7 +1050,7 @@
     "pageName": "Badminton_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-BOC",
+    "code": "P-BO",
     "name": "Boccia",
     "category": "sport",
     "status": "active",
@@ -1058,7 +1058,7 @@
     "pageName": "Boccia_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-CAS",
+    "code": "P-CF",
     "name": "Para Canoe",
     "category": "sport",
     "status": "active",
@@ -1066,7 +1066,23 @@
     "pageName": "Paracanoe_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-CYC",
+    "code": "P-CL",
+    "name": "Paraclimbing",
+    "category": "sport",
+    "status": "active",
+    "season": "summer",
+    "pageName": "Paraclimbing"
+  },
+  {
+    "code": "P-CR",
+    "name": "Para Cycling Road",
+    "category": "sport",
+    "status": "active",
+    "season": "summer",
+    "pageName": "Cycling_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-CT",
     "name": "Para Cycling",
     "category": "sport",
     "status": "active",
@@ -1074,15 +1090,7 @@
     "pageName": "Cycling_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-DS",
-    "name": "Para Dance Sport",
-    "category": "sport",
-    "status": "active",
-    "season": "summer",
-    "pageName": "Wheelchair_dancesport"
-  },
-  {
-    "code": "P-EQU",
+    "code": "P-EQ",
     "name": "Para Equestrian",
     "category": "sport",
     "status": "active",
@@ -1090,7 +1098,7 @@
     "pageName": "Equestrian_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-FBB",
+    "code": "P-FB",
     "name": "Blind Football",
     "category": "sport",
     "status": "active",
@@ -1098,15 +1106,7 @@
     "pageName": "Football_5-a-Side_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-FB7",
-    "name": "Para Football 7-a-Side",
-    "category": "sport",
-    "status": "active",
-    "season": "summer",
-    "pageName": "Football_7-a-side_at_the_Summer_Paralympics"
-  },
-  {
-    "code": "P-GBL",
+    "code": "P-GB",
     "name": "Goalball",
     "category": "sport",
     "status": "active",
@@ -1114,7 +1114,7 @@
     "pageName": "Goalball_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-JUD",
+    "code": "P-JU",
     "name": "Para Judo",
     "category": "sport",
     "status": "active",
@@ -1122,7 +1122,7 @@
     "pageName": "Judo_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-PWL",
+    "code": "P-PO",
     "name": "Para Powerlifting",
     "category": "sport",
     "status": "active",
@@ -1130,7 +1130,7 @@
     "pageName": "Powerlifting_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-ROW",
+    "code": "P-RO",
     "name": "Para Rowing",
     "category": "sport",
     "status": "active",
@@ -1138,7 +1138,7 @@
     "pageName": "Rowing_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-SHO",
+    "code": "P-SH",
     "name": "Shooting Para Sport",
     "category": "sport",
     "status": "active",
@@ -1146,15 +1146,15 @@
     "pageName": "Shooting_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-VBS",
+    "code": "P-VS",
     "name": "Sitting Volleyball",
     "category": "sport",
     "status": "active",
     "season": "summer",
-    "pageName": "Volleyball_at_the_Summer_Paralympics"
+    "pageName": "Sitting_volleyball_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-SWM",
+    "code": "P-SW",
     "name": "Para Swimming",
     "category": "sport",
     "status": "active",
@@ -1162,7 +1162,7 @@
     "pageName": "Swimming_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-TTE",
+    "code": "P-TT",
     "name": "Para Table Tennis",
     "category": "sport",
     "status": "active",
@@ -1170,7 +1170,7 @@
     "pageName": "Table_tennis_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-TKW",
+    "code": "P-TK",
     "name": "Para Taekwondo",
     "category": "sport",
     "status": "active",
@@ -1178,7 +1178,7 @@
     "pageName": "Parataekwondo_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-TRI",
+    "code": "P-TR",
     "name": "Para Triathlon",
     "category": "sport",
     "status": "active",
@@ -1186,7 +1186,7 @@
     "pageName": "Paratriathlon_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-WBK",
+    "code": "P-WB",
     "name": "Wheelchair Basketball",
     "category": "sport",
     "status": "active",
@@ -1194,7 +1194,7 @@
     "pageName": "Wheelchair_basketball_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-WFE",
+    "code": "P-WF",
     "name": "Wheelchair Fencing",
     "category": "sport",
     "status": "active",
@@ -1202,7 +1202,7 @@
     "pageName": "Wheelchair_fencing_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-WRU",
+    "code": "P-WR",
     "name": "Wheelchair Rugby",
     "category": "sport",
     "status": "active",
@@ -1210,7 +1210,7 @@
     "pageName": "Wheelchair_rugby_at_the_Summer_Paralympics"
   },
   {
-    "code": "P-WTE",
+    "code": "P-WT",
     "name": "Wheelchair Tennis",
     "category": "sport",
     "status": "active",
@@ -1219,7 +1219,7 @@
   },
 
   {
-    "code": "P-ALP",
+    "code": "P-AS",
     "name": "Para Alpine Skiing",
     "category": "sport",
     "status": "active",
@@ -1227,7 +1227,7 @@
     "pageName": "Alpine_skiing_at_the_Winter_Paralympics"
   },
   {
-    "code": "P-IHO",
+    "code": "P-IH",
     "name": "Para Ice Hockey",
     "category": "sport",
     "status": "active",
@@ -1235,33 +1235,23 @@
     "pageName": "Para_ice_hockey_at_the_Winter_Paralympics"
   },
   {
-    "code": "P-NSK",
-    "name": "Para Nordic Skiing",
-    "category": "sport",
-    "status": "active",
-    "season": "winter",
-    "pageName": "Paralympic_Nordic_skiing"
-  },
-  {
-    "code": "P-BTH",
+    "code": "P-BT",
     "name": "Para Biathlon",
-    "category": "discipline",
-    "parent": "P-NSK",
+    "category": "sport",
     "status": "active",
     "season": "winter",
     "pageName": "Biathlon_at_the_Winter_Paralympics"
   },
   {
-    "code": "P-CCS",
+    "code": "P-CC",
     "name": "Para Cross-Country Skiing",
-    "category": "discipline",
-    "parent": "P-NSK",
+    "category": "sport",
     "status": "active",
     "season": "winter",
-    "pageName": "country_skiing_at_the_Winter_Paralympics"
+    "pageName": "Cross-country_skiing_at_the_Winter_Paralympics"
   },
   {
-    "code": "P-SBD",
+    "code": "P-SB",
     "name": "Para Snowboard",
     "category": "sport",
     "status": "active",
@@ -1269,7 +1259,7 @@
     "pageName": "Snowboarding_at_the_Winter_Paralympics"
   },
   {
-    "code": "P-CUR",
+    "code": "P-WC",
     "name": "Wheelchair Curling",
     "category": "sport",
     "status": "active",
@@ -1711,12 +1701,84 @@
     "status": "other",
     "pageName": "Wushu_at_the_Summer_Olympics"
   },
+
   {
-    "code": "P-LBO",
+    "code": "P-FT",
+    "name": "Para Football 7-a-Side",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Football_7-a-side_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-SA",
+    "name": "Para Sailing",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Sailing_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-BK",
+    "name": "Basketball ID",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Basketball_ID_at_the_2000_Summer_Paralympics"
+  },
+  {
+    "code": "P-VT",
+    "name": "Standing Volleyball",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Volleyball_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-LB",
     "name": "Lawn Bowls",
     "category": "sport",
     "status": "other",
     "pageName": "Lawn_bowls_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-WL",
+    "name": "Para Weightlifting",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Weightlifting_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-SN",
+    "name": "Snooker",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Snooker_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-WG",
+    "name": "Para Wrestling",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Wrestling_at_the_1980_Summer_Paralympics"
+  },
+  {
+    "code": "P-DC",
+    "name": "Dartchery",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Dartchery_at_the_Summer_Paralympics"
+  },
+  {
+    "code": "P-SS",
+    "name": "Ice Sledge Speed Skating",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Ice_sledge_speed_racing_at_the_Winter_Paralympics"
+  },
+
+  {
+    "code": "P-DS",
+    "name": "Para Dance Sport",
+    "category": "sport",
+    "status": "other",
+    "pageName": "Wheelchair_dancesport"
   },
 
   {

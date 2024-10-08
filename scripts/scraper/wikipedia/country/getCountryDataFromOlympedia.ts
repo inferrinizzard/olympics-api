@@ -1,4 +1,4 @@
-import { JSDOM } from 'jsdom';
+import { getDocument } from '../../utils/getDocument';
 
 const extractCountryDataFromRow = (row: HTMLTableRowElement) => {
   const code = row.cells[0].textContent;
@@ -9,9 +9,7 @@ const extractCountryDataFromRow = (row: HTMLTableRowElement) => {
 
 const getCountryDataFromOlympedia = async () => {
   const OLYMPEDIA_COUNTRIES_PAGE_URL = 'https://www.olympedia.org/countries';
-  const olympediaPage = await fetch(OLYMPEDIA_COUNTRIES_PAGE_URL);
-
-  const document = new JSDOM(await olympediaPage.text()).window.document;
+  const document = await getDocument(OLYMPEDIA_COUNTRIES_PAGE_URL);
 
   const countryTable = document.querySelector('table');
 
