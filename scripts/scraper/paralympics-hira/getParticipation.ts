@@ -91,7 +91,10 @@ const getAthleteCounts = async (games: string, discipline: string) => {
 
   const athleteCounts: Record<string, { men: number; women: number }> = {};
 
-  for (const row of [...athleteCountTable.rows].slice(1, -1)) {
+  for (const row of [...(athleteCountTable.tBodies.item(0)?.rows ?? [])].slice(
+    0,
+    -1
+  )) {
     const country = row.cells[1].textContent?.trim() ?? '';
 
     if (!country) {
