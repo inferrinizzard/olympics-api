@@ -7,8 +7,8 @@ export const getDocument = async (url: string, caPemPath?: string) => {
   if (caPemPath) {
     const response = await got(url, {
       https: {
-        rejectUnauthorized: false,
-        // certificateAuthority: readFileSync(caPemPath),
+        // rejectUnauthorized: false,
+        certificateAuthority: readFileSync(caPemPath),
       },
     });
 

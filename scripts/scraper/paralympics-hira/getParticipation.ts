@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { delay } from '../utils/delay';
 import { getDocument } from '../utils/getDocument';
 import { tryParseInt } from '../utils/tryParseInt';
+import { writeFileSync } from 'node:fs';
 
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
@@ -19,7 +20,7 @@ const getGamesHiraKeys = async () => {
     return [];
   }
 
-  const owlLinkCards = [...document.querySelectorAll('.owl-item')];
+  const owlLinkCards = [...document.querySelectorAll('.item')];
   const imageUrls = owlLinkCards.map((card) =>
     card.querySelector('img')?.getAttribute('src')
   );
@@ -35,7 +36,7 @@ const HIRA_GAMES_PAGE_TEMPLATE =
   'https://db.ipc-services.org/hira/paralympics/competition/code/${games}';
 
 const getGamesDisciplines = async (gamesHiraKey: string) => {
-  const url = HIRA_GAMES_PAGE_TEMPLATE.replace('${games', gamesHiraKey);
+  const url = HIRA_GAMES_PAGE_TEMPLATE.replace('${games}', gamesHiraKey);
   const document = await getDocument(url, pemPath);
 
   if (typeof document === 'number') {
@@ -47,15 +48,18 @@ const getGamesDisciplines = async (gamesHiraKey: string) => {
     return [];
   }
 
-  const disciplineUrls = [...dropdownMenu.querySelectorAll('a.dropdown-item')]
-    .map((item) => item.getAttribute('href'))
-    .filter((url) => !url?.includes('discipline'));
+  const disciplineElements = [
+    ...dropdownMenu.querySelectorAll('a.dropdown-item'),
+  ].filter((item) => item.getAttribute('href')?.includes('discipline'));
 
-  const disciplineCodes = disciplineUrls.flatMap(
-    (url) => url?.split('/').pop() ?? []
+  const disciplineMap = Object.fromEntries(
+    disciplineElements.flatMap((item) => {
+      const code = item.getAttribute('href')?.split('/').pop();
+      return code && item.textContent ? [[code, item.textContent]] : [];
+    })
   );
 
-  return disciplineCodes;
+  return disciplineMap;
 };
 
 const HIRA_GAMES_ATHLETES_PAGE_TEMPLATE =
@@ -138,16 +142,16 @@ const getMedalCounts = async (games: string, discipline: string) => {
   > = {};
 
   for (const row of [...medalCountsTable.rows].slice(1, -1)) {
-    const country = row.cells[1].textContent?.trim() ?? '';
+    const country = row.cells[2].textContent?.trim() ?? '';
 
     if (!country) {
       continue;
     }
 
     const counts = {
-      gold: tryParseInt(row.cells[2].textContent ?? ''),
-      silver: tryParseInt(row.cells[3].textContent ?? ''),
-      bronze: tryParseInt(row.cells[4].textContent ?? ''),
+      gold: tryParseInt(row.cells[3].textContent ?? ''),
+      silver: tryParseInt(row.cells[4].textContent ?? ''),
+      bronze: tryParseInt(row.cells[5].textContent ?? ''),
     };
 
     medalCounts[country] = counts;
@@ -159,15 +163,19 @@ const getMedalCounts = async (games: string, discipline: string) => {
 const getCounts = async () => {
   const gamesHiraKeys = await getGamesHiraKeys();
 
+  const disciplines: Record<string, string> = {};
   const counts: Record<string, any> = {};
 
   for (const gamesHiraKey of gamesHiraKeys) {
     await delay(500);
-    const disciplines = await getGamesDisciplines(gamesHiraKey);
+    const disciplineMap = await getGamesDisciplines(gamesHiraKey);
+    for (const [code, name] of Object.entries(disciplineMap)) {
+      disciplines[code] = disciplines[code] || name;
+    }
 
     const gamesCounts: Record<string, any> = {};
 
-    for (const discipline of disciplines) {
+    for (const discipline of Object.keys(disciplineMap)) {
       await delay(500);
       const athleteCounts = await getAthleteCounts(gamesHiraKey, discipline);
       const medalCounts = await getMedalCounts(gamesHiraKey, discipline);
@@ -182,21 +190,19 @@ const getCounts = async () => {
       }
 
       gamesCounts[discipline] = disciplineCounts;
-      break;
     }
 
     counts[gamesHiraKey] = gamesCounts;
-    break;
   }
 
-  return counts;
+  return { counts, disciplines };
 };
 
-await getDocument(
-  'https://db.ipc-services.org/hira/paralympics/index',
-  pemPath
+const PARALYMPICS_HIRA_PARTIAL_JSON_PATH =
+  './json/partial/paralympicsHiraCounts.json';
+
+const data = await getCounts();
+writeFileSync(
+  PARALYMPICS_HIRA_PARTIAL_JSON_PATH,
+  JSON.stringify(data, null, 2)
 );
-
-// const counts = await getCounts();
-
-// console.log(JSON.stringify(counts));
