@@ -90,10 +90,11 @@ const getGamesMedalsPages = async () => {
 
   await Promise.allSettled(promises);
 
-  return data;
+  return data.map(({ i, ...gamesRow }) => gamesRow);
 };
 
-const OLYMPEDIA_COUNTS_FINAL_PATH = './json/final/participationRecords.json';
+const OLYMPEDIA_COUNTS_FINAL_PATH =
+  './json/final/participationRecordsOlympics.json';
 
 const totalCountData = await getGamesMedalsPages();
 writeFileSync(
