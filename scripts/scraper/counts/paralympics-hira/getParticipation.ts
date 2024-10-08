@@ -1,9 +1,9 @@
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { delay } from '../utils/delay';
-import { getDocument } from '../utils/getDocument';
-import { tryParseInt } from '../utils/tryParseInt';
+import { delay } from '../../utils/delay';
+import { getDocument } from '../../utils/getDocument';
+import { tryParseInt } from '../../utils/tryParseInt';
 import { writeFileSync } from 'node:fs';
 
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file

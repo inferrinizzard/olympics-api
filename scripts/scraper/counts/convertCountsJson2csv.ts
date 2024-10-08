@@ -1,6 +1,7 @@
 import { createWriteStream } from 'node:fs';
 
-import countsData from '@/json/final/participationRecords.json';
+import olympicsCountsData from '@/json/final/participationRecordsOlympics.json';
+import paralympicsCountsData from '@/json/final/participationRecordsParalympics.json';
 
 const keys = [
   'games',
@@ -20,7 +21,7 @@ const convertCountsJson2csv = () => {
 
   writeStream.write(keys.join(',') + '\n');
 
-  for (const countsRow of countsData) {
+  for (const countsRow of [...olympicsCountsData, ...paralympicsCountsData]) {
     const games = countsRow.games;
     for (const [sport, countryCountsMap] of Object.entries(countsRow.counts)) {
       for (const [country, counts] of Object.entries(countryCountsMap)) {
