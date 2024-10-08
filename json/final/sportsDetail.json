@@ -1248,7 +1248,7 @@
     "category": "sport",
     "status": "active",
     "season": "winter",
-    "pageName": "country_skiing_at_the_Winter_Paralympics"
+    "pageName": "Cross-country_skiing_at_the_Winter_Paralympics"
   },
   {
     "code": "P-SB",
@@ -1711,7 +1711,7 @@
   },
   {
     "code": "P-SA",
-    "name": "Sailing",
+    "name": "Para Sailing",
     "category": "sport",
     "status": "other",
     "pageName": "Sailing_at_the_Summer_Paralympics"
@@ -1739,7 +1739,7 @@
   },
   {
     "code": "P-WL",
-    "name": "Weightlifting",
+    "name": "Para Weightlifting",
     "category": "sport",
     "status": "other",
     "pageName": "Weightlifting_at_the_Summer_Paralympics"
@@ -1753,7 +1753,7 @@
   },
   {
     "code": "P-WG",
-    "name": "Wrestling",
+    "name": "Para Wrestling",
     "category": "sport",
     "status": "other",
     "pageName": "Wrestling_at_the_1980_Summer_Paralympics"
