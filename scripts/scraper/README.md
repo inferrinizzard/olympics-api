@@ -78,12 +78,13 @@ Attendance:
 
 #### Process
 
-1. Manual copy from PDF, identify parents for disciplines
+1. Copy from PDF and ODF database: https://odf.olympictech.org/2024-Paris/codes/HTML/og_cc/Discipline.htm , identify parents for disciplines (Olympics)
 
-   - Repeat for paralympics and merge
+2. Use Paralympics HIRA to get paralympics codes, prefix P-
 
-2. Run `wikipedia/sports/getAllSportsPageNames.ts` to get list of pages from Wikipedia and manually match to json
+3. Run `wikipedia/sports/getAllSportsPageNames.ts` to get list of pages from Wikipedia and manually match to json
    Template:Sports_at_the_Olympics
+   Template:ParalympicSports
    Template:IPC-recognised_paralympic_sports
    Template:Sports_at_the_Youth_Olympic_Games
 
