@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { db, pgp } from './db';
+import { db, pgp } from '../db';
 
 const insertData = async <Row extends Record<string, any>>(
   table: string,
@@ -36,7 +36,16 @@ const insertData = async <Row extends Record<string, any>>(
 const snake_case2camelCase = (str: string) =>
   str.replace(/_(\w)/g, (char) => char.toUpperCase().replace('_', ''));
 
-const insertTableData = async (table: string, force = false) => {
+/**
+ * @param table snake_case name of table
+ * @param fromFile read from csv or json ?
+ * @param force overwrite existing data ?
+ */
+const insertTableData = async (
+  table: string,
+  fromFile: 'csv' | 'json' = 'json',
+  force = false
+) => {
   const json = (
     await import(`@/json/final/${snake_case2camelCase(table)}.json`)
   ).default;

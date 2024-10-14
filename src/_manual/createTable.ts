@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { db } from './db';
+import { db } from '../db';
 
 const createTable = (sqlPath: string) => {
   const query = readFileSync(sqlPath, 'utf-8');
