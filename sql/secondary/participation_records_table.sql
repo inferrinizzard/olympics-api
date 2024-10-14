@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS participation_records {
+CREATE TABLE IF NOT EXISTS participation_records (
     id          SERIAL PRIMARY KEY,
     games       VARCHAR(50) NOT NULL,
     country     VARCHAR(3) NOT NULL,
@@ -11,14 +11,14 @@ CREATE TABLE IF NOT EXISTS participation_records {
 
     CONSTRAINT fk_participation_records_games
         FOREIGN KEY(games)
-        REFERENCES participation_detail(code),
+        REFERENCES games_detail(code),
     CONSTRAINT fk_participation_records_country
         FOREIGN KEY(country)
         REFERENCES country_detail(code),
     CONSTRAINT fk_participation_records_sport
         FOREIGN KEY(sport)
         REFERENCES sports_detail(code)
-}
+);
 
 COMMENT ON TABLE participation_records IS 'Table containing number of medals and athletes per country per games';
 COMMENT ON COLUMN participation_records.id IS 'Incremental ID';

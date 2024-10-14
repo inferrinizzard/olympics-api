@@ -36,7 +36,7 @@ const insertData = async <Row extends Record<string, any>>(
 const snake_case2camelCase = (str: string) =>
   str.replace(/_(\w)/g, (char) => char.toUpperCase().replace('_', ''));
 
-const insertTableData = async (table: string) => {
+const insertTableData = async (table: string, force = false) => {
   const json = (
     await import(`@/json/final/${snake_case2camelCase(table)}.json`)
   ).default;
@@ -55,7 +55,7 @@ const insertTableData = async (table: string) => {
     return Object.fromEntries(entries);
   });
 
-  await insertData(table, data, true);
+  await insertData(table, data, force);
 };
 
-insertTableData('sports_detail');
+// insertTableData('sports_detail');
