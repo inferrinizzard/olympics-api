@@ -1,6 +1,6 @@
 [
   {
-    "code": "AQU",
+    "code": "AQ",
     "name": "Aquatics",
     "category": "sport",
     "status": "active",
@@ -10,7 +10,7 @@
     "code": "SWA",
     "name": "Artistic Swimming",
     "category": "discipline",
-    "parent": "AQU",
+    "parent": "AQ",
     "status": "active",
     "season": "summer",
     "pageName": "Artistic_swimming_at_the_Summer_Olympics"
@@ -19,7 +19,7 @@
     "code": "DIV",
     "name": "Diving",
     "category": "discipline",
-    "parent": "AQU",
+    "parent": "AQ",
     "status": "active",
     "season": "summer",
     "pageName": "Diving_at_the_Summer_Olympics"
@@ -28,7 +28,7 @@
     "code": "OWS",
     "name": "Marathon Swimming",
     "category": "discipline",
-    "parent": "AQU",
+    "parent": "AQ",
     "status": "active",
     "season": "summer",
     "pageName": "Marathon_swimming_at_the_Summer_Olympics"
@@ -37,7 +37,7 @@
     "code": "SWM",
     "name": "Swimming",
     "category": "discipline",
-    "parent": "AQU",
+    "parent": "AQ",
     "status": "active",
     "season": "summer",
     "pageName": "Swimming_at_the_Summer_Olympics"
@@ -46,13 +46,13 @@
     "code": "WPO",
     "name": "Water Polo",
     "category": "discipline",
-    "parent": "AQU",
+    "parent": "AQ",
     "status": "active",
     "season": "summer",
     "pageName": "Water_polo_at_the_Summer_Olympics"
   },
   {
-    "code": "ARC",
+    "code": "AR",
     "name": "Archery",
     "category": "sport",
     "status": "active",
@@ -62,13 +62,13 @@
     "code": "ARC",
     "name": "Archery",
     "category": "discipline",
-    "parent": "ARC",
+    "parent": "AR",
     "status": "active",
     "season": "summer",
     "pageName": "Archery_at_the_Summer_Olympics"
   },
   {
-    "code": "ATH",
+    "code": "AT",
     "name": "Athletics",
     "category": "sport",
     "status": "active",
@@ -78,13 +78,13 @@
     "code": "ATH",
     "name": "Athletics",
     "category": "discipline",
-    "parent": "ATH",
+    "parent": "AT",
     "status": "active",
     "season": "summer",
     "pageName": "Athletics_at_the_Summer_Olympics"
   },
   {
-    "code": "BDM",
+    "code": "BD",
     "name": "Badminton",
     "category": "sport",
     "status": "active",
@@ -94,13 +94,13 @@
     "code": "BDM",
     "name": "Badminton",
     "category": "discipline",
-    "parent": "BDM",
+    "parent": "BD",
     "status": "active",
     "season": "summer",
     "pageName": "Badminton_at_the_Summer_Olympics"
   },
   {
-    "code": "BSB",
+    "code": "SB",
     "name": "Baseball/Softball",
     "category": "sport",
     "status": "active",
@@ -110,13 +110,13 @@
     "code": "BS5",
     "name": "Baseball5",
     "category": "discipline",
-    "parent": "BSB",
+    "parent": "SB",
     "status": "active",
     "season": "summer",
     "pageName": "Baseball_at_the_Summer_Olympics"
   },
   {
-    "code": "BSK",
+    "code": "BK",
     "name": "Basketball Sport",
     "category": "sport",
     "status": "active",
@@ -126,7 +126,7 @@
     "code": "BK3",
     "name": "3x3 Basketball",
     "category": "discipline",
-    "parent": "BSK",
+    "parent": "BK",
     "status": "active",
     "season": "summer",
     "pageName": "3x3_basketball_at_the_Summer_Olympics"
@@ -135,13 +135,13 @@
     "code": "BKB",
     "name": "Basketball",
     "category": "discipline",
-    "parent": "BSK",
+    "parent": "BK",
     "status": "active",
     "season": "summer",
     "pageName": "Basketball_at_the_Summer_Olympics"
   },
   {
-    "code": "BOX",
+    "code": "BO",
     "name": "Boxing",
     "category": "sport",
     "status": "active",
@@ -151,13 +151,13 @@
     "code": "BOX",
     "name": "Boxing",
     "category": "discipline",
-    "parent": "BOX",
+    "parent": "BO",
     "status": "active",
     "season": "summer",
     "pageName": "Boxing_at_the_Summer_Olympics"
   },
   {
-    "code": "CAS",
+    "code": "CA",
     "name": "Canoe Sport",
     "category": "sport",
     "status": "active",
@@ -167,7 +167,7 @@
     "code": "CSL",
     "name": "Canoe Slalom",
     "category": "discipline",
-    "parent": "CAS",
+    "parent": "CA",
     "status": "active",
     "season": "summer",
     "pageName": "Canoe_slalom_at_the_Summer_Olympics"
@@ -176,13 +176,13 @@
     "code": "CSP",
     "name": "Canoe Sprint",
     "category": "discipline",
-    "parent": "CAS",
+    "parent": "CA",
     "status": "active",
     "season": "summer",
     "pageName": "Canoeing_at_the_Summer_Olympics"
   },
   {
-    "code": "CKT",
+    "code": "CK",
     "name": "Cricket",
     "category": "sport",
     "status": "active",
@@ -192,13 +192,13 @@
     "code": "CKT",
     "name": "Cricket",
     "category": "discipline",
-    "parent": "CKT",
+    "parent": "CK",
     "status": "active",
     "season": "summer",
     "pageName": "Cricket_at_the_Summer_Olympics"
   },
   {
-    "code": "CYC",
+    "code": "CY",
     "name": "Cycling Sport",
     "category": "sport",
     "status": "active",
@@ -208,7 +208,7 @@
     "code": "BMF",
     "name": "Cycling BMX Freestyle",
     "category": "discipline",
-    "parent": "CYC",
+    "parent": "CY",
     "status": "active",
     "season": "summer",
     "pageName": "Cycling_at_the_Summer_Olympics"
@@ -217,7 +217,7 @@
     "code": "BMX",
     "name": "Cycling BMX Racing",
     "category": "discipline",
-    "parent": "CYC",
+    "parent": "CY",
     "status": "active",
     "season": "summer",
     "pageName": "Cycling_at_the_Summer_Olympics"
@@ -226,7 +226,7 @@
     "code": "MTB",
     "name": "Cycling Mountain Bike",
     "category": "discipline",
-    "parent": "CYC",
+    "parent": "CY",
     "status": "active",
     "season": "summer",
     "pageName": "Cycling_at_the_Summer_Olympics"
@@ -235,7 +235,7 @@
     "code": "CRD",
     "name": "Cycling Road",
     "category": "discipline",
-    "parent": "CYC",
+    "parent": "CY",
     "status": "active",
     "season": "summer",
     "pageName": "Cycling_at_the_Summer_Olympics"
@@ -244,13 +244,13 @@
     "code": "CTR",
     "name": "Cycling Track",
     "category": "discipline",
-    "parent": "CYC",
+    "parent": "CY",
     "status": "active",
     "season": "summer",
     "pageName": "Cycling_at_the_Summer_Olympics"
   },
   {
-    "code": "DAN",
+    "code": "DA",
     "name": "Dance Sport",
     "category": "sport",
     "status": "active",
@@ -260,13 +260,13 @@
     "code": "BKG",
     "name": "Breaking",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "active",
     "season": "summer",
     "pageName": "Breaking_at_the_Summer_Olympics"
   },
   {
-    "code": "EQU",
+    "code": "EQ",
     "name": "Equestrian",
     "category": "sport",
     "status": "active",
@@ -276,7 +276,7 @@
     "code": "EQU",
     "name": "Equestrian",
     "category": "discipline",
-    "parent": "EQU",
+    "parent": "EQ",
     "status": "active",
     "season": "summer",
     "pageName": "Equestrian_events_at_the_Summer_Olympics"
@@ -285,7 +285,7 @@
     "code": "EDR",
     "name": "Equestrian Dressage",
     "category": "discipline",
-    "parent": "EQU",
+    "parent": "EQ",
     "status": "active",
     "season": "summer",
     "pageName": "Equestrian_events_at_the_Summer_Olympics"
@@ -294,7 +294,7 @@
     "code": "EVE",
     "name": "Equestrian Eventing",
     "category": "discipline",
-    "parent": "EQU",
+    "parent": "EQ",
     "status": "active",
     "season": "summer",
     "pageName": "Equestrian_events_at_the_Summer_Olympics"
@@ -303,13 +303,13 @@
     "code": "EJP",
     "name": "Equestrian Jumping",
     "category": "discipline",
-    "parent": "EQU",
+    "parent": "EQ",
     "status": "active",
     "season": "summer",
     "pageName": "Equestrian_events_at_the_Summer_Olympics"
   },
   {
-    "code": "FEN",
+    "code": "FE",
     "name": "Fencing",
     "category": "sport",
     "status": "active",
@@ -319,13 +319,13 @@
     "code": "FEN",
     "name": "Fencing",
     "category": "discipline",
-    "parent": "FEN",
+    "parent": "FE",
     "status": "active",
     "season": "summer",
     "pageName": "Fencing_at_the_Summer_Olympics"
   },
   {
-    "code": "FLF",
+    "code": "FL",
     "name": "Flag Football",
     "category": "sport",
     "status": "active",
@@ -335,13 +335,13 @@
     "code": "FLF",
     "name": "Flag Football",
     "category": "sport",
-    "parent": "FLF",
+    "parent": "FL",
     "status": "active",
     "season": "summer",
     "pageName": "Flag_football_at_the_Summer_Olympics"
   },
   {
-    "code": "FBL",
+    "code": "FB",
     "name": "Football",
     "category": "sport",
     "status": "active",
@@ -351,7 +351,7 @@
     "code": "FBL",
     "name": "Football",
     "category": "discipline",
-    "parent": "FBL",
+    "parent": "FB",
     "status": "active",
     "season": "summer",
     "pageName": "Football_at_the_Summer_Olympics"
@@ -360,13 +360,13 @@
     "code": "FBS",
     "name": "Futsal",
     "category": "discipline",
-    "parent": "FBL",
+    "parent": "FB",
     "status": "active",
     "season": "summer",
     "pageName": "Football_at_the_Summer_Youth_Olympics"
   },
   {
-    "code": "GLF",
+    "code": "GO",
     "name": "Golf",
     "category": "sport",
     "status": "active",
@@ -376,13 +376,13 @@
     "code": "GLF",
     "name": "Golf",
     "category": "discipline",
-    "parent": "GLF",
+    "parent": "GO",
     "status": "active",
     "season": "summer",
     "pageName": "Golf_at_the_Summer_Olympics"
   },
   {
-    "code": "GYM",
+    "code": "GY",
     "name": "Gymnastics Sport",
     "category": "sport",
     "status": "active",
@@ -392,7 +392,7 @@
     "code": "GAR",
     "name": "Artistic Gymnastics",
     "category": "discipline",
-    "parent": "GYM",
+    "parent": "GY",
     "status": "active",
     "season": "summer",
     "pageName": "Gymnastics_at_the_Summer_Olympics"
@@ -401,7 +401,7 @@
     "code": "GRY",
     "name": "Rhythmic Gymnastics",
     "category": "discipline",
-    "parent": "GYM",
+    "parent": "GY",
     "status": "active",
     "season": "summer",
     "pageName": "Gymnastics_at_the_Summer_Olympics"
@@ -410,13 +410,13 @@
     "code": "GTR",
     "name": "Trampoline Gymnastics",
     "category": "discipline",
-    "parent": "GYM",
+    "parent": "GY",
     "status": "active",
     "season": "summer",
     "pageName": "Gymnastics_at_the_Summer_Olympics"
   },
   {
-    "code": "HBL",
+    "code": "HB",
     "name": "Handball",
     "category": "sport",
     "status": "active",
@@ -426,7 +426,7 @@
     "code": "HBB",
     "name": "Beach Handball",
     "category": "discipline",
-    "parent": "HBL",
+    "parent": "HB",
     "status": "active",
     "season": "summer",
     "pageName": "Handball_at_the_Summer_Olympics"
@@ -435,13 +435,13 @@
     "code": "HBL",
     "name": "Handball",
     "category": "discipline",
-    "parent": "HBL",
+    "parent": "HB",
     "status": "active",
     "season": "summer",
     "pageName": "Handball_at_the_Summer_Olympics"
   },
   {
-    "code": "HOC",
+    "code": "HO",
     "name": "Hockey",
     "category": "sport",
     "status": "active",
@@ -451,7 +451,7 @@
     "code": "HOC",
     "name": "Hockey",
     "category": "discipline",
-    "parent": "HOC",
+    "parent": "HO",
     "status": "active",
     "season": "summer",
     "pageName": "Field_hockey_at_the_Summer_Olympics"
@@ -460,13 +460,13 @@
     "code": "HO5",
     "name": "Hockey 5's",
     "category": "discipline",
-    "parent": "HOC",
+    "parent": "HO",
     "status": "active",
     "season": "summer",
     "pageName": "Field_hockey_at_the_Summer_Olympics"
   },
   {
-    "code": "JUD",
+    "code": "JU",
     "name": "Judo",
     "category": "sport",
     "status": "active",
@@ -476,13 +476,13 @@
     "code": "JUD",
     "name": "Judo",
     "category": "discipline",
-    "parent": "JUD",
+    "parent": "JU",
     "status": "active",
     "season": "summer",
     "pageName": "Judo_at_the_Summer_Olympics"
   },
   {
-    "code": "KTE",
+    "code": "KT",
     "name": "Karate",
     "category": "sport",
     "status": "active",
@@ -492,13 +492,13 @@
     "code": "KTE",
     "name": "Karate",
     "category": "discipline",
-    "parent": "KTE",
+    "parent": "KT",
     "status": "active",
     "season": "summer",
     "pageName": "Karate_at_the_Summer_Olympics"
   },
   {
-    "code": "LAX",
+    "code": "LX",
     "name": "Lacrosse",
     "category": "sport",
     "status": "active",
@@ -508,13 +508,13 @@
     "code": "LAX",
     "name": "Lacrosse",
     "category": "discipline",
-    "parent": "LAX",
+    "parent": "LX",
     "status": "active",
     "season": "summer",
     "pageName": "Lacrosse_at_the_Summer_Olympics"
   },
   {
-    "code": "MPN",
+    "code": "MP",
     "name": "Modern Pentathlon",
     "category": "sport",
     "status": "active",
@@ -524,13 +524,13 @@
     "code": "MPN",
     "name": "Modern Pentathlon",
     "category": "discipline",
-    "parent": "MPN",
+    "parent": "MP",
     "status": "active",
     "season": "summer",
     "pageName": "Modern_pentathlon_at_the_Summer_Olympics"
   },
   {
-    "code": "ROW",
+    "code": "RO",
     "name": "Rowing",
     "category": "sport",
     "status": "active",
@@ -540,7 +540,7 @@
     "code": "ROC",
     "name": "Coastal Rowing",
     "category": "discipline",
-    "parent": "ROW",
+    "parent": "RO",
     "status": "active",
     "season": "summer",
     "pageName": "Rowing_at_the_Summer_Olympics"
@@ -549,13 +549,13 @@
     "code": "ROW",
     "name": "Rowing",
     "category": "discipline",
-    "parent": "ROW",
+    "parent": "RO",
     "status": "active",
     "season": "summer",
     "pageName": "Rowing_at_the_Summer_Olympics"
   },
   {
-    "code": "RUG",
+    "code": "RU",
     "name": "Rugby",
     "category": "sport",
     "status": "active",
@@ -566,13 +566,13 @@
     "code": "RU7",
     "name": "Rugby Sevens",
     "category": "discipline",
-    "parent": "RUG",
+    "parent": "RU",
     "status": "active",
     "season": "summer",
     "pageName": "Rugby_sevens_at_the_Summer_Olympics"
   },
   {
-    "code": "SAL",
+    "code": "SA",
     "name": "Sailing",
     "category": "sport",
     "status": "active",
@@ -582,13 +582,13 @@
     "code": "SAL",
     "name": "Sailing",
     "category": "discipline",
-    "parent": "SAL",
+    "parent": "SA",
     "status": "active",
     "season": "summer",
     "pageName": "Sailing_at_the_Summer_Olympics"
   },
   {
-    "code": "SHO",
+    "code": "SH",
     "name": "Shooting",
     "category": "sport",
     "status": "active",
@@ -598,13 +598,13 @@
     "code": "SHO",
     "name": "Shooting",
     "category": "discipline",
-    "parent": "SHO",
+    "parent": "SH",
     "status": "active",
     "season": "summer",
     "pageName": "Shooting_at_the_Summer_Olympics"
   },
   {
-    "code": "SKS",
+    "code": "SD",
     "name": "Skate Sport",
     "category": "sport",
     "status": "active",
@@ -614,13 +614,13 @@
     "code": "SKB",
     "name": "Skateboarding",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "active",
     "season": "summer",
     "pageName": "Snowboarding_at_the_Winter_Olympics"
   },
   {
-    "code": "SQU",
+    "code": "SQ",
     "name": "Squash",
     "category": "sport",
     "status": "active",
@@ -630,13 +630,13 @@
     "code": "SQU",
     "name": "Squash",
     "category": "discipline",
-    "parent": "SQU",
+    "parent": "SQ",
     "status": "active",
     "season": "summer",
     "pageName": "Squash_at_the_Summer_Olympics"
   },
   {
-    "code": "CLB",
+    "code": "CL",
     "name": "Sport Climbing",
     "category": "sport",
     "status": "active",
@@ -646,13 +646,13 @@
     "code": "CLB",
     "name": "Sport Climbing",
     "category": "discipline",
-    "parent": "CLB",
+    "parent": "CL",
     "status": "active",
     "season": "summer",
     "pageName": "Sport_climbing_at_the_Summer_Olympics"
   },
   {
-    "code": "SRF",
+    "code": "SF",
     "name": "Surfing",
     "category": "sport",
     "status": "active",
@@ -662,13 +662,13 @@
     "code": "SRF",
     "name": "Surfing",
     "category": "discipline",
-    "parent": "SRF",
+    "parent": "SF",
     "status": "active",
     "season": "summer",
     "pageName": "Surfing_at_the_Summer_Olympics"
   },
   {
-    "code": "TTE",
+    "code": "TT",
     "name": "Table Tennis",
     "category": "sport",
     "status": "active",
@@ -678,13 +678,13 @@
     "code": "TTE",
     "name": "Table Tennis",
     "category": "discipline",
-    "parent": "TTE",
+    "parent": "TT",
     "status": "active",
     "season": "summer",
     "pageName": "Table_tennis_at_the_Summer_Olympics"
   },
   {
-    "code": "TKW",
+    "code": "TK",
     "name": "Taekwondo",
     "category": "sport",
     "status": "active",
@@ -694,13 +694,13 @@
     "code": "TKW",
     "name": "Taekwondo",
     "category": "discipline",
-    "parent": "TKW",
+    "parent": "TK",
     "status": "active",
     "season": "summer",
     "pageName": "Taekwondo_at_the_Summer_Olympics"
   },
   {
-    "code": "TEN",
+    "code": "TE",
     "name": "Tennis",
     "category": "sport",
     "status": "active",
@@ -710,13 +710,13 @@
     "code": "TEN",
     "name": "Tennis",
     "category": "discipline",
-    "parent": "TEN",
+    "parent": "TE",
     "status": "active",
     "season": "summer",
     "pageName": "Tennis_at_the_Summer_Olympics"
   },
   {
-    "code": "TRI",
+    "code": "TR",
     "name": "Triathlon",
     "category": "sport",
     "status": "active",
@@ -726,13 +726,13 @@
     "code": "TRI",
     "name": "Triathlon",
     "category": "discipline",
-    "parent": "TRI",
+    "parent": "TR",
     "status": "active",
     "season": "summer",
     "pageName": "Triathlon_at_the_Summer_Olympics"
   },
   {
-    "code": "VOL",
+    "code": "VB",
     "name": "Volleyball Sport",
     "category": "sport",
     "status": "active",
@@ -742,7 +742,7 @@
     "code": "VBV",
     "name": "Beach Volleyball",
     "category": "discipline",
-    "parent": "VOL",
+    "parent": "VB",
     "status": "active",
     "season": "summer",
     "pageName": "Beach_volleyball_at_the_Summer_Olympics"
@@ -751,13 +751,13 @@
     "code": "VVO",
     "name": "Volleyball",
     "category": "discipline",
-    "parent": "VOL",
+    "parent": "VB",
     "status": "active",
     "season": "summer",
     "pageName": "Volleyball_at_the_Summer_Olympics"
   },
   {
-    "code": "WLF",
+    "code": "WL",
     "name": "Weightlifting",
     "category": "sport",
     "status": "active",
@@ -767,13 +767,13 @@
     "code": "WLF",
     "name": "Weightlifting",
     "category": "discipline",
-    "parent": "WLF",
+    "parent": "WL",
     "status": "active",
     "season": "summer",
     "pageName": "Weightlifting_at_the_Summer_Olympics"
   },
   {
-    "code": "WRS",
+    "code": "WR",
     "name": "Wrestling Sport",
     "category": "sport",
     "status": "active",
@@ -783,7 +783,7 @@
     "code": "WRB",
     "name": "Beach Wrestling",
     "category": "discipline",
-    "parent": "WRS",
+    "parent": "WR",
     "status": "active",
     "season": "summer",
     "pageName": "Wrestling_at_the_Summer_Olympics"
@@ -792,7 +792,7 @@
     "code": "WRE",
     "name": "Wrestling",
     "category": "discipline",
-    "parent": "WRS",
+    "parent": "WR",
     "status": "active",
     "season": "summer",
     "pageName": "Wrestling_at_the_Summer_Olympics"
@@ -801,7 +801,7 @@
     "code": "WRF",
     "name": "Freestyle Wrestling",
     "category": "discipline",
-    "parent": "WRS",
+    "parent": "WR",
     "status": "active",
     "season": "summer",
     "pageName": "Wrestling_at_the_Summer_Olympics"
@@ -810,14 +810,14 @@
     "code": "WRG",
     "name": "Greco-Roman Wrestling",
     "category": "discipline",
-    "parent": "WRS",
+    "parent": "WR",
     "status": "active",
     "season": "summer",
     "pageName": "Wrestling_at_the_Summer_Olympics"
   },
 
   {
-    "code": "BTH",
+    "code": "BT",
     "name": "Biathlon",
     "category": "sport",
     "status": "active",
@@ -827,13 +827,13 @@
     "code": "BTH",
     "name": "Biathlon",
     "category": "discipline",
-    "parent": "BTH",
+    "parent": "BT",
     "status": "active",
     "season": "winter",
     "pageName": "Biathlon_at_the_Winter_Olympics"
   },
   {
-    "code": "CUR",
+    "code": "CU",
     "name": "Curling",
     "category": "sport",
     "status": "active",
@@ -843,13 +843,13 @@
     "code": "CUR",
     "name": "Curling",
     "category": "discipline",
-    "parent": "CUR",
+    "parent": "CU",
     "status": "active",
     "season": "winter",
     "pageName": "Curling_at_the_Winter_Olympics"
   },
   {
-    "code": "BSN",
+    "code": "BS",
     "name": "IBSF Sport",
     "category": "sport",
     "status": "active",
@@ -859,7 +859,7 @@
     "code": "BOB",
     "name": "Bobsleigh",
     "category": "discipline",
-    "parent": "BSN",
+    "parent": "BS",
     "status": "active",
     "season": "winter",
     "pageName": "Bobsleigh_at_the_Winter_Olympics"
@@ -868,13 +868,13 @@
     "code": "SKN",
     "name": "Skeleton",
     "category": "discipline",
-    "parent": "BSN",
+    "parent": "BS",
     "status": "active",
     "season": "winter",
     "pageName": "Skeleton_at_the_Winter_Olympics"
   },
   {
-    "code": "IHO",
+    "code": "IH",
     "name": "Ice Hockey",
     "category": "sport",
     "status": "active",
@@ -884,13 +884,13 @@
     "code": "IHO",
     "name": "Ice Hockey",
     "category": "discipline",
-    "parent": "IHO",
+    "parent": "IH",
     "status": "active",
     "season": "winter",
     "pageName": "Ice_hockey_at_the_Olympic_Games"
   },
   {
-    "code": "LUG",
+    "code": "LG",
     "name": "Luge",
     "category": "sport",
     "status": "active",
@@ -900,13 +900,13 @@
     "code": "LUG",
     "name": "Luge",
     "category": "discipline",
-    "parent": "LUG",
+    "parent": "LG",
     "status": "active",
     "season": "winter",
     "pageName": "Luge_at_the_Winter_Olympics"
   },
   {
-    "code": "SKT",
+    "code": "SK",
     "name": "Skating",
     "category": "sport",
     "status": "active",
@@ -916,7 +916,7 @@
     "code": "FSK",
     "name": "Figure Skating",
     "category": "discipline",
-    "parent": "SKT",
+    "parent": "SK",
     "status": "active",
     "season": "winter",
     "pageName": "Figure_skating_at_the_Olympic_Games"
@@ -925,7 +925,7 @@
     "code": "STK",
     "name": "Short Track Speed Skating",
     "category": "discipline",
-    "parent": "SKT",
+    "parent": "SK",
     "status": "active",
     "season": "winter",
     "pageName": "Short-track_speed_skating_at_the_Winter_Olympics"
@@ -934,13 +934,13 @@
     "code": "SSK",
     "name": "Speed Skating",
     "category": "discipline",
-    "parent": "SKT",
+    "parent": "SK",
     "status": "active",
     "season": "winter",
     "pageName": "Speed_skating_at_the_Winter_Olympics"
   },
   {
-    "code": "SKI",
+    "code": "SI",
     "name": "Skiing",
     "category": "sport",
     "status": "active",
@@ -950,7 +950,7 @@
     "code": "ALP",
     "name": "Alpine Skiing",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "active",
     "season": "winter",
     "pageName": "Alpine_skiing_at_the_Winter_Olympics"
@@ -959,7 +959,7 @@
     "code": "CCS",
     "name": "Cross-Country Skiing",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "active",
     "season": "winter",
     "pageName": "Cross-country_skiing_at_the_Winter_Olympics"
@@ -968,7 +968,7 @@
     "code": "FRS",
     "name": "Freestyle Skiing",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "active",
     "season": "winter",
     "pageName": "Freestyle_skiing_at_the_Winter_Olympics"
@@ -977,7 +977,7 @@
     "code": "NCB",
     "name": "Nordic Combined",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "active",
     "season": "winter",
     "pageName": "Nordic_combined_at_the_Winter_Olympics"
@@ -986,7 +986,7 @@
     "code": "NEV",
     "name": "Nordic Events",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "active",
     "season": "winter"
   },
@@ -994,7 +994,7 @@
     "code": "SJP",
     "name": "Ski Jumping",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "active",
     "season": "winter",
     "pageName": "Ski_jumping_at_the_Winter_Olympics"
@@ -1003,13 +1003,13 @@
     "code": "SBD",
     "name": "Snowboard",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "active",
     "season": "winter",
     "pageName": "Snowboarding_at_the_Winter_Olympics"
   },
   {
-    "code": "SMT",
+    "code": "SM",
     "name": "Ski Mountaineering",
     "category": "sport",
     "status": "active",
@@ -1019,7 +1019,7 @@
     "code": "SMT",
     "name": "Ski Mountaineering",
     "category": "discipline",
-    "parent": "SMT",
+    "parent": "SM",
     "status": "active",
     "season": "winter",
     "pageName": "Ski_mountaineering_at_the_Winter_Olympics"
@@ -1271,14 +1271,14 @@
     "code": "MTR",
     "name": "Mountain Running",
     "category": "discipline",
-    "parent": "ATH",
+    "parent": "AT",
     "status": "other"
   },
   {
     "code": "BBL",
     "name": "Baseball",
     "category": "discipline",
-    "parent": "BSB",
+    "parent": "SB",
     "status": "other",
     "pageName": "Baseball_at_the_Summer_Olympics"
   },
@@ -1286,7 +1286,7 @@
     "code": "SBL",
     "name": "Softball",
     "category": "discipline",
-    "parent": "BSB",
+    "parent": "SB",
     "status": "other",
     "pageName": "Softball_at_the_Summer_Olympics"
   },
@@ -1294,203 +1294,203 @@
     "code": "RAR",
     "name": "Acrobatic Rock'n'Roll",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "BWO",
     "name": "Boogie Woogie",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "DIS",
     "name": "Disco Dance",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "HPP",
     "name": "Hip Hop",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "LAT",
     "name": "Latin Dance",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "SLS",
     "name": "Salsa",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "STA",
     "name": "Stage Dance",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "STD",
     "name": "Standard Dances",
     "category": "discipline",
-    "parent": "DAN",
+    "parent": "DA",
     "status": "other"
   },
   {
     "code": "EDV",
     "name": "Equestrian Driving",
     "category": "discipline",
-    "parent": "EQU",
+    "parent": "EQ",
     "status": "other"
   },
   {
     "code": "END",
     "name": "Equestrian Endurance Riding",
     "category": "discipline",
-    "parent": "EQU",
+    "parent": "EQ",
     "status": "other"
   },
   {
     "code": "EVL",
     "name": "Equestrian Vaulting",
     "category": "discipline",
-    "parent": "EQU",
+    "parent": "EQ",
     "status": "other"
   },
   {
     "code": "BSC",
     "name": "Beach Soccer",
     "category": "discipline",
-    "parent": "FBL",
+    "parent": "FB",
     "status": "other"
   },
   {
     "code": "GAC",
     "name": "Acrobatic Gymnastics",
     "category": "discipline",
-    "parent": "GYM",
+    "parent": "GY",
     "status": "other"
   },
   {
     "code": "GAE",
     "name": "Aerobic Gymnastics",
     "category": "discipline",
-    "parent": "GYM",
+    "parent": "GY",
     "status": "other"
   },
   {
     "code": "PAR",
     "name": "Parkour",
     "category": "discipline",
-    "parent": "GYM",
+    "parent": "GY",
     "status": "other"
   },
   {
     "code": "ROI",
     "name": "Indoor Rowing",
     "category": "discipline",
-    "parent": "ROW",
+    "parent": "RO",
     "status": "other"
   },
   {
     "code": "ASK",
     "name": "Artistic Skating",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "IAS",
     "name": "Inline Alpine Skating",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "IDS",
     "name": "Inline Downhill Skating",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "INF",
     "name": "Inline Freestyle Skating",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "INH",
     "name": "Inline Hockey",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "ISS",
     "name": "Inline Speed Skating",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "RHO",
     "name": "Rink Hockey",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "RDY",
     "name": "Roller Derby",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "RFS",
     "name": "Roller Freestyle",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "SCO",
     "name": "Scootering",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "SKC",
     "name": "Skate Cross",
     "category": "discipline",
-    "parent": "SKS",
+    "parent": "SD",
     "status": "other"
   },
   {
     "code": "GSK",
     "name": "Grass Skiing",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "other"
   },
   {
     "code": "SPS",
     "name": "Speed Skiing",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "other",
     "pageName": "Speed_skiing_at_the_1992_Winter_Olympics"
   },
@@ -1498,28 +1498,28 @@
     "code": "TMS",
     "name": "Telemark Skiing",
     "category": "discipline",
-    "parent": "SKI",
+    "parent": "SI",
     "status": "other"
   },
   {
     "code": "WRP",
     "name": "Grappling",
     "category": "discipline",
-    "parent": "WRS",
+    "parent": "WR",
     "status": "other"
   },
   {
     "code": "WRK",
     "name": "Pankration",
     "category": "discipline",
-    "parent": "WRS",
+    "parent": "WR",
     "status": "other"
   },
   {
     "code": "WRT",
     "name": "Traditional Wrestling",
     "category": "discipline",
-    "parent": "WRS",
+    "parent": "WR",
     "status": "other"
   },
 

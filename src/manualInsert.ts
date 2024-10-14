@@ -36,14 +36,10 @@ const insertData = async <Row extends Record<string, any>>(
 const snake_case2camelCase = (str: string) =>
   str.replace(/_(\w)/g, (char) => char.toUpperCase().replace('_', ''));
 
-const insertTableData = async (
-  table: `${'country' | 'games' | 'sports'}_detail`
-) => {
+const insertTableData = async (table: string) => {
   const json = (
     await import(`@/json/final/${snake_case2camelCase(table)}.json`)
   ).default;
-
-  console.log(json);
 
   const keys = readFileSync(`./csv/${snake_case2camelCase(table)}.csv`)
     .toString()
@@ -59,5 +55,7 @@ const insertTableData = async (
     return Object.fromEntries(entries);
   });
 
-  await insertData(table, data);
+  await insertData(table, data, true);
 };
+
+insertTableData('sports_detail');
