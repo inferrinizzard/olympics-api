@@ -41,6 +41,7 @@
     "any-date-parser": "^1.5.4",
     "dotenv": "^16.0.0",
     "latinize": "^2.0.0",
+    "neat-csv": "^7.0.0",
     "typescript": "^5.0",
     "wikipedia": "^2.1.2"
   }
