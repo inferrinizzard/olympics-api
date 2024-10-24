@@ -38,7 +38,7 @@ const insertData = async <Row extends Record<string, object>>(
  * @param fromFile read from csv or json ?
  * @param force overwrite existing data ?
  */
-const readAndStartInsert = async (
+const readAndInitInsertQuery = async (
   table: string,
   fromFile: 'csv' | 'json' = 'json',
   force = false
@@ -50,4 +50,4 @@ const readAndStartInsert = async (
   await insertData(table, data, force);
 };
 
-readAndStartInsert('sports_detail');
+readAndInitInsertQuery('sports_detail');
