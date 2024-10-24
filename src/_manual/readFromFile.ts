@@ -1,5 +1,7 @@
 import { readFileSync } from 'node:fs';
 
+import neatCsv from 'neat-csv';
+
 import { snake_case2camelCase } from './utils';
 
 export const readFromJson = async (table: string) => {
@@ -30,11 +32,29 @@ export const readFromJson = async (table: string) => {
 };
 
 export const readFromCsv = async (table: string) => {
-  const csv = readFileSync(
+  const csvString = readFileSync(
     `./csv/${snake_case2camelCase(table)}.csv`,
     'utf-8'
-  ).toString();
+  )
+    .toString()
+    .replaceAll(/\s+,/g, ',');
 
-  const lines = csv.split('\n');
+  const lines = csvString.split('\n');
   const keys = lines[0].split(',').map((key) => key.trim());
+
+  const raw = await neatCsv(csvString);
+
+  const data = raw.map((_row) => {
+    const row = Object.fromEntries(
+      Object.entries(_row).map(([k, v]) => [k.trim(), v.trim()])
+    );
+
+    const entries = keys.map((key) => [
+      key,
+      row[snake_case2camelCase(key) as keyof typeof row] ?? null,
+    ]);
+    return Object.fromEntries(entries);
+  });
+
+  return data;
 };
