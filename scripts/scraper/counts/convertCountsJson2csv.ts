@@ -2,6 +2,42 @@ import { createWriteStream } from 'node:fs';
 
 import olympicsCountsData from '@/json/final/participationRecordsOlympics.json';
 import paralympicsCountsData from '@/json/final/participationRecordsParalympics.json';
+import { replaceCountryCode, replaceSportCode } from './customReplacements';
+
+const shouldBeCommented = ([
+  games,
+  country,
+  sport,
+  gold,
+  silver,
+  bronze,
+  men,
+  women,
+]: readonly [
+  string,
+  string,
+  string,
+  number,
+  number,
+  number,
+  number,
+  number
+]) => {
+  if (country.toUpperCase() === 'UNK') {
+    return true;
+  }
+
+  if (
+    // from olympedia, mostly DNE elsewhere
+    ['MIX', 'ROQ', 'MBO', 'ROL', 'IH3', 'MSP', 'AER', 'CMA', 'JDP'].includes(
+      sport
+    )
+  ) {
+    return true;
+  }
+
+  return false;
+};
 
 const keys = [
   'games',
@@ -14,7 +50,7 @@ const keys = [
   'women',
 ];
 
-const PARTICIPATION_RECORDS_CSV_PATH = './csv/participationRecords.csv';
+export const PARTICIPATION_RECORDS_CSV_PATH = './csv/participationRecords.csv';
 
 const convertCountsJson2csv = () => {
   const writeStream = createWriteStream(PARTICIPATION_RECORDS_CSV_PATH);
@@ -25,23 +61,33 @@ const convertCountsJson2csv = () => {
     const games = countsRow.games;
     for (const [sport, countryCountsMap] of Object.entries(countsRow.counts)) {
       for (const [country, counts] of Object.entries(countryCountsMap)) {
-        const gold = counts.gold ?? 0;
-        const silver = counts.women ?? 0;
-        const bronze = counts.bronze ?? 0;
-        const men = counts.men ?? 0;
-        const women = counts.women ?? 0;
+        const gold: number = counts.gold ?? 0;
+        const silver: number = counts.women ?? 0;
+        const bronze: number = counts.bronze ?? 0;
+        const men: number = counts.men ?? 0;
+        const women: number = counts.women ?? 0;
 
         const values = [
           games,
-          country.slice(0, 3),
-          sport,
+          replaceCountryCode(country.slice(0, 3)),
+          replaceSportCode(sport),
           gold,
           silver,
           bronze,
           men,
           women,
-        ];
-        writeStream.write(values.join(',') + '\n');
+        ] as const;
+
+        const shouldAddComment = shouldBeCommented(values);
+
+        let text = '';
+        if (shouldAddComment) {
+          text += '# ';
+        }
+        text += values.join(',');
+        text += '\n';
+
+        writeStream.write(text);
       }
     }
   }
