@@ -6,7 +6,7 @@ import paralympicsCountsData from '@/json/final/participationRecordsParalympics.
 const keys = [
   'games',
   'country',
-  'sports',
+  'sport',
   'gold',
   'silver',
   'bronze',
@@ -33,8 +33,8 @@ const convertCountsJson2csv = () => {
 
         const values = [
           games,
+          country.slice(0, 3),
           sport,
-          country,
           gold,
           silver,
           bronze,

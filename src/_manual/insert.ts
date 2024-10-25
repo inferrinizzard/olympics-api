@@ -50,4 +50,4 @@ const readAndInitInsertQuery = async (
   await insertData(table, data, force);
 };
 
-readAndInitInsertQuery('sports_detail');
+readAndInitInsertQuery('participation_records', 'csv');
