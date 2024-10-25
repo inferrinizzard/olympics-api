@@ -42,7 +42,7 @@ export const readFromCsv = async (table: string) => {
   const lines = csvString.split('\n');
   const keys = lines[0].split(',').map((key) => key.trim());
 
-  const raw = await neatCsv(csvString);
+  const raw = await neatCsv(csvString, { skipComments: true });
 
   const data = raw.map((_row) => {
     const row = Object.fromEntries(

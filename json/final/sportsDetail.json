@@ -1403,6 +1403,14 @@
     "status": "other"
   },
   {
+    "code": "RUG",
+    "name": "Rugby Union",
+    "category": "discipline",
+    "parent": "RU",
+    "status": "other",
+    "pageName": "Rugby_union_at_the_Summer_Olympics"
+  },
+  {
     "code": "ASK",
     "name": "Artistic Skating",
     "category": "discipline",
@@ -1583,6 +1591,14 @@
     "name": "Climbing and Mountaineering",
     "category": "sport",
     "status": "other"
+  },
+  {
+    "code": "APN",
+    "name": "Alpinism",
+    "category": "discipline",
+    "parent": "MTN",
+    "status": "other",
+    "pageName": "Alpinism_at_the_Olympic_Games"
   },
   {
     "code": "FLR",

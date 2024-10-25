@@ -172,6 +172,7 @@ code   ,name                          ,category     ,status         ,season   ,p
 "GAE"  ,"Aerobic Gymnastics"          ,"discipline" ,"other"        ,         ,"GY"   ,
 "PAR"  ,"Parkour"                     ,"discipline" ,"other"        ,         ,"GY"   ,
 "ROI"  ,"Indoor Rowing"               ,"discipline" ,"other"        ,         ,"RO"   ,
+"RUG"  ,"Rugby Union"                 ,"discipline" ,"other"        ,         ,"RU"   ,"Rugby_union_at_the_Summer_Olympics"
 "ASK"  ,"Artistic Skating"            ,"discipline" ,"other"        ,         ,"SD"   ,
 "IAS"  ,"Inline Alpine Skating"       ,"discipline" ,"other"        ,         ,"SD"   ,
 "IDS"  ,"Inline Downhill Skating"     ,"discipline" ,"other"        ,         ,"SD"   ,

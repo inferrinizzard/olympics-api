@@ -401,7 +401,7 @@
       "GLF",
       "PEL",
       "POL",
-      "RGB",
+      "RUG",
       "ROW",
       "SAL",
       "SHO",
@@ -1168,7 +1168,7 @@
           "bronze": 1
         }
       },
-      "RGB": {
+      "RUG": {
         "FRA": {
           "men": 17,
           "women": 0,
@@ -1602,7 +1602,7 @@
       "LAX",
       "MBO",
       "POL",
-      "RGB",
+      "RUG",
       "ROW",
       "RQT",
       "SAL",
@@ -1831,7 +1831,7 @@
           "bronze": 1
         }
       },
-      "RGB": {
+      "RUG": {
         "ANZ": {
           "men": 15,
           "women": 0,
@@ -4022,7 +4022,7 @@
       "IHO",
       "MPN",
       "POL",
-      "RGB",
+      "RUG",
       "ROW",
       "SAL",
       "SHO",
@@ -5705,7 +5705,7 @@
           "women": 0
         }
       },
-      "RGB": {
+      "RUG": {
         "FRA": {
           "men": 15,
           "women": 0,
@@ -5741,7 +5741,7 @@
       "GAR",
       "MPN",
       "POL",
-      "RGB",
+      "RUG",
       "ROW",
       "SAL",
       "SHO",
@@ -7908,7 +7908,7 @@
           "bronze": 0
         }
       },
-      "RGB": {
+      "RUG": {
         "FRA": {
           "men": 19,
           "women": 0,
@@ -23327,7 +23327,7 @@
       "USA",
       "VEN",
       "VNM",
-      "WIF",
+      "BWI",
       "YUG",
       "ZIM"
     ],
@@ -23666,7 +23666,7 @@
           "men": 7,
           "women": 0
         },
-        "WIF": {
+        "BWI": {
           "men": 7,
           "women": 0,
           "gold": 0,
@@ -24155,7 +24155,7 @@
           "men": 2,
           "women": 0
         },
-        "WIF": {
+        "BWI": {
           "men": 1,
           "women": 0
         }
@@ -24599,7 +24599,7 @@
           "men": 5,
           "women": 0
         },
-        "WIF": {
+        "BWI": {
           "men": 1,
           "women": 0
         },
@@ -24733,7 +24733,7 @@
           "men": 9,
           "women": 0
         },
-        "WIF": {
+        "BWI": {
           "men": 1,
           "women": 0
         }
@@ -26003,7 +26003,7 @@
           "men": 2,
           "women": 0
         },
-        "WIF": {
+        "BWI": {
           "men": 2,
           "women": 0
         },
@@ -26271,7 +26271,7 @@
           "silver": 0,
           "bronze": 1
         },
-        "WIF": {
+        "BWI": {
           "men": 2,
           "women": 0
         },
@@ -64094,7 +64094,7 @@
       "ROW",
       "SAL",
       "SHO",
-      "SOF",
+      "SBL",
       "SWA",
       "SWM",
       "TEN",
@@ -71511,7 +71511,7 @@
           "women": 0
         }
       },
-      "SOF": {
+      "SBL": {
         "AUS": {
           "men": 0,
           "women": 15,
@@ -72009,7 +72009,7 @@
       "ROW",
       "SAL",
       "SHO",
-      "SOF",
+      "SBL",
       "SWA",
       "SWM",
       "TEN",
@@ -80178,7 +80178,7 @@
           "bronze": 0
         }
       },
-      "SOF": {
+      "SBL": {
         "AUS": {
           "men": 0,
           "women": 15,
@@ -80433,7 +80433,7 @@
       "ROW",
       "SAL",
       "SHO",
-      "SOF",
+      "SBL",
       "SWA",
       "SWM",
       "TEN",
@@ -88770,7 +88770,7 @@
           "women": 2
         }
       },
-      "SOF": {
+      "SBL": {
         "AUS": {
           "men": 0,
           "women": 15,
@@ -109231,7 +109231,7 @@
       "ROW",
       "SAL",
       "SHO",
-      "SOF",
+      "SBL",
       "SWA",
       "SWM",
       "TEN",
@@ -117890,7 +117890,7 @@
           "women": 2
         }
       },
-      "SOF": {
+      "SBL": {
         "AUS": {
           "men": 0,
           "women": 15,
@@ -144267,7 +144267,7 @@
       "SAL",
       "SHO",
       "SKB",
-      "SOF",
+      "SBL",
       "SRF",
       "SWA",
       "SWM",
@@ -154488,7 +154488,7 @@
           "bronze": 2
         }
       },
-      "SOF": {
+      "SBL": {
         "AUS": {
           "men": 0,
           "women": 15
@@ -174996,7 +174996,7 @@
       "ARC",
       "ATH",
       "BDM",
-      "BHA",
+      "HBB",
       "BK3",
       "BKG",
       "BMF",
@@ -175008,7 +175008,7 @@
       "DIV",
       "EJP",
       "FEN",
-      "FTS",
+      "FBS",
       "GAC",
       "GAR",
       "GLF",
@@ -180066,7 +180066,7 @@
           "bronze": 1
         }
       },
-      "BHA": {
+      "HBB": {
         "ARG": {
           "men": 9,
           "women": 9,
@@ -180844,7 +180844,7 @@
           "bronze": 1
         }
       },
-      "FTS": {
+      "FBS": {
         "ARG": {
           "men": 10,
           "women": 0

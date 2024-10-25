@@ -104,7 +104,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1900_paris_olympics                        ,BEL     ,EJP   ,   2 ,     0 ,     1 ,  6 ,    0
 1900_paris_olympics                        ,FRA     ,EJP   ,   1 ,     0 ,     2 , 17 ,    0
 1900_paris_olympics                        ,ITA     ,EJP   ,   1 ,     0 ,     0 ,  2 ,    0
-1900_paris_olympics                        ,UNK     ,EJP   ,   0 ,     0 ,     0 ,  1 ,    0
+# 1900_paris_olympics                      ,UNK     ,EJP   ,   0 ,     0 ,     0 ,  1 ,    0
 1900_paris_olympics                        ,AUT     ,SWM   ,   0 ,     0 ,     1 ,  4 ,    0
 1900_paris_olympics                        ,BEL     ,SWM   ,   0 ,     0 ,     0 ,  1 ,    0
 1900_paris_olympics                        ,DEN     ,SWM   ,   0 ,     0 ,     1 ,  1 ,    0
@@ -177,9 +177,9 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1900_paris_olympics                        ,MEX     ,POL   ,   0 ,     0 ,     0 ,  3 ,    0
 1900_paris_olympics                        ,USA     ,POL   ,   0 ,     0 ,     0 ,  1 ,    0
 1900_paris_olympics                        ,MIX     ,POL   ,   0 ,     0 ,     1 ,  0 ,    0
-1900_paris_olympics                        ,FRA     ,RGB   ,   1 ,     0 ,     0 , 17 ,    0
-1900_paris_olympics                        ,GBR     ,RGB   ,   0 ,     0 ,     0 , 15 ,    0
-1900_paris_olympics                        ,GER     ,RGB   ,   0 ,     0 ,     0 , 15 ,    0
+1900_paris_olympics                        ,FRA     ,RUG   ,   1 ,     0 ,     0 , 17 ,    0
+1900_paris_olympics                        ,GBR     ,RUG   ,   0 ,     0 ,     0 , 15 ,    0
+1900_paris_olympics                        ,GER     ,RUG   ,   0 ,     0 ,     0 , 15 ,    0
 1900_paris_olympics                        ,FRA     ,SAL   ,   7 ,     0 ,    10 , 74 ,    0
 1900_paris_olympics                        ,GBR     ,SAL   ,   4 ,     0 ,     1 ,  9 ,    0
 1900_paris_olympics                        ,GER     ,SAL   ,   1 ,     0 ,     0 ,  5 ,    0
@@ -227,7 +227,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1904_st-louis_olympics                     ,USA     ,CTR   ,   7 ,     0 ,     7 , 17 ,    0
 1904_st-louis_olympics                     ,USA     ,ARC   ,   6 ,     6 ,     5 , 23 ,    6
 1904_st-louis_olympics                     ,USA     ,BOX   ,   7 ,     0 ,     4 , 18 ,    0
-1904_st-louis_olympics                     ,USA     ,ROQ   ,   1 ,     0 ,     1 ,  4 ,    0
+# 1904_st-louis_olympics                   ,USA     ,ROQ   ,   1 ,     0 ,     1 ,  4 ,    0
 1904_st-louis_olympics                     ,USA     ,WPO   ,   1 ,     0 ,     1 , 21 ,    0
 1904_st-louis_olympics                     ,USA     ,WRE   ,   7 ,     0 ,     7 , 42 ,    0
 1908_london_olympics                       ,ANZ     ,ATH   ,   0 ,     0 ,     1 ,  9 ,    0
@@ -263,8 +263,8 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1908_london_olympics                       ,ITA     ,DIV   ,   0 ,     0 ,     0 ,  1 ,    0
 1908_london_olympics                       ,SWE     ,DIV   ,   1 ,     0 ,     1 , 10 ,    0
 1908_london_olympics                       ,USA     ,DIV   ,   0 ,     0 ,     1 ,  2 ,    0
-1908_london_olympics                       ,ANZ     ,RGB   ,   1 ,     0 ,     0 , 15 ,    0
-1908_london_olympics                       ,GBR     ,RGB   ,   0 ,     0 ,     0 , 15 ,    0
+1908_london_olympics                       ,ANZ     ,RUG   ,   1 ,     0 ,     0 , 15 ,    0
+1908_london_olympics                       ,GBR     ,RUG   ,   0 ,     0 ,     0 , 15 ,    0
 1908_london_olympics                       ,ANZ     ,SHO   ,   0 ,     0 ,     0 ,  1 ,    0
 1908_london_olympics                       ,BEL     ,SHO   ,   1 ,     0 ,     0 , 10 ,    0
 1908_london_olympics                       ,CAN     ,SHO   ,   1 ,     0 ,     1 , 22 ,    0
@@ -393,10 +393,10 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1908_london_olympics                       ,FRA     ,HOC   ,   0 ,     0 ,     0 , 12 ,    0
 1908_london_olympics                       ,GBR     ,HOC   ,   1 ,     0 ,     2 , 45 ,    0
 1908_london_olympics                       ,GER     ,HOC   ,   0 ,     0 ,     0 , 11 ,    0
-1908_london_olympics                       ,FRA     ,MBO   ,   1 ,     0 ,     0 ,  1 ,    0
-1908_london_olympics                       ,GBR     ,MBO   ,   2 ,     1 ,     0 , 12 ,    1
-1908_london_olympics                       ,GBR     ,JDP   ,   0 ,     0 ,     1 ,  9 ,    0
-1908_london_olympics                       ,USA     ,JDP   ,   1 ,     0 ,     0 ,  2 ,    0
+# 1908_london_olympics                     ,FRA     ,MBO   ,   1 ,     0 ,     0 ,  1 ,    0
+# 1908_london_olympics                     ,GBR     ,MBO   ,   2 ,     1 ,     0 , 12 ,    1
+# 1908_london_olympics                     ,GBR     ,JDP   ,   0 ,     0 ,     1 ,  9 ,    0
+# 1908_london_olympics                     ,USA     ,JDP   ,   1 ,     0 ,     0 ,  2 ,    0
 1908_london_olympics                       ,GBR     ,POL   ,   1 ,     0 ,     0 , 12 ,    0
 1908_london_olympics                       ,GBR     ,RQT   ,   2 ,     0 ,     3 ,  7 ,    0
 1908_london_olympics                       ,GBR     ,TOW   ,   1 ,     0 ,     1 , 24 ,    0
@@ -610,7 +610,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1912_stockholm_olympics                    ,POL     ,ART   ,   0 ,     0 ,     0 ,  1 ,    0
 1912_stockholm_olympics                    ,RUS     ,ART   ,   0 ,     0 ,     0 ,  1 ,    0
 1912_stockholm_olympics                    ,SUI     ,ART   ,   1 ,     0 ,     0 ,  7 ,    0
-1912_stockholm_olympics                    ,UNK     ,ART   ,   0 ,     0 ,     0 ,  2 ,    0
+# 1912_stockholm_olympics                  ,UNK     ,ART   ,   0 ,     0 ,     0 ,  2 ,    0
 1912_stockholm_olympics                    ,USA     ,ART   ,   1 ,     0 ,     0 ,  1 ,    0
 1912_stockholm_olympics                    ,BOH     ,GAR   ,   0 ,     0 ,     0 ,  1 ,    0
 1912_stockholm_olympics                    ,DEN     ,GAR   ,   0 ,     0 ,     1 , 49 ,    0
@@ -926,8 +926,8 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1920_antwerp_olympics                      ,NOR     ,MPN   ,   0 ,     0 ,     0 ,  2 ,    0
 1920_antwerp_olympics                      ,SWE     ,MPN   ,   1 ,     0 ,     1 ,  4 ,    0
 1920_antwerp_olympics                      ,USA     ,MPN   ,   0 ,     0 ,     0 ,  2 ,    0
-1920_antwerp_olympics                      ,FRA     ,RGB   ,   0 ,     0 ,     0 , 15 ,    0
-1920_antwerp_olympics                      ,USA     ,RGB   ,   1 ,     0 ,     0 , 16 ,    0
+1920_antwerp_olympics                      ,FRA     ,RUG   ,   0 ,     0 ,     0 , 15 ,    0
+1920_antwerp_olympics                      ,USA     ,RUG   ,   1 ,     0 ,     0 , 16 ,    0
 1924_paris_olympics                        ,ARG     ,ATH   ,   0 ,     0 ,     0 , 10 ,    0
 1924_paris_olympics                        ,AUS     ,ATH   ,   1 ,     0 ,     0 ,  9 ,    0
 1924_paris_olympics                        ,AUT     ,ATH   ,   0 ,     0 ,     0 ,  7 ,    0
@@ -1343,9 +1343,9 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1924_paris_olympics                        ,TCH     ,GAR   ,   1 ,     0 ,     4 ,  8 ,    0
 1924_paris_olympics                        ,USA     ,GAR   ,   1 ,     0 ,     0 ,  8 ,    0
 1924_paris_olympics                        ,YUG     ,GAR   ,   2 ,     0 ,     0 ,  8 ,    0
-1924_paris_olympics                        ,FRA     ,RGB   ,   0 ,     0 ,     0 , 19 ,    0
-1924_paris_olympics                        ,ROU     ,RGB   ,   0 ,     0 ,     1 , 16 ,    0
-1924_paris_olympics                        ,USA     ,RGB   ,   1 ,     0 ,     0 , 19 ,    0
+1924_paris_olympics                        ,FRA     ,RUG   ,   0 ,     0 ,     0 , 19 ,    0
+1924_paris_olympics                        ,ROU     ,RUG   ,   0 ,     0 ,     1 , 16 ,    0
+1924_paris_olympics                        ,USA     ,RUG   ,   1 ,     0 ,     0 , 19 ,    0
 1928_amsterdam_olympics                    ,ARG     ,ATH   ,   0 ,     0 ,     0 ,  7 ,    0
 1928_amsterdam_olympics                    ,AUS     ,ATH   ,   0 ,     1 ,     0 ,  6 ,    1
 1928_amsterdam_olympics                    ,AUT     ,ATH   ,   0 ,     2 ,     0 ,  2 ,    2
@@ -2346,24 +2346,24 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1936_berlin_olympics                       ,TCH     ,ART   ,   0 ,     1 ,     1 , 25 ,    1
 1936_berlin_olympics                       ,USA     ,ART   ,   0 ,     5 ,     0 , 44 ,    5
 1936_berlin_olympics                       ,YUG     ,ART   ,   0 ,     0 ,     0 ,  3 ,    0
-1936_berlin_olympics                       ,AUT     ,CMA   ,   1 ,     0 ,     1 ,  8 ,    0
-1936_berlin_olympics                       ,BEL     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
-1936_berlin_olympics                       ,CAN     ,CMA   ,   0 ,     0 ,     0 ,  7 ,    0
-1936_berlin_olympics                       ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1936_berlin_olympics                       ,FIN     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
-1936_berlin_olympics                       ,FRA     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
-1936_berlin_olympics                       ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1936_berlin_olympics                       ,GER     ,CMA   ,   2 ,     0 ,     1 ,  8 ,    0
-1936_berlin_olympics                       ,HUN     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
-1936_berlin_olympics                       ,ITA     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
-1936_berlin_olympics                       ,LUX     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1936_berlin_olympics                       ,NED     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
-1936_berlin_olympics                       ,POL     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
-1936_berlin_olympics                       ,SUI     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
-1936_berlin_olympics                       ,SWE     ,CMA   ,   1 ,     0 ,     1 ,  6 ,    0
-1936_berlin_olympics                       ,TCH     ,CMA   ,   1 ,     0 ,     0 ,  8 ,    0
-1936_berlin_olympics                       ,USA     ,CMA   ,   0 ,     0 ,     1 ,  8 ,    0
-1936_berlin_olympics                       ,YUG     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1936_berlin_olympics                     ,AUT     ,CMA   ,   1 ,     0 ,     1 ,  8 ,    0
+# 1936_berlin_olympics                     ,BEL     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
+# 1936_berlin_olympics                     ,CAN     ,CMA   ,   0 ,     0 ,     0 ,  7 ,    0
+# 1936_berlin_olympics                     ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1936_berlin_olympics                     ,FIN     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
+# 1936_berlin_olympics                     ,FRA     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
+# 1936_berlin_olympics                     ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1936_berlin_olympics                     ,GER     ,CMA   ,   2 ,     0 ,     1 ,  8 ,    0
+# 1936_berlin_olympics                     ,HUN     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
+# 1936_berlin_olympics                     ,ITA     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
+# 1936_berlin_olympics                     ,LUX     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1936_berlin_olympics                     ,NED     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
+# 1936_berlin_olympics                     ,POL     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
+# 1936_berlin_olympics                     ,SUI     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
+# 1936_berlin_olympics                     ,SWE     ,CMA   ,   1 ,     0 ,     1 ,  6 ,    0
+# 1936_berlin_olympics                     ,TCH     ,CMA   ,   1 ,     0 ,     0 ,  8 ,    0
+# 1936_berlin_olympics                     ,USA     ,CMA   ,   0 ,     0 ,     1 ,  8 ,    0
+# 1936_berlin_olympics                     ,YUG     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
 1936_berlin_olympics                       ,AUT     ,CSP   ,   2 ,     0 ,     0 ,  6 ,    0
 1936_berlin_olympics                       ,BEL     ,CSP   ,   0 ,     0 ,     0 ,  3 ,    0
 1936_berlin_olympics                       ,CAN     ,CSP   ,   1 ,     0 ,     1 ,  5 ,    0
@@ -2534,7 +2534,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1936_berlin_olympics                       ,TUR     ,BKB   ,   0 ,     0 ,     0 ,  8 ,    0
 1936_berlin_olympics                       ,URU     ,BKB   ,   0 ,     0 ,     0 ,  9 ,    0
 1936_berlin_olympics                       ,USA     ,BKB   ,   1 ,     0 ,     0 , 14 ,    0
-1936_berlin_olympics                       ,SUI     ,AER   ,   1 ,     0 ,     0 ,  1 ,    0
+# 1936_berlin_olympics                     ,SUI     ,AER   ,   1 ,     0 ,     0 ,  1 ,    0
 1936_berlin_olympics                       ,SUI     ,APN   ,   1 ,     1 ,     0 ,  1 ,    1
 1948_london_olympics                       ,AFG     ,FBL   ,   0 ,     0 ,     0 , 11 ,    0
 1948_london_olympics                       ,AUT     ,FBL   ,   0 ,     0 ,     0 , 11 ,    0
@@ -3078,22 +3078,22 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1948_london_olympics                       ,TUR     ,ART   ,   0 ,     0 ,     0 ,  1 ,    0
 1948_london_olympics                       ,URU     ,ART   ,   0 ,     1 ,     0 ,  1 ,    1
 1948_london_olympics                       ,YUG     ,ART   ,   0 ,     0 ,     0 ,  4 ,    0
-1948_london_olympics                       ,AUT     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
-1948_london_olympics                       ,BEL     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
-1948_london_olympics                       ,CAN     ,CMA   ,   0 ,     0 ,     1 ,  5 ,    0
-1948_london_olympics                       ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1948_london_olympics                       ,FIN     ,CMA   ,   0 ,     0 ,     1 ,  3 ,    0
-1948_london_olympics                       ,FRA     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
-1948_london_olympics                       ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
-1948_london_olympics                       ,HUN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1948_london_olympics                       ,LUX     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1948_london_olympics                       ,NED     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1948_london_olympics                       ,NOR     ,CMA   ,   0 ,     0 ,     1 ,  3 ,    0
-1948_london_olympics                       ,POL     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1948_london_olympics                       ,SUI     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1948_london_olympics                       ,SWE     ,CMA   ,   2 ,     0 ,     0 ,  6 ,    0
-1948_london_olympics                       ,TCH     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
-1948_london_olympics                       ,USA     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
+# 1948_london_olympics                     ,AUT     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
+# 1948_london_olympics                     ,BEL     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
+# 1948_london_olympics                     ,CAN     ,CMA   ,   0 ,     0 ,     1 ,  5 ,    0
+# 1948_london_olympics                     ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1948_london_olympics                     ,FIN     ,CMA   ,   0 ,     0 ,     1 ,  3 ,    0
+# 1948_london_olympics                     ,FRA     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
+# 1948_london_olympics                     ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
+# 1948_london_olympics                     ,HUN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1948_london_olympics                     ,LUX     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1948_london_olympics                     ,NED     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1948_london_olympics                     ,NOR     ,CMA   ,   0 ,     0 ,     1 ,  3 ,    0
+# 1948_london_olympics                     ,POL     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1948_london_olympics                     ,SUI     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1948_london_olympics                     ,SWE     ,CMA   ,   2 ,     0 ,     0 ,  6 ,    0
+# 1948_london_olympics                     ,TCH     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
+# 1948_london_olympics                     ,USA     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
 1948_london_olympics                       ,AUT     ,CSP   ,   0 ,     1 ,     1 ,  5 ,    1
 1948_london_olympics                       ,BEL     ,CSP   ,   0 ,     1 ,     0 ,  5 ,    1
 1948_london_olympics                       ,CAN     ,CSP   ,   0 ,     0 ,     0 ,  4 ,    0
@@ -3712,26 +3712,26 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1952_helsinki_olympics                     ,URS     ,DIV   ,   0 ,     5 ,     0 ,  5 ,    5
 1952_helsinki_olympics                     ,USA     ,DIV   ,   4 ,     5 ,     3 ,  6 ,    5
 1952_helsinki_olympics                     ,VEN     ,DIV   ,   0 ,     0 ,     0 ,  1 ,    0
-1952_helsinki_olympics                     ,AUT     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1952_helsinki_olympics                     ,BEL     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
-1952_helsinki_olympics                     ,CAN     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
-1952_helsinki_olympics                     ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1952_helsinki_olympics                     ,FIN     ,CMA   ,   2 ,     0 ,     0 ,  6 ,    0
-1952_helsinki_olympics                     ,FRA     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
-1952_helsinki_olympics                     ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
-1952_helsinki_olympics                     ,GER     ,CMA   ,   0 ,     0 ,     2 ,  6 ,    0
-1952_helsinki_olympics                     ,HUN     ,CMA   ,   0 ,     0 ,     1 ,  5 ,    0
-1952_helsinki_olympics                     ,ITA     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1952_helsinki_olympics                     ,LUX     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1952_helsinki_olympics                     ,NED     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1952_helsinki_olympics                     ,NOR     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1952_helsinki_olympics                     ,SAA     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
-1952_helsinki_olympics                     ,SUI     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1952_helsinki_olympics                     ,SWE     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
-1952_helsinki_olympics                     ,TCH     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
-1952_helsinki_olympics                     ,URS     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
-1952_helsinki_olympics                     ,USA     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
-1952_helsinki_olympics                     ,YUG     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
+# 1952_helsinki_olympics                   ,AUT     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1952_helsinki_olympics                   ,BEL     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
+# 1952_helsinki_olympics                   ,CAN     ,CMA   ,   0 ,     0 ,     0 ,  5 ,    0
+# 1952_helsinki_olympics                   ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1952_helsinki_olympics                   ,FIN     ,CMA   ,   2 ,     0 ,     0 ,  6 ,    0
+# 1952_helsinki_olympics                   ,FRA     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
+# 1952_helsinki_olympics                   ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1952_helsinki_olympics                   ,GER     ,CMA   ,   0 ,     0 ,     2 ,  6 ,    0
+# 1952_helsinki_olympics                   ,HUN     ,CMA   ,   0 ,     0 ,     1 ,  5 ,    0
+# 1952_helsinki_olympics                   ,ITA     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1952_helsinki_olympics                   ,LUX     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1952_helsinki_olympics                   ,NED     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1952_helsinki_olympics                   ,NOR     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1952_helsinki_olympics                   ,SAA     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
+# 1952_helsinki_olympics                   ,SUI     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1952_helsinki_olympics                   ,SWE     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
+# 1952_helsinki_olympics                   ,TCH     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
+# 1952_helsinki_olympics                   ,URS     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
+# 1952_helsinki_olympics                   ,USA     ,CMA   ,   1 ,     0 ,     0 ,  6 ,    0
+# 1952_helsinki_olympics                   ,YUG     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
 1952_helsinki_olympics                     ,AUT     ,CSP   ,   0 ,     1 ,     1 ,  5 ,    1
 1952_helsinki_olympics                     ,BEL     ,CSP   ,   0 ,     0 ,     0 ,  3 ,    0
 1952_helsinki_olympics                     ,CAN     ,CSP   ,   0 ,     0 ,     0 ,  6 ,    0
@@ -4063,22 +4063,22 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1956_melbourne_olympics                    ,URS     ,BKB   ,   0 ,     0 ,     0 , 12 ,    0
 1956_melbourne_olympics                    ,URU     ,BKB   ,   0 ,     0 ,     1 , 12 ,    0
 1956_melbourne_olympics                    ,USA     ,BKB   ,   1 ,     0 ,     0 , 12 ,    0
-1956_melbourne_olympics                    ,AUS     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
-1956_melbourne_olympics                    ,AUT     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
-1956_melbourne_olympics                    ,CAN     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
-1956_melbourne_olympics                    ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1956_melbourne_olympics                    ,FIN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
-1956_melbourne_olympics                    ,FRA     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
-1956_melbourne_olympics                    ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
-1956_melbourne_olympics                    ,GER     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
-1956_melbourne_olympics                    ,HUN     ,CMA   ,   1 ,     0 ,     1 ,  6 ,    0
-1956_melbourne_olympics                    ,NOR     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
-1956_melbourne_olympics                    ,POL     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
-1956_melbourne_olympics                    ,ROU     ,CMA   ,   1 ,     0 ,     0 ,  3 ,    0
-1956_melbourne_olympics                    ,SWE     ,CMA   ,   1 ,     0 ,     0 ,  4 ,    0
-1956_melbourne_olympics                    ,TCH     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
-1956_melbourne_olympics                    ,URS     ,CMA   ,   1 ,     0 ,     1 ,  6 ,    0
-1956_melbourne_olympics                    ,USA     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
+# 1956_melbourne_olympics                  ,AUS     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
+# 1956_melbourne_olympics                  ,AUT     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1956_melbourne_olympics                  ,CAN     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1956_melbourne_olympics                  ,DEN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1956_melbourne_olympics                  ,FIN     ,CMA   ,   0 ,     0 ,     0 ,  3 ,    0
+# 1956_melbourne_olympics                  ,FRA     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1956_melbourne_olympics                  ,GBR     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
+# 1956_melbourne_olympics                  ,GER     ,CMA   ,   0 ,     0 ,     1 ,  6 ,    0
+# 1956_melbourne_olympics                  ,HUN     ,CMA   ,   1 ,     0 ,     1 ,  6 ,    0
+# 1956_melbourne_olympics                  ,NOR     ,CMA   ,   0 ,     0 ,     0 ,  1 ,    0
+# 1956_melbourne_olympics                  ,POL     ,CMA   ,   0 ,     0 ,     0 ,  2 ,    0
+# 1956_melbourne_olympics                  ,ROU     ,CMA   ,   1 ,     0 ,     0 ,  3 ,    0
+# 1956_melbourne_olympics                  ,SWE     ,CMA   ,   1 ,     0 ,     0 ,  4 ,    0
+# 1956_melbourne_olympics                  ,TCH     ,CMA   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1956_melbourne_olympics                  ,URS     ,CMA   ,   1 ,     0 ,     1 ,  6 ,    0
+# 1956_melbourne_olympics                  ,USA     ,CMA   ,   0 ,     0 ,     0 ,  6 ,    0
 1956_melbourne_olympics                    ,AUS     ,CRD   ,   0 ,     0 ,     0 ,  4 ,    0
 1956_melbourne_olympics                    ,AUT     ,CRD   ,   0 ,     0 ,     0 ,  4 ,    0
 1956_melbourne_olympics                    ,BEL     ,CRD   ,   0 ,     0 ,     0 ,  4 ,    0
@@ -4333,7 +4333,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1960_rome_olympics                         ,URU     ,ATH   ,   0 ,     0 ,     0 ,  1 ,    0
 1960_rome_olympics                         ,USA     ,ATH   ,  12 ,    18 ,     6 , 63 ,   18
 1960_rome_olympics                         ,VEN     ,ATH   ,   0 ,     0 ,     0 ,  7 ,    0
-1960_rome_olympics                         ,WIF     ,ATH   ,   0 ,     0 ,     2 ,  7 ,    0
+1960_rome_olympics                         ,BWI     ,ATH   ,   0 ,     0 ,     2 ,  7 ,    0
 1960_rome_olympics                         ,YUG     ,ATH   ,   0 ,     5 ,     0 , 17 ,    5
 1960_rome_olympics                         ,ZIM     ,ATH   ,   0 ,     0 ,     0 ,  2 ,    0
 1960_rome_olympics                         ,AFG     ,WRE   ,   0 ,     0 ,     0 ,  7 ,    0
@@ -4434,7 +4434,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1960_rome_olympics                         ,URS     ,WLF   ,   5 ,     0 ,     0 ,  6 ,    0
 1960_rome_olympics                         ,USA     ,WLF   ,   1 ,     0 ,     1 ,  7 ,    0
 1960_rome_olympics                         ,VEN     ,WLF   ,   0 ,     0 ,     0 ,  2 ,    0
-1960_rome_olympics                         ,WIF     ,WLF   ,   0 ,     0 ,     0 ,  1 ,    0
+1960_rome_olympics                         ,BWI     ,WLF   ,   0 ,     0 ,     0 ,  1 ,    0
 1960_rome_olympics                         ,ARG     ,BOX   ,   0 ,     0 ,     1 , 10 ,    0
 1960_rome_olympics                         ,AUS     ,BOX   ,   0 ,     0 ,     2 , 10 ,    0
 1960_rome_olympics                         ,AUT     ,BOX   ,   0 ,     0 ,     0 ,  5 ,    0
@@ -4529,7 +4529,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1960_rome_olympics                         ,URU     ,CRD   ,   0 ,     0 ,     0 ,  4 ,    0
 1960_rome_olympics                         ,USA     ,CRD   ,   0 ,     0 ,     0 ,  5 ,    0
 1960_rome_olympics                         ,VEN     ,CRD   ,   0 ,     0 ,     0 ,  5 ,    0
-1960_rome_olympics                         ,WIF     ,CRD   ,   0 ,     0 ,     0 ,  1 ,    0
+1960_rome_olympics                         ,BWI     ,CRD   ,   0 ,     0 ,     0 ,  1 ,    0
 1960_rome_olympics                         ,YUG     ,CRD   ,   0 ,     0 ,     0 ,  5 ,    0
 1960_rome_olympics                         ,ARG     ,CTR   ,   0 ,     0 ,     0 ,  4 ,    0
 1960_rome_olympics                         ,AUS     ,CTR   ,   0 ,     0 ,     0 ,  8 ,    0
@@ -4559,7 +4559,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1960_rome_olympics                         ,URS     ,CTR   ,   0 ,     0 ,     3 ,  8 ,    0
 1960_rome_olympics                         ,URU     ,CTR   ,   0 ,     0 ,     0 ,  5 ,    0
 1960_rome_olympics                         ,USA     ,CTR   ,   0 ,     0 ,     0 ,  9 ,    0
-1960_rome_olympics                         ,WIF     ,CTR   ,   0 ,     0 ,     0 ,  1 ,    0
+1960_rome_olympics                         ,BWI     ,CTR   ,   0 ,     0 ,     0 ,  1 ,    0
 1960_rome_olympics                         ,ARG     ,DIV   ,   0 ,     1 ,     0 ,  0 ,    1
 1960_rome_olympics                         ,AUS     ,DIV   ,   0 ,     1 ,     0 ,  3 ,    1
 1960_rome_olympics                         ,AUT     ,DIV   ,   0 ,     0 ,     0 ,  2 ,    0
@@ -4828,7 +4828,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1960_rome_olympics                         ,URU     ,SAL   ,   0 ,     0 ,     0 ,  3 ,    0
 1960_rome_olympics                         ,USA     ,SAL   ,   1 ,     0 ,     1 , 11 ,    0
 1960_rome_olympics                         ,VEN     ,SAL   ,   0 ,     0 ,     0 ,  2 ,    0
-1960_rome_olympics                         ,WIF     ,SAL   ,   0 ,     0 ,     0 ,  2 ,    0
+1960_rome_olympics                         ,BWI     ,SAL   ,   0 ,     0 ,     0 ,  2 ,    0
 1960_rome_olympics                         ,YUG     ,SAL   ,   0 ,     0 ,     0 ,  3 ,    0
 1960_rome_olympics                         ,ARG     ,SHO   ,   0 ,     0 ,     0 ,  7 ,    0
 1960_rome_olympics                         ,AUS     ,SHO   ,   0 ,     0 ,     0 ,  7 ,    0
@@ -4887,7 +4887,7 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1960_rome_olympics                         ,URS     ,SHO   ,   2 ,     0 ,     3 , 10 ,    0
 1960_rome_olympics                         ,USA     ,SHO   ,   1 ,     0 ,     0 ,  9 ,    0
 1960_rome_olympics                         ,VEN     ,SHO   ,   0 ,     0 ,     1 ,  6 ,    0
-1960_rome_olympics                         ,WIF     ,SHO   ,   0 ,     0 ,     0 ,  2 ,    0
+1960_rome_olympics                         ,BWI     ,SHO   ,   0 ,     0 ,     0 ,  2 ,    0
 1960_rome_olympics                         ,YUG     ,SHO   ,   0 ,     0 ,     0 ,  6 ,    0
 1960_rome_olympics                         ,ARG     ,SWM   ,   0 ,     0 ,     0 ,  3 ,    0
 1960_rome_olympics                         ,AUS     ,SWM   ,   5 ,    11 ,     3 , 15 ,   11
@@ -14097,14 +14097,14 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1996_atlanta_olympics                      ,SWE     ,MPN   ,   0 ,     0 ,     0 ,  1 ,    0
 1996_atlanta_olympics                      ,UKR     ,MPN   ,   0 ,     0 ,     0 ,  1 ,    0
 1996_atlanta_olympics                      ,USA     ,MPN   ,   0 ,     0 ,     0 ,  1 ,    0
-1996_atlanta_olympics                      ,AUS     ,SOF   ,   0 ,    15 ,     1 ,  0 ,   15
-1996_atlanta_olympics                      ,CAN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-1996_atlanta_olympics                      ,CHN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-1996_atlanta_olympics                      ,JPN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-1996_atlanta_olympics                      ,NED     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-1996_atlanta_olympics                      ,PUR     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-1996_atlanta_olympics                      ,TPE     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-1996_atlanta_olympics                      ,USA     ,SOF   ,   1 ,    15 ,     0 ,  0 ,   15
+1996_atlanta_olympics                      ,AUS     ,SBL   ,   0 ,    15 ,     1 ,  0 ,   15
+1996_atlanta_olympics                      ,CAN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+1996_atlanta_olympics                      ,CHN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+1996_atlanta_olympics                      ,JPN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+1996_atlanta_olympics                      ,NED     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+1996_atlanta_olympics                      ,PUR     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+1996_atlanta_olympics                      ,TPE     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+1996_atlanta_olympics                      ,USA     ,SBL   ,   1 ,    15 ,     0 ,  0 ,   15
 1996_atlanta_olympics                      ,AUS     ,TTE   ,   0 ,     2 ,     0 ,  3 ,    2
 1996_atlanta_olympics                      ,AUT     ,TTE   ,   0 ,     0 ,     0 ,  4 ,    0
 1996_atlanta_olympics                      ,BEL     ,TTE   ,   0 ,     0 ,     0 ,  2 ,    0
@@ -15869,14 +15869,14 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2000_sydney_olympics                       ,SWE     ,MPN   ,   0 ,     1 ,     0 ,  1 ,    1
 2000_sydney_olympics                       ,UKR     ,MPN   ,   0 ,     1 ,     0 ,  2 ,    1
 2000_sydney_olympics                       ,USA     ,MPN   ,   0 ,     2 ,     0 ,  2 ,    2
-2000_sydney_olympics                       ,AUS     ,SOF   ,   0 ,    15 ,     1 ,  0 ,   15
-2000_sydney_olympics                       ,CAN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2000_sydney_olympics                       ,CHN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2000_sydney_olympics                       ,CUB     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2000_sydney_olympics                       ,ITA     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2000_sydney_olympics                       ,JPN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2000_sydney_olympics                       ,NZL     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2000_sydney_olympics                       ,USA     ,SOF   ,   1 ,    15 ,     0 ,  0 ,   15
+2000_sydney_olympics                       ,AUS     ,SBL   ,   0 ,    15 ,     1 ,  0 ,   15
+2000_sydney_olympics                       ,CAN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2000_sydney_olympics                       ,CHN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2000_sydney_olympics                       ,CUB     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2000_sydney_olympics                       ,ITA     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2000_sydney_olympics                       ,JPN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2000_sydney_olympics                       ,NZL     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2000_sydney_olympics                       ,USA     ,SBL   ,   1 ,    15 ,     0 ,  0 ,   15
 2000_sydney_olympics                       ,AUS     ,SWA   ,   0 ,     9 ,     0 ,  0 ,    9
 2000_sydney_olympics                       ,BLR     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
 2000_sydney_olympics                       ,BRA     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
@@ -17626,14 +17626,14 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2004_athens_olympics                       ,SWE     ,MPN   ,   0 ,     0 ,     0 ,  1 ,    0
 2004_athens_olympics                       ,UKR     ,MPN   ,   0 ,     1 ,     0 ,  0 ,    1
 2004_athens_olympics                       ,USA     ,MPN   ,   0 ,     2 ,     0 ,  2 ,    2
-2004_athens_olympics                       ,AUS     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2004_athens_olympics                       ,CAN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2004_athens_olympics                       ,CHN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2004_athens_olympics                       ,GRE     ,SOF   ,   0 ,    14 ,     0 ,  0 ,   14
-2004_athens_olympics                       ,ITA     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2004_athens_olympics                       ,JPN     ,SOF   ,   0 ,    14 ,     1 ,  0 ,   14
-2004_athens_olympics                       ,TPE     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2004_athens_olympics                       ,USA     ,SOF   ,   1 ,    15 ,     0 ,  0 ,   15
+2004_athens_olympics                       ,AUS     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2004_athens_olympics                       ,CAN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2004_athens_olympics                       ,CHN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2004_athens_olympics                       ,GRE     ,SBL   ,   0 ,    14 ,     0 ,  0 ,   14
+2004_athens_olympics                       ,ITA     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2004_athens_olympics                       ,JPN     ,SBL   ,   0 ,    14 ,     1 ,  0 ,   14
+2004_athens_olympics                       ,TPE     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2004_athens_olympics                       ,USA     ,SBL   ,   1 ,    15 ,     0 ,  0 ,   15
 2004_athens_olympics                       ,AUS     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
 2004_athens_olympics                       ,BLR     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
 2004_athens_olympics                       ,BRA     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
@@ -17722,12 +17722,12 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 1924_chamonix_olympics                     ,TCH     ,CCS   ,   0 ,     0 ,     0 ,  6 ,    0
 1924_chamonix_olympics                     ,USA     ,CCS   ,   0 ,     0 ,     0 ,  4 ,    0
 1924_chamonix_olympics                     ,YUG     ,CCS   ,   0 ,     0 ,     0 ,  4 ,    0
-1924_chamonix_olympics                     ,FIN     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
-1924_chamonix_olympics                     ,FRA     ,MSP   ,   0 ,     0 ,     1 ,  4 ,    0
-1924_chamonix_olympics                     ,ITA     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
-1924_chamonix_olympics                     ,POL     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
-1924_chamonix_olympics                     ,SUI     ,MSP   ,   1 ,     0 ,     0 ,  4 ,    0
-1924_chamonix_olympics                     ,TCH     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1924_chamonix_olympics                   ,FIN     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1924_chamonix_olympics                   ,FRA     ,MSP   ,   0 ,     0 ,     1 ,  4 ,    0
+# 1924_chamonix_olympics                   ,ITA     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1924_chamonix_olympics                   ,POL     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
+# 1924_chamonix_olympics                   ,SUI     ,MSP   ,   1 ,     0 ,     0 ,  4 ,    0
+# 1924_chamonix_olympics                   ,TCH     ,MSP   ,   0 ,     0 ,     0 ,  4 ,    0
 1924_chamonix_olympics                     ,FIN     ,NCB   ,   0 ,     0 ,     0 ,  2 ,    0
 1924_chamonix_olympics                     ,FRA     ,NCB   ,   0 ,     0 ,     0 ,  4 ,    0
 1924_chamonix_olympics                     ,HUN     ,NCB   ,   0 ,     0 ,     0 ,  3 ,    0
@@ -23387,14 +23387,14 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2008_beijing_olympics                      ,SUI     ,MPN   ,   0 ,     1 ,     0 ,  0 ,    1
 2008_beijing_olympics                      ,UKR     ,MPN   ,   0 ,     1 ,     0 ,  2 ,    1
 2008_beijing_olympics                      ,USA     ,MPN   ,   0 ,     2 ,     0 ,  2 ,    2
-2008_beijing_olympics                      ,AUS     ,SOF   ,   0 ,    15 ,     1 ,  0 ,   15
-2008_beijing_olympics                      ,CAN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2008_beijing_olympics                      ,CHN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2008_beijing_olympics                      ,JPN     ,SOF   ,   1 ,    15 ,     0 ,  0 ,   15
-2008_beijing_olympics                      ,NED     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2008_beijing_olympics                      ,TPE     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2008_beijing_olympics                      ,USA     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2008_beijing_olympics                      ,VEN     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
+2008_beijing_olympics                      ,AUS     ,SBL   ,   0 ,    15 ,     1 ,  0 ,   15
+2008_beijing_olympics                      ,CAN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2008_beijing_olympics                      ,CHN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2008_beijing_olympics                      ,JPN     ,SBL   ,   1 ,    15 ,     0 ,  0 ,   15
+2008_beijing_olympics                      ,NED     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2008_beijing_olympics                      ,TPE     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2008_beijing_olympics                      ,USA     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2008_beijing_olympics                      ,VEN     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
 2008_beijing_olympics                      ,AUS     ,SWA   ,   0 ,     9 ,     0 ,  0 ,    9
 2008_beijing_olympics                      ,AUT     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
 2008_beijing_olympics                      ,BLR     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
@@ -30898,12 +30898,12 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2020_tokyo_olympics                        ,RSA     ,SKB   ,   0 ,     1 ,     0 ,  2 ,    1
 2020_tokyo_olympics                        ,SWE     ,SKB   ,   0 ,     0 ,     0 ,  1 ,    0
 2020_tokyo_olympics                        ,USA     ,SKB   ,   0 ,     6 ,     2 ,  6 ,    6
-2020_tokyo_olympics                        ,AUS     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2020_tokyo_olympics                        ,CAN     ,SOF   ,   0 ,    15 ,     1 ,  0 ,   15
-2020_tokyo_olympics                        ,ITA     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2020_tokyo_olympics                        ,JPN     ,SOF   ,   1 ,    15 ,     0 ,  0 ,   15
-2020_tokyo_olympics                        ,MEX     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
-2020_tokyo_olympics                        ,USA     ,SOF   ,   0 ,    15 ,     0 ,  0 ,   15
+2020_tokyo_olympics                        ,AUS     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2020_tokyo_olympics                        ,CAN     ,SBL   ,   0 ,    15 ,     1 ,  0 ,   15
+2020_tokyo_olympics                        ,ITA     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2020_tokyo_olympics                        ,JPN     ,SBL   ,   1 ,    15 ,     0 ,  0 ,   15
+2020_tokyo_olympics                        ,MEX     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
+2020_tokyo_olympics                        ,USA     ,SBL   ,   0 ,    15 ,     0 ,  0 ,   15
 2020_tokyo_olympics                        ,AUS     ,SWA   ,   0 ,     8 ,     0 ,  0 ,    8
 2020_tokyo_olympics                        ,AUT     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
 2020_tokyo_olympics                        ,BLR     ,SWA   ,   0 ,     2 ,     0 ,  0 ,    2
@@ -33034,30 +33034,30 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2012_innsbruck_youth                       ,SWE     ,CUR   ,   0 ,     2 ,     0 ,  2 ,    2
 2012_innsbruck_youth                       ,USA     ,CUR   ,   0 ,     2 ,     0 ,  2 ,    2
 2012_innsbruck_youth                       ,MIX     ,CUR   ,   1 ,     0 ,     1 ,  0 ,    0
-2012_innsbruck_youth                       ,AUT     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,BLR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,BUL     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,CAN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,CZE     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,EST     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,FIN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,FRA     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,GER     ,MIX   ,   1 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,ITA     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,KAZ     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,KOR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,LAT     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,LTU     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,NOR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,POL     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,ROU     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,RUS     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,SLO     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,SUI     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,SVK     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,SWE     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,UKR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2012_innsbruck_youth                       ,USA     ,MIX   ,   0 ,     2 ,     1 ,  2 ,    2
+# 2012_innsbruck_youth                     ,AUT     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,BLR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,BUL     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,CAN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,CZE     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,EST     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,FIN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,FRA     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,GER     ,MIX   ,   1 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,ITA     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,KAZ     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,KOR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,LAT     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,LTU     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,NOR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,POL     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,ROU     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,RUS     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,SLO     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,SUI     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,SVK     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,SWE     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,UKR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2012_innsbruck_youth                     ,USA     ,MIX   ,   0 ,     2 ,     1 ,  2 ,    2
 2012_innsbruck_youth                       ,AUT     ,NCB   ,   0 ,     0 ,     0 ,  1 ,    0
 2012_innsbruck_youth                       ,BLR     ,NCB   ,   0 ,     0 ,     0 ,  1 ,    0
 2012_innsbruck_youth                       ,CAN     ,NCB   ,   0 ,     0 ,     0 ,  1 ,    0
@@ -34842,28 +34842,28 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2016_lillehammer_youth                     ,SWE     ,BTH   ,   0 ,     2 ,     0 ,  2 ,    2
 2016_lillehammer_youth                     ,UKR     ,BTH   ,   1 ,     2 ,     0 ,  2 ,    2
 2016_lillehammer_youth                     ,USA     ,BTH   ,   0 ,     2 ,     0 ,  2 ,    2
-2016_lillehammer_youth                     ,AUS     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2016_lillehammer_youth                     ,AUT     ,MIX   ,   0 ,     4 ,     0 ,  5 ,    4
-2016_lillehammer_youth                     ,BUL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2016_lillehammer_youth                     ,CAN     ,MIX   ,   0 ,     1 ,     0 ,  2 ,    1
-2016_lillehammer_youth                     ,CZE     ,MIX   ,   0 ,     4 ,     0 ,  4 ,    4
-2016_lillehammer_youth                     ,ESP     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2016_lillehammer_youth                     ,FIN     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2016_lillehammer_youth                     ,FRA     ,MIX   ,   0 ,     4 ,     0 ,  4 ,    4
-2016_lillehammer_youth                     ,GER     ,MIX   ,   1 ,     4 ,     1 ,  5 ,    4
-2016_lillehammer_youth                     ,ITA     ,MIX   ,   0 ,     3 ,     0 ,  4 ,    3
-2016_lillehammer_youth                     ,JPN     ,MIX   ,   0 ,     2 ,     0 ,  4 ,    2
-2016_lillehammer_youth                     ,LTU     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2016_lillehammer_youth                     ,MEX     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2016_lillehammer_youth                     ,NOR     ,MIX   ,   0 ,     2 ,     0 ,  3 ,    2
-2016_lillehammer_youth                     ,POL     ,MIX   ,   0 ,     2 ,     0 ,  3 ,    2
-2016_lillehammer_youth                     ,RUS     ,MIX   ,   1 ,     4 ,     0 ,  5 ,    4
-2016_lillehammer_youth                     ,SLO     ,MIX   ,   0 ,     2 ,     0 ,  3 ,    2
-2016_lillehammer_youth                     ,SUI     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2016_lillehammer_youth                     ,SWE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2016_lillehammer_youth                     ,UKR     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2016_lillehammer_youth                     ,USA     ,MIX   ,   0 ,     4 ,     0 ,  5 ,    4
-2016_lillehammer_youth                     ,MIX     ,MIX   ,   0 ,     0 ,     1 ,  0 ,    0
+# 2016_lillehammer_youth                   ,AUS     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2016_lillehammer_youth                   ,AUT     ,MIX   ,   0 ,     4 ,     0 ,  5 ,    4
+# 2016_lillehammer_youth                   ,BUL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2016_lillehammer_youth                   ,CAN     ,MIX   ,   0 ,     1 ,     0 ,  2 ,    1
+# 2016_lillehammer_youth                   ,CZE     ,MIX   ,   0 ,     4 ,     0 ,  4 ,    4
+# 2016_lillehammer_youth                   ,ESP     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2016_lillehammer_youth                   ,FIN     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2016_lillehammer_youth                   ,FRA     ,MIX   ,   0 ,     4 ,     0 ,  4 ,    4
+# 2016_lillehammer_youth                   ,GER     ,MIX   ,   1 ,     4 ,     1 ,  5 ,    4
+# 2016_lillehammer_youth                   ,ITA     ,MIX   ,   0 ,     3 ,     0 ,  4 ,    3
+# 2016_lillehammer_youth                   ,JPN     ,MIX   ,   0 ,     2 ,     0 ,  4 ,    2
+# 2016_lillehammer_youth                   ,LTU     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2016_lillehammer_youth                   ,MEX     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2016_lillehammer_youth                   ,NOR     ,MIX   ,   0 ,     2 ,     0 ,  3 ,    2
+# 2016_lillehammer_youth                   ,POL     ,MIX   ,   0 ,     2 ,     0 ,  3 ,    2
+# 2016_lillehammer_youth                   ,RUS     ,MIX   ,   1 ,     4 ,     0 ,  5 ,    4
+# 2016_lillehammer_youth                   ,SLO     ,MIX   ,   0 ,     2 ,     0 ,  3 ,    2
+# 2016_lillehammer_youth                   ,SUI     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2016_lillehammer_youth                   ,SWE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2016_lillehammer_youth                   ,UKR     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2016_lillehammer_youth                   ,USA     ,MIX   ,   0 ,     4 ,     0 ,  5 ,    4
+# 2016_lillehammer_youth                   ,MIX     ,MIX   ,   0 ,     0 ,     1 ,  0 ,    0
 2016_lillehammer_youth                     ,AUS     ,STK   ,   0 ,     1 ,     0 ,  0 ,    1
 2016_lillehammer_youth                     ,BEL     ,STK   ,   0 ,     0 ,     0 ,  1 ,    0
 2016_lillehammer_youth                     ,BUL     ,STK   ,   0 ,     1 ,     1 ,  0 ,    1
@@ -35690,69 +35690,69 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2018_buenos-aires_youth                    ,ZAM     ,JUD   ,   0 ,     0 ,     0 ,  1 ,    0
 2018_buenos-aires_youth                    ,ZIM     ,JUD   ,   0 ,     1 ,     0 ,  0 ,    1
 2018_buenos-aires_youth                    ,MIX     ,JUD   ,   1 ,     0 ,     2 ,  0 ,    0
-2018_buenos-aires_youth                    ,ALG     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,ARG     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2018_buenos-aires_youth                    ,ARM     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,AUS     ,MIX   ,   0 ,     3 ,     0 ,  1 ,    3
-2018_buenos-aires_youth                    ,AUT     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,AZE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,BEL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,BLR     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
-2018_buenos-aires_youth                    ,BOL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,BRA     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,BUL     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,CAN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2018_buenos-aires_youth                    ,CHN     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
-2018_buenos-aires_youth                    ,COL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,CRC     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,CYP     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,ECU     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,EGY     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,ESP     ,MIX   ,   0 ,     3 ,     0 ,  1 ,    3
-2018_buenos-aires_youth                    ,EST     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,FIN     ,MIX   ,   0 ,     2 ,     0 ,  0 ,    2
-2018_buenos-aires_youth                    ,FRA     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,GBR     ,MIX   ,   0 ,     3 ,     0 ,  3 ,    3
-2018_buenos-aires_youth                    ,GEO     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,GER     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,GRE     ,MIX   ,   0 ,     3 ,     0 ,  0 ,    3
-2018_buenos-aires_youth                    ,GUA     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,HUN     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,IRI     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,IRL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,ISL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,ISR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2018_buenos-aires_youth                    ,ITA     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,JPN     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
-2018_buenos-aires_youth                    ,KAZ     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
-2018_buenos-aires_youth                    ,KOR     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,LAT     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,LTU     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,MAS     ,MIX   ,   0 ,     2 ,     0 ,  0 ,    2
-2018_buenos-aires_youth                    ,MEX     ,MIX   ,   0 ,     3 ,     0 ,  0 ,    3
-2018_buenos-aires_youth                    ,NAM     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,NOR     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,NZL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,POR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2018_buenos-aires_youth                    ,PRK     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,PUR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2018_buenos-aires_youth                    ,ROU     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,RSA     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
-2018_buenos-aires_youth                    ,RUS     ,MIX   ,   0 ,     4 ,     0 ,  2 ,    4
-2018_buenos-aires_youth                    ,SGP     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,SRB     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,SRI     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,SUI     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,SWE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,TPE     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,TUN     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,TUR     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,UKR     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
-2018_buenos-aires_youth                    ,USA     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
-2018_buenos-aires_youth                    ,UZB     ,MIX   ,   0 ,     3 ,     0 ,  3 ,    3
-2018_buenos-aires_youth                    ,VEN     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,VIE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,MIX     ,MIX   ,   1 ,     0 ,     1 ,  0 ,    0
+# 2018_buenos-aires_youth                  ,ALG     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,ARG     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2018_buenos-aires_youth                  ,ARM     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,AUS     ,MIX   ,   0 ,     3 ,     0 ,  1 ,    3
+# 2018_buenos-aires_youth                  ,AUT     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,AZE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,BEL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,BLR     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
+# 2018_buenos-aires_youth                  ,BOL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,BRA     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,BUL     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,CAN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2018_buenos-aires_youth                  ,CHN     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2018_buenos-aires_youth                  ,COL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,CRC     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,CYP     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,ECU     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,EGY     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,ESP     ,MIX   ,   0 ,     3 ,     0 ,  1 ,    3
+# 2018_buenos-aires_youth                  ,EST     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,FIN     ,MIX   ,   0 ,     2 ,     0 ,  0 ,    2
+# 2018_buenos-aires_youth                  ,FRA     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,GBR     ,MIX   ,   0 ,     3 ,     0 ,  3 ,    3
+# 2018_buenos-aires_youth                  ,GEO     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,GER     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,GRE     ,MIX   ,   0 ,     3 ,     0 ,  0 ,    3
+# 2018_buenos-aires_youth                  ,GUA     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,HUN     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,IRI     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,IRL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,ISL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,ISR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2018_buenos-aires_youth                  ,ITA     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,JPN     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
+# 2018_buenos-aires_youth                  ,KAZ     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
+# 2018_buenos-aires_youth                  ,KOR     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,LAT     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,LTU     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,MAS     ,MIX   ,   0 ,     2 ,     0 ,  0 ,    2
+# 2018_buenos-aires_youth                  ,MEX     ,MIX   ,   0 ,     3 ,     0 ,  0 ,    3
+# 2018_buenos-aires_youth                  ,NAM     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,NOR     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,NZL     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,POR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2018_buenos-aires_youth                  ,PRK     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,PUR     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2018_buenos-aires_youth                  ,ROU     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,RSA     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
+# 2018_buenos-aires_youth                  ,RUS     ,MIX   ,   0 ,     4 ,     0 ,  2 ,    4
+# 2018_buenos-aires_youth                  ,SGP     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,SRB     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,SRI     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,SUI     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,SWE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,TPE     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,TUN     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,TUR     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,UKR     ,MIX   ,   0 ,     3 ,     0 ,  2 ,    3
+# 2018_buenos-aires_youth                  ,USA     ,MIX   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2018_buenos-aires_youth                  ,UZB     ,MIX   ,   0 ,     3 ,     0 ,  3 ,    3
+# 2018_buenos-aires_youth                  ,VEN     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,VIE     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,MIX     ,MIX   ,   1 ,     0 ,     1 ,  0 ,    0
 2018_buenos-aires_youth                    ,ALG     ,ROW   ,   0 ,     2 ,     0 ,  1 ,    2
 2018_buenos-aires_youth                    ,ARG     ,ROW   ,   1 ,     1 ,     1 ,  2 ,    1
 2018_buenos-aires_youth                    ,AUS     ,ROW   ,   0 ,     1 ,     1 ,  1 ,    1
@@ -35978,23 +35978,23 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2018_buenos-aires_youth                    ,UKR     ,ARC   ,   0 ,     1 ,     0 ,  1 ,    1
 2018_buenos-aires_youth                    ,USA     ,ARC   ,   1 ,     1 ,     0 ,  1 ,    1
 2018_buenos-aires_youth                    ,MIX     ,ARC   ,   1 ,     0 ,     1 ,  0 ,    0
-2018_buenos-aires_youth                    ,ARG     ,BHA   ,   1 ,     9 ,     1 ,  9 ,    9
-2018_buenos-aires_youth                    ,ASA     ,BHA   ,   0 ,     8 ,     0 ,  0 ,    8
-2018_buenos-aires_youth                    ,CRO     ,BHA   ,   0 ,     9 ,     0 ,  9 ,    9
-2018_buenos-aires_youth                    ,ESP     ,BHA   ,   1 ,     0 ,     0 ,  9 ,    0
-2018_buenos-aires_youth                    ,HKG     ,BHA   ,   0 ,     9 ,     0 ,  0 ,    9
-2018_buenos-aires_youth                    ,HUN     ,BHA   ,   0 ,     9 ,     1 ,  9 ,    9
-2018_buenos-aires_youth                    ,ITA     ,BHA   ,   0 ,     0 ,     0 ,  9 ,    0
-2018_buenos-aires_youth                    ,MRI     ,BHA   ,   0 ,     9 ,     0 ,  9 ,    9
-2018_buenos-aires_youth                    ,NED     ,BHA   ,   0 ,     9 ,     0 ,  0 ,    9
-2018_buenos-aires_youth                    ,PAR     ,BHA   ,   0 ,     9 ,     0 ,  9 ,    9
-2018_buenos-aires_youth                    ,POR     ,BHA   ,   0 ,     0 ,     0 ,  9 ,    0
-2018_buenos-aires_youth                    ,RUS     ,BHA   ,   0 ,     9 ,     0 ,  0 ,    9
-2018_buenos-aires_youth                    ,THA     ,BHA   ,   0 ,     0 ,     0 ,  9 ,    0
-2018_buenos-aires_youth                    ,TPE     ,BHA   ,   0 ,     9 ,     0 ,  9 ,    9
-2018_buenos-aires_youth                    ,TUR     ,BHA   ,   0 ,     9 ,     0 ,  0 ,    9
-2018_buenos-aires_youth                    ,URU     ,BHA   ,   0 ,     0 ,     0 ,  9 ,    0
-2018_buenos-aires_youth                    ,VEN     ,BHA   ,   0 ,     9 ,     0 ,  9 ,    9
+2018_buenos-aires_youth                    ,ARG     ,HBB   ,   1 ,     9 ,     1 ,  9 ,    9
+2018_buenos-aires_youth                    ,ASA     ,HBB   ,   0 ,     8 ,     0 ,  0 ,    8
+2018_buenos-aires_youth                    ,CRO     ,HBB   ,   0 ,     9 ,     0 ,  9 ,    9
+2018_buenos-aires_youth                    ,ESP     ,HBB   ,   1 ,     0 ,     0 ,  9 ,    0
+2018_buenos-aires_youth                    ,HKG     ,HBB   ,   0 ,     9 ,     0 ,  0 ,    9
+2018_buenos-aires_youth                    ,HUN     ,HBB   ,   0 ,     9 ,     1 ,  9 ,    9
+2018_buenos-aires_youth                    ,ITA     ,HBB   ,   0 ,     0 ,     0 ,  9 ,    0
+2018_buenos-aires_youth                    ,MRI     ,HBB   ,   0 ,     9 ,     0 ,  9 ,    9
+2018_buenos-aires_youth                    ,NED     ,HBB   ,   0 ,     9 ,     0 ,  0 ,    9
+2018_buenos-aires_youth                    ,PAR     ,HBB   ,   0 ,     9 ,     0 ,  9 ,    9
+2018_buenos-aires_youth                    ,POR     ,HBB   ,   0 ,     0 ,     0 ,  9 ,    0
+2018_buenos-aires_youth                    ,RUS     ,HBB   ,   0 ,     9 ,     0 ,  0 ,    9
+2018_buenos-aires_youth                    ,THA     ,HBB   ,   0 ,     0 ,     0 ,  9 ,    0
+2018_buenos-aires_youth                    ,TPE     ,HBB   ,   0 ,     9 ,     0 ,  9 ,    9
+2018_buenos-aires_youth                    ,TUR     ,HBB   ,   0 ,     9 ,     0 ,  0 ,    9
+2018_buenos-aires_youth                    ,URU     ,HBB   ,   0 ,     0 ,     0 ,  9 ,    0
+2018_buenos-aires_youth                    ,VEN     ,HBB   ,   0 ,     9 ,     0 ,  9 ,    9
 2018_buenos-aires_youth                    ,ARG     ,BKG   ,   0 ,     1 ,     0 ,  1 ,    1
 2018_buenos-aires_youth                    ,AUT     ,BKG   ,   0 ,     1 ,     0 ,  0 ,    1
 2018_buenos-aires_youth                    ,BEL     ,BKG   ,   0 ,     0 ,     0 ,  1 ,    0
@@ -36137,26 +36137,26 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2018_buenos-aires_youth                    ,ZAM     ,EJP   ,   0 ,     1 ,     0 ,  0 ,    1
 2018_buenos-aires_youth                    ,ZIM     ,EJP   ,   0 ,     1 ,     0 ,  0 ,    1
 2018_buenos-aires_youth                    ,MIX     ,EJP   ,   1 ,     0 ,     1 ,  0 ,    0
-2018_buenos-aires_youth                    ,ARG     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,BOL     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,BRA     ,FTS   ,   1 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,CHI     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,CMR     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,CRC     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,DOM     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,EGY     ,FTS   ,   0 ,     0 ,     1 , 10 ,    0
-2018_buenos-aires_youth                    ,ESP     ,FTS   ,   0 ,    10 ,     1 ,  0 ,   10
-2018_buenos-aires_youth                    ,IRI     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,IRQ     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,JPN     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,PAN     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,POR     ,FTS   ,   1 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,RUS     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,SOL     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,SVK     ,FTS   ,   0 ,     0 ,     0 , 10 ,    0
-2018_buenos-aires_youth                    ,TGA     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,THA     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
-2018_buenos-aires_youth                    ,TTO     ,FTS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,ARG     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,BOL     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,BRA     ,FBS   ,   1 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,CHI     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,CMR     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,CRC     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,DOM     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,EGY     ,FBS   ,   0 ,     0 ,     1 , 10 ,    0
+2018_buenos-aires_youth                    ,ESP     ,FBS   ,   0 ,    10 ,     1 ,  0 ,   10
+2018_buenos-aires_youth                    ,IRI     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,IRQ     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,JPN     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,PAN     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,POR     ,FBS   ,   1 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,RUS     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,SOL     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,SVK     ,FBS   ,   0 ,     0 ,     0 , 10 ,    0
+2018_buenos-aires_youth                    ,TGA     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,THA     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
+2018_buenos-aires_youth                    ,TTO     ,FBS   ,   0 ,    10 ,     0 ,  0 ,   10
 2018_buenos-aires_youth                    ,ARG     ,GLF   ,   0 ,     1 ,     1 ,  1 ,    1
 2018_buenos-aires_youth                    ,AUS     ,GLF   ,   2 ,     1 ,     0 ,  1 ,    1
 2018_buenos-aires_youth                    ,AUT     ,GLF   ,   0 ,     1 ,     1 ,  1 ,    1
@@ -36307,24 +36307,24 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2018_buenos-aires_youth                    ,UKR     ,MPN   ,   0 ,     0 ,     0 ,  1 ,    0
 2018_buenos-aires_youth                    ,VEN     ,MPN   ,   0 ,     0 ,     0 ,  1 ,    0
 2018_buenos-aires_youth                    ,MIX     ,MPN   ,   1 ,     0 ,     1 ,  0 ,    0
-2018_buenos-aires_youth                    ,ARG     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,AUS     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,BEL     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,CHI     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,CHN     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,COL     ,ROL   ,   2 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,CZE     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,ECU     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,ESP     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,FRA     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,GER     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,ITA     ,ROL   ,   0 ,     1 ,     1 ,  1 ,    1
-2018_buenos-aires_youth                    ,KOR     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
-2018_buenos-aires_youth                    ,NED     ,ROL   ,   0 ,     1 ,     1 ,  1 ,    1
-2018_buenos-aires_youth                    ,POR     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,THA     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
-2018_buenos-aires_youth                    ,TPE     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
-2018_buenos-aires_youth                    ,VEN     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,ARG     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,AUS     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,BEL     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,CHI     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,CHN     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,COL     ,ROL   ,   2 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,CZE     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,ECU     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,ESP     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,FRA     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,GER     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,ITA     ,ROL   ,   0 ,     1 ,     1 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,KOR     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2018_buenos-aires_youth                  ,NED     ,ROL   ,   0 ,     1 ,     1 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,POR     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,THA     ,ROL   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2018_buenos-aires_youth                  ,TPE     ,ROL   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2018_buenos-aires_youth                  ,VEN     ,ROL   ,   0 ,     0 ,     0 ,  1 ,    0
 2018_buenos-aires_youth                    ,ARG     ,RU7   ,   1 ,     0 ,     0 , 12 ,    0
 2018_buenos-aires_youth                    ,CAN     ,RU7   ,   0 ,    12 ,     1 ,  0 ,   12
 2018_buenos-aires_youth                    ,COL     ,RU7   ,   0 ,    12 ,     0 ,  0 ,   12
@@ -36755,77 +36755,77 @@ games                                      ,country ,sport ,gold ,silver ,bronze
 2020_lausanne_youth                        ,TUR     ,CCS   ,   0 ,     2 ,     0 ,  1 ,    2
 2020_lausanne_youth                        ,UKR     ,CCS   ,   0 ,     2 ,     0 ,  2 ,    2
 2020_lausanne_youth                        ,USA     ,CCS   ,   0 ,     3 ,     2 ,  3 ,    3
-2020_lausanne_youth                        ,ARG     ,IH3   ,   0 ,     2 ,     0 ,  1 ,    2
-2020_lausanne_youth                        ,AUS     ,IH3   ,   0 ,     4 ,     0 ,  2 ,    4
-2020_lausanne_youth                        ,AUT     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,BEL     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,BLR     ,IH3   ,   0 ,     0 ,     0 ,  4 ,    0
-2020_lausanne_youth                        ,BUL     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,CHN     ,IH3   ,   0 ,     4 ,     0 ,  1 ,    4
-2020_lausanne_youth                        ,CRO     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,CZE     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,DEN     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,ESP     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
-2020_lausanne_youth                        ,EST     ,IH3   ,   0 ,     0 ,     0 ,  3 ,    0
-2020_lausanne_youth                        ,FIN     ,IH3   ,   0 ,     1 ,     0 ,  2 ,    1
-2020_lausanne_youth                        ,FRA     ,IH3   ,   0 ,     4 ,     0 ,  4 ,    4
-2020_lausanne_youth                        ,GBR     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
-2020_lausanne_youth                        ,GER     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,HKG     ,IH3   ,   0 ,     0 ,     0 ,  2 ,    0
-2020_lausanne_youth                        ,HUN     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,ITA     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,JPN     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,KAZ     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,KOR     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
-2020_lausanne_youth                        ,LAT     ,IH3   ,   0 ,     1 ,     0 ,  0 ,    1
-2020_lausanne_youth                        ,LTU     ,IH3   ,   0 ,     0 ,     0 ,  3 ,    0
-2020_lausanne_youth                        ,LUX     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,MEX     ,IH3   ,   0 ,     3 ,     0 ,  3 ,    3
-2020_lausanne_youth                        ,NED     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
-2020_lausanne_youth                        ,NOR     ,IH3   ,   0 ,     4 ,     0 ,  4 ,    4
-2020_lausanne_youth                        ,NZL     ,IH3   ,   0 ,     2 ,     0 ,  3 ,    2
-2020_lausanne_youth                        ,POL     ,IH3   ,   0 ,     3 ,     0 ,  3 ,    3
-2020_lausanne_youth                        ,QAT     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,ROU     ,IH3   ,   0 ,     2 ,     0 ,  1 ,    2
-2020_lausanne_youth                        ,RUS     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,SGP     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,SLO     ,IH3   ,   0 ,     1 ,     0 ,  3 ,    1
-2020_lausanne_youth                        ,SRB     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,SUI     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,SVK     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
-2020_lausanne_youth                        ,SWE     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,TKM     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,TPE     ,IH3   ,   0 ,     3 ,     0 ,  2 ,    3
-2020_lausanne_youth                        ,TUR     ,IH3   ,   0 ,     1 ,     0 ,  2 ,    1
-2020_lausanne_youth                        ,UKR     ,IH3   ,   0 ,     1 ,     0 ,  2 ,    1
-2020_lausanne_youth                        ,MIX     ,IH3   ,   2 ,     0 ,     2 ,  0 ,    0
-2020_lausanne_youth                        ,ARG     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,AUS     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
-2020_lausanne_youth                        ,AUT     ,MIX   ,   0 ,     6 ,     0 ,  7 ,    6
-2020_lausanne_youth                        ,BEL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2020_lausanne_youth                        ,BRA     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,BUL     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,CAN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
-2020_lausanne_youth                        ,CHI     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2020_lausanne_youth                        ,CHN     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
-2020_lausanne_youth                        ,CZE     ,MIX   ,   0 ,     5 ,     0 ,  5 ,    5
-2020_lausanne_youth                        ,ESP     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,FIN     ,MIX   ,   0 ,     3 ,     0 ,  3 ,    3
-2020_lausanne_youth                        ,FRA     ,MIX   ,   0 ,     6 ,     0 ,  6 ,    6
-2020_lausanne_youth                        ,GBR     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,GER     ,MIX   ,   0 ,     5 ,     1 ,  6 ,    5
-2020_lausanne_youth                        ,HUN     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,ISR     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
-2020_lausanne_youth                        ,ITA     ,MIX   ,   0 ,     4 ,     1 ,  5 ,    4
-2020_lausanne_youth                        ,NOR     ,MIX   ,   1 ,     3 ,     0 ,  4 ,    3
-2020_lausanne_youth                        ,ROU     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,RUS     ,MIX   ,   0 ,     7 ,     0 ,  6 ,    7
-2020_lausanne_youth                        ,SLO     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
-2020_lausanne_youth                        ,SUI     ,MIX   ,   1 ,     3 ,     0 ,  4 ,    3
-2020_lausanne_youth                        ,SVK     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
-2020_lausanne_youth                        ,SWE     ,MIX   ,   0 ,     2 ,     0 ,  0 ,    2
-2020_lausanne_youth                        ,UKR     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
-2020_lausanne_youth                        ,USA     ,MIX   ,   0 ,     4 ,     0 ,  4 ,    4
+# 2020_lausanne_youth                      ,ARG     ,IH3   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2020_lausanne_youth                      ,AUS     ,IH3   ,   0 ,     4 ,     0 ,  2 ,    4
+# 2020_lausanne_youth                      ,AUT     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,BEL     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,BLR     ,IH3   ,   0 ,     0 ,     0 ,  4 ,    0
+# 2020_lausanne_youth                      ,BUL     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,CHN     ,IH3   ,   0 ,     4 ,     0 ,  1 ,    4
+# 2020_lausanne_youth                      ,CRO     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,CZE     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,DEN     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,ESP     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2020_lausanne_youth                      ,EST     ,IH3   ,   0 ,     0 ,     0 ,  3 ,    0
+# 2020_lausanne_youth                      ,FIN     ,IH3   ,   0 ,     1 ,     0 ,  2 ,    1
+# 2020_lausanne_youth                      ,FRA     ,IH3   ,   0 ,     4 ,     0 ,  4 ,    4
+# 2020_lausanne_youth                      ,GBR     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2020_lausanne_youth                      ,GER     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,HKG     ,IH3   ,   0 ,     0 ,     0 ,  2 ,    0
+# 2020_lausanne_youth                      ,HUN     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,ITA     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,JPN     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,KAZ     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,KOR     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2020_lausanne_youth                      ,LAT     ,IH3   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2020_lausanne_youth                      ,LTU     ,IH3   ,   0 ,     0 ,     0 ,  3 ,    0
+# 2020_lausanne_youth                      ,LUX     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,MEX     ,IH3   ,   0 ,     3 ,     0 ,  3 ,    3
+# 2020_lausanne_youth                      ,NED     ,IH3   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2020_lausanne_youth                      ,NOR     ,IH3   ,   0 ,     4 ,     0 ,  4 ,    4
+# 2020_lausanne_youth                      ,NZL     ,IH3   ,   0 ,     2 ,     0 ,  3 ,    2
+# 2020_lausanne_youth                      ,POL     ,IH3   ,   0 ,     3 ,     0 ,  3 ,    3
+# 2020_lausanne_youth                      ,QAT     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,ROU     ,IH3   ,   0 ,     2 ,     0 ,  1 ,    2
+# 2020_lausanne_youth                      ,RUS     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,SGP     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,SLO     ,IH3   ,   0 ,     1 ,     0 ,  3 ,    1
+# 2020_lausanne_youth                      ,SRB     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,SUI     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,SVK     ,IH3   ,   0 ,     5 ,     0 ,  4 ,    5
+# 2020_lausanne_youth                      ,SWE     ,IH3   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,TKM     ,IH3   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,TPE     ,IH3   ,   0 ,     3 ,     0 ,  2 ,    3
+# 2020_lausanne_youth                      ,TUR     ,IH3   ,   0 ,     1 ,     0 ,  2 ,    1
+# 2020_lausanne_youth                      ,UKR     ,IH3   ,   0 ,     1 ,     0 ,  2 ,    1
+# 2020_lausanne_youth                      ,MIX     ,IH3   ,   2 ,     0 ,     2 ,  0 ,    0
+# 2020_lausanne_youth                      ,ARG     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,AUS     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2020_lausanne_youth                      ,AUT     ,MIX   ,   0 ,     6 ,     0 ,  7 ,    6
+# 2020_lausanne_youth                      ,BEL     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2020_lausanne_youth                      ,BRA     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,BUL     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,CAN     ,MIX   ,   0 ,     2 ,     0 ,  2 ,    2
+# 2020_lausanne_youth                      ,CHI     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2020_lausanne_youth                      ,CHN     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2020_lausanne_youth                      ,CZE     ,MIX   ,   0 ,     5 ,     0 ,  5 ,    5
+# 2020_lausanne_youth                      ,ESP     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,FIN     ,MIX   ,   0 ,     3 ,     0 ,  3 ,    3
+# 2020_lausanne_youth                      ,FRA     ,MIX   ,   0 ,     6 ,     0 ,  6 ,    6
+# 2020_lausanne_youth                      ,GBR     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,GER     ,MIX   ,   0 ,     5 ,     1 ,  6 ,    5
+# 2020_lausanne_youth                      ,HUN     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,ISR     ,MIX   ,   0 ,     1 ,     0 ,  0 ,    1
+# 2020_lausanne_youth                      ,ITA     ,MIX   ,   0 ,     4 ,     1 ,  5 ,    4
+# 2020_lausanne_youth                      ,NOR     ,MIX   ,   1 ,     3 ,     0 ,  4 ,    3
+# 2020_lausanne_youth                      ,ROU     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,RUS     ,MIX   ,   0 ,     7 ,     0 ,  6 ,    7
+# 2020_lausanne_youth                      ,SLO     ,MIX   ,   0 ,     4 ,     0 ,  3 ,    4
+# 2020_lausanne_youth                      ,SUI     ,MIX   ,   1 ,     3 ,     0 ,  4 ,    3
+# 2020_lausanne_youth                      ,SVK     ,MIX   ,   0 ,     1 ,     0 ,  1 ,    1
+# 2020_lausanne_youth                      ,SWE     ,MIX   ,   0 ,     2 ,     0 ,  0 ,    2
+# 2020_lausanne_youth                      ,UKR     ,MIX   ,   0 ,     0 ,     0 ,  1 ,    0
+# 2020_lausanne_youth                      ,USA     ,MIX   ,   0 ,     4 ,     0 ,  4 ,    4
 2020_lausanne_youth                        ,ARG     ,SBD   ,   0 ,     3 ,     0 ,  2 ,    3
 2020_lausanne_youth                        ,AUS     ,SBD   ,   1 ,     4 ,     0 ,  2 ,    4
 2020_lausanne_youth                        ,AUT     ,SBD   ,   0 ,     3 ,     0 ,  3 ,    3
