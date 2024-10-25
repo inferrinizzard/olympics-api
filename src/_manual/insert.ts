@@ -50,4 +50,5 @@ const readAndInitInsertQuery = async (
   await insertData(table, data, force);
 };
 
+await readAndInitInsertQuery('sports_detail', 'json', true);
 readAndInitInsertQuery('participation_records', 'csv');

@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 
 import neatCsv from 'neat-csv';
 
-import { snake_case2camelCase } from './utils';
+import { camelCase2snake_case, snake_case2camelCase } from './utils';
 
 export const readFromJson = async (table: string) => {
   const json = (
@@ -14,7 +14,9 @@ export const readFromJson = async (table: string) => {
   json.forEach((row: object) =>
     // biome-ignore lint/complexity/noForEach: <explanation>
     // biome-ignore lint/suspicious/noAssignInExpressions: <explanation>
-    Object.keys(row).forEach((key) => (keysMap[key] = true))
+    Object.keys(row).forEach((key) => {
+      keysMap[camelCase2snake_case(key)] = true;
+    })
   );
 
   const keys = Object.keys(keysMap);
