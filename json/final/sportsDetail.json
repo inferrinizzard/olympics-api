@@ -617,7 +617,15 @@
     "parent": "SD",
     "status": "active",
     "season": "summer",
-    "pageName": "Snowboarding_at_the_Winter_Olympics"
+    "pageName": "Skateboarding_at_the_Summer_Olympics"
+  },
+  {
+    "code": "ROL",
+    "name": "Roller Speed Skating",
+    "category": "discipline",
+    "parent": "SD",
+    "status": "active",
+    "season": "summer"
   },
   {
     "code": "SQ",

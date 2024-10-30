@@ -73,7 +73,8 @@ code   ,name                          ,category     ,status         ,season   ,p
 "SH"   ,"Shooting"                    ,"sport"      ,"active"       ,"summer" ,       ,
 "SHO"  ,"Shooting"                    ,"discipline" ,"active"       ,"summer" ,"SH"   ,"Shooting_at_the_Summer_Olympics"
 "SD"   ,"Skate Sport"                 ,"sport"      ,"active"       ,"summer" ,       ,
-"SKB"  ,"Skateboarding"               ,"discipline" ,"active"       ,"summer" ,"SD"   ,"Snowboarding_at_the_Winter_Olympics"
+"SKB"  ,"Skateboarding"               ,"discipline" ,"active"       ,"summer" ,"SD"   ,"Skateboarding_at_the_Summer_Olympics"
+"ROL"  ,"Roller Speed Skating"        ,"discipline" ,"active"       ,"summer" ,"SD"   ,
 "SQ"   ,"Squash"                      ,"sport"      ,"active"       ,"summer" ,       ,
 "SQU"  ,"Squash"                      ,"discipline" ,"active"       ,"summer" ,"SQ"   ,"Squash_at_the_Summer_Olympics"
 "CL"   ,"Sport Climbing"              ,"sport"      ,"active"       ,"summer" ,       ,
