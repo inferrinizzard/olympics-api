@@ -20,7 +20,8 @@
     "dev": "tsoa routes && tsoa spec && nodemon src/index.ts",
     "build": "tsoa routes-and-spec && tsc",
     "start": "node dist/index.js",
-    "publish-types": "git subtree push --prefix src/models origin api-types"
+    "publish-types": "git subtree push --prefix src/models origin api-types",
+    "publish-images": "git subtree push --prefix images origin images"
   },
   "dependencies": {
     "express": "^4.17.3",
