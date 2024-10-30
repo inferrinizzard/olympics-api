@@ -334,7 +334,7 @@
   {
     "code": "FLF",
     "name": "Flag Football",
-    "category": "sport",
+    "category": "discipline",
     "parent": "FL",
     "status": "active",
     "season": "summer",

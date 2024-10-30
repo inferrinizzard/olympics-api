@@ -39,7 +39,7 @@ code   ,name                          ,category     ,status         ,season   ,p
 "FE"   ,"Fencing"                     ,"sport"      ,"active"       ,"summer" ,       ,
 "FEN"  ,"Fencing"                     ,"discipline" ,"active"       ,"summer" ,"FE"   ,"Fencing_at_the_Summer_Olympics"
 "FL"   ,"Flag Football"               ,"sport"      ,"active"       ,"summer" ,       ,
-"FLF"  ,"Flag Football"               ,"sport"      ,"active"       ,"summer" ,"FL"   ,"Flag_football_at_the_Summer_Olympics"
+"FLF"  ,"Flag Football"               ,"discipline" ,"active"       ,"summer" ,"FL"   ,"Flag_football_at_the_Summer_Olympics"
 "FB"   ,"Football"                    ,"sport"      ,"active"       ,"summer" ,       ,
 "FBL"  ,"Football"                    ,"discipline" ,"active"       ,"summer" ,"FB"   ,"Football_at_the_Summer_Olympics"
 "FBS"  ,"Futsal"                      ,"discipline" ,"active"       ,"summer" ,"FB"   ,"Football_at_the_Summer_Youth_Olympics"
