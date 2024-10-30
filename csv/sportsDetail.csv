@@ -200,7 +200,8 @@ code   ,name                          ,category     ,status         ,season   ,p
 "BDG"  ,"Bridge"                      ,"sport"      ,"other"        ,         ,       ,
 "CHL"  ,"Cheerleading"                ,"sport"      ,"other"        ,         ,       ,
 "CHS"  ,"Chess"                       ,"sport"      ,"other"        ,         ,       ,"Chess_at_the_2000_Summer_Olympics"
-"MTN"  ,"Climbing and Mountaineering" ,"sport"      ,"other"        ,         ,       ,
+"MT"   ,"Climbing and Mountaineering" ,"sport"      ,"other"        ,         ,       ,
+"APN"  ,"Alpinism"                    ,"discipline" ,"other"        ,         ,"MT"   ,"Alpinism_at_the_Olympic_Games"
 "FLR"  ,"Floorball"                   ,"sport"      ,"other"        ,         ,       ,
 "FDS"  ,"Flying Disc"                 ,"sport"      ,"other"        ,         ,       ,
 "IST"  ,"Icestocksport"               ,"sport"      ,"other"        ,         ,       ,"Ice_stock_sport_at_the_Winter_Olympics"

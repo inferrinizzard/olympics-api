@@ -1587,7 +1587,7 @@
     "pageName": "Chess_at_the_2000_Summer_Olympics"
   },
   {
-    "code": "MTN",
+    "code": "MT",
     "name": "Climbing and Mountaineering",
     "category": "sport",
     "status": "other"
@@ -1596,7 +1596,7 @@
     "code": "APN",
     "name": "Alpinism",
     "category": "discipline",
-    "parent": "MTN",
+    "parent": "MT",
     "status": "other",
     "pageName": "Alpinism_at_the_Olympic_Games"
   },
