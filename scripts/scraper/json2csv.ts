@@ -29,4 +29,4 @@ export const json2csv = (objRows: Record<string, unknown>[], path: string) => {
   writeStream.close();
 };
 
-// json2csv(sportsDetail, './csv/sportsDetail.csv');
+json2csv(sportsDetail, './csv/sportsDetail.csv');
