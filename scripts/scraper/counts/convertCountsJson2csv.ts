@@ -29,9 +29,7 @@ const shouldBeCommented = ([
 
   if (
     // from olympedia, mostly DNE elsewhere
-    ['MIX', 'ROQ', 'MBO', 'ROL', 'IH3', 'MSP', 'AER', 'CMA', 'JDP'].includes(
-      sport
-    )
+    ['MIX', 'ROQ', 'MBO', 'IH3', 'MSP', 'AER', 'CMA', 'JDP'].includes(sport)
   ) {
     return true;
   }
