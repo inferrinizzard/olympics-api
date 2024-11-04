@@ -521,7 +521,7 @@
     "endDate": "1952-03-25"
   },
   {
-    "code": "1956_cortina-dampezzo_olympics",
+    "code": "1956_cortina-d-ampezzo_olympics",
     "year": "1956",
     "host": "Cortina d'Ampezzo",
     "season": "winter",
@@ -747,9 +747,9 @@
     "endDate": "2022-03-20"
   },
   {
-    "code": "2026_milano-cortina_olympics",
+    "code": "2026_milano+cortina_olympics",
     "year": "2026",
-    "host": "Milano Cortina",
+    "host": "Milano / Cortina",
     "season": "winter",
     "edition": "olympics",
     "pageName": "2026_Winter_Olympics",
@@ -1285,9 +1285,9 @@
     "endDate": "2022-04-13"
   },
   {
-    "code": "2026_milano-cortina_paralympics",
+    "code": "2026_milano+cortina_paralympics",
     "year": "2026",
-    "host": "Milano Cortina",
+    "host": "Milano / Cortina",
     "season": "winter",
     "edition": "paralympics",
     "pageName": "2026_Winter_Paralympics",
