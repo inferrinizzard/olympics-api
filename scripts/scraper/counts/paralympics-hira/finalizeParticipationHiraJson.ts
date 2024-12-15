@@ -1,6 +1,7 @@
+import { writeFileSync } from 'node:fs';
+
 import gamesDetail from '@/json/final/gamesDetail.json';
 import hiraCounts from '@/json/partial/paralympicsHiraCounts.json';
-import { writeFileSync } from 'node:fs';
 
 const gamesRowList = [];
 for (const [hiraCode, countsMap] of Object.entries(hiraCounts.counts)) {
