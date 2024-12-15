@@ -31,7 +31,17 @@ para_map = {
     'P-WFE' :'P-WF',
     'P-WRU' :'P-WR',
     'P-WTE' :'P-WT',
+
+    'P-SLG': 'P-SS',
+    'P-CRD': 'P-CR',
+    'P-FB7': 'P-FT',
+    'P-BSK': 'P-BK',
+    'P-SAL': 'P-SA',
+    'P-BTH': 'P-BT',
+    'P-VOL': 'P-VT',
+    'P-CTR': 'P-CT',
 }
+
 
 # official = os.listdir('./images/sports/official')
 # other = [img for img in os.listdir('./images/sports') if img.endswith('.svg')]
