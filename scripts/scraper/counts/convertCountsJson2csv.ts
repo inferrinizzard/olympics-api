@@ -60,7 +60,7 @@ const convertCountsJson2csv = () => {
     for (const [sport, countryCountsMap] of Object.entries(countsRow.counts)) {
       for (const [country, counts] of Object.entries(countryCountsMap)) {
         const gold: number = counts.gold ?? 0;
-        const silver: number = counts.women ?? 0;
+        const silver: number = counts.silver ?? 0;
         const bronze: number = counts.bronze ?? 0;
         const men: number = counts.men ?? 0;
         const women: number = counts.women ?? 0;
