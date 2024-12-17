@@ -27,7 +27,6 @@
     "express": "^4.17.3",
     "got": "^14.4.2",
     "jsdom": "^19.0.0",
-    "magickwand.js": "^2.0.1",
     "pg-promise": "^10.11.1",
     "swagger-ui-express": "^4.4.0",
     "tsoa": "^4.1.0"
