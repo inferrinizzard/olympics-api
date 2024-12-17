@@ -5,7 +5,7 @@ import { exec as _exec } from 'node:child_process';
 const exec = promisify(_exec);
 
 const root = 'images/games';
-const force = false;
+const force = true;
 let options = '';
 
 if (force) {
