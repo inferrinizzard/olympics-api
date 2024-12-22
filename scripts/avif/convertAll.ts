@@ -1,4 +1,5 @@
 import { existsSync, readdirSync } from 'node:fs';
+import { exec } from 'node:child_process';
 
 import { avifQueue } from './avifQueue.json';
 import { imageToAvif } from './imageToAvif';
@@ -57,5 +58,13 @@ const buildTraversalQueue = () => {
 
 const queue = shouldUseTraversalQueue ? buildTraversalQueue() : avifQueue;
 
-// biome-ignore lint/complexity/noForEach: <explanation>
-queue.forEach((path) => imageToAvif(path));
+await Promise.all([
+  ...queue.map((path) => imageToAvif(path)),
+  new Promise<void>((resolve, reject) => {
+    setTimeout(() => reject('TIMED OUT'), 300_000);
+  }),
+]).finally(() => {
+  console.log('Done');
+  exec('find ./images/games -size 0 -print -delete');
+  console.log('Deleting failures');
+});

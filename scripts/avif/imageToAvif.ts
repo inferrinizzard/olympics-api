@@ -1,9 +1,16 @@
 import { promisify } from 'node:util';
 import { exec as _exec } from 'node:child_process';
+import { existsSync } from 'node:fs';
 const exec = promisify(_exec);
 
 export const imageToAvif = async (path: string, options = '') => {
   const target = `${path.split('.')[0]}.avif`;
+
+  if (existsSync(target)) {
+    return;
+  }
+
+  console.log(`Converting ${path} to avif`);
 
   if (path.endsWith('.jpg') || path.endsWith('.jpeg')) {
     return exec(`ffmpeg ${options} -i ${path} -crf 0 ${target}`);
