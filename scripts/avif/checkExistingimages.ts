@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, writeFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 import { readFromCsv } from '@/src/_manual/readFromFile';
 import sportsDetail from '@/json/final/sportsDetail.json';
@@ -49,12 +49,22 @@ for (const games of rootDir) {
       if (sourceFile) {
         avifQueue.push(`${root}/${games}/sports/${sourceFile}`);
       } else {
+        if (existsSync(`${root}/${games}/sports/_map.json`)) {
+          const mapJson = readFileSync(`${root}/${games}/sports/_map.json`);
+          const map = JSON.parse(mapJson.toString());
+
+          if (sport in map) {
+            continue;
+          }
+        }
         notFound.push(avifPath);
       }
     }
   }
 
-  for (const file of readdirSync(`${root}/${games}/sports`)) {
+  for (const file of readdirSync(`${root}/${games}/sports`).filter(
+    (file) => !file.startsWith('_')
+  )) {
     const sport = file.split('.')[0];
 
     if (!gamesSportsMap[games]) {
