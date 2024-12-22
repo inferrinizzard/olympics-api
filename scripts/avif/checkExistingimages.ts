@@ -1,11 +1,7 @@
-import { readFromCsv } from '@/src/_manual/readFromFile';
+import { existsSync, readdirSync, writeFileSync } from 'node:fs';
 
-import {
-  createReadStream,
-  existsSync,
-  readdirSync,
-  writeFileSync,
-} from 'node:fs';
+import { readFromCsv } from '@/src/_manual/readFromFile';
+import sportsDetail from '@/json/final/sportsDetail.json';
 
 const participationRecordsCsv = await readFromCsv('participationRecords');
 const gamesSportsMap: Record<string, Record<string, boolean | null>> = {};
