@@ -1,44 +1,61 @@
 import { existsSync, readdirSync } from 'node:fs';
 
+import { avifQueue } from './avifQueue.json';
 import { imageToAvif } from './imageToAvif';
 
+// # Options
 const root = 'images/games';
-const force = true;
+const force = false;
+const shouldUseTraversalQueue = false;
+
+// # Assemble Options
 let options = '';
 
 if (force) {
   options += '-y';
 }
 
-const rootDir = readdirSync(root);
-const queue = rootDir
-  .filter((file) => !file.includes('.'))
-  .map((game) => ({
-    parent: root,
-    leaf: game,
-  }));
+// # Main
+const buildTraversalQueue = () => {
+  const outputQueue = [];
 
-for (const { parent, leaf } of queue) {
-  const files = readdirSync(`${parent}/${leaf}`);
+  const rootDir = readdirSync(root);
+  const queue = rootDir
+    .filter((file) => !file.includes('.'))
+    .map((game) => ({
+      parent: root,
+      leaf: game,
+    }));
 
-  const subdirs = files.filter((file) => !file.includes('.'));
-  queue.push(
-    ...subdirs.map((dir) => ({ parent: `${parent}/${leaf}`, leaf: dir }))
-  );
+  for (const { parent, leaf } of queue) {
+    const files = readdirSync(`${parent}/${leaf}`);
 
-  const nonSvgImages = files.filter(
-    (file) =>
-      file.includes('.') && !file.endsWith('.svg') && !file.endsWith('.avif')
-  );
+    const subdirs = files.filter((file) => !file.includes('.'));
+    queue.push(
+      ...subdirs.map((dir) => ({ parent: `${parent}/${leaf}`, leaf: dir }))
+    );
 
-  for (const image of nonSvgImages) {
-    const path = `${parent}/${leaf}/${image}`;
-    const target = `${path.split('.')[0]}.avif`;
+    const nonSvgImages = files.filter(
+      (file) =>
+        file.includes('.') && !file.endsWith('.svg') && !file.endsWith('.avif')
+    );
 
-    if (!force && existsSync(target)) {
-      continue;
+    for (const image of nonSvgImages) {
+      const path = `${parent}/${leaf}/${image}`;
+      const target = `${path.split('.')[0]}.avif`;
+
+      if (!force && existsSync(target)) {
+        continue;
+      }
+
+      outputQueue.push(path);
     }
-
-    imageToAvif(path, options);
   }
-}
+
+  return outputQueue;
+};
+
+const queue = shouldUseTraversalQueue ? buildTraversalQueue() : avifQueue;
+
+// biome-ignore lint/complexity/noForEach: <explanation>
+queue.forEach((path) => imageToAvif(path));
