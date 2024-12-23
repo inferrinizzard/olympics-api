@@ -1,5 +1,8 @@
 import { existsSync, readdirSync } from 'node:fs';
-import { exec } from 'node:child_process';
+import { exec as _exec } from 'node:child_process';
+import { exit } from 'node:process';
+import { promisify } from 'node:util';
+const exec = promisify(_exec);
 
 import { avifQueue } from './avifQueue.json';
 import { imageToAvif } from './imageToAvif';
@@ -7,7 +10,7 @@ import { imageToAvif } from './imageToAvif';
 // # Options
 const root = 'images/games';
 const force = false;
-const shouldUseTraversalQueue = false;
+const shouldUseTraversalQueue = true;
 
 // # Assemble Options
 let options = '';
@@ -29,7 +32,9 @@ const buildTraversalQueue = () => {
     }));
 
   for (const { parent, leaf } of queue) {
-    const files = readdirSync(`${parent}/${leaf}`);
+    const files = readdirSync(`${parent}/${leaf}`).filter(
+      (file) => !file.startsWith('_') && !file.startsWith('.')
+    );
 
     const subdirs = files.filter((file) => !file.includes('.'));
     queue.push(
@@ -56,15 +61,23 @@ const buildTraversalQueue = () => {
   return outputQueue;
 };
 
-const queue = shouldUseTraversalQueue ? buildTraversalQueue() : avifQueue;
+while (true) {
+  const queue = shouldUseTraversalQueue ? buildTraversalQueue() : avifQueue;
 
-await Promise.all([
-  ...queue.map((path) => imageToAvif(path)),
-  new Promise<void>((resolve, reject) => {
-    setTimeout(() => reject('TIMED OUT'), 300_000);
-  }),
-]).finally(() => {
-  console.log('Done');
-  exec('find ./images/games -size 0 -print -delete');
-  console.log('Deleting failures');
-});
+  if (!queue.length) {
+    console.log('Done');
+    exit(0);
+  }
+
+  for (let i = 0; i < queue.length; i += 8) {
+    const chunk = queue.slice(i, i + 8);
+
+    await Promise.all([
+      ...chunk.map((path) => imageToAvif(path)),
+      new Promise<void>((resolve, reject) => {
+        setTimeout(() => reject('TIMED OUT'), 60_000);
+      }),
+    ]).catch(() => {});
+    await exec('find ./images/games -size 0 -print -delete');
+  }
+}
