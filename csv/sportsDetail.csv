@@ -1,240 +1,257 @@
-﻿"code"  ,"name"                        ,"category"   ,"parent" ,"status"       ,"season"
-"AQU"   ,"Aquatics"                    ,"sport"      ,""       ,"active"       ,"summer"
-"SWA"   ,"Artistic Swimming"           ,"discipline" ,"AQU"    ,"active"       ,"summer"
-"DIV"   ,"Diving"                      ,"discipline" ,"AQU"    ,"active"       ,"summer"
-"OWS"   ,"Marathon Swimming"           ,"discipline" ,"AQU"    ,"active"       ,"summer"
-"SWM"   ,"Swimming"                    ,"discipline" ,"AQU"    ,"active"       ,"summer"
-"WPO"   ,"Water Polo"                  ,"discipline" ,"AQU"    ,"active"       ,"summer"
-"ARC"   ,"Archery"                     ,"sport"      ,""       ,"active"       ,"summer"
-"ARC"   ,"Archery"                     ,"discipline" ,"ARC"    ,"active"       ,"summer"
-"ATH"   ,"Athletics"                   ,"sport"      ,""       ,"active"       ,"summer"
-"ATH"   ,"Athletics"                   ,"discipline" ,"ATH"    ,"active"       ,"summer"
-"BDM"   ,"Badminton"                   ,"sport"      ,""       ,"active"       ,"summer"
-"BDM"   ,"Badminton"                   ,"discipline" ,"BDM"    ,"active"       ,"summer"
-"BSB"   ,"Baseball/Softball"           ,"sport"      ,""       ,"active"       ,"summer"
-"BS5"   ,"Baseball5"                   ,"discipline" ,"BSB"    ,"active"       ,"summer"
-"BSK"   ,"Basketball Sport"            ,"sport"      ,""       ,"active"       ,"summer"
-"BK3"   ,"3x3 Basketball"              ,"discipline" ,"BSK"    ,"active"       ,"summer"
-"BKB"   ,"Basketball"                  ,"discipline" ,"BSK"    ,"active"       ,"summer"
-"BOX"   ,"Boxing"                      ,"sport"      ,""       ,"active"       ,"summer"
-"BOX"   ,"Boxing"                      ,"discipline" ,"BOX"    ,"active"       ,"summer"
-"CAS"   ,"Canoe Sport"                 ,"sport"      ,""       ,"active"       ,"summer"
-"CSL"   ,"Canoe Slalom"                ,"discipline" ,"CAS"    ,"active"       ,"summer"
-"CSP"   ,"Canoe Sprint"                ,"discipline" ,"CAS"    ,"active"       ,"summer"
-"CYC"   ,"Cycling Sport"               ,"sport"      ,""       ,"active"       ,"summer"
-"BMF"   ,"Cycling BMX Freestyle"       ,"discipline" ,"CYC"    ,"active"       ,"summer"
-"BMX"   ,"Cycling BMX Racing"          ,"discipline" ,"CYC"    ,"active"       ,"summer"
-"MTB"   ,"Cycling Mountain Bike"       ,"discipline" ,"CYC"    ,"active"       ,"summer"
-"CRD"   ,"Cycling Road"                ,"discipline" ,"CYC"    ,"active"       ,"summer"
-"CTR"   ,"Cycling Track"               ,"discipline" ,"CYC"    ,"active"       ,"summer"
-"DAN"   ,"Dance Sport"                 ,"sport"      ,""       ,"active"       ,"summer"
-"BKG"   ,"Breaking"                    ,"discipline" ,"DAN"    ,"active"       ,"summer"
-"EQU"   ,"Equestrian"                  ,"sport"      ,""       ,"active"       ,"summer"
-"EQU"   ,"Equestrian"                  ,"discipline" ,"EQU"    ,"active"       ,"summer"
-"EDR"   ,"Equestrian Dressage"         ,"discipline" ,"EQU"    ,"active"       ,"summer"
-"EVE"   ,"Equestrian Eventing"         ,"discipline" ,"EQU"    ,"active"       ,"summer"
-"EJP"   ,"Equestrian Jumping"          ,"discipline" ,"EQU"    ,"active"       ,"summer"
-"FEN"   ,"Fencing"                     ,"sport"      ,""       ,"active"       ,"summer"
-"FEN"   ,"Fencing"                     ,"discipline" ,"FEN"    ,"active"       ,"summer"
-"FBL"   ,"Football"                    ,"sport"      ,""       ,"active"       ,"summer"
-"FBL"   ,"Football"                    ,"discipline" ,"FBL"    ,"active"       ,"summer"
-"FBS"   ,"Futsal"                      ,"discipline" ,"FBL"    ,"active"       ,"summer"
-"GLF"   ,"Golf"                        ,"sport"      ,""       ,"active"       ,"summer"
-"GLF"   ,"Golf"                        ,"discipline" ,"GLF"    ,"active"       ,"summer"
-"GYM"   ,"Gymnastics Sport"            ,"sport"      ,""       ,"active"       ,"summer"
-"GAR"   ,"Artistic Gymnastics"         ,"discipline" ,"GYM"    ,"active"       ,"summer"
-"GRY"   ,"Rhythmic Gymnastics"         ,"discipline" ,"GYM"    ,"active"       ,"summer"
-"GTR"   ,"Trampoline Gymnastics"       ,"discipline" ,"GYM"    ,"active"       ,"summer"
-"HBL"   ,"Handball"                    ,"sport"      ,""       ,"active"       ,"summer"
-"HBB"   ,"Beach Handball"              ,"discipline" ,"HBL"    ,"active"       ,"summer"
-"HBL"   ,"Handball"                    ,"discipline" ,"HBL"    ,"active"       ,"summer"
-"HOC"   ,"Hockey"                      ,"sport"      ,""       ,"active"       ,"summer"
-"HOC"   ,"Hockey"                      ,"discipline" ,"HOC"    ,"active"       ,"summer"
-"HO5"   ,"Hockey 5's"                  ,"discipline" ,"HOC"    ,"active"       ,"summer"
-"JUD"   ,"Judo"                        ,"sport"      ,""       ,"active"       ,"summer"
-"JUD"   ,"Judo"                        ,"discipline" ,"JUD"    ,"active"       ,"summer"
-"KTE"   ,"Karate"                      ,"sport"      ,""       ,"active"       ,"summer"
-"KTE"   ,"Karate"                      ,"discipline" ,"KTE"    ,"active"       ,"summer"
-"MPN"   ,"Modern Pentathlon"           ,"sport"      ,""       ,"active"       ,"summer"
-"MPN"   ,"Modern Pentathlon"           ,"discipline" ,"MPN"    ,"active"       ,"summer"
-"ROW"   ,"Rowing"                      ,"sport"      ,""       ,"active"       ,"summer"
-"ROC"   ,"Coastal Rowing"              ,"discipline" ,"ROW"    ,"active"       ,"summer"
-"ROW"   ,"Rowing"                      ,"discipline" ,"ROW"    ,"active"       ,"summer"
-"RUG"   ,"Rugby"                       ,"sport"      ,""       ,"active"       ,"summer"
-"RU7"   ,"Rugby Sevens"                ,"discipline" ,"RUG"    ,"active"       ,"summer"
-"SAL"   ,"Sailing"                     ,"sport"      ,""       ,"active"       ,"summer"
-"SAL"   ,"Sailing"                     ,"discipline" ,"SAL"    ,"active"       ,"summer"
-"SHO"   ,"Shooting"                    ,"sport"      ,""       ,"active"       ,"summer"
-"SHO"   ,"Shooting"                    ,"discipline" ,"SHO"    ,"active"       ,"summer"
-"SKS"   ,"Skate Sport"                 ,"sport"      ,""       ,"active"       ,"summer"
-"SKB"   ,"Skateboarding"               ,"discipline" ,"SKS"    ,"active"       ,"summer"
-"CLB"   ,"Sport Climbing"              ,"sport"      ,""       ,"active"       ,"summer"
-"CLB"   ,"Sport Climbing"              ,"discipline" ,"CLB"    ,"active"       ,"summer"
-"SRF"   ,"Surfing"                     ,"sport"      ,""       ,"active"       ,"summer"
-"SRF"   ,"Surfing"                     ,"discipline" ,"SRF"    ,"active"       ,"summer"
-"TTE"   ,"Table Tennis"                ,"sport"      ,""       ,"active"       ,"summer"
-"TTE"   ,"Table Tennis"                ,"discipline" ,"TTE"    ,"active"       ,"summer"
-"TKW"   ,"Taekwondo"                   ,"sport"      ,""       ,"active"       ,"summer"
-"TKW"   ,"Taekwondo"                   ,"discipline" ,"TKW"    ,"active"       ,"summer"
-"TEN"   ,"Tennis"                      ,"sport"      ,""       ,"active"       ,"summer"
-"TEN"   ,"Tennis"                      ,"discipline" ,"TEN"    ,"active"       ,"summer"
-"TRI"   ,"Triathlon"                   ,"sport"      ,""       ,"active"       ,"summer"
-"TRI"   ,"Triathlon"                   ,"discipline" ,"TRI"    ,"active"       ,"summer"
-"VOL"   ,"Volleyball Sport"            ,"sport"      ,""       ,"active"       ,"summer"
-"VBV"   ,"Beach Volleyball"            ,"discipline" ,"VOL"    ,"active"       ,"summer"
-"VVO"   ,"Volleyball"                  ,"discipline" ,"VOL"    ,"active"       ,"summer"
-"WLF"   ,"Weightlifting"               ,"sport"      ,""       ,"active"       ,"summer"
-"WLF"   ,"Weightlifting"               ,"discipline" ,"WLF"    ,"active"       ,"summer"
-"WRS"   ,"Wrestling Sport"             ,"sport"      ,""       ,"active"       ,"summer"
-"WRB"   ,"Beach Wrestling"             ,"discipline" ,"WRS"    ,"active"       ,"summer"
-"WRE"   ,"Wrestling"                   ,"discipline" ,"WRS"    ,"active"       ,"summer"
-"WRF"   ,"Freestyle Wrestling"         ,"discipline" ,"WRS"    ,"active"       ,"summer"
-"WRG"   ,"Greco-Roman Wrestling"       ,"discipline" ,"WRS"    ,"active"       ,"summer"
-"BTH"   ,"Biathlon"                    ,"sport"      ,""       ,"active"       ,"winter"
-"BTH"   ,"Biathlon"                    ,"discipline" ,"BTH"    ,"active"       ,"winter"
-"CUR"   ,"Curling"                     ,"sport"      ,""       ,"active"       ,"winter"
-"CUR"   ,"Curling"                     ,"discipline" ,"CUR"    ,"active"       ,"winter"
-"BSN"   ,"IBSF Sport"                  ,"sport"      ,""       ,"active"       ,"winter"
-"BOB"   ,"Bobsleigh"                   ,"discipline" ,"BSN"    ,"active"       ,"winter"
-"SKN"   ,"Skeleton"                    ,"discipline" ,"BSN"    ,"active"       ,"winter"
-"IHO"   ,"Ice Hockey"                  ,"sport"      ,""       ,"active"       ,"winter"
-"IHO"   ,"Ice Hockey"                  ,"discipline" ,"IHO"    ,"active"       ,"winter"
-"LUG"   ,"Luge"                        ,"sport"      ,""       ,"active"       ,"winter"
-"LUG"   ,"Luge"                        ,"discipline" ,"LUG"    ,"active"       ,"winter"
-"SKT"   ,"Skating"                     ,"sport"      ,""       ,"active"       ,"winter"
-"FSK"   ,"Figure Skating"              ,"discipline" ,"SKT"    ,"active"       ,"winter"
-"STK"   ,"Short Track Speed Skating"   ,"discipline" ,"SKT"    ,"active"       ,"winter"
-"SSK"   ,"Speed Skating"               ,"discipline" ,"SKT"    ,"active"       ,"winter"
-"SKI"   ,"Skiing"                      ,"sport"      ,""       ,"active"       ,"winter"
-"ALP"   ,"Alpine Skiing"               ,"discipline" ,"SKI"    ,"active"       ,"winter"
-"CCS"   ,"Cross-Country Skiing"        ,"discipline" ,"SKI"    ,"active"       ,"winter"
-"FRS"   ,"Freestyle Skiing"            ,"discipline" ,"SKI"    ,"active"       ,"winter"
-"NCB"   ,"Nordic Combined"             ,"discipline" ,"SKI"    ,"active"       ,"winter"
-"NEV"   ,"Nordic Events"               ,"discipline" ,"SKI"    ,"active"       ,"winter"
-"SJP"   ,"Ski Jumping"                 ,"discipline" ,"SKI"    ,"active"       ,"winter"
-"SBD"   ,"Snowboard"                   ,"discipline" ,"SKI"    ,"active"       ,"winter"
-"SMT"   ,"Ski Mountaineering"          ,"sport"      ,""       ,"active"       ,"winter"
-"SMT"   ,"Ski Mountaineering"          ,"discipline" ,"SMT"    ,"active"       ,"winter"
-"P-ARC" ,"Para Archery"                ,"sport"      ,""       ,"active"       ,"summer"
-"P-ATH" ,"Para Athletics"              ,"sport"      ,""       ,"active"       ,"summer"
-"P-BDM" ,"Para Badminton"              ,"sport"      ,""       ,"active"       ,"summer"
-"P-FBB" ,"Blind Football"              ,"sport"      ,""       ,"active"       ,"summer"
-"P-BOC" ,"Boccia"                      ,"sport"      ,""       ,"active"       ,"summer"
-"P-CAS" ,"Para Canoe"                  ,"sport"      ,""       ,"active"       ,"summer"
-"P-CYC" ,"Para Cycling"                ,"sport"      ,""       ,"active"       ,"summer"
-"P-DS"  ,"Para Dance Sport"            ,"sport"      ,""       ,"active"       ,"summer"
-"P-EQU" ,"Para Equestrian"             ,"sport"      ,""       ,"active"       ,"summer"
-"P-FB5" ,"Para Football 5-a-Side"      ,"sport"      ,""       ,"historic"     ,"summer"
-"P-GBL" ,"Goalball"                    ,"sport"      ,""       ,"active"       ,"summer"
-"P-JUD" ,"Para Judo"                   ,"sport"      ,""       ,"active"       ,"summer"
-"P-PWL" ,"Para Powerlifting"           ,"sport"      ,""       ,"active"       ,"summer"
-"P-ROW" ,"Para Rowing"                 ,"sport"      ,""       ,"active"       ,"summer"
-"P-SHO" ,"Shooting Para Sport"         ,"sport"      ,""       ,"active"       ,"summer"
-"P-VBS" ,"Sitting Volleyball"          ,"sport"      ,""       ,"active"       ,"summer"
-"P-SWM" ,"Para Swimming"               ,"sport"      ,""       ,"active"       ,"summer"
-"P-TTE" ,"Para Table Tennis"           ,"sport"      ,""       ,"active"       ,"summer"
-"P-TKW" ,"Para Taekwondo"              ,"sport"      ,""       ,"active"       ,"summer"
-"P-TRI" ,"Para Triathlon"              ,"sport"      ,""       ,"active"       ,"summer"
-"P-WBK" ,"Wheelchair Basketball"       ,"sport"      ,""       ,"active"       ,"summer"
-"P-WFE" ,"Wheelchair Fencing"          ,"sport"      ,""       ,"active"       ,"summer"
-"P-WRU" ,"Wheelchair Rugby"            ,"sport"      ,""       ,"active"       ,"summer"
-"P-WTE" ,"Wheelchair Tennis"           ,"sport"      ,""       ,"active"       ,"summer"
-"P-ALP" ,"Para Alpine Skiing"          ,"sport"      ,""       ,"active"       ,"winter"
-"P-BTH" ,"Para Biathlon"               ,"sport"      ,""       ,"active"       ,"winter"
-"P-CCS" ,"Para Cross-Country Skiing"   ,"sport"      ,""       ,"active"       ,"winter"
-"P-IHO" ,"Para Ice Hockey"             ,"sport"      ,""       ,"active"       ,"winter"
-"P-NSK" ,"Para Nordic Skiing"          ,"sport"      ,""       ,"active"       ,"winter"
-"P-SBD" ,"Para Snowboard"              ,"sport"      ,""       ,"active"       ,"winter"
-"P-CUR" ,"Wheelchair Curling"          ,"sport"      ,""       ,"active"       ,"winter"
-"MTR"   ,"Mountain Running"            ,"discipline" ,"ATH"    ,"other"        ,""
-"BBL"   ,"Baseball"                    ,"discipline" ,"BSB"    ,"other"        ,""
-"SBL"   ,"Softball"                    ,"discipline" ,"BSB"    ,"other"        ,""
-"RAR"   ,"Acrobatic Rock'n'Roll"       ,"discipline" ,"DAN"    ,"other"        ,""
-"BWO"   ,"Boogie Woogie"               ,"discipline" ,"DAN"    ,"other"        ,""
-"DIS"   ,"Disco Dance"                 ,"discipline" ,"DAN"    ,"other"        ,""
-"HPP"   ,"Hip Hop"                     ,"discipline" ,"DAN"    ,"other"        ,""
-"LAT"   ,"Latin Dance"                 ,"discipline" ,"DAN"    ,"other"        ,""
-"SLS"   ,"Salsa"                       ,"discipline" ,"DAN"    ,"other"        ,""
-"STA"   ,"Stage Dance"                 ,"discipline" ,"DAN"    ,"other"        ,""
-"STD"   ,"Standard Dances"             ,"discipline" ,"DAN"    ,"other"        ,""
-"EDV"   ,"Equestrian Driving"          ,"discipline" ,"EQU"    ,"other"        ,""
-"END"   ,"Equestrian Endurance Riding" ,"discipline" ,"EQU"    ,"other"        ,""
-"EVL"   ,"Equestrian Vaulting"         ,"discipline" ,"EQU"    ,"other"        ,""
-"BSC"   ,"Beach Soccer"                ,"discipline" ,"FBL"    ,"other"        ,""
-"GAC"   ,"Acrobatic Gymnastics"        ,"discipline" ,"GYM"    ,"other"        ,""
-"GAE"   ,"Aerobic Gymnastics"          ,"discipline" ,"GYM"    ,"other"        ,""
-"PAR"   ,"Parkour"                     ,"discipline" ,"GYM"    ,"other"        ,""
-"ROI"   ,"Indoor Rowing"               ,"discipline" ,"ROW"    ,"other"        ,""
-"ASK"   ,"Artistic Skating"            ,"discipline" ,"SKS"    ,"other"        ,""
-"IAS"   ,"Inline Alpine Skating"       ,"discipline" ,"SKS"    ,"other"        ,""
-"IDS"   ,"Inline Downhill Skating"     ,"discipline" ,"SKS"    ,"other"        ,""
-"INF"   ,"Inline Freestyle Skating"    ,"discipline" ,"SKS"    ,"other"        ,""
-"INH"   ,"Inline Hockey"               ,"discipline" ,"SKS"    ,"other"        ,""
-"ISS"   ,"Inline Speed Skating"        ,"discipline" ,"SKS"    ,"other"        ,""
-"RHO"   ,"Rink Hockey"                 ,"discipline" ,"SKS"    ,"other"        ,""
-"RDY"   ,"Roller Derby"                ,"discipline" ,"SKS"    ,"other"        ,""
-"RFS"   ,"Roller Freestyle"            ,"discipline" ,"SKS"    ,"other"        ,""
-"SCO"   ,"Scootering"                  ,"discipline" ,"SKS"    ,"other"        ,""
-"SKC"   ,"Skate Cross"                 ,"discipline" ,"SKS"    ,"other"        ,""
-"GSK"   ,"Grass Skiing"                ,"discipline" ,"SKI"    ,"other"        ,""
-"SPS"   ,"Speed Skiing"                ,"discipline" ,"SKI"    ,"other"        ,""
-"TMS"   ,"Telemark Skiing"             ,"discipline" ,"SKI"    ,"other"        ,""
-"WRP"   ,"Grappling"                   ,"discipline" ,"WRS"    ,"other"        ,""
-"WRK"   ,"Pankration"                  ,"discipline" ,"WRS"    ,"other"        ,""
-"WRT"   ,"Traditional Wrestling"       ,"discipline" ,"WRS"    ,"other"        ,""
-"AIR"   ,"Air Sports"                  ,"sport"      ,""       ,"other"        ,""
-"AFB"   ,"American Football"           ,"sport"      ,""       ,"other"        ,""
-"AUT"   ,"Automobile Sports"           ,"sport"      ,""       ,"other"        ,""
-"BDY"   ,"Bandy"                       ,"sport"      ,""       ,"other"        ,""
-"BLD"   ,"Billiards"                   ,"sport"      ,""       ,"other"        ,""
-"BOU"   ,"Boules Sport"                ,"sport"      ,""       ,"other"        ,""
-"BWL"   ,"Bowls"                       ,"sport"      ,""       ,"other"        ,""
-"BDG"   ,"Bridge"                      ,"sport"      ,""       ,"other"        ,""
-"CHL"   ,"Cheerleading"                ,"sport"      ,""       ,"other"        ,""
-"CHS"   ,"Chess"                       ,"sport"      ,""       ,"other"        ,""
-"MTN"   ,"Climbing and Mountaineering" ,"sport"      ,""       ,"other"        ,""
-"CKT"   ,"Cricket"                     ,"sport"      ,""       ,"other"        ,""
-"FLR"   ,"Floorball"                   ,"sport"      ,""       ,"other"        ,""
-"FDS"   ,"Flying Disc"                 ,"sport"      ,""       ,"other"        ,""
-"IST"   ,"Icestocksport"               ,"sport"      ,""       ,"other"        ,""
-"KIK"   ,"Kickboxing"                  ,"sport"      ,""       ,"other"        ,""
-"KBL"   ,"Korfball"                    ,"sport"      ,""       ,"other"        ,""
-"LAX"   ,"Lacrosse"                    ,"sport"      ,""       ,"other"        ,""
-"LFC"   ,"Life Saving"                 ,"sport"      ,""       ,"other"        ,""
-"MCS"   ,"Motorcycle Sports"           ,"sport"      ,""       ,"other"        ,""
-"MTI"   ,"Muaythai"                    ,"sport"      ,""       ,"other"        ,""
-"NBL"   ,"Netball"                     ,"sport"      ,""       ,"other"        ,""
-"ORI"   ,"Orienteering"                ,"sport"      ,""       ,"other"        ,""
-"PEL"   ,"Pelota Vasca"                ,"sport"      ,""       ,"other"        ,""
-"POL"   ,"Polo"                        ,"sport"      ,""       ,"other"        ,""
-"PBT"   ,"Powerboating"                ,"sport"      ,""       ,"other"        ,""
-"RQL"   ,"Racquetball"                 ,"sport"      ,""       ,"other"        ,""
-"SBO"   ,"Sambo"                       ,"sport"      ,""       ,"other"        ,""
-"SLG"   ,"Sledge"                      ,"sport"      ,""       ,"other"        ,""
-"SQU"   ,"Squash"                      ,"sport"      ,""       ,"other"        ,""
-"SUM"   ,"Sumo"                        ,"sport"      ,""       ,"other"        ,""
-"TEQ"   ,"Teqball"                     ,"sport"      ,""       ,"other"        ,""
-"TOW"   ,"Tug of War"                  ,"sport"      ,""       ,"other"        ,""
-"UWA"   ,"Underwater Sports"           ,"sport"      ,""       ,"other"        ,""
-"WSK"   ,"Water Ski and Wakeboard"     ,"sport"      ,""       ,"other"        ,""
-"WSU"   ,"Wushu"                       ,"sport"      ,""       ,"other"        ,""
-"AIK"   ,"Aikido"                      ,"sport"      ,""       ,"unrecognised" ,""
-"CQT"   ,"Croquet"                     ,"sport"      ,""       ,"unrecognised" ,""
-"JES"   ,"Jet Sport Boating"           ,"sport"      ,""       ,"unrecognised" ,""
-"JJI"   ,"Ju-Jitsu"                    ,"sport"      ,""       ,"unrecognised" ,""
-"KAB"   ,"Kabaddi"                     ,"sport"      ,""       ,"unrecognised" ,""
-"KUR"   ,"Kurash"                      ,"sport"      ,""       ,"unrecognised" ,""
-"LBO"   ,"Lawn Bowls"                  ,"sport"      ,""       ,"unrecognised" ,""
-"APG"   ,"Paragliding"                 ,"sport"      ,""       ,"unrecognised" ,""
-"PSI"   ,"Pencak Silat"                ,"sport"      ,""       ,"unrecognised" ,""
-"RQT"   ,"Rackets"                     ,"sport"      ,""       ,"unrecognised" ,""
-"SPK"   ,"Sepaktakraw"                 ,"sport"      ,""       ,"unrecognised" ,""
-"TST"   ,"Soft Tennis"                 ,"sport"      ,""       ,"unrecognised" ,""
-"CER"   ,"Ceremonies"                  ,"general"    ,""       ,""             ,""
-"GEN"   ,"General"                     ,"general"    ,""       ,""             ,""
-"IOC"   ,"IOC Activities"              ,"general"    ,""       ,""             ,""
-"MDL"   ,"Medals"                      ,"general"    ,""       ,""             ,""
-"ART"   ,"Olympic Arts Festival"       ,"general"    ,""       ,""             ,""
-"OLV"   ,"Olympic Village"             ,"general"    ,""       ,""             ,""
-"PCO"   ,"Press Conferences"           ,"general"    ,""       ,""             ,""
-"TRU"   ,"Training"                    ,"general"    ,""       ,""             ,""
+code   ,name                          ,category     ,status         ,season   ,parent ,page_name
+"AQ"   ,"Aquatics"                    ,"sport"      ,"active"       ,"summer" ,       ,
+"SWA"  ,"Artistic Swimming"           ,"discipline" ,"active"       ,"summer" ,"AQ"   ,"Artistic_swimming_at_the_Summer_Olympics"
+"DIV"  ,"Diving"                      ,"discipline" ,"active"       ,"summer" ,"AQ"   ,"Diving_at_the_Summer_Olympics"
+"OWS"  ,"Marathon Swimming"           ,"discipline" ,"active"       ,"summer" ,"AQ"   ,"Marathon_swimming_at_the_Summer_Olympics"
+"SWM"  ,"Swimming"                    ,"discipline" ,"active"       ,"summer" ,"AQ"   ,"Swimming_at_the_Summer_Olympics"
+"WPO"  ,"Water Polo"                  ,"discipline" ,"active"       ,"summer" ,"AQ"   ,"Water_polo_at_the_Summer_Olympics"
+"AR"   ,"Archery"                     ,"sport"      ,"active"       ,"summer" ,       ,
+"ARC"  ,"Archery"                     ,"discipline" ,"active"       ,"summer" ,"AR"   ,"Archery_at_the_Summer_Olympics"
+"AT"   ,"Athletics"                   ,"sport"      ,"active"       ,"summer" ,       ,
+"ATH"  ,"Athletics"                   ,"discipline" ,"active"       ,"summer" ,"AT"   ,"Athletics_at_the_Summer_Olympics"
+"BD"   ,"Badminton"                   ,"sport"      ,"active"       ,"summer" ,       ,
+"BDM"  ,"Badminton"                   ,"discipline" ,"active"       ,"summer" ,"BD"   ,"Badminton_at_the_Summer_Olympics"
+"SB"   ,"Baseball/Softball"           ,"sport"      ,"active"       ,"summer" ,       ,
+"BS5"  ,"Baseball5"                   ,"discipline" ,"active"       ,"summer" ,"SB"   ,"Baseball_at_the_Summer_Olympics"
+"BK"   ,"Basketball Sport"            ,"sport"      ,"active"       ,"summer" ,       ,
+"BK3"  ,"3x3 Basketball"              ,"discipline" ,"active"       ,"summer" ,"BK"   ,"3x3_basketball_at_the_Summer_Olympics"
+"BKB"  ,"Basketball"                  ,"discipline" ,"active"       ,"summer" ,"BK"   ,"Basketball_at_the_Summer_Olympics"
+"BO"   ,"Boxing"                      ,"sport"      ,"active"       ,"summer" ,       ,
+"BOX"  ,"Boxing"                      ,"discipline" ,"active"       ,"summer" ,"BO"   ,"Boxing_at_the_Summer_Olympics"
+"CA"   ,"Canoe Sport"                 ,"sport"      ,"active"       ,"summer" ,       ,
+"CSL"  ,"Canoe Slalom"                ,"discipline" ,"active"       ,"summer" ,"CA"   ,"Canoe_slalom_at_the_Summer_Olympics"
+"CSP"  ,"Canoe Sprint"                ,"discipline" ,"active"       ,"summer" ,"CA"   ,"Canoeing_at_the_Summer_Olympics"
+"CK"   ,"Cricket"                     ,"sport"      ,"active"       ,"summer" ,       ,
+"CKT"  ,"Cricket"                     ,"discipline" ,"active"       ,"summer" ,"CK"   ,"Cricket_at_the_Summer_Olympics"
+"CY"   ,"Cycling Sport"               ,"sport"      ,"active"       ,"summer" ,       ,
+"BMF"  ,"Cycling BMX Freestyle"       ,"discipline" ,"active"       ,"summer" ,"CY"   ,"Cycling_at_the_Summer_Olympics"
+"BMX"  ,"Cycling BMX Racing"          ,"discipline" ,"active"       ,"summer" ,"CY"   ,"Cycling_at_the_Summer_Olympics"
+"MTB"  ,"Cycling Mountain Bike"       ,"discipline" ,"active"       ,"summer" ,"CY"   ,"Cycling_at_the_Summer_Olympics"
+"CRD"  ,"Cycling Road"                ,"discipline" ,"active"       ,"summer" ,"CY"   ,"Cycling_at_the_Summer_Olympics"
+"CTR"  ,"Cycling Track"               ,"discipline" ,"active"       ,"summer" ,"CY"   ,"Cycling_at_the_Summer_Olympics"
+"DA"   ,"Dance Sport"                 ,"sport"      ,"active"       ,"summer" ,       ,
+"BKG"  ,"Breaking"                    ,"discipline" ,"active"       ,"summer" ,"DA"   ,"Breaking_at_the_Summer_Olympics"
+"EQ"   ,"Equestrian"                  ,"sport"      ,"active"       ,"summer" ,       ,
+"EQU"  ,"Equestrian"                  ,"discipline" ,"active"       ,"summer" ,"EQ"   ,"Equestrian_events_at_the_Summer_Olympics"
+"EDR"  ,"Equestrian Dressage"         ,"discipline" ,"active"       ,"summer" ,"EQ"   ,"Equestrian_events_at_the_Summer_Olympics"
+"EVE"  ,"Equestrian Eventing"         ,"discipline" ,"active"       ,"summer" ,"EQ"   ,"Equestrian_events_at_the_Summer_Olympics"
+"EJP"  ,"Equestrian Jumping"          ,"discipline" ,"active"       ,"summer" ,"EQ"   ,"Equestrian_events_at_the_Summer_Olympics"
+"FE"   ,"Fencing"                     ,"sport"      ,"active"       ,"summer" ,       ,
+"FEN"  ,"Fencing"                     ,"discipline" ,"active"       ,"summer" ,"FE"   ,"Fencing_at_the_Summer_Olympics"
+"FL"   ,"Flag Football"               ,"sport"      ,"active"       ,"summer" ,       ,
+"FLF"  ,"Flag Football"               ,"discipline" ,"active"       ,"summer" ,"FL"   ,"Flag_football_at_the_Summer_Olympics"
+"FB"   ,"Football"                    ,"sport"      ,"active"       ,"summer" ,       ,
+"FBL"  ,"Football"                    ,"discipline" ,"active"       ,"summer" ,"FB"   ,"Football_at_the_Summer_Olympics"
+"FBS"  ,"Futsal"                      ,"discipline" ,"active"       ,"summer" ,"FB"   ,"Football_at_the_Summer_Youth_Olympics"
+"GO"   ,"Golf"                        ,"sport"      ,"active"       ,"summer" ,       ,
+"GLF"  ,"Golf"                        ,"discipline" ,"active"       ,"summer" ,"GO"   ,"Golf_at_the_Summer_Olympics"
+"GY"   ,"Gymnastics Sport"            ,"sport"      ,"active"       ,"summer" ,       ,
+"GAR"  ,"Artistic Gymnastics"         ,"discipline" ,"active"       ,"summer" ,"GY"   ,"Gymnastics_at_the_Summer_Olympics"
+"GRY"  ,"Rhythmic Gymnastics"         ,"discipline" ,"active"       ,"summer" ,"GY"   ,"Gymnastics_at_the_Summer_Olympics"
+"GTR"  ,"Trampoline Gymnastics"       ,"discipline" ,"active"       ,"summer" ,"GY"   ,"Gymnastics_at_the_Summer_Olympics"
+"HB"   ,"Handball"                    ,"sport"      ,"active"       ,"summer" ,       ,
+"HBB"  ,"Beach Handball"              ,"discipline" ,"active"       ,"summer" ,"HB"   ,"Handball_at_the_Summer_Olympics"
+"HBL"  ,"Handball"                    ,"discipline" ,"active"       ,"summer" ,"HB"   ,"Handball_at_the_Summer_Olympics"
+"HO"   ,"Hockey"                      ,"sport"      ,"active"       ,"summer" ,       ,
+"HOC"  ,"Hockey"                      ,"discipline" ,"active"       ,"summer" ,"HO"   ,"Field_hockey_at_the_Summer_Olympics"
+"HO5"  ,"Hockey 5's"                  ,"discipline" ,"active"       ,"summer" ,"HO"   ,"Field_hockey_at_the_Summer_Olympics"
+"JU"   ,"Judo"                        ,"sport"      ,"active"       ,"summer" ,       ,
+"JUD"  ,"Judo"                        ,"discipline" ,"active"       ,"summer" ,"JU"   ,"Judo_at_the_Summer_Olympics"
+"KT"   ,"Karate"                      ,"sport"      ,"active"       ,"summer" ,       ,
+"KTE"  ,"Karate"                      ,"discipline" ,"active"       ,"summer" ,"KT"   ,"Karate_at_the_Summer_Olympics"
+"LX"   ,"Lacrosse"                    ,"sport"      ,"active"       ,"summer" ,       ,
+"LAX"  ,"Lacrosse"                    ,"discipline" ,"active"       ,"summer" ,"LX"   ,"Lacrosse_at_the_Summer_Olympics"
+"MP"   ,"Modern Pentathlon"           ,"sport"      ,"active"       ,"summer" ,       ,
+"MPN"  ,"Modern Pentathlon"           ,"discipline" ,"active"       ,"summer" ,"MP"   ,"Modern_pentathlon_at_the_Summer_Olympics"
+"RO"   ,"Rowing"                      ,"sport"      ,"active"       ,"summer" ,       ,
+"ROC"  ,"Coastal Rowing"              ,"discipline" ,"active"       ,"summer" ,"RO"   ,"Rowing_at_the_Summer_Olympics"
+"ROW"  ,"Rowing"                      ,"discipline" ,"active"       ,"summer" ,"RO"   ,"Rowing_at_the_Summer_Olympics"
+"RU"   ,"Rugby"                       ,"sport"      ,"active"       ,"summer" ,       ,"Rugby_at_the_Summer_Olympics"
+"RU7"  ,"Rugby Sevens"                ,"discipline" ,"active"       ,"summer" ,"RU"   ,"Rugby_sevens_at_the_Summer_Olympics"
+"SA"   ,"Sailing"                     ,"sport"      ,"active"       ,"summer" ,       ,
+"SAL"  ,"Sailing"                     ,"discipline" ,"active"       ,"summer" ,"SA"   ,"Sailing_at_the_Summer_Olympics"
+"SH"   ,"Shooting"                    ,"sport"      ,"active"       ,"summer" ,       ,
+"SHO"  ,"Shooting"                    ,"discipline" ,"active"       ,"summer" ,"SH"   ,"Shooting_at_the_Summer_Olympics"
+"SD"   ,"Skate Sport"                 ,"sport"      ,"active"       ,"summer" ,       ,
+"SKB"  ,"Skateboarding"               ,"discipline" ,"active"       ,"summer" ,"SD"   ,"Skateboarding_at_the_Summer_Olympics"
+"ROL"  ,"Roller Speed Skating"        ,"discipline" ,"active"       ,"summer" ,"SD"   ,
+"SQ"   ,"Squash"                      ,"sport"      ,"active"       ,"summer" ,       ,
+"SQU"  ,"Squash"                      ,"discipline" ,"active"       ,"summer" ,"SQ"   ,"Squash_at_the_Summer_Olympics"
+"CL"   ,"Sport Climbing"              ,"sport"      ,"active"       ,"summer" ,       ,
+"CLB"  ,"Sport Climbing"              ,"discipline" ,"active"       ,"summer" ,"CL"   ,"Sport_climbing_at_the_Summer_Olympics"
+"SF"   ,"Surfing"                     ,"sport"      ,"active"       ,"summer" ,       ,
+"SRF"  ,"Surfing"                     ,"discipline" ,"active"       ,"summer" ,"SF"   ,"Surfing_at_the_Summer_Olympics"
+"TT"   ,"Table Tennis"                ,"sport"      ,"active"       ,"summer" ,       ,
+"TTE"  ,"Table Tennis"                ,"discipline" ,"active"       ,"summer" ,"TT"   ,"Table_tennis_at_the_Summer_Olympics"
+"TK"   ,"Taekwondo"                   ,"sport"      ,"active"       ,"summer" ,       ,
+"TKW"  ,"Taekwondo"                   ,"discipline" ,"active"       ,"summer" ,"TK"   ,"Taekwondo_at_the_Summer_Olympics"
+"TE"   ,"Tennis"                      ,"sport"      ,"active"       ,"summer" ,       ,
+"TEN"  ,"Tennis"                      ,"discipline" ,"active"       ,"summer" ,"TE"   ,"Tennis_at_the_Summer_Olympics"
+"TR"   ,"Triathlon"                   ,"sport"      ,"active"       ,"summer" ,       ,
+"TRI"  ,"Triathlon"                   ,"discipline" ,"active"       ,"summer" ,"TR"   ,"Triathlon_at_the_Summer_Olympics"
+"VB"   ,"Volleyball Sport"            ,"sport"      ,"active"       ,"summer" ,       ,
+"VBV"  ,"Beach Volleyball"            ,"discipline" ,"active"       ,"summer" ,"VB"   ,"Beach_volleyball_at_the_Summer_Olympics"
+"VVO"  ,"Volleyball"                  ,"discipline" ,"active"       ,"summer" ,"VB"   ,"Volleyball_at_the_Summer_Olympics"
+"WL"   ,"Weightlifting"               ,"sport"      ,"active"       ,"summer" ,       ,
+"WLF"  ,"Weightlifting"               ,"discipline" ,"active"       ,"summer" ,"WL"   ,"Weightlifting_at_the_Summer_Olympics"
+"WR"   ,"Wrestling Sport"             ,"sport"      ,"active"       ,"summer" ,       ,
+"WRB"  ,"Beach Wrestling"             ,"discipline" ,"active"       ,"summer" ,"WR"   ,"Wrestling_at_the_Summer_Olympics"
+"WRE"  ,"Wrestling"                   ,"discipline" ,"active"       ,"summer" ,"WR"   ,"Wrestling_at_the_Summer_Olympics"
+"WRF"  ,"Freestyle Wrestling"         ,"discipline" ,"active"       ,"summer" ,"WR"   ,"Wrestling_at_the_Summer_Olympics"
+"WRG"  ,"Greco-Roman Wrestling"       ,"discipline" ,"active"       ,"summer" ,"WR"   ,"Wrestling_at_the_Summer_Olympics"
+"BT"   ,"Biathlon"                    ,"sport"      ,"active"       ,"winter" ,       ,
+"BTH"  ,"Biathlon"                    ,"discipline" ,"active"       ,"winter" ,"BT"   ,"Biathlon_at_the_Winter_Olympics"
+"CU"   ,"Curling"                     ,"sport"      ,"active"       ,"winter" ,       ,
+"CUR"  ,"Curling"                     ,"discipline" ,"active"       ,"winter" ,"CU"   ,"Curling_at_the_Winter_Olympics"
+"BS"   ,"IBSF Sport"                  ,"sport"      ,"active"       ,"winter" ,       ,
+"BOB"  ,"Bobsleigh"                   ,"discipline" ,"active"       ,"winter" ,"BS"   ,"Bobsleigh_at_the_Winter_Olympics"
+"SKN"  ,"Skeleton"                    ,"discipline" ,"active"       ,"winter" ,"BS"   ,"Skeleton_at_the_Winter_Olympics"
+"IH"   ,"Ice Hockey"                  ,"sport"      ,"active"       ,"winter" ,       ,
+"IHO"  ,"Ice Hockey"                  ,"discipline" ,"active"       ,"winter" ,"IH"   ,"Ice_hockey_at_the_Olympic_Games"
+"LG"   ,"Luge"                        ,"sport"      ,"active"       ,"winter" ,       ,
+"LUG"  ,"Luge"                        ,"discipline" ,"active"       ,"winter" ,"LG"   ,"Luge_at_the_Winter_Olympics"
+"SK"   ,"Skating"                     ,"sport"      ,"active"       ,"winter" ,       ,
+"FSK"  ,"Figure Skating"              ,"discipline" ,"active"       ,"winter" ,"SK"   ,"Figure_skating_at_the_Olympic_Games"
+"STK"  ,"Short Track Speed Skating"   ,"discipline" ,"active"       ,"winter" ,"SK"   ,"Short-track_speed_skating_at_the_Winter_Olympics"
+"SSK"  ,"Speed Skating"               ,"discipline" ,"active"       ,"winter" ,"SK"   ,"Speed_skating_at_the_Winter_Olympics"
+"SI"   ,"Skiing"                      ,"sport"      ,"active"       ,"winter" ,       ,
+"ALP"  ,"Alpine Skiing"               ,"discipline" ,"active"       ,"winter" ,"SI"   ,"Alpine_skiing_at_the_Winter_Olympics"
+"CCS"  ,"Cross-Country Skiing"        ,"discipline" ,"active"       ,"winter" ,"SI"   ,"Cross-country_skiing_at_the_Winter_Olympics"
+"FRS"  ,"Freestyle Skiing"            ,"discipline" ,"active"       ,"winter" ,"SI"   ,"Freestyle_skiing_at_the_Winter_Olympics"
+"NCB"  ,"Nordic Combined"             ,"discipline" ,"active"       ,"winter" ,"SI"   ,"Nordic_combined_at_the_Winter_Olympics"
+"NEV"  ,"Nordic Events"               ,"discipline" ,"active"       ,"winter" ,"SI"   ,
+"SJP"  ,"Ski Jumping"                 ,"discipline" ,"active"       ,"winter" ,"SI"   ,"Ski_jumping_at_the_Winter_Olympics"
+"SBD"  ,"Snowboard"                   ,"discipline" ,"active"       ,"winter" ,"SI"   ,"Snowboarding_at_the_Winter_Olympics"
+"SM"   ,"Ski Mountaineering"          ,"sport"      ,"active"       ,"winter" ,       ,
+"SMT"  ,"Ski Mountaineering"          ,"discipline" ,"active"       ,"winter" ,"SM"   ,"Ski_mountaineering_at_the_Winter_Olympics"
+"P-AR" ,"Para Archery"                ,"sport"      ,"active"       ,"summer" ,       ,"Archery_at_the_Summer_Paralympics"
+"P-AT" ,"Para Athletics"              ,"sport"      ,"active"       ,"summer" ,       ,"Athletics_at_the_Summer_Paralympics"
+"P-BD" ,"Para Badminton"              ,"sport"      ,"active"       ,"summer" ,       ,"Badminton_at_the_Summer_Paralympics"
+"P-BO" ,"Boccia"                      ,"sport"      ,"active"       ,"summer" ,       ,"Boccia_at_the_Summer_Paralympics"
+"P-CF" ,"Para Canoe"                  ,"sport"      ,"active"       ,"summer" ,       ,"Paracanoe_at_the_Summer_Paralympics"
+"P-CL" ,"Paraclimbing"                ,"sport"      ,"active"       ,"summer" ,       ,"Paraclimbing"
+"P-CR" ,"Para Cycling Road"           ,"sport"      ,"active"       ,"summer" ,       ,"Cycling_at_the_Summer_Paralympics"
+"P-CT" ,"Para Cycling"                ,"sport"      ,"active"       ,"summer" ,       ,"Cycling_at_the_Summer_Paralympics"
+"P-EQ" ,"Para Equestrian"             ,"sport"      ,"active"       ,"summer" ,       ,"Equestrian_at_the_Summer_Paralympics"
+"P-FB" ,"Blind Football"              ,"sport"      ,"active"       ,"summer" ,       ,"Football_5-a-Side_at_the_Summer_Paralympics"
+"P-GB" ,"Goalball"                    ,"sport"      ,"active"       ,"summer" ,       ,"Goalball_at_the_Summer_Paralympics"
+"P-JU" ,"Para Judo"                   ,"sport"      ,"active"       ,"summer" ,       ,"Judo_at_the_Summer_Paralympics"
+"P-PO" ,"Para Powerlifting"           ,"sport"      ,"active"       ,"summer" ,       ,"Powerlifting_at_the_Summer_Paralympics"
+"P-RO" ,"Para Rowing"                 ,"sport"      ,"active"       ,"summer" ,       ,"Rowing_at_the_Summer_Paralympics"
+"P-SH" ,"Shooting Para Sport"         ,"sport"      ,"active"       ,"summer" ,       ,"Shooting_at_the_Summer_Paralympics"
+"P-VS" ,"Sitting Volleyball"          ,"sport"      ,"active"       ,"summer" ,       ,"Sitting_volleyball_at_the_Summer_Paralympics"
+"P-SW" ,"Para Swimming"               ,"sport"      ,"active"       ,"summer" ,       ,"Swimming_at_the_Summer_Paralympics"
+"P-TT" ,"Para Table Tennis"           ,"sport"      ,"active"       ,"summer" ,       ,"Table_tennis_at_the_Summer_Paralympics"
+"P-TK" ,"Para Taekwondo"              ,"sport"      ,"active"       ,"summer" ,       ,"Parataekwondo_at_the_Summer_Paralympics"
+"P-TR" ,"Para Triathlon"              ,"sport"      ,"active"       ,"summer" ,       ,"Paratriathlon_at_the_Summer_Paralympics"
+"P-WB" ,"Wheelchair Basketball"       ,"sport"      ,"active"       ,"summer" ,       ,"Wheelchair_basketball_at_the_Summer_Paralympics"
+"P-WF" ,"Wheelchair Fencing"          ,"sport"      ,"active"       ,"summer" ,       ,"Wheelchair_fencing_at_the_Summer_Paralympics"
+"P-WR" ,"Wheelchair Rugby"            ,"sport"      ,"active"       ,"summer" ,       ,"Wheelchair_rugby_at_the_Summer_Paralympics"
+"P-WT" ,"Wheelchair Tennis"           ,"sport"      ,"active"       ,"summer" ,       ,"Wheelchair_tennis_at_the_Summer_Paralympics"
+"P-AS" ,"Para Alpine Skiing"          ,"sport"      ,"active"       ,"winter" ,       ,"Alpine_skiing_at_the_Winter_Paralympics"
+"P-IH" ,"Para Ice Hockey"             ,"sport"      ,"active"       ,"winter" ,       ,"Para_ice_hockey_at_the_Winter_Paralympics"
+"P-BT" ,"Para Biathlon"               ,"sport"      ,"active"       ,"winter" ,       ,"Biathlon_at_the_Winter_Paralympics"
+"P-CC" ,"Para Cross-Country Skiing"   ,"sport"      ,"active"       ,"winter" ,       ,"Cross-country_skiing_at_the_Winter_Paralympics"
+"P-SB" ,"Para Snowboard"              ,"sport"      ,"active"       ,"winter" ,       ,"Snowboarding_at_the_Winter_Paralympics"
+"P-WC" ,"Wheelchair Curling"          ,"sport"      ,"active"       ,"winter" ,       ,"Wheelchair_curling_at_the_Winter_Paralympics"
+"MTR"  ,"Mountain Running"            ,"discipline" ,"other"        ,         ,"AT"   ,
+"BBL"  ,"Baseball"                    ,"discipline" ,"other"        ,         ,"SB"   ,"Baseball_at_the_Summer_Olympics"
+"SBL"  ,"Softball"                    ,"discipline" ,"other"        ,         ,"SB"   ,"Softball_at_the_Summer_Olympics"
+"RAR"  ,"Acrobatic Rock'n'Roll"       ,"discipline" ,"other"        ,         ,"DA"   ,
+"BWO"  ,"Boogie Woogie"               ,"discipline" ,"other"        ,         ,"DA"   ,
+"DIS"  ,"Disco Dance"                 ,"discipline" ,"other"        ,         ,"DA"   ,
+"HPP"  ,"Hip Hop"                     ,"discipline" ,"other"        ,         ,"DA"   ,
+"LAT"  ,"Latin Dance"                 ,"discipline" ,"other"        ,         ,"DA"   ,
+"SLS"  ,"Salsa"                       ,"discipline" ,"other"        ,         ,"DA"   ,
+"STA"  ,"Stage Dance"                 ,"discipline" ,"other"        ,         ,"DA"   ,
+"STD"  ,"Standard Dances"             ,"discipline" ,"other"        ,         ,"DA"   ,
+"EDV"  ,"Equestrian Driving"          ,"discipline" ,"other"        ,         ,"EQ"   ,
+"END"  ,"Equestrian Endurance Riding" ,"discipline" ,"other"        ,         ,"EQ"   ,
+"EVL"  ,"Equestrian Vaulting"         ,"discipline" ,"other"        ,         ,"EQ"   ,
+"BSC"  ,"Beach Soccer"                ,"discipline" ,"other"        ,         ,"FB"   ,
+"GAC"  ,"Acrobatic Gymnastics"        ,"discipline" ,"other"        ,         ,"GY"   ,
+"GAE"  ,"Aerobic Gymnastics"          ,"discipline" ,"other"        ,         ,"GY"   ,
+"PAR"  ,"Parkour"                     ,"discipline" ,"other"        ,         ,"GY"   ,
+"ROI"  ,"Indoor Rowing"               ,"discipline" ,"other"        ,         ,"RO"   ,
+"RUG"  ,"Rugby Union"                 ,"discipline" ,"other"        ,         ,"RU"   ,"Rugby_union_at_the_Summer_Olympics"
+"ASK"  ,"Artistic Skating"            ,"discipline" ,"other"        ,         ,"SD"   ,
+"IAS"  ,"Inline Alpine Skating"       ,"discipline" ,"other"        ,         ,"SD"   ,
+"IDS"  ,"Inline Downhill Skating"     ,"discipline" ,"other"        ,         ,"SD"   ,
+"INF"  ,"Inline Freestyle Skating"    ,"discipline" ,"other"        ,         ,"SD"   ,
+"INH"  ,"Inline Hockey"               ,"discipline" ,"other"        ,         ,"SD"   ,
+"ISS"  ,"Inline Speed Skating"        ,"discipline" ,"other"        ,         ,"SD"   ,
+"RHO"  ,"Rink Hockey"                 ,"discipline" ,"other"        ,         ,"SD"   ,
+"RDY"  ,"Roller Derby"                ,"discipline" ,"other"        ,         ,"SD"   ,
+"RFS"  ,"Roller Freestyle"            ,"discipline" ,"other"        ,         ,"SD"   ,
+"SCO"  ,"Scootering"                  ,"discipline" ,"other"        ,         ,"SD"   ,
+"SKC"  ,"Skate Cross"                 ,"discipline" ,"other"        ,         ,"SD"   ,
+"GSK"  ,"Grass Skiing"                ,"discipline" ,"other"        ,         ,"SI"   ,
+"SPS"  ,"Speed Skiing"                ,"discipline" ,"other"        ,         ,"SI"   ,"Speed_skiing_at_the_1992_Winter_Olympics"
+"TMS"  ,"Telemark Skiing"             ,"discipline" ,"other"        ,         ,"SI"   ,
+"WRP"  ,"Grappling"                   ,"discipline" ,"other"        ,         ,"WR"   ,
+"WRK"  ,"Pankration"                  ,"discipline" ,"other"        ,         ,"WR"   ,
+"WRT"  ,"Traditional Wrestling"       ,"discipline" ,"other"        ,         ,"WR"   ,
+"AIR"  ,"Air Sports"                  ,"sport"      ,"other"        ,         ,       ,
+"AFB"  ,"American Football"           ,"sport"      ,"other"        ,         ,       ,"American_football_at_the_Summer_Olympics"
+"AUT"  ,"Automobile Sports"           ,"sport"      ,"other"        ,         ,       ,"Motor_racing_at_the_Summer_Olympics"
+"BDY"  ,"Bandy"                       ,"sport"      ,"other"        ,         ,       ,"Bandy_at_the_1952_Winter_Olympics"
+"BLD"  ,"Billiards"                   ,"sport"      ,"other"        ,         ,       ,
+"BOU"  ,"Boules Sport"                ,"sport"      ,"other"        ,         ,       ,"Boules_at_the_1900_Summer_Olympics"
+"BWL"  ,"Bowls"                       ,"sport"      ,"other"        ,         ,       ,
+"BDG"  ,"Bridge"                      ,"sport"      ,"other"        ,         ,       ,
+"CHL"  ,"Cheerleading"                ,"sport"      ,"other"        ,         ,       ,
+"CHS"  ,"Chess"                       ,"sport"      ,"other"        ,         ,       ,"Chess_at_the_2000_Summer_Olympics"
+"MT"   ,"Climbing and Mountaineering" ,"sport"      ,"other"        ,         ,       ,
+"APN"  ,"Alpinism"                    ,"discipline" ,"other"        ,         ,"MT"   ,"Alpinism_at_the_Olympic_Games"
+"FLR"  ,"Floorball"                   ,"sport"      ,"other"        ,         ,       ,
+"FDS"  ,"Flying Disc"                 ,"sport"      ,"other"        ,         ,       ,
+"IST"  ,"Icestocksport"               ,"sport"      ,"other"        ,         ,       ,"Ice_stock_sport_at_the_Winter_Olympics"
+"KIK"  ,"Kickboxing"                  ,"sport"      ,"other"        ,         ,       ,
+"KBL"  ,"Korfball"                    ,"sport"      ,"other"        ,         ,       ,"Korfball_at_the_Summer_Olympics"
+"LFC"  ,"Life Saving"                 ,"sport"      ,"other"        ,         ,       ,"Life_saving_at_the_1900_Summer_Olympics"
+"MCS"  ,"Motorcycle Sports"           ,"sport"      ,"other"        ,         ,       ,"Motorcycle_racing_at_the_Summer_Olympics"
+"MTI"  ,"Muaythai"                    ,"sport"      ,"other"        ,         ,       ,
+"NBL"  ,"Netball"                     ,"sport"      ,"other"        ,         ,       ,
+"ORI"  ,"Orienteering"                ,"sport"      ,"other"        ,         ,       ,
+"PEL"  ,"Pelota Vasca"                ,"sport"      ,"other"        ,         ,       ,"Basque_pelota_at_the_Summer_Olympics"
+"POL"  ,"Polo"                        ,"sport"      ,"other"        ,         ,       ,"Polo_at_the_Summer_Olympics"
+"PBT"  ,"Powerboating"                ,"sport"      ,"other"        ,         ,       ,
+"RQL"  ,"Racquetball"                 ,"sport"      ,"other"        ,         ,       ,
+"SBO"  ,"Sambo"                       ,"sport"      ,"other"        ,         ,       ,
+"SLG"  ,"Sledge"                      ,"sport"      ,"other"        ,         ,       ,"Ice_sledge_speed_racing_at_the_Winter_Paralympics"
+"SUM"  ,"Sumo"                        ,"sport"      ,"other"        ,         ,       ,
+"TEQ"  ,"Teqball"                     ,"sport"      ,"other"        ,         ,       ,
+"TOW"  ,"Tug of War"                  ,"sport"      ,"other"        ,         ,       ,"Tug_of_war_at_the_Summer_Olympics"
+"UWA"  ,"Underwater Sports"           ,"sport"      ,"other"        ,         ,       ,
+"WSK"  ,"Water Ski and Wakeboard"     ,"sport"      ,"other"        ,         ,       ,"Water_skiing_at_the_1972_Summer_Olympics"
+"WSU"  ,"Wushu"                       ,"sport"      ,"other"        ,         ,       ,"Wushu_at_the_Summer_Olympics"
+"P-FT" ,"Para Football 7-a-Side"      ,"sport"      ,"other"        ,         ,       ,"Football_7-a-side_at_the_Summer_Paralympics"
+"P-SA" ,"Para Sailing"                ,"sport"      ,"other"        ,         ,       ,"Sailing_at_the_Summer_Paralympics"
+"P-BK" ,"Basketball ID"               ,"sport"      ,"other"        ,         ,       ,"Basketball_ID_at_the_2000_Summer_Paralympics"
+"P-VT" ,"Standing Volleyball"         ,"sport"      ,"other"        ,         ,       ,"Volleyball_at_the_Summer_Paralympics"
+"P-LB" ,"Lawn Bowls"                  ,"sport"      ,"other"        ,         ,       ,"Lawn_bowls_at_the_Summer_Paralympics"
+"P-WL" ,"Para Weightlifting"          ,"sport"      ,"other"        ,         ,       ,"Weightlifting_at_the_Summer_Paralympics"
+"P-SN" ,"Snooker"                     ,"sport"      ,"other"        ,         ,       ,"Snooker_at_the_Summer_Paralympics"
+"P-WG" ,"Para Wrestling"              ,"sport"      ,"other"        ,         ,       ,"Wrestling_at_the_1980_Summer_Paralympics"
+"P-DC" ,"Dartchery"                   ,"sport"      ,"other"        ,         ,       ,"Dartchery_at_the_Summer_Paralympics"
+"P-SS" ,"Ice Sledge Speed Skating"    ,"sport"      ,"other"        ,         ,       ,"Ice_sledge_speed_racing_at_the_Winter_Paralympics"
+"P-DS" ,"Para Dance Sport"            ,"sport"      ,"other"        ,         ,       ,"Wheelchair_dancesport"
+"AIK"  ,"Aikido"                      ,"sport"      ,"unrecognised" ,         ,       ,
+"CQT"  ,"Croquet"                     ,"sport"      ,"unrecognised" ,         ,       ,"Croquet_at_the_1900_Summer_Olympics"
+"JES"  ,"Jet Sport Boating"           ,"sport"      ,"unrecognised" ,         ,       ,
+"JJI"  ,"Ju-Jitsu"                    ,"sport"      ,"unrecognised" ,         ,       ,
+"KAB"  ,"Kabaddi"                     ,"sport"      ,"unrecognised" ,         ,       ,"Indian_sports_at_the_1936_Summer_Olympics"
+"KUR"  ,"Kurash"                      ,"sport"      ,"unrecognised" ,         ,       ,
+"APG"  ,"Paragliding"                 ,"sport"      ,"unrecognised" ,         ,       ,
+"PSI"  ,"Pencak Silat"                ,"sport"      ,"unrecognised" ,         ,       ,
+"RQT"  ,"Rackets"                     ,"sport"      ,"unrecognised" ,         ,       ,"Rackets_at_the_1908_Summer_Olympics"
+"SPK"  ,"Sepaktakraw"                 ,"sport"      ,"unrecognised" ,         ,       ,
+"TST"  ,"Soft Tennis"                 ,"sport"      ,"unrecognised" ,         ,       ,
+"CER"  ,"Ceremonies"                  ,"general"    ,               ,         ,       ,
+"GEN"  ,"General"                     ,"general"    ,               ,         ,       ,
+"IOC"  ,"IOC Activities"              ,"general"    ,               ,         ,       ,
+"MDL"  ,"Medals"                      ,"general"    ,               ,         ,       ,
+"ART"  ,"Olympic Arts Festival"       ,"general"    ,               ,         ,       ,
+"OLV"  ,"Olympic Village"             ,"general"    ,               ,         ,       ,
+"PCO"  ,"Press Conferences"           ,"general"    ,               ,         ,       ,
+"TRU"  ,"Training"                    ,"general"    ,               ,         ,       ,

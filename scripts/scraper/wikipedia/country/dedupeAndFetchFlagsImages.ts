@@ -1,8 +1,7 @@
 import { createWriteStream, readdirSync, writeFileSync } from 'node:fs';
-import { Readable } from 'node:stream';
-import { finished } from 'node:stream/promises';
 
 import countryData from '@/json/final/countryDetail.json';
+import { downloadFile } from '../../utils/downloadFile';
 
 const flagMap: Record<string, string[]> = {};
 
@@ -18,19 +17,6 @@ const existingFlags = readdirSync('./images/country').reduce((acc, flag) => {
   acc[flag.split('.')[0]] = 1;
   return acc;
 }, {} as Record<string, number>);
-
-async function downloadFile(url: string, filepath: string) {
-  const response = await fetch(url);
-
-  if (!response.body) {
-    return;
-  }
-
-  // @ts-expect-error
-  const body = Readable.fromWeb(response.body);
-  const download_write_stream = createWriteStream(filepath);
-  await finished(body.pipe(download_write_stream));
-}
 
 const sharedFlags: [string, string[]][] = [];
 
